@@ -1,0 +1,63 @@
+import { NextResponse } from "next/server";
+
+import { isDatabaseConfigured } from "@/lib/env";
+import { prisma } from "@/lib/prisma";
+import { sanitizeText } from "@/lib/sanitizers";
+import { slugify } from "@/lib/slugify";
+import { getProducts } from "@/lib/services/storefront";
+import { productSchema } from "@/lib/validators";
+
+interface ProductRouteProps {
+  params: {
+    id: string;
+  };
+}
+
+export async function PATCH(request: Request, { params }: ProductRouteProps) {
+  if (!isDatabaseConfigured) {
+    return NextResponse.json({ error: "Veritabani baglantisi gerekli." }, { status: 503 });
+  }
+
+  const json = await request.json();
+  const parsed = productSchema.safeParse(json);
+
+  if (!parsed.success) {
+    return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+  }
+
+  const data = parsed.data;
+
+  await prisma.product.update({
+    where: { id: params.id },
+    data: {
+      title: sanitizeText(data.title),
+      slug: slugify(data.slug || data.title),
+      description: sanitizeText(data.description),
+      price: data.price,
+      discountPrice: data.discountPrice ?? null,
+      images: data.images,
+      categoryId: data.categoryId,
+      featured: data.featured,
+      stockStatus: data.stockStatus,
+      badge: data.badge ? sanitizeText(data.badge) : null,
+      deliveryInfo: data.deliveryInfo ? sanitizeText(data.deliveryInfo) : null,
+    },
+  });
+
+  const products = await getProducts();
+  const product = products.find((item) => item.id === params.id);
+
+  return NextResponse.json({ product });
+}
+
+export async function DELETE(_: Request, { params }: ProductRouteProps) {
+  if (!isDatabaseConfigured) {
+    return NextResponse.json({ error: "Veritabani baglantisi gerekli." }, { status: 503 });
+  }
+
+  await prisma.product.delete({
+    where: { id: params.id },
+  });
+
+  return NextResponse.json({ success: true });
+}

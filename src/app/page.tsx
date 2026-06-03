@@ -1,101 +1,86 @@
-import Image from "next/image";
+import { AboutSection } from "@/components/sections/about-section";
+import { FeaturedProductsSection } from "@/components/sections/featured-products-section";
+import { HomeFlowerShowcase } from "@/components/sections/home-flower-showcase";
+import { appEnv } from "@/lib/env";
+import { buildMetadata } from "@/lib/metadata";
+import { getHomePageData, getProducts } from "@/lib/services/storefront";
 
-export default function Home() {
+export const metadata = buildMetadata({
+  title: "SÜMBÜL GARDEN",
+  description:
+    "SÜMBÜL GARDEN vitrini üzerinden çiçek siparişi verin; SÜMBÜL PEYZAJ hizmetleriyle bahçe uygulamalarını inceleyin.",
+  pathname: "/",
+});
+
+const landscapeCategorySlugs = [
+  "peyzaj-tasarim",
+  "bahce-uygulama",
+  "peyzaj-bitkileri",
+  "rulo-cim",
+  "otomatik-sulama",
+  "dikey-bahce",
+];
+
+export default async function Home() {
+  const [{ categories, featuredProducts, settings }, allProducts] = await Promise.all([
+    getHomePageData(),
+    getProducts(),
+  ]);
+
+  const flowerCategories = categories.filter(
+    (category) => !landscapeCategorySlugs.includes(category.slug),
+  );
+  const customDesigns = allProducts
+    .filter((product) => landscapeCategorySlugs.includes(product.category?.slug ?? ""))
+    .slice(0, 3);
+
+  const sectionMap = {
+    categories: null,
+    featuredProducts: (
+      <FeaturedProductsSection
+        title="Çok Satan Çiçekler"
+        description="Fiyatları görünen, aynı gün teslimata uygun SÜMBÜL GARDEN çiçekleri. Sipariş WhatsApp hattı üzerinden devam eder."
+        products={featuredProducts.filter(
+          (product) => !landscapeCategorySlugs.includes(product.category?.slug ?? ""),
+        )}
+        settings={settings}
+      />
+    ),
+    campaigns: null,
+    customDesigns: (
+      <FeaturedProductsSection
+        title="SÜMBÜL PEYZAJ"
+        description="Bahçe tasarımı, rulo çim, bitkilendirme, otomatik sulama ve dikey bahçe uygulamalarını ayrı peyzaj sayfasında inceleyin."
+        products={customDesigns}
+        settings={settings}
+      />
+    ),
+    about: <AboutSection settings={settings} />,
+  } as const;
+
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "SÜMBÜL GARDEN",
+    alternateName: "SÜMBÜL PEYZAJ",
+    telephone: settings.phone,
+    address: settings.address,
+    url: appEnv.siteUrl,
+  };
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    <>
+      <HomeFlowerShowcase categories={flowerCategories} />
+      {settings.homepageSections
+        .filter((section) => section.enabled)
+        .sort((first, second) => first.order - second.order)
+        .map((section) => (
+          <div key={section.key}>{sectionMap[section.key]}</div>
+        ))}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+    </>
   );
 }

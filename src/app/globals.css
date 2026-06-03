@@ -1,27 +1,86 @@
+@import "swiper/css";
+@import "swiper/css/effect-fade";
+@import "swiper/css/pagination";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f5f1e8;
+  --foreground: #102219;
+  --brand-primary: #123322;
+  --brand-secondary: #eef3ea;
+  --brand-accent: #f7c7d7;
+  --brand-ink: #0b1b12;
+  --brand-rose: #f7e7ed;
+  --brand-mist: #f4f7f1;
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-glass: rgba(255, 255, 255, 0.62);
+  --surface-outline: rgba(36, 73, 56, 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0d1813;
+  --foreground: #f5f7f1;
+  --brand-primary: #71c092;
+  --brand-secondary: #163023;
+  --brand-accent: #ffb8d1;
+  --brand-ink: #eff7ef;
+  --brand-rose: #291622;
+  --brand-mist: #111d17;
+  --surface: rgba(18, 31, 24, 0.82);
+  --surface-glass: rgba(18, 31, 24, 0.74);
+  --surface-outline: rgba(255, 255, 255, 0.08);
+}
+
+* {
+  border-color: var(--surface-outline);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), sans-serif;
+  min-height: 100vh;
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(245, 241, 232, 0.96));
+}
+
+::selection {
+  background: rgba(18, 51, 34, 0.16);
+  color: var(--foreground);
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.72) !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 24px !important;
+  border-radius: 999px !important;
+  background: white !important;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .container-edge {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .glass-panel {
+    @apply border border-white/60 bg-white/70 backdrop-blur-2xl dark:border-white/10 dark:bg-white/5;
+  }
+
+  .section-space {
+    @apply py-16 md:py-20 lg:py-24;
   }
 }

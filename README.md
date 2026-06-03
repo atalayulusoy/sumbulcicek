@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SÜMBÜL GARDEN
 
-## Getting Started
+Next.js 14, TypeScript, TailwindCSS, Framer Motion, Swiper, Prisma ve PostgreSQL ile geliştirilmiş çiçekçilik ve peyzaj web uygulaması.
 
-First, run the development server:
+## Özellikler
+
+- SÜMBÜL GARDEN çiçek vitrini
+- SÜMBÜL PEYZAJ için ayrı peyzaj sayfası
+- Ürünlerde fiyat gösterimi
+- WhatsApp ile sipariş ve sipariş takibi
+- Admin panelden ürün, kategori, banner ve site ayarı yönetimi
+- Gizli admin giriş route'u: `/secret-admin-login`
+- Middleware ile korunan dashboard route'u: `/dashboard-admin`
+- Cloudinary görsel yükleme sistemi
+- Responsive masaüstü ve mobil deneyim
+
+## Kurulum
 
 ```bash
+npm install
+cp .env.example .env
+npm run db:generate
+npm run db:push
+npm run db:seed
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+PowerShell script engeli varsa:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm.cmd run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Varsayılan Admin
 
-## Learn More
+- E-posta: `admin@sumbulgarden.com`
+- Şifre: `Admin123!`
 
-To learn more about Next.js, take a look at the following resources:
+Bu bilgiler `.env` içindeki `ADMIN_EMAIL` ve `ADMIN_PASSWORD` ile değiştirilebilir.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## İletişim
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Telefon / WhatsApp: `+90 530 635 27 19`
+- Instagram: `https://www.instagram.com/sumbulpeyzaj?utm_source=qr`
 
-## Deploy on Vercel
+## Notlar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Veritabanı ayarsızsa storefront örnek verilerle açılır.
+- Admin CRUD işlemleri için gerçek veritabanı bağlantısı gerekir.
+- Cloudinary ayarsızsa görsel yükleme route'u 503 döner.
