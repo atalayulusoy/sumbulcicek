@@ -178,13 +178,13 @@ export function Navbar({ categories, settings }: NavbarProps) {
           </Link>
 
           <div className="hidden min-w-0 flex-1 items-center gap-2 lg:flex xl:gap-3">
-            <form action="/products" className="relative ml-2 hidden min-w-[8rem] w-[80px] shrink-0 2xl:block">
-              <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-foreground/40" />
+            <form action="/products" className="relative ml-2 hidden min-w-[6.5rem] w-[72px] shrink-0 2xl:block">
+              <Search className="pointer-events-none absolute left-2.5 top-1/2 h-3 w-3 -translate-y-1/2 text-foreground/40" />
               <input
                 type="search"
                 name="query"
                 placeholder="Ara"
-                className="h-10 w-full rounded-full border border-surface-outline bg-white/80 pl-9 pr-2 text-xs outline-none ring-0 transition focus:border-brand/30 focus:ring-4 focus:ring-brand/10"
+                className="h-9 w-full rounded-full border border-surface-outline bg-white/80 pl-8 pr-2 text-[11px] outline-none ring-0 transition focus:border-brand/30 focus:ring-4 focus:ring-brand/10"
               />
             </form>
 
