@@ -191,6 +191,16 @@ export async function getFeaturedProducts() {
 }
 
 export async function getProductBySlug(slug: string) {
+  if (!isDatabaseConfigured) {
+    try {
+      const dashboard = await readDashboard();
+      const product = (dashboard.products || []).find((item) => item.slug === slug);
+      return product ? serializeProduct(product as any) : null;
+    } catch (err) {
+      return fallbackProducts.find((product) => product.slug === slug) ?? null;
+    }
+  }
+
   const fallback = fallbackProducts.find((product) => product.slug === slug) ?? null;
 
   return withFallback(
