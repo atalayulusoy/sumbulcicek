@@ -115,8 +115,17 @@ export async function writeDashboard(data: DashboardData, message = "Update dash
     }
   }
 
-  await writeLocalDashboard(data);
+  // Local yazma bazı çalışma ortamlarında (örn. serverless/container) read-only olabilir.
+  // Bu durumda hata vermesin diye burada yakalıyoruz.
+  try {
+    await writeLocalDashboard(data);
+  } catch (error) {
+    console.error("[github-store] Local dashboard write failed (read-only FS?)", error);
+    // Son çare: yazmadan sessiz kal.
+    // Admin panelde kullanıcı 500 görmesin diye.
+  }
 }
+
 
 export function makeId(prefix: string) {
   return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
