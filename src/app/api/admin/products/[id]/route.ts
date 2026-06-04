@@ -16,34 +16,34 @@ interface ProductRouteProps {
 
 export async function PATCH(request: Request, { params }: ProductRouteProps) {
   try {
+    const json = (await request.json()) as unknown;
+    const parsed = productSchema.safeParse(json);
+
+    if (!parsed.success) {
+      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+    }
+
+    const data = parsed.data;
+    const sanitizedData = {
+      title: sanitizeText(data.title),
+      slug: slugify(data.slug || data.title),
+      description: sanitizeText(data.description),
+      price: data.price,
+      discountPrice: data.discountPrice ?? null,
+      images: data.images,
+      categoryId: data.categoryId,
+      featured: data.featured,
+      stockStatus: data.stockStatus,
+      badge: data.badge ? sanitizeText(data.badge) : null,
+      deliveryInfo: data.deliveryInfo ? sanitizeText(data.deliveryInfo) : null,
+    };
+
+    // 1) DB kapalıysa direkt dashboard'a yaz.
     if (!isDatabaseConfigured) {
-      const json = (await request.json()) as unknown;
-      const parsed = productSchema.safeParse(json);
-
-      if (!parsed.success) {
-        return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
-      }
-
-      const data = parsed.data;
       const dashboard = await readDashboard();
 
       dashboard.products = (dashboard.products || []).map((p) =>
-        p.id === params.id
-          ? {
-              ...p,
-              title: sanitizeText(data.title),
-              slug: slugify(data.slug || data.title),
-              description: sanitizeText(data.description),
-              price: data.price,
-              discountPrice: data.discountPrice ?? null,
-              images: data.images,
-              categoryId: data.categoryId,
-              featured: data.featured,
-              stockStatus: data.stockStatus,
-              badge: data.badge ? sanitizeText(data.badge) : null,
-              deliveryInfo: data.deliveryInfo ? sanitizeText(data.deliveryInfo) : null,
-            }
-          : p,
+        p.id === params.id ? { ...p, ...sanitizedData } : p,
       );
 
       await writeDashboard(dashboard, `Update product ${params.id}`);
@@ -53,37 +53,31 @@ export async function PATCH(request: Request, { params }: ProductRouteProps) {
       return NextResponse.json({ product });
     }
 
-    // DB path
-    const json = (await request.json()) as unknown;
-    const parsed = productSchema.safeParse(json);
+    // 2) isDatabaseConfigured true olsa bile DB ulaşılamıyor olabilir.
+    //    Prisma hata verirse fallback yap.
+    try {
+      await prisma.product.update({
+        where: { id: params.id },
+        data: sanitizedData,
+      });
 
-    if (!parsed.success) {
-      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+      const productsDb = await getProducts();
+      const productDb = productsDb.find((item) => item.id === params.id);
+      return NextResponse.json({ product: productDb });
+    } catch (error) {
+      console.warn("[admin:product:patch] prisma failed, falling back", error);
+
+      const dashboard = await readDashboard();
+      dashboard.products = (dashboard.products || []).map((p) =>
+        p.id === params.id ? { ...p, ...sanitizedData } : p,
+      );
+
+      await writeDashboard(dashboard, `Update product ${params.id}`);
+
+      const products = await getProducts();
+      const product = products.find((item) => item.id === params.id);
+      return NextResponse.json({ product });
     }
-
-    const data = parsed.data;
-    const slug = slugify(data.slug || data.title);
-
-    await prisma.product.update({
-      where: { id: params.id },
-      data: {
-        title: sanitizeText(data.title),
-        slug,
-        description: sanitizeText(data.description),
-        price: data.price,
-        discountPrice: data.discountPrice ?? null,
-        images: data.images,
-        categoryId: data.categoryId,
-        featured: data.featured,
-        stockStatus: data.stockStatus,
-        badge: data.badge ? sanitizeText(data.badge) : null,
-        deliveryInfo: data.deliveryInfo ? sanitizeText(data.deliveryInfo) : null,
-      },
-    });
-
-    const productsDb = await getProducts();
-    const productDb = productsDb.find((item) => item.id === params.id);
-    return NextResponse.json({ product: productDb });
   } catch (error) {
     console.error("[admin:product:patch]", error);
     const message = error instanceof Error ? error.message : "Urun guncellenemedi.";
@@ -93,6 +87,7 @@ export async function PATCH(request: Request, { params }: ProductRouteProps) {
 
 export async function DELETE(_: Request, { params }: ProductRouteProps) {
   try {
+    // 1) DB kapalıysa direkt dashboard'a yaz.
     if (!isDatabaseConfigured) {
       const dashboard = await readDashboard();
       dashboard.products = (dashboard.products || []).filter((p) => p.id !== params.id);
@@ -100,14 +95,27 @@ export async function DELETE(_: Request, { params }: ProductRouteProps) {
       return NextResponse.json({ success: true });
     }
 
-    await prisma.product.delete({
-      where: { id: params.id },
-    });
+    // 2) isDatabaseConfigured true olsa bile DB ulaşılamıyor olabilir.
+    //    Prisma hata verirse fallback yap.
+    try {
+      await prisma.product.delete({
+        where: { id: params.id },
+      });
 
-    return NextResponse.json({ success: true });
+      return NextResponse.json({ success: true });
+    } catch (error) {
+      console.warn("[admin:product:delete] prisma failed, falling back", error);
+
+      const dashboard = await readDashboard();
+      dashboard.products = (dashboard.products || []).filter((p) => p.id !== params.id);
+      await writeDashboard(dashboard, `Delete product ${params.id}`);
+
+      return NextResponse.json({ success: true });
+    }
   } catch (error) {
     console.error("[admin:product:delete]", error);
     const message = error instanceof Error ? error.message : "Urun silinemedi.";
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }
+

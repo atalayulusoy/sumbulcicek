@@ -15,41 +15,6 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
-  if (!isDatabaseConfigured) {
-    // Use GitHub-backed JSON store when database is not configured
-    const json = (await request.json()) as unknown;
-    const parsed = productSchema.safeParse(json);
-
-    if (!parsed.success) {
-      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
-    }
-
-    const data = parsed.data;
-
-    const dashboard = await readDashboard();
-
-    const newProduct: Product = {
-      id: makeId("prd"),
-      title: sanitizeText(data.title),
-      slug: slugify(data.slug || data.title),
-      description: sanitizeText(data.description),
-      price: data.price,
-      discountPrice: data.discountPrice ?? null,
-      images: data.images,
-      categoryId: data.categoryId,
-      featured: data.featured,
-      stockStatus: data.stockStatus,
-      badge: data.badge ? sanitizeText(data.badge) : null,
-      deliveryInfo: data.deliveryInfo ? sanitizeText(data.deliveryInfo) : null,
-      createdAt: new Date().toISOString(),
-    };
-
-    dashboard.products = [newProduct, ...dashboard.products];
-    await writeDashboard(dashboard, `Add product ${newProduct.title}`);
-
-    return NextResponse.json({ product: newProduct });
-  }
-
   const json = (await request.json()) as unknown;
   const parsed = productSchema.safeParse(json);
 
@@ -58,26 +23,61 @@ export async function POST(request: Request) {
   }
 
   const data = parsed.data;
-  const slug = slugify(data.slug || data.title);
+  const sanitizedData = {
+    title: sanitizeText(data.title),
+    slug: slugify(data.slug || data.title),
+    description: sanitizeText(data.description),
+    price: data.price,
+    discountPrice: data.discountPrice ?? null,
+    images: data.images,
+    categoryId: data.categoryId,
+    featured: data.featured,
+    stockStatus: data.stockStatus,
+    badge: data.badge ? sanitizeText(data.badge) : null,
+    deliveryInfo: data.deliveryInfo ? sanitizeText(data.deliveryInfo) : null,
+  };
 
-  const created = await prisma.product.create({
-    data: {
-      title: sanitizeText(data.title),
-      slug,
-      description: sanitizeText(data.description),
-      price: data.price,
-      discountPrice: data.discountPrice ?? null,
-      images: data.images,
-      categoryId: data.categoryId,
-      featured: data.featured,
-      stockStatus: data.stockStatus,
-      badge: data.badge ? sanitizeText(data.badge) : null,
-      deliveryInfo: data.deliveryInfo ? sanitizeText(data.deliveryInfo) : null,
-    },
-  });
+  // 1) DB kapalıysa direkt dashboard'a yaz.
+  if (!isDatabaseConfigured) {
+    const dashboard = await readDashboard();
 
-  const products = await getProducts();
-  const product = products.find((item) => item.id === created.id);
+    const newProduct: Product = {
+      id: makeId("prd"),
+      ...sanitizedData,
+      createdAt: new Date().toISOString(),
+    };
 
-  return NextResponse.json({ product });
+    dashboard.products = [newProduct, ...(dashboard.products || [])];
+    await writeDashboard(dashboard, `Add product ${newProduct.title}`);
+
+    return NextResponse.json({ product: newProduct });
+  }
+
+  // 2) DB kapalıyken/ulaşılamıyorken `isDatabaseConfigured` true olabiliyor.
+  //    Bu durumda Prisma hata verir; biz fallback'a dönüyoruz.
+  try {
+    const created = await prisma.product.create({
+      data: sanitizedData,
+    });
+
+    const products = await getProducts();
+    const product = products.find((item) => item.id === created.id);
+
+    return NextResponse.json({ product });
+  } catch (error) {
+    console.warn("[admin:products:post] prisma failed, falling back to dashboard", error);
+
+    const dashboard = await readDashboard();
+    const newProduct: Product = {
+      id: makeId("prd"),
+      ...sanitizedData,
+      createdAt: new Date().toISOString(),
+    };
+
+    dashboard.products = [newProduct, ...(dashboard.products || [])];
+    await writeDashboard(dashboard, `Add product ${newProduct.title}`);
+
+    return NextResponse.json({ product: newProduct });
+  }
 }
+

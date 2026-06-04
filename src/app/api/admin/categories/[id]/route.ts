@@ -16,24 +16,24 @@ interface CategoryRouteProps {
 
 export async function PATCH(request: Request, { params }: CategoryRouteProps) {
   try {
+    const json = (await request.json()) as unknown;
+    const parsed = categorySchema.safeParse(json);
+
+    if (!parsed.success) {
+      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+    }
+
+    const sanitizedData = {
+      name: sanitizeText(parsed.data.name),
+      slug: slugify(parsed.data.slug || parsed.data.name),
+      icon: parsed.data.icon,
+    };
+
+    // 1) DB kapalıysa direkt dashboard'a yaz.
     if (!isDatabaseConfigured) {
-      const json = (await request.json()) as unknown;
-      const parsed = categorySchema.safeParse(json);
-
-      if (!parsed.success) {
-        return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
-      }
-
       const dashboard = await readDashboard();
       dashboard.categories = (dashboard.categories || []).map((c) =>
-        c.id === params.id
-          ? {
-              ...c,
-              name: sanitizeText(parsed.data.name),
-              slug: slugify(parsed.data.slug || parsed.data.name),
-              icon: parsed.data.icon,
-            }
-          : c,
+        c.id === params.id ? { ...c, ...sanitizedData } : c,
       );
 
       await writeDashboard(dashboard, `Update category ${params.id}`);
@@ -43,25 +43,31 @@ export async function PATCH(request: Request, { params }: CategoryRouteProps) {
       return NextResponse.json({ category });
     }
 
-    const json = (await request.json()) as unknown;
-    const parsed = categorySchema.safeParse(json);
+    // 2) isDatabaseConfigured true olsa bile DB erişilemeyebilir.
+    //    Prisma hata verirse fallback'a dön.
+    try {
+      await prisma.category.update({
+        where: { id: params.id },
+        data: sanitizedData,
+      });
 
-    if (!parsed.success) {
-      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+      const categoriesDb = await getCategories();
+      const categoryDb = categoriesDb.find((item) => item.id === params.id);
+      return NextResponse.json({ category: categoryDb });
+    } catch (error) {
+      console.warn("[admin:category:patch] prisma failed, falling back", error);
+
+      const dashboard = await readDashboard();
+      dashboard.categories = (dashboard.categories || []).map((c) =>
+        c.id === params.id ? { ...c, ...sanitizedData } : c,
+      );
+
+      await writeDashboard(dashboard, `Update category ${params.id}`);
+
+      const categories = await getCategories();
+      const category = categories.find((item) => item.id === params.id);
+      return NextResponse.json({ category });
     }
-
-    await prisma.category.update({
-      where: { id: params.id },
-      data: {
-        name: sanitizeText(parsed.data.name),
-        slug: slugify(parsed.data.slug || parsed.data.name),
-        icon: parsed.data.icon,
-      },
-    });
-
-    const categoriesDb = await getCategories();
-    const categoryDb = categoriesDb.find((item) => item.id === params.id);
-    return NextResponse.json({ category: categoryDb });
   } catch (error) {
     console.error("[admin:category:patch]", error);
     const message = error instanceof Error ? error.message : "Kategori guncellenemedi.";
@@ -71,6 +77,7 @@ export async function PATCH(request: Request, { params }: CategoryRouteProps) {
 
 export async function DELETE(_: Request, { params }: CategoryRouteProps) {
   try {
+    // 1) DB kapalıysa direkt dashboard'a yaz.
     if (!isDatabaseConfigured) {
       const dashboard = await readDashboard();
       dashboard.categories = (dashboard.categories || []).filter((c) => c.id !== params.id);
@@ -78,14 +85,27 @@ export async function DELETE(_: Request, { params }: CategoryRouteProps) {
       return NextResponse.json({ success: true });
     }
 
-    await prisma.category.delete({
-      where: { id: params.id },
-    });
+    // 2) isDatabaseConfigured true olsa bile DB erişilemeyebilir.
+    //    Prisma hata verirse fallback'a dön.
+    try {
+      await prisma.category.delete({
+        where: { id: params.id },
+      });
 
-    return NextResponse.json({ success: true });
+      return NextResponse.json({ success: true });
+    } catch (error) {
+      console.warn("[admin:category:delete] prisma failed, falling back", error);
+
+      const dashboard = await readDashboard();
+      dashboard.categories = (dashboard.categories || []).filter((c) => c.id !== params.id);
+      await writeDashboard(dashboard, `Delete category ${params.id}`);
+
+      return NextResponse.json({ success: true });
+    }
   } catch (error) {
     console.error("[admin:category:delete]", error);
     const message = error instanceof Error ? error.message : "Kategori silinemedi.";
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }
+

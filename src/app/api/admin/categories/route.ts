@@ -15,48 +15,62 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
+  const json = (await request.json()) as unknown;
+  const parsed = categorySchema.safeParse(json);
+
+  if (!parsed.success) {
+    return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+  }
+
+  const sanitizedData = {
+    name: sanitizeText(parsed.data.name),
+    slug: slugify(parsed.data.slug || parsed.data.name),
+    icon: parsed.data.icon,
+  };
+
+  // 1) DB kapalıysa direkt dashboard'a yaz.
   if (!isDatabaseConfigured) {
-    const json = (await request.json()) as unknown;
-    const parsed = categorySchema.safeParse(json);
-
-    if (!parsed.success) {
-      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
-    }
-
     const dashboard = await readDashboard();
     const created: Category = {
       id: makeId("cat"),
-      name: sanitizeText(parsed.data.name),
-      slug: slugify(parsed.data.slug || parsed.data.name),
-      icon: parsed.data.icon,
+      ...sanitizedData,
       createdAt: new Date().toISOString(),
     };
 
-    dashboard.categories = [...dashboard.categories, created];
+    dashboard.categories = [...(dashboard.categories || []), created];
     await writeDashboard(dashboard, `Add category ${created.name}`);
 
     const categories = await getCategories();
     const category = categories.find((item) => item.id === created.id);
     return NextResponse.json({ category });
-    }
+  }
 
-    // Database path
-    const json = (await request.json()) as unknown;
-    const parsed = categorySchema.safeParse(json);
-
-    if (!parsed.success) {
-      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
-    }
-
+  // 2) isDatabaseConfigured true olsa bile DB erişilemeyebilir.
+  //    Prisma hata verirse fallback'a dön.
+  try {
     const created = await prisma.category.create({
-      data: {
-        name: sanitizeText(parsed.data.name),
-        slug: slugify(parsed.data.slug || parsed.data.name),
-        icon: parsed.data.icon,
-      },
+      data: sanitizedData,
     });
 
     const categories = await getCategories();
     const category = categories.find((item) => item.id === created.id);
     return NextResponse.json({ category });
+  } catch (error) {
+    console.warn("[admin:categories:post] prisma failed, falling back", error);
+
+    const dashboard = await readDashboard();
+    const created: Category = {
+      id: makeId("cat"),
+      ...sanitizedData,
+      createdAt: new Date().toISOString(),
+    };
+
+    dashboard.categories = [...(dashboard.categories || []), created];
+    await writeDashboard(dashboard, `Add category ${created.name}`);
+
+    const categories = await getCategories();
+    const category = categories.find((item) => item.id === created.id);
+    return NextResponse.json({ category });
+  }
 }
+
