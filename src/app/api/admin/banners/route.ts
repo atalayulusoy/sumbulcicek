@@ -42,4 +42,28 @@ export async function POST(request: Request) {
     const banner = banners.find((item) => item.id === created.id);
     return NextResponse.json({ banner });
   }
+
+    const json = await request.json();
+    const parsed = bannerSchema.safeParse(json);
+
+    if (!parsed.success) {
+      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+    }
+
+    const created = await prisma.banner.create({
+      data: {
+        title: sanitizeText(parsed.data.title),
+        subtitle: sanitizeText(parsed.data.subtitle),
+        image: parsed.data.image,
+        buttonText: sanitizeText(parsed.data.buttonText),
+        buttonLink: parsed.data.buttonLink,
+        theme: parsed.data.theme ?? null,
+        order: parsed.data.order,
+        isActive: parsed.data.isActive,
+      },
+    });
+
+    const banners = await getBanners();
+    const banner = banners.find((item) => item.id === created.id);
+    return NextResponse.json({ banner });
 }

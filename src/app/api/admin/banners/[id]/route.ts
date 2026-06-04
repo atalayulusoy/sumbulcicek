@@ -45,6 +45,31 @@ export async function PATCH(request: Request, { params }: BannerRouteProps) {
     const banner = banners.find((item) => item.id === params.id);
     return NextResponse.json({ banner });
   }
+
+    const json = await request.json();
+    const parsed = bannerSchema.safeParse(json);
+
+    if (!parsed.success) {
+      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+    }
+
+    await prisma.banner.update({
+      where: { id: params.id },
+      data: {
+        title: sanitizeText(parsed.data.title),
+        subtitle: sanitizeText(parsed.data.subtitle),
+        image: parsed.data.image,
+        buttonText: sanitizeText(parsed.data.buttonText),
+        buttonLink: parsed.data.buttonLink,
+        theme: parsed.data.theme ?? null,
+        order: parsed.data.order,
+        isActive: parsed.data.isActive,
+      },
+    });
+
+    const bannersDb = await getBanners();
+    const bannerDb = bannersDb.find((item) => item.id === params.id);
+    return NextResponse.json({ banner: bannerDb });
 }
 
 export async function DELETE(_: Request, { params }: BannerRouteProps) {
