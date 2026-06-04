@@ -2,6 +2,7 @@ import { prisma } from "@/lib/prisma";
 import { homepageSectionDefaults } from "@/lib/constants";
 import { fallbackBanners, fallbackCategories, fallbackProducts, fallbackSiteSettings } from "@/lib/data/fallback-data";
 import { isDatabaseConfigured } from "@/lib/env";
+import { readDashboard } from "@/lib/github-store";
 import { parseImages, stringifyDate } from "@/lib/utils";
 import type {
   Banner,
@@ -130,6 +131,15 @@ async function withFallback<T>(query: () => Promise<T>, fallback: T): Promise<T>
 }
 
 export async function getCategories() {
+  if (!isDatabaseConfigured) {
+    try {
+      const dashboard = await readDashboard();
+      return (dashboard.categories || []).map((c) => serializeCategory(c as any));
+    } catch (err) {
+      return fallbackCategories;
+    }
+  }
+
   const fallback = fallbackCategories;
 
   return withFallback(
@@ -147,6 +157,15 @@ export async function getCategories() {
 }
 
 export async function getProducts() {
+  if (!isDatabaseConfigured) {
+    try {
+      const dashboard = await readDashboard();
+      return (dashboard.products || []).map((p) => serializeProduct(p as any));
+    } catch (err) {
+      return fallbackProducts;
+    }
+  }
+
   const fallback = fallbackProducts;
 
   return withFallback(
@@ -188,6 +207,15 @@ export async function getProductBySlug(slug: string) {
 }
 
 export async function getBanners() {
+  if (!isDatabaseConfigured) {
+    try {
+      const dashboard = await readDashboard();
+      return (dashboard.banners || []).filter((b) => b.isActive).map((b) => serializeBanner(b as any));
+    } catch (err) {
+      return fallbackBanners;
+    }
+  }
+
   const fallback = fallbackBanners;
 
   return withFallback(
@@ -206,6 +234,15 @@ export async function getBanners() {
 }
 
 export async function getSiteSettings() {
+  if (!isDatabaseConfigured) {
+    try {
+      const dashboard = await readDashboard();
+      return serializeSiteSettings(dashboard.settings as any);
+    } catch (err) {
+      return fallbackSiteSettings;
+    }
+  }
+
   return withFallback(
     async () => {
       const settings = await prisma.siteSettings.findUnique({
