@@ -1,0 +1,37 @@
+name: Prisma Push and Seed
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  prisma:
+    name: Push schema and run seed on Supabase
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Prisma generate
+        env:
+          DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
+        run: npx prisma generate
+
+      - name: Prisma db push
+        env:
+          DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
+          JWT_SECRET: ${{ secrets.SUPABASE_JWT_SECRET }}
+        run: npm run db:push
+
+      - name: Seed database
+        env:
+          DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
+          JWT_SECRET: ${{ secrets.SUPABASE_JWT_SECRET }}
+        run: npm run db:seed
