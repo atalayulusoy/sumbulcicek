@@ -27,7 +27,7 @@ export const isCloudinaryConfigured = Boolean(
 export const appEnv = env;
 
 export function getJwtSecretValue() {
-  return env.jwtSecret || (process.env.NODE_ENV !== "production" ? DEFAULT_JWT_SECRET : undefined);
+  return env.jwtSecret || DEFAULT_JWT_SECRET;
 }
 
 export function getRequiredEnv(key: keyof typeof env) {

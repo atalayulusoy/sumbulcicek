@@ -178,7 +178,7 @@ export function Navbar({ categories, settings }: NavbarProps) {
           </Link>
 
           <div className="hidden min-w-0 flex-1 items-center gap-2 lg:flex xl:gap-3">
-            <form action="/products" className="relative ml-2 hidden w-[112px] shrink-0 2xl:block">
+            <form action="/products" className="relative ml-2 hidden min-w-[9rem] w-[96px] shrink-0 2xl:block">
               <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-foreground/40" />
               <input
                 type="search"
