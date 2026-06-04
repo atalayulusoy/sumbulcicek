@@ -51,6 +51,38 @@ export async function PATCH(request: Request, { params }: ProductRouteProps) {
     const product = products.find((item) => item.id === params.id);
     return NextResponse.json({ product });
   }
+
+  // DB path
+  const json = await request.json();
+  const parsed = productSchema.safeParse(json);
+
+  if (!parsed.success) {
+    return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+  }
+
+  const data = parsed.data;
+  const slug = slugify(data.slug || data.title);
+
+  await prisma.product.update({
+    where: { id: params.id },
+    data: {
+      title: sanitizeText(data.title),
+      slug,
+      description: sanitizeText(data.description),
+      price: data.price,
+      discountPrice: data.discountPrice ?? null,
+      images: data.images,
+      categoryId: data.categoryId,
+      featured: data.featured,
+      stockStatus: data.stockStatus,
+      badge: data.badge ? sanitizeText(data.badge) : null,
+      deliveryInfo: data.deliveryInfo ? sanitizeText(data.deliveryInfo) : null,
+    },
+  });
+
+  const productsDb = await getProducts();
+  const productDb = productsDb.find((item) => item.id === params.id);
+  return NextResponse.json({ product: productDb });
 }
 
 export async function DELETE(_: Request, { params }: ProductRouteProps) {
