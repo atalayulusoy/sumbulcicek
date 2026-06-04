@@ -11,6 +11,8 @@ import { AppProviders } from "@/components/providers/app-providers";
 import { buildMetadata } from "@/lib/metadata";
 import { getCategories, getSiteSettings } from "@/lib/services/storefront";
 
+export const dynamic = "force-dynamic";
+
 const sans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-sans",

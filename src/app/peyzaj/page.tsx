@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import { buildMetadata } from "@/lib/metadata";
 import { getCategories, getProducts, getSiteSettings } from "@/lib/services/storefront";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = buildMetadata({
   title: "SÜMBÜL PEYZAJ",
   description:

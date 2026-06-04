@@ -4,6 +4,8 @@ import { ProductsExplorer } from "@/components/products/products-explorer";
 import { buildMetadata } from "@/lib/metadata";
 import { getCategories, getProducts, getSiteSettings } from "@/lib/services/storefront";
 
+export const dynamic = "force-dynamic";
+
 interface ProductsPageProps {
   searchParams: {
     query?: string;

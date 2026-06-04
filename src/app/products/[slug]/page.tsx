@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Clock3, Truck } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 import { ProductCard } from "@/components/products/product-card";
 import { ProductGallery } from "@/components/products/product-gallery";
 import { WhatsappOrderButton } from "@/components/products/whatsapp-order-button";

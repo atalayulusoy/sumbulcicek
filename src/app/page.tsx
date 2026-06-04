@@ -5,6 +5,8 @@ import { appEnv } from "@/lib/env";
 import { buildMetadata } from "@/lib/metadata";
 import { getHomePageData, getProducts } from "@/lib/services/storefront";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = buildMetadata({
   title: "SÜMBÜL GARDEN",
   description:
