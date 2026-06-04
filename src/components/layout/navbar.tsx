@@ -164,7 +164,7 @@ export function Navbar({ categories, settings }: NavbarProps) {
             : "border-white/35 bg-white/64 py-4 backdrop-blur-xl dark:border-white/10 dark:bg-[#12211aa8]",
         )}
       >
-        <div className="flex items-center gap-2 xl:gap-3">
+        <div className="flex flex-wrap items-center gap-2 xl:gap-3">
           <Link href="/" className="flex min-w-fit items-center gap-2 xl:gap-3">
             <div className="relative h-11 w-11 overflow-hidden rounded-2xl border border-brand/10 bg-[#f5f1e8] shadow-glow xl:h-12 xl:w-12">
               <Image src="/sumbul-logo.png" alt="SÜMBÜL GARDEN logo" fill className="object-cover" />
@@ -178,16 +178,6 @@ export function Navbar({ categories, settings }: NavbarProps) {
           </Link>
 
           <div className="hidden min-w-0 flex-1 items-center gap-2 lg:flex xl:gap-3">
-            <form action="/products" className="relative ml-2 hidden min-w-[6.5rem] w-[72px] shrink-0 2xl:block">
-              <Search className="pointer-events-none absolute left-2.5 top-1/2 h-3 w-3 -translate-y-1/2 text-foreground/40" />
-              <input
-                type="search"
-                name="query"
-                placeholder="Ara"
-                className="h-9 w-full rounded-full border border-surface-outline bg-white/80 pl-8 pr-2 text-[11px] outline-none ring-0 transition focus:border-brand/30 focus:ring-4 focus:ring-brand/10"
-              />
-            </form>
-
             <nav className="flex min-w-0 flex-1 items-center justify-end gap-0.5 xl:gap-1">
               <DesktopDropdown
                 active={pathname === "/peyzaj"}
@@ -230,6 +220,18 @@ export function Navbar({ categories, settings }: NavbarProps) {
                 Sipariş Takibi
               </Link>
             </Button>
+          </div>
+
+          <div className="hidden w-full justify-end 2xl:flex mt-2">
+            <form action="/products" className="relative min-w-[6.5rem] w-[72px] shrink-0">
+              <Search className="pointer-events-none absolute left-2.5 top-1/2 h-3 w-3 -translate-y-1/2 text-foreground/40" />
+              <input
+                type="search"
+                name="query"
+                placeholder="Ara"
+                className="h-9 w-full rounded-full border border-surface-outline bg-white/80 pl-8 pr-2 text-[11px] outline-none ring-0 transition focus:border-brand/30 focus:ring-4 focus:ring-brand/10"
+              />
+            </form>
           </div>
 
           <button
