@@ -146,13 +146,34 @@ function createBannerDraft(banner?: Banner): BannerDraft {
 }
 
 async function readResponse<T>(response: Response): Promise<T> {
-  const data = await response.json();
+  const text = await response.text();
+  const json = text ? parseJsonSafe(text) : null;
 
   if (!response.ok) {
-    throw new Error(data.error ?? "Islem basarisiz oldu.");
+    if (json && typeof json === "object" && json !== null && "error" in json) {
+      throw new Error((json as { error?: string }).error ?? "Islem basarisiz oldu.");
+    }
+
+    throw new Error(
+      json && typeof json === "object"
+        ? JSON.stringify(json)
+        : text || `Islem basarisiz oldu. (${response.status})`,
+    );
   }
 
-  return data as T;
+  if (json === null) {
+    throw new Error("Sunucudan beklenen veri gelmedi.");
+  }
+
+  return json as T;
+}
+
+function parseJsonSafe(value: string) {
+  try {
+    return JSON.parse(value);
+  } catch {
+    return null;
+  }
 }
 
 function SettingsSectionsEditor({

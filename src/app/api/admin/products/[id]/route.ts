@@ -16,7 +16,7 @@ interface ProductRouteProps {
 
 export async function PATCH(request: Request, { params }: ProductRouteProps) {
   if (!isDatabaseConfigured) {
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = productSchema.safeParse(json);
 
     if (!parsed.success) {
@@ -53,7 +53,7 @@ export async function PATCH(request: Request, { params }: ProductRouteProps) {
   }
 
   // DB path
-  const json = await request.json();
+  const json = (await request.json()) as unknown;
   const parsed = productSchema.safeParse(json);
 
   if (!parsed.success) {

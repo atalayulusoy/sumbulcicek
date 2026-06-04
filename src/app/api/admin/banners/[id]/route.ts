@@ -15,7 +15,7 @@ interface BannerRouteProps {
 
 export async function PATCH(request: Request, { params }: BannerRouteProps) {
   if (!isDatabaseConfigured) {
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = bannerSchema.safeParse(json);
 
     if (!parsed.success) {

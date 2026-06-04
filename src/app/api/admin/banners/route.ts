@@ -44,7 +44,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ banner });
   }
 
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = bannerSchema.safeParse(json);
 
     if (!parsed.success) {

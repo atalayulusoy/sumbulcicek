@@ -16,7 +16,7 @@ interface CategoryRouteProps {
 
 export async function PATCH(request: Request, { params }: CategoryRouteProps) {
   if (!isDatabaseConfigured) {
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = categorySchema.safeParse(json);
 
     if (!parsed.success) {
@@ -42,7 +42,7 @@ export async function PATCH(request: Request, { params }: CategoryRouteProps) {
     return NextResponse.json({ category });
   }
 
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = categorySchema.safeParse(json);
 
     if (!parsed.success) {
