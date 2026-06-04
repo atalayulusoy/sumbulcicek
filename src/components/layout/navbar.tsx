@@ -164,88 +164,91 @@ export function Navbar({ categories, settings }: NavbarProps) {
             : "border-[#2b4e3f] bg-[#1f3c2f]/95 py-4 shadow-[0_20px_60px_rgba(0,0,0,0.16)] backdrop-blur-xl",
         )}
       >
-        <div className="flex flex-wrap items-center gap-2 xl:gap-3">
-          <Link href="/" className="flex min-w-fit items-center gap-2 xl:gap-3">
-              <div className="relative h-11 w-11 overflow-hidden rounded-2xl border border-white/15 bg-[#f5f1e8] shadow-glow xl:h-12 xl:w-12">
+        <div className="flex flex-col gap-4 xl:gap-5">
+          <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between xl:gap-5">
+            <Link href="/" className="flex items-center gap-3">
+              <div className="relative h-14 w-14 overflow-hidden rounded-3xl border border-white/15 bg-[#f5f1e8] shadow-glow xl:h-16 xl:w-16">
                 <Image src="/sumbul-logo.png" alt="SÜMBÜL GARDEN logo" fill className="object-cover" />
               </div>
-              <div>
-                <p className="font-display text-xl leading-none tracking-wide xl:text-2xl text-white">SÜMBÜL GARDEN</p>
-                <p className="text-[10px] uppercase tracking-[0.2em] text-white/70 xl:text-xs xl:tracking-[0.28em]">
-              </p>
-            </div>
-          </Link>
+              <div className="min-w-0">
+                <p className="font-display text-2xl font-semibold tracking-wide text-white xl:text-3xl">SÜMBÜL GARDEN</p>
+                <p className="text-xs uppercase tracking-[0.24em] text-white/70 xl:text-sm">
+                  çiçekçilik & peyzaj
+                </p>
+              </div>
+            </Link>
 
-          <div className="hidden min-w-0 flex-1 items-center gap-2 lg:flex xl:gap-3">
-            <nav className="flex min-w-0 flex-1 flex-wrap items-center justify-end gap-2 xl:gap-3">
-              <DesktopDropdown
-                active={pathname === "/peyzaj"}
-                href="/peyzaj"
-                label="Peyzaj"
-                items={landscapeCategories}
-              />
-              <DesktopDropdown
-                active={pathname === "/products"}
-                href="/products"
-                label="Çiçeklerimiz"
-                items={flowerCategories}
-              />
-              {normalNavItems.map((item) => (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  className="rounded-full border border-white/10 px-3 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
-                >
-                  {item.label}
+            <div className="hidden flex-1 items-center justify-end gap-2 xl:flex">
+              <nav className="flex flex-wrap items-center justify-end gap-2">
+                <DesktopDropdown
+                  active={pathname === "/peyzaj"}
+                  href="/peyzaj"
+                  label="Peyzaj"
+                  items={landscapeCategories}
+                />
+                <DesktopDropdown
+                  active={pathname === "/products"}
+                  href="/products"
+                  label="Çiçeklerimiz"
+                  items={flowerCategories}
+                />
+                {normalNavItems.map((item) => (
+                  <Link
+                    key={item.label}
+                    href={item.href}
+                    className="rounded-full border border-white/10 px-3 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+                <DesktopDropdown
+                  active={pathname === "/products"}
+                  href="/products?category=balon-folyo-balon"
+                  label="Balon Çeşitleri"
+                  items={balloonCategories}
+                />
+                <DesktopDropdown
+                  active={pathname === "/products"}
+                  href="/products?category=parti-gozlugu"
+                  label="Parti Malzemeleri"
+                  items={partyCategories}
+                />
+              </nav>
+
+              <Button
+                asChild
+                size="sm"
+                variant="secondary"
+                className="shrink-0 rounded-full border-white/15 bg-white/10 px-4 text-xs text-white shadow-none hover:bg-white/15"
+              >
+                <Link href={orderTrackingUrl} target="_blank" rel="noreferrer" className="whitespace-nowrap text-white">
+                  <PackageCheck className="h-4 w-4" />
+                  Sipariş Takibi
                 </Link>
-              ))}
-              <DesktopDropdown
-                active={pathname === "/products"}
-                href="/products?category=balon-folyo-balon"
-                label="Balon Çeşitleri"
-                items={balloonCategories}
-              />
-              <DesktopDropdown
-                active={pathname === "/products"}
-                href="/products?category=parti-gozlugu"
-                label="Parti Malzemeleri"
-                items={partyCategories}
-              />
-            </nav>
+              </Button>
+            </div>
 
-            <Button
-              asChild
-              size="sm"
-              variant="secondary"
-              className="shrink-0 rounded-full border-white/15 bg-white/10 px-4 text-xs text-white shadow-none hover:bg-white/15 xl:px-4"
+            <button
+              type="button"
+              className="ml-auto inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white lg:hidden"
+              onClick={() => setOpen((current) => !current)}
+              aria-label="Menüyü aç"
             >
-              <Link href={orderTrackingUrl} target="_blank" rel="noreferrer" className="whitespace-nowrap text-white">
-                <PackageCheck className="h-4 w-4" />
-                Sipariş Takibi
-              </Link>
-            </Button>
+              {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </button>
           </div>
 
-          <div className="hidden w-full justify-end 2xl:flex mt-2">
-            <form action="/products" className="relative min-w-[14rem] max-w-[18rem] w-full sm:w-[14rem] lg:w-[16rem] xl:w-[18rem]">
-              <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-white/50" />
+          <div className="hidden w-full justify-end xl:flex">
+            <form action="/products" className="relative min-w-[14rem] max-w-[20rem] w-full sm:w-[14rem] lg:w-[16rem] xl:w-[20rem]">
+              <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-white/60" />
               <input
                 type="search"
                 name="query"
                 placeholder="Ara"
-                className="h-11 w-full rounded-full border border-white/15 bg-white/10 px-10 pr-3 text-sm text-white placeholder:text-white/60 outline-none ring-0 transition focus:border-brand/30 focus:ring-4 focus:ring-brand/15"
+                className="h-12 w-full rounded-full border border-white/15 bg-white/10 px-10 pr-3 text-sm text-white placeholder:text-white/60 outline-none ring-0 transition focus:border-brand/30 focus:ring-4 focus:ring-brand/15"
               />
             </form>
           </div>
-
-          <button
-            type="button"
-            className="ml-auto inline-flex h-11 w-11 items-center justify-center rounded-full border border-surface-outline bg-white/80 lg:hidden"
-            onClick={() => setOpen((current) => !current)}
-            aria-label="Menüyü aç"
-          >
-            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </button>
         </div>
 
         <AnimatePresence>
