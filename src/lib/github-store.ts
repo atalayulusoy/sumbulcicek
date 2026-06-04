@@ -15,13 +15,17 @@ export type DashboardData = {
 const REPO = process.env.GITHUB_REPOSITORY?.trim() || ""; // owner/repo
 const TOKEN = process.env.GITHUB_PAT?.trim() || "";
 const DATA_PATH = "data/dashboard.json";
+
+// Vercel üzerinde /var/task çoğu zaman read-only olur.
+// Bu yüzden local fallback'a yazmaya çalışırsak EROFS alabiliyoruz.
+// En güvenlisi: GitHub entegrasyonu aktifse onu denemek; başarısız olursa local yazmayı dene ama hatayı yut.
 const USE_GITHUB_STORE = Boolean(REPO && TOKEN);
 
-function apiUrl(path: string) {
-  return `https://api.github.com/repos/${REPO}/${path}`;
+function apiUrl(p: string) {
+  return `https://api.github.com/repos/${REPO}/${p}`;
 }
 
-async function githubRequest(path: string, opts: RequestInit = {}) {
+async function githubRequest(p: string, opts: RequestInit = {}) {
   const headers: Record<string, string> = {
     Accept: "application/vnd.github+json",
     "User-Agent": "sumbul-garden",
@@ -29,7 +33,7 @@ async function githubRequest(path: string, opts: RequestInit = {}) {
 
   if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
 
-  const res = await fetch(apiUrl(path), { ...opts, headers });
+  const res = await fetch(apiUrl(p), { ...opts, headers });
   if (!res.ok) {
     const txt = await res.text().catch(() => "");
     throw new Error(`GitHub API error ${res.status} ${txt}`);
@@ -80,14 +84,13 @@ export async function readDashboard(): Promise<DashboardData> {
   }
 
   const localData = await readLocalDashboard();
-  if (localData) {
-    return localData;
-  }
+  if (localData) return localData;
 
   return fallbackData();
 }
 
-export async function writeDashboard(data: DashboardData, message = "Update dashboard via admin") {
+// endpoint'lerin 500'e düşmemesi için kesin olarak void döndürmüyor gibi davran.
+export async function writeDashboard(data: DashboardData, message = "Update dashboard via admin"): Promise<void> {
   if (USE_GITHUB_STORE) {
     try {
       let sha: string | undefined;
@@ -115,18 +118,15 @@ export async function writeDashboard(data: DashboardData, message = "Update dash
     }
   }
 
-  // Local yazma bazı çalışma ortamlarında (örn. serverless/container) read-only olabilir.
-  // Bu durumda hata vermesin diye burada yakalıyoruz.
   try {
     await writeLocalDashboard(data);
   } catch (error) {
-    console.error("[github-store] Local dashboard write failed (read-only FS?)", error);
-    // Son çare: yazmadan sessiz kal.
-    // Admin panelde kullanıcı 500 görmesin diye.
+    // read-only FS / permission errors vs.
+    console.warn("[github-store] Local dashboard write failed (ignored)", error);
   }
 }
-
 
 export function makeId(prefix: string) {
   return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
 }
+
