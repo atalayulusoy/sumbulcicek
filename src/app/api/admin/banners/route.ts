@@ -5,6 +5,7 @@ import { prisma } from "@/lib/prisma";
 import { sanitizeText } from "@/lib/sanitizers";
 import { getBanners } from "@/lib/services/storefront";
 import { bannerSchema } from "@/lib/validators";
+import { readDashboard, writeDashboard, makeId } from "@/lib/github-store";
 
 export async function GET() {
   const banners = await getBanners();
@@ -13,18 +14,16 @@ export async function GET() {
 
 export async function POST(request: Request) {
   if (!isDatabaseConfigured) {
-    return NextResponse.json({ error: "Veritabani baglantisi gerekli." }, { status: 503 });
-  }
+    const json = await request.json();
+    const parsed = bannerSchema.safeParse(json);
 
-  const json = await request.json();
-  const parsed = bannerSchema.safeParse(json);
+    if (!parsed.success) {
+      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+    }
 
-  if (!parsed.success) {
-    return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
-  }
-
-  const created = await prisma.banner.create({
-    data: {
+    const dashboard = await readDashboard();
+    const created = {
+      id: makeId("banner"),
       title: sanitizeText(parsed.data.title),
       subtitle: sanitizeText(parsed.data.subtitle),
       image: parsed.data.image,
@@ -33,10 +32,14 @@ export async function POST(request: Request) {
       theme: parsed.data.theme ?? null,
       order: parsed.data.order,
       isActive: parsed.data.isActive,
-    },
-  });
+      createdAt: new Date().toISOString(),
+    } as any;
 
-  const banners = await getBanners();
-  const banner = banners.find((item) => item.id === created.id);
-  return NextResponse.json({ banner });
+    dashboard.banners = [...(dashboard.banners || []), created].sort((a, b) => a.order - b.order);
+    await writeDashboard(dashboard, `Add banner ${created.id}`);
+
+    const banners = await getBanners();
+    const banner = banners.find((item) => item.id === created.id);
+    return NextResponse.json({ banner });
+  }
 }
