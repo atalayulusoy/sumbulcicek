@@ -1,11 +1,14 @@
 import { Buffer } from "buffer";
+import fs from "fs/promises";
+import path from "path";
 
 import { fallbackBanners, fallbackCategories, fallbackProducts, fallbackSiteSettings } from "./data/fallback-data";
 import type { Banner, Category, Product, SiteSettings } from "./types";
 
-const REPO = process.env.GITHUB_REPOSITORY || ""; // owner/repo
-const TOKEN = process.env.GITHUB_PAT || "";
+const REPO = process.env.GITHUB_REPOSITORY?.trim() || ""; // owner/repo
+const TOKEN = process.env.GITHUB_PAT?.trim() || "";
 const DATA_PATH = "data/dashboard.json";
+const USE_GITHUB_STORE = Boolean(REPO && TOKEN);
 
 type DashboardData = {
   products: Product[];
@@ -35,50 +38,84 @@ async function githubRequest(path: string, opts: RequestInit = {}) {
   return res.json();
 }
 
-export async function readDashboard(): Promise<DashboardData> {
-  // Try to fetch the JSON file from the repo
+async function getLocalDashboardPath() {
+  return path.resolve(process.cwd(), DATA_PATH);
+}
+
+async function readLocalDashboard(): Promise<DashboardData | null> {
+  const filePath = await getLocalDashboardPath();
+
   try {
-    const content = await githubRequest(`contents/${DATA_PATH}`);
-    const decoded = Buffer.from(content.content || "", content.encoding || "base64").toString();
-    const parsed = JSON.parse(decoded) as DashboardData;
-    return parsed;
-  } catch (err) {
-    // Fallback to built-in demo data
-    return {
-      products: fallbackProducts,
-      categories: fallbackCategories,
-      banners: fallbackBanners,
-      settings: fallbackSiteSettings,
-    };
+    const raw = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(raw) as DashboardData;
+  } catch {
+    return null;
   }
 }
 
-export async function writeDashboard(data: DashboardData, message = "Update dashboard via admin") {
-  if (!REPO || !TOKEN) {
-    throw new Error("GitHub repository or token not configured. Set GITHUB_REPOSITORY and GITHUB_PAT.");
-  }
+async function writeLocalDashboard(data: DashboardData) {
+  const filePath = await getLocalDashboardPath();
+  await fs.mkdir(path.dirname(filePath), { recursive: true });
+  await fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf-8");
+}
 
-  // Get existing file to obtain sha (if exists)
-  let sha: string | undefined;
-  try {
-    const info = await githubRequest(`contents/${DATA_PATH}`);
-    sha = info.sha;
-  } catch (err) {
-    sha = undefined;
-  }
-
-  const content = Buffer.from(JSON.stringify(data, null, 2)).toString("base64");
-
-  const body = {
-    message,
-    content,
-    sha,
+function fallbackData(): DashboardData {
+  return {
+    products: fallbackProducts,
+    categories: fallbackCategories,
+    banners: fallbackBanners,
+    settings: fallbackSiteSettings,
   };
+}
 
-  await githubRequest(`contents/${DATA_PATH}`, {
-    method: "PUT",
-    body: JSON.stringify(body),
-  });
+export async function readDashboard(): Promise<DashboardData> {
+  if (USE_GITHUB_STORE) {
+    try {
+      const content = await githubRequest(`contents/${DATA_PATH}`);
+      const decoded = Buffer.from(content.content ?? "", content.encoding ?? "base64").toString("utf-8");
+      return JSON.parse(decoded) as DashboardData;
+    } catch (error) {
+      console.warn("[github-store] GitHub read failed, falling back to local file or built-in data", error);
+    }
+  }
+
+  const localData = await readLocalDashboard();
+  if (localData) {
+    return localData;
+  }
+
+  return fallbackData();
+}
+
+export async function writeDashboard(data: DashboardData, message = "Update dashboard via admin") {
+  if (USE_GITHUB_STORE) {
+    try {
+      let sha: string | undefined;
+      try {
+        const info = await githubRequest(`contents/${DATA_PATH}`);
+        sha = info.sha;
+      } catch {
+        sha = undefined;
+      }
+
+      const content = Buffer.from(JSON.stringify(data, null, 2)).toString("base64");
+      const body = {
+        message,
+        content,
+        sha,
+      };
+
+      await githubRequest(`contents/${DATA_PATH}`, {
+        method: "PUT",
+        body: JSON.stringify(body),
+      });
+      return;
+    } catch (error) {
+      console.warn("[github-store] GitHub write failed, falling back to local file", error);
+    }
+  }
+
+  await writeLocalDashboard(data);
 }
 
 export function makeId(prefix: string) {

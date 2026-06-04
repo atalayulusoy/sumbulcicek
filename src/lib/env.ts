@@ -7,6 +7,7 @@ const env = {
   cloudinaryCloudName: process.env.CLOUDINARY_CLOUD_NAME,
   cloudinaryApiKey: process.env.CLOUDINARY_API_KEY,
   cloudinaryApiSecret: process.env.CLOUDINARY_API_SECRET,
+  forceGithubStore: process.env.FORCE_GITHUB_STORE === "true" || process.env.USE_GITHUB_STORE === "true",
 };
 
 const placeholderDatabaseFragments = [
@@ -16,7 +17,8 @@ const placeholderDatabaseFragments = [
 ];
 
 export const isDatabaseConfigured = Boolean(
-  env.databaseUrl &&
+  !env.forceGithubStore &&
+    env.databaseUrl &&
     !placeholderDatabaseFragments.some((fragment) => env.databaseUrl?.includes(fragment)),
 );
 
