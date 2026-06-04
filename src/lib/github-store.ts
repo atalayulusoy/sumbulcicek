@@ -1,6 +1,7 @@
 import { Buffer } from "buffer";
 import fs from "fs/promises";
 import path from "path";
+import { fileURLToPath } from "url";
 
 import { fallbackBanners, fallbackCategories, fallbackProducts, fallbackSiteSettings } from "./data/fallback-data";
 import type { Banner, Category, Product, SiteSettings } from "./types";
@@ -39,7 +40,9 @@ async function githubRequest(path: string, opts: RequestInit = {}) {
 }
 
 async function getLocalDashboardPath() {
-  return path.resolve(process.cwd(), DATA_PATH);
+  const currentFile = fileURLToPath(import.meta.url);
+  const repoRoot = path.resolve(path.dirname(currentFile), "..", "..");
+  return path.join(repoRoot, DATA_PATH);
 }
 
 async function readLocalDashboard(): Promise<DashboardData | null> {

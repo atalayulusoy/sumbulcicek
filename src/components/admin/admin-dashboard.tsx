@@ -505,7 +505,7 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
 
       {initialData.isFallback ? (
         <div className="mb-6 rounded-[1.5rem] border border-amber-200 bg-amber-50 px-5 py-4 text-sm text-amber-700">
-          `DATABASE_URL` ayarlanmadigi icin dashboard demo verilerle acildi. CRUD kayitlari icin veritabani baglantisi gerekli.
+          `DATABASE_URL` ayarlanmadigi icin dashboard demo verilerle acildi. CRUD kayitlari local `data/dashboard.json` dosyasina yazilacak ve sonraki isteklerde okunacak.
         </div>
       ) : null}
 
