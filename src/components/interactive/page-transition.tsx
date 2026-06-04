@@ -1,16 +1,18 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import type { ReactNode } from "react";
 
 export function PageTransition({ children }: { children: ReactNode }) {
   const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const routeKey = `${pathname}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
 
   return (
     <AnimatePresence mode="wait">
       <motion.div
-        key={pathname}
+        key={routeKey}
         initial={{ opacity: 0, y: 18, filter: "blur(8px)" }}
         animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
         exit={{ opacity: 0, y: -12, filter: "blur(6px)" }}
