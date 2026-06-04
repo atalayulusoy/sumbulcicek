@@ -158,27 +158,26 @@ export function Navbar({ categories, settings }: NavbarProps) {
     <header className="sticky top-0 z-50 px-4 pt-4">
       <div
         className={cn(
-          "container-edge max-w-[1280px] rounded-[2rem] border transition-all duration-300",
+          "container-edge max-w-[1280px] rounded-[2rem] border transition-all duration-300 text-white",
           scrolled
-            ? "border-white/55 bg-white/84 py-3 shadow-card backdrop-blur-2xl dark:border-white/10 dark:bg-[#12211acc]"
-            : "border-white/35 bg-white/64 py-4 backdrop-blur-xl dark:border-white/10 dark:bg-[#12211aa8]",
+            ? "border-[#1e372d] bg-[#19392b]/95 py-3 shadow-[0_20px_60px_rgba(0,0,0,0.2)] backdrop-blur-2xl"
+            : "border-[#2b4e3f] bg-[#1f3c2f]/95 py-4 shadow-[0_20px_60px_rgba(0,0,0,0.16)] backdrop-blur-xl",
         )}
       >
         <div className="flex flex-wrap items-center gap-2 xl:gap-3">
           <Link href="/" className="flex min-w-fit items-center gap-2 xl:gap-3">
-            <div className="relative h-11 w-11 overflow-hidden rounded-2xl border border-brand/10 bg-[#f5f1e8] shadow-glow xl:h-12 xl:w-12">
-              <Image src="/sumbul-logo.png" alt="SÜMBÜL GARDEN logo" fill className="object-cover" />
-            </div>
-            <div>
-              <p className="font-display text-xl leading-none tracking-wide xl:text-2xl">SÜMBÜL GARDEN</p>
-              <p className="text-[10px] uppercase tracking-[0.2em] text-foreground/45 xl:text-xs xl:tracking-[0.28em]">
-                çiçekçilik & peyzaj
+              <div className="relative h-11 w-11 overflow-hidden rounded-2xl border border-white/15 bg-[#f5f1e8] shadow-glow xl:h-12 xl:w-12">
+                <Image src="/sumbul-logo.png" alt="SÜMBÜL GARDEN logo" fill className="object-cover" />
+              </div>
+              <div>
+                <p className="font-display text-xl leading-none tracking-wide xl:text-2xl text-white">SÜMBÜL GARDEN</p>
+                <p className="text-[10px] uppercase tracking-[0.2em] text-white/70 xl:text-xs xl:tracking-[0.28em]">
               </p>
             </div>
           </Link>
 
           <div className="hidden min-w-0 flex-1 items-center gap-2 lg:flex xl:gap-3">
-            <nav className="flex min-w-0 flex-1 items-center justify-end gap-0.5 xl:gap-1">
+            <nav className="flex min-w-0 flex-1 flex-wrap items-center justify-end gap-2 xl:gap-3">
               <DesktopDropdown
                 active={pathname === "/peyzaj"}
                 href="/peyzaj"
@@ -195,7 +194,7 @@ export function Navbar({ categories, settings }: NavbarProps) {
                 <Link
                   key={item.label}
                   href={item.href}
-                  className="rounded-full px-2 py-2 text-sm font-medium text-foreground/70 transition-colors hover:bg-brand-muted/70 hover:text-brand xl:px-3"
+                  className="rounded-full border border-white/10 px-3 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
                 >
                   {item.label}
                 </Link>
@@ -214,8 +213,13 @@ export function Navbar({ categories, settings }: NavbarProps) {
               />
             </nav>
 
-            <Button asChild size="sm" variant="secondary" className="shrink-0 px-3 text-xs xl:px-4">
-              <Link href={orderTrackingUrl} target="_blank" rel="noreferrer" className="whitespace-nowrap">
+            <Button
+              asChild
+              size="sm"
+              variant="secondary"
+              className="shrink-0 rounded-full border-white/15 bg-white/10 px-4 text-xs text-white shadow-none hover:bg-white/15 xl:px-4"
+            >
+              <Link href={orderTrackingUrl} target="_blank" rel="noreferrer" className="whitespace-nowrap text-white">
                 <PackageCheck className="h-4 w-4" />
                 Sipariş Takibi
               </Link>
@@ -223,13 +227,13 @@ export function Navbar({ categories, settings }: NavbarProps) {
           </div>
 
           <div className="hidden w-full justify-end 2xl:flex mt-2">
-            <form action="/products" className="relative min-w-[6.5rem] w-[72px] shrink-0">
-              <Search className="pointer-events-none absolute left-2.5 top-1/2 h-3 w-3 -translate-y-1/2 text-foreground/40" />
+            <form action="/products" className="relative min-w-[14rem] max-w-[18rem] w-full sm:w-[14rem] lg:w-[16rem] xl:w-[18rem]">
+              <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-white/50" />
               <input
                 type="search"
                 name="query"
                 placeholder="Ara"
-                className="h-9 w-full rounded-full border border-surface-outline bg-white/80 pl-8 pr-2 text-[11px] outline-none ring-0 transition focus:border-brand/30 focus:ring-4 focus:ring-brand/10"
+                className="h-11 w-full rounded-full border border-white/15 bg-white/10 px-10 pr-3 text-sm text-white placeholder:text-white/60 outline-none ring-0 transition focus:border-brand/30 focus:ring-4 focus:ring-brand/15"
               />
             </form>
           </div>
