@@ -2,6 +2,24 @@ import { z } from "zod";
 
 import { homepageSectionDefaults } from "@/lib/constants";
 
+const isImageUrlOrPath = (value: string) => {
+  if (!value || typeof value !== "string") {
+    return false;
+  }
+
+  const trimmed = value.trim();
+  if (trimmed.startsWith("/")) {
+    return trimmed.length > 1;
+  }
+
+  try {
+    new URL(trimmed);
+    return true;
+  } catch {
+    return false;
+  }
+};
+
 export const adminLoginSchema = z.object({
   email: z.string().email("Gecerli bir e-posta adresi girin."),
   password: z.string().min(6, "Sifre en az 6 karakter olmali."),
@@ -14,7 +32,9 @@ export const productSchema = z
     description: z.string().min(20, "Aciklama en az 20 karakter olmali."),
     price: z.coerce.number().positive("Fiyat sifirdan buyuk olmali."),
     discountPrice: z.coerce.number().nonnegative().nullable().optional(),
-    images: z.array(z.string().url("Gecerli bir gorsel baglantisi gerekli.")).min(1),
+    images: z
+      .array(z.string().refine(isImageUrlOrPath, "Gecerli bir gorsel baglantisi gerekli."))
+      .min(1),
     categoryId: z.string().min(1, "Kategori seçin."),
     featured: z.boolean().default(false),
     stockStatus: z.enum(["IN_STOCK", "LOW_STOCK", "OUT_OF_STOCK", "PRE_ORDER"]),
@@ -40,7 +60,7 @@ export const categorySchema = z.object({
 export const bannerSchema = z.object({
   title: z.string().min(2),
   subtitle: z.string().min(10),
-  image: z.string().url(),
+  image: z.string().refine(isImageUrlOrPath, "Gecerli bir gorsel baglantisi gerekli."),
   buttonText: z.string().min(2),
   buttonLink: z.string().min(1),
   theme: z.string().nullable().optional(),
