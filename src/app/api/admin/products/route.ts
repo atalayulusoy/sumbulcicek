@@ -7,6 +7,7 @@ import { readDashboard, writeDashboard, makeId } from "@/lib/github-store";
 import { slugify } from "@/lib/slugify";
 import { getProducts } from "@/lib/services/storefront";
 import { productSchema } from "@/lib/validators";
+import type { Product } from "@/lib/types";
 
 export async function GET() {
   const products = await getProducts();
@@ -16,7 +17,7 @@ export async function GET() {
 export async function POST(request: Request) {
   if (!isDatabaseConfigured) {
     // Use GitHub-backed JSON store when database is not configured
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = productSchema.safeParse(json);
 
     if (!parsed.success) {
@@ -27,7 +28,7 @@ export async function POST(request: Request) {
 
     const dashboard = await readDashboard();
 
-    const newProduct = {
+    const newProduct: Product = {
       id: makeId("prd"),
       title: sanitizeText(data.title),
       slug: slugify(data.slug || data.title),
@@ -41,15 +42,15 @@ export async function POST(request: Request) {
       badge: data.badge ? sanitizeText(data.badge) : null,
       deliveryInfo: data.deliveryInfo ? sanitizeText(data.deliveryInfo) : null,
       createdAt: new Date().toISOString(),
-    } as any;
+    };
 
-    dashboard.products = [newProduct, ...(dashboard.products || [])];
+    dashboard.products = [newProduct, ...dashboard.products];
     await writeDashboard(dashboard, `Add product ${newProduct.title}`);
 
     return NextResponse.json({ product: newProduct });
   }
 
-  const json = await request.json();
+  const json = (await request.json()) as unknown;
   const parsed = productSchema.safeParse(json);
 
   if (!parsed.success) {

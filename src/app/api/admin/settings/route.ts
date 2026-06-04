@@ -7,6 +7,7 @@ import { sanitizeText } from "@/lib/sanitizers";
 import { getSiteSettings } from "@/lib/services/storefront";
 import { siteSettingsSchema } from "@/lib/validators";
 import { readDashboard, writeDashboard } from "@/lib/github-store";
+import type { SiteSettings } from "@/lib/types";
 
 export async function GET() {
   const settings = await getSiteSettings();
@@ -15,7 +16,7 @@ export async function GET() {
 
 export async function PATCH(request: Request) {
   if (!isDatabaseConfigured) {
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = siteSettingsSchema.safeParse(json);
 
     if (!parsed.success) {
@@ -27,7 +28,7 @@ export async function PATCH(request: Request) {
       ...(dashboard.settings || {}),
       ...parsed.data,
       updatedAt: new Date().toISOString(),
-    } as any;
+    } as SiteSettings;
 
     await writeDashboard(dashboard, `Update site settings`);
 
@@ -35,7 +36,7 @@ export async function PATCH(request: Request) {
     return NextResponse.json({ settings });
   }
 
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = siteSettingsSchema.safeParse(json);
 
     if (!parsed.success) {

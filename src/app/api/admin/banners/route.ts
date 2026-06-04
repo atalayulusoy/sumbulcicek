@@ -6,6 +6,7 @@ import { sanitizeText } from "@/lib/sanitizers";
 import { getBanners } from "@/lib/services/storefront";
 import { bannerSchema } from "@/lib/validators";
 import { readDashboard, writeDashboard, makeId } from "@/lib/github-store";
+import type { Banner } from "@/lib/types";
 
 export async function GET() {
   const banners = await getBanners();
@@ -14,7 +15,7 @@ export async function GET() {
 
 export async function POST(request: Request) {
   if (!isDatabaseConfigured) {
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = bannerSchema.safeParse(json);
 
     if (!parsed.success) {
@@ -22,7 +23,7 @@ export async function POST(request: Request) {
     }
 
     const dashboard = await readDashboard();
-    const created = {
+    const created: Banner = {
       id: makeId("banner"),
       title: sanitizeText(parsed.data.title),
       subtitle: sanitizeText(parsed.data.subtitle),
@@ -33,9 +34,9 @@ export async function POST(request: Request) {
       order: parsed.data.order,
       isActive: parsed.data.isActive,
       createdAt: new Date().toISOString(),
-    } as any;
+    };
 
-    dashboard.banners = [...(dashboard.banners || []), created].sort((a, b) => a.order - b.order);
+    dashboard.banners = [...dashboard.banners, created].sort((a, b) => a.order - b.order);
     await writeDashboard(dashboard, `Add banner ${created.id}`);
 
     const banners = await getBanners();

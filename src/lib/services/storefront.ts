@@ -16,52 +16,57 @@ import type {
 
 type DatabaseRecord = Record<string, unknown>;
 
-function serializeCategory(category: DatabaseRecord): Category {
+function serializeCategory(category: DatabaseRecord | Category): Category {
+  const record = category as DatabaseRecord;
+
   return {
-    id: String(category.id),
-    name: String(category.name),
-    slug: String(category.slug),
-    icon: String(category.icon),
-    createdAt: stringifyDate(category.createdAt as Date | string),
+    id: String(record.id),
+    name: String(record.name),
+    slug: String(record.slug),
+    icon: String(record.icon),
+    createdAt: stringifyDate(record.createdAt as Date | string),
   };
 }
 
-function serializeProduct(product: DatabaseRecord): Product {
-  const category = product.category as DatabaseRecord | undefined;
+function serializeProduct(product: DatabaseRecord | Product): Product {
+  const record = product as DatabaseRecord;
+  const category = record.category as DatabaseRecord | undefined;
 
   return {
-    id: String(product.id),
-    title: String(product.title),
-    slug: String(product.slug),
-    description: String(product.description),
-    price: Number(product.price),
-    discountPrice: product.discountPrice ? Number(product.discountPrice) : null,
-    images: parseImages(product.images),
-    categoryId: String(product.categoryId),
+    id: String(record.id),
+    title: String(record.title),
+    slug: String(record.slug),
+    description: String(record.description),
+    price: Number(record.price),
+    discountPrice: record.discountPrice ? Number(record.discountPrice) : null,
+    images: parseImages(record.images),
+    categoryId: String(record.categoryId),
     category: category ? serializeCategory(category) : undefined,
-    featured: Boolean(product.featured),
-    stockStatus: String(product.stockStatus) as ProductStockStatus,
-    badge: product.badge ? String(product.badge) : null,
-    deliveryInfo: product.deliveryInfo ? String(product.deliveryInfo) : null,
-    createdAt: stringifyDate(product.createdAt as Date | string),
-    updatedAt: product.updatedAt
-      ? stringifyDate(product.updatedAt as Date | string)
+    featured: Boolean(record.featured),
+    stockStatus: String(record.stockStatus) as ProductStockStatus,
+    badge: record.badge ? String(record.badge) : null,
+    deliveryInfo: record.deliveryInfo ? String(record.deliveryInfo) : null,
+    createdAt: stringifyDate(record.createdAt as Date | string),
+    updatedAt: record.updatedAt
+      ? stringifyDate(record.updatedAt as Date | string)
       : undefined,
   };
 }
 
-function serializeBanner(banner: DatabaseRecord): Banner {
+function serializeBanner(banner: DatabaseRecord | Banner): Banner {
+  const record = banner as DatabaseRecord;
+
   return {
-    id: String(banner.id),
-    title: String(banner.title),
-    subtitle: String(banner.subtitle),
-    image: String(banner.image),
-    buttonText: String(banner.buttonText),
-    buttonLink: String(banner.buttonLink),
-    theme: banner.theme ? String(banner.theme) : null,
-    order: Number(banner.order ?? 0),
-    isActive: Boolean(banner.isActive),
-    createdAt: stringifyDate(banner.createdAt as Date | string),
+    id: String(record.id),
+    title: String(record.title),
+    subtitle: String(record.subtitle),
+    image: String(record.image),
+    buttonText: String(record.buttonText),
+    buttonLink: String(record.buttonLink),
+    theme: record.theme ? String(record.theme) : null,
+    order: Number(record.order ?? 0),
+    isActive: Boolean(record.isActive),
+    createdAt: stringifyDate(record.createdAt as Date | string),
   };
 }
 
@@ -90,7 +95,7 @@ function resolveHomepageSections(value: unknown): HomepageSectionConfig[] {
     : homepageSectionDefaults;
 }
 
-function serializeSiteSettings(settings: DatabaseRecord | null): SiteSettings {
+function serializeSiteSettings(settings: DatabaseRecord | SiteSettings | null): SiteSettings {
   if (!settings) {
     return fallbackSiteSettings;
   }
@@ -134,8 +139,8 @@ export async function getCategories() {
   if (!isDatabaseConfigured) {
     try {
       const dashboard = await readDashboard();
-      return (dashboard.categories || []).map((c) => serializeCategory(c as any));
-    } catch (err) {
+      return dashboard.categories.map((c) => serializeCategory(c));
+    } catch {
       return fallbackCategories;
     }
   }
@@ -160,8 +165,8 @@ export async function getProducts() {
   if (!isDatabaseConfigured) {
     try {
       const dashboard = await readDashboard();
-      return (dashboard.products || []).map((p) => serializeProduct(p as any));
-    } catch (err) {
+      return dashboard.products.map((p) => serializeProduct(p));
+    } catch {
       return fallbackProducts;
     }
   }
@@ -194,9 +199,9 @@ export async function getProductBySlug(slug: string) {
   if (!isDatabaseConfigured) {
     try {
       const dashboard = await readDashboard();
-      const product = (dashboard.products || []).find((item) => item.slug === slug);
-      return product ? serializeProduct(product as any) : null;
-    } catch (err) {
+      const product = dashboard.products.find((item) => item.slug === slug);
+      return product ? serializeProduct(product) : null;
+    } catch {
       return fallbackProducts.find((product) => product.slug === slug) ?? null;
     }
   }
@@ -220,8 +225,8 @@ export async function getBanners() {
   if (!isDatabaseConfigured) {
     try {
       const dashboard = await readDashboard();
-      return (dashboard.banners || []).filter((b) => b.isActive).map((b) => serializeBanner(b as any));
-    } catch (err) {
+      return dashboard.banners.filter((b) => b.isActive).map((b) => serializeBanner(b));
+    } catch {
       return fallbackBanners;
     }
   }
@@ -247,8 +252,8 @@ export async function getSiteSettings() {
   if (!isDatabaseConfigured) {
     try {
       const dashboard = await readDashboard();
-      return serializeSiteSettings(dashboard.settings as any);
-    } catch (err) {
+      return serializeSiteSettings(dashboard.settings);
+    } catch {
       return fallbackSiteSettings;
     }
   }

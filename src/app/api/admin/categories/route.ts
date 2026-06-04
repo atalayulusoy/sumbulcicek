@@ -7,6 +7,7 @@ import { slugify } from "@/lib/slugify";
 import { getCategories } from "@/lib/services/storefront";
 import { categorySchema } from "@/lib/validators";
 import { readDashboard, writeDashboard, makeId } from "@/lib/github-store";
+import type { Category } from "@/lib/types";
 
 export async function GET() {
   const categories = await getCategories();
@@ -15,7 +16,7 @@ export async function GET() {
 
 export async function POST(request: Request) {
   if (!isDatabaseConfigured) {
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = categorySchema.safeParse(json);
 
     if (!parsed.success) {
@@ -23,15 +24,15 @@ export async function POST(request: Request) {
     }
 
     const dashboard = await readDashboard();
-    const created = {
+    const created: Category = {
       id: makeId("cat"),
       name: sanitizeText(parsed.data.name),
       slug: slugify(parsed.data.slug || parsed.data.name),
       icon: parsed.data.icon,
       createdAt: new Date().toISOString(),
-    } as any;
+    };
 
-    dashboard.categories = [...(dashboard.categories || []), created];
+    dashboard.categories = [...dashboard.categories, created];
     await writeDashboard(dashboard, `Add category ${created.name}`);
 
     const categories = await getCategories();
@@ -40,7 +41,7 @@ export async function POST(request: Request) {
     }
 
     // Database path
-    const json = await request.json();
+    const json = (await request.json()) as unknown;
     const parsed = categorySchema.safeParse(json);
 
     if (!parsed.success) {

@@ -5,17 +5,17 @@ import path from "path";
 import { fallbackBanners, fallbackCategories, fallbackProducts, fallbackSiteSettings } from "./data/fallback-data";
 import type { Banner, Category, Product, SiteSettings } from "./types";
 
-const REPO = process.env.GITHUB_REPOSITORY?.trim() || ""; // owner/repo
-const TOKEN = process.env.GITHUB_PAT?.trim() || "";
-const DATA_PATH = "data/dashboard.json";
-const USE_GITHUB_STORE = Boolean(REPO && TOKEN);
-
-type DashboardData = {
+export type DashboardData = {
   products: Product[];
   categories: Category[];
   banners: Banner[];
   settings: SiteSettings;
 };
+
+const REPO = process.env.GITHUB_REPOSITORY?.trim() || ""; // owner/repo
+const TOKEN = process.env.GITHUB_PAT?.trim() || "";
+const DATA_PATH = "data/dashboard.json";
+const USE_GITHUB_STORE = Boolean(REPO && TOKEN);
 
 function apiUrl(path: string) {
   return `https://api.github.com/repos/${REPO}/${path}`;
