@@ -5,8 +5,8 @@
       "title": "Sevgililer Günü Çiçekleri Premium Buket",
       "slug": "sevgililer-gunu-cicekleri-1",
       "description": "Taze kesme çiçekler, yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
-      "price": 99021,
-      "discountPrice": 90021,
+      "price": 3,
+      "discountPrice": 2,
       "images": [
         "/catalog/flowers/flower-clean-01.jpg",
         "/catalog/flowers/flower-clean-08.jpg",
@@ -24,7 +24,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Aynı gün",
       "deliveryInfo": "z",
-      "createdAt": "2024-12-31T21:00:00.000Z"
+      "createdAt": "2024-12-31T21:00:00.000Z",
+      "updatedAt": "2026-06-05T15:22:39.432Z"
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-2",
