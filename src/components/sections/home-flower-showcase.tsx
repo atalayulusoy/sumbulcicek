@@ -85,7 +85,7 @@ export function HomeFlowerShowcase({ quickLinks }: HomeFlowerShowcaseProps) {
                 className="object-cover transition duration-500 group-hover:scale-[1.03]"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-white/5 via-white/20 to-white/65" />
-              <h2 className="absolute bottom-5 right-5 max-w-[220px] rounded-md bg-white/75 px-4 py-3 text-right text-2xl font-medium leading-tight text-[#1e1e1e] shadow-sm backdrop-blur-sm md:bottom-auto md:right-8 md:top-1/2 md:-translate-y-1/2 md:text-3xl">
+              <h2 className="absolute bottom-5 right-5 max-w-[220px] text-right text-2xl font-semibold leading-tight text-[#1e1e1e] drop-shadow-[0_2px_10px_rgba(255,255,255,0.92)] md:bottom-6 md:right-6 md:text-3xl">
                 {tile.title}
               </h2>
             </Link>
