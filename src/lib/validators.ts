@@ -68,6 +68,18 @@ export const bannerSchema = z.object({
   isActive: z.boolean().default(true),
 });
 
+export const quickLinkSchema = z.object({
+  id: z.string().min(1),
+  title: z.string().min(1).max(60),
+  href: z.string().min(1),
+  image: z.string().refine(isImageUrlOrPath, "Gecerli bir gorsel baglantisi gerekli."),
+  order: z.coerce.number().int().nonnegative().default(0),
+  isActive: z.boolean().default(true),
+  createdAt: z.string().optional(),
+});
+
+export const quickLinksSchema = z.array(quickLinkSchema).min(1);
+
 export const homepageSectionSchema = z.object({
   key: z.enum(
     homepageSectionDefaults.map((section) => section.key) as [
@@ -106,4 +118,5 @@ export type AdminLoginInput = z.infer<typeof adminLoginSchema>;
 export type ProductInput = z.infer<typeof productSchema>;
 export type CategoryInput = z.infer<typeof categorySchema>;
 export type BannerInput = z.infer<typeof bannerSchema>;
+export type QuickLinkInput = z.infer<typeof quickLinkSchema>;
 export type SiteSettingsInput = z.infer<typeof siteSettingsSchema>;

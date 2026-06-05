@@ -50,6 +50,16 @@ export interface Banner {
   createdAt: string;
 }
 
+export interface QuickLink {
+  id: string;
+  title: string;
+  href: string;
+  image: string;
+  order: number;
+  isActive: boolean;
+  createdAt: string;
+}
+
 export interface HomepageSectionConfig {
   key: HomepageSectionKey;
   label: string;
@@ -89,6 +99,7 @@ export interface DashboardSnapshot {
   products: Product[];
   categories: Category[];
   banners: Banner[];
+  quickLinks: QuickLink[];
   settings: SiteSettings;
   metrics: DashboardMetrics;
   isFallback: boolean;

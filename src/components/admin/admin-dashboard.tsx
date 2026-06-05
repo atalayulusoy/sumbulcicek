@@ -7,6 +7,7 @@ import {
   Boxes,
   ImageUp,
   Images,
+  Link2,
   LayoutDashboard,
   Loader2,
   LogOut,
@@ -37,6 +38,7 @@ import type {
   HomepageSectionConfig,
   Product,
   ProductStockStatus,
+  QuickLink,
   SiteSettings,
 } from "@/lib/types";
 import { formatCurrency } from "@/lib/utils";
@@ -96,6 +98,16 @@ type BannerDraft = {
   isActive: boolean;
 };
 
+type QuickLinkDraft = {
+  id: string;
+  title: string;
+  href: string;
+  image: string;
+  order: string;
+  isActive: boolean;
+  createdAt?: string;
+};
+
 const stockOptions: ProductStockStatus[] = [
   "IN_STOCK",
   "LOW_STOCK",
@@ -142,6 +154,30 @@ function createBannerDraft(banner?: Banner): BannerDraft {
     theme: banner?.theme ?? "mint",
     order: banner ? String(banner.order) : "0",
     isActive: banner?.isActive ?? true,
+  };
+}
+
+function createQuickLinkDraft(quickLink: QuickLink): QuickLinkDraft {
+  return {
+    id: quickLink.id,
+    title: quickLink.title,
+    href: quickLink.href,
+    image: quickLink.image,
+    order: String(quickLink.order),
+    isActive: quickLink.isActive,
+    createdAt: quickLink.createdAt,
+  };
+}
+
+function createEmptyQuickLinkDraft(order: number): QuickLinkDraft {
+  return {
+    id: `quick-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
+    title: "",
+    href: "/products",
+    image: "/catalog/flowers/flower-clean-01.jpg",
+    order: String(order),
+    isActive: true,
+    createdAt: new Date().toISOString(),
   };
 }
 
@@ -235,6 +271,9 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
   const [products, setProducts] = useState(initialData.products);
   const [categories, setCategories] = useState(initialData.categories);
   const [banners, setBanners] = useState(initialData.banners);
+  const [quickLinks, setQuickLinks] = useState<QuickLinkDraft[]>(
+    initialData.quickLinks.map(createQuickLinkDraft),
+  );
   const [settings, setSettings] = useState<SiteSettings>(initialData.settings);
   const [notice, setNotice] = useState<string | null>(null);
   const [busy, setBusy] = useState<string | null>(null);
@@ -460,6 +499,38 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
     }
   };
 
+  const handleQuickLinksSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setBusy("quick-links");
+    setNotice(null);
+
+    try {
+      const payload = quickLinks.map((quickLink, index) => ({
+        id: quickLink.id,
+        title: quickLink.title,
+        href: quickLink.href,
+        image: quickLink.image,
+        order: Number(quickLink.order || index),
+        isActive: quickLink.isActive,
+        createdAt: quickLink.createdAt,
+      }));
+
+      const response = await fetch("/api/admin/quick-links", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await readResponse<{ quickLinks: QuickLink[] }>(response);
+      setQuickLinks(data.quickLinks.map(createQuickLinkDraft));
+      setNotice("Hizli linkler kaydedildi.");
+    } catch (submitError) {
+      setNotice(submitError instanceof Error ? submitError.message : "Hizli linkler kaydedilemedi.");
+    } finally {
+      setBusy(null);
+    }
+  };
+
   const handleDelete = async (kind: "products" | "categories" | "banners", id: string) => {
     if (!window.confirm("Bu kaydi silmek istediginize emin misiniz?")) {
       return;
@@ -553,6 +624,10 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
           <TabsTrigger value="banners" className="justify-start">
             <Images className="h-4 w-4" />
             Bannerlar
+          </TabsTrigger>
+          <TabsTrigger value="quick-links" className="justify-start">
+            <Link2 className="h-4 w-4" />
+            Hizli Linkler
           </TabsTrigger>
           <TabsTrigger value="settings" className="justify-start">
             <Settings2 className="h-4 w-4" />
@@ -864,6 +939,168 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
                     <p className="mt-2 text-sm leading-7 text-foreground/62">{banner.subtitle}</p>
                   </div>
                 ))}
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          <TabsContent value="quick-links">
+            <Card>
+              <CardHeader className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                <div>
+                  <CardTitle>Hizli Linkler</CardTitle>
+                  <CardDescription>Ana sayfadaki yuvarlak ikonlarin gorselini ve yonlendirmesini yonetin.</CardDescription>
+                </div>
+                <Button
+                  type="button"
+                  onClick={() =>
+                    setQuickLinks((current) => [
+                      ...current,
+                      createEmptyQuickLinkDraft(current.length),
+                    ])
+                  }
+                >
+                  <Plus className="h-4 w-4" />
+                  Yeni Link
+                </Button>
+              </CardHeader>
+              <CardContent>
+                <form className="grid gap-4" onSubmit={handleQuickLinksSubmit}>
+                  {quickLinks.map((quickLink, index) => (
+                    <div
+                      key={quickLink.id}
+                      className="grid gap-4 rounded-[1.5rem] border border-surface-outline bg-white/70 p-4 lg:grid-cols-[88px_1fr_auto]"
+                    >
+                      <div className="flex flex-col items-center gap-2">
+                        <div
+                          className="h-20 w-20 rounded-full border-[3px] border-white bg-[#fbfaf6] bg-contain bg-center bg-no-repeat outline outline-1 outline-[#222]"
+                          style={{ backgroundImage: `url(${quickLink.image})` }}
+                        />
+                        <span className="text-xs text-foreground/45">#{index + 1}</span>
+                      </div>
+                      <div className="grid gap-3 md:grid-cols-2">
+                        <Input
+                          value={quickLink.title}
+                          onChange={(event) =>
+                            setQuickLinks((current) =>
+                              current.map((item) =>
+                                item.id === quickLink.id ? { ...item, title: event.target.value } : item,
+                              ),
+                            )
+                          }
+                          placeholder="Baslik"
+                        />
+                        <Input
+                          value={quickLink.href}
+                          onChange={(event) =>
+                            setQuickLinks((current) =>
+                              current.map((item) =>
+                                item.id === quickLink.id ? { ...item, href: event.target.value } : item,
+                              ),
+                            )
+                          }
+                          placeholder="/products?category=..."
+                        />
+                        <Input
+                          className="md:col-span-2"
+                          value={quickLink.image}
+                          onChange={(event) =>
+                            setQuickLinks((current) =>
+                              current.map((item) =>
+                                item.id === quickLink.id ? { ...item, image: event.target.value } : item,
+                              ),
+                            )
+                          }
+                          placeholder="/catalog/flowers/flower-clean-01.jpg"
+                        />
+                        <label className="flex cursor-pointer items-center justify-center gap-2 rounded-full border border-dashed border-brand/30 bg-brand-muted/60 px-4 py-2 text-sm font-semibold text-brand md:col-span-2">
+                          {busy === `quick-link-upload-${quickLink.id}` ? (
+                            <Loader2 className="h-4 w-4 animate-spin" />
+                          ) : (
+                            <ImageUp className="h-4 w-4" />
+                          )}
+                          Gorsel Yukle
+                          <input
+                            type="file"
+                            accept="image/*"
+                            className="hidden"
+                            onChange={async (event) => {
+                              const file = event.target.files?.[0];
+                              if (!file) return;
+
+                              setBusy(`quick-link-upload-${quickLink.id}`);
+                              try {
+                                const url = await uploadImage(file);
+                                setQuickLinks((current) =>
+                                  current.map((item) =>
+                                    item.id === quickLink.id ? { ...item, image: url } : item,
+                                  ),
+                                );
+                                setNotice("Hizli link gorseli yuklendi.");
+                              } catch (uploadError) {
+                                setNotice(
+                                  uploadError instanceof Error
+                                    ? uploadError.message
+                                    : "Gorsel yuklenemedi.",
+                                );
+                              } finally {
+                                setBusy(null);
+                                event.target.value = "";
+                              }
+                            }}
+                          />
+                        </label>
+                        <div className="grid gap-3 md:grid-cols-[120px_1fr]">
+                          <Input
+                            type="number"
+                            value={quickLink.order}
+                            onChange={(event) =>
+                              setQuickLinks((current) =>
+                                current.map((item) =>
+                                  item.id === quickLink.id ? { ...item, order: event.target.value } : item,
+                                ),
+                              )
+                            }
+                            placeholder="Sira"
+                          />
+                          <div className="flex items-center gap-3 rounded-[1.2rem] border border-surface-outline bg-white/75 px-4">
+                            <Switch
+                              checked={quickLink.isActive}
+                              onCheckedChange={(checked) =>
+                                setQuickLinks((current) =>
+                                  current.map((item) =>
+                                    item.id === quickLink.id ? { ...item, isActive: checked } : item,
+                                  ),
+                                )
+                              }
+                            />
+                            <span className="text-sm text-foreground/65">
+                              {quickLink.isActive ? "Aktif" : "Pasif"}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex items-start justify-end">
+                        <Button
+                          type="button"
+                          variant="destructive"
+                          onClick={() =>
+                            setQuickLinks((current) =>
+                              current.filter((item) => item.id !== quickLink.id),
+                            )
+                          }
+                        >
+                          <Trash2 className="h-4 w-4" />
+                          Sil
+                        </Button>
+                      </div>
+                    </div>
+                  ))}
+
+                  <Button disabled={busy === "quick-links"} type="submit" className="w-fit">
+                    {busy === "quick-links" ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
+                    Hizli Linkleri Kaydet
+                  </Button>
+                </form>
               </CardContent>
             </Card>
           </TabsContent>

@@ -1,6 +1,12 @@
 import { prisma } from "@/lib/prisma";
 import { homepageSectionDefaults } from "@/lib/constants";
-import { fallbackBanners, fallbackCategories, fallbackProducts, fallbackSiteSettings } from "@/lib/data/fallback-data";
+import {
+  fallbackBanners,
+  fallbackCategories,
+  fallbackProducts,
+  fallbackQuickLinks,
+  fallbackSiteSettings,
+} from "@/lib/data/fallback-data";
 import { isDatabaseConfigured } from "@/lib/env";
 import { readDashboard } from "@/lib/github-store";
 import { parseImages, stringifyDate } from "@/lib/utils";
@@ -11,6 +17,7 @@ import type {
   HomepageSectionConfig,
   Product,
   ProductStockStatus,
+  QuickLink,
   SiteSettings,
 } from "@/lib/types";
 
@@ -64,6 +71,20 @@ function serializeBanner(banner: DatabaseRecord | Banner): Banner {
     buttonText: String(record.buttonText),
     buttonLink: String(record.buttonLink),
     theme: record.theme ? String(record.theme) : null,
+    order: Number(record.order ?? 0),
+    isActive: Boolean(record.isActive),
+    createdAt: stringifyDate(record.createdAt as Date | string),
+  };
+}
+
+function serializeQuickLink(quickLink: DatabaseRecord | QuickLink): QuickLink {
+  const record = quickLink as DatabaseRecord;
+
+  return {
+    id: String(record.id),
+    title: String(record.title),
+    href: String(record.href),
+    image: String(record.image),
     order: Number(record.order ?? 0),
     isActive: Boolean(record.isActive),
     createdAt: stringifyDate(record.createdAt as Date | string),
@@ -270,15 +291,39 @@ export async function getSiteSettings() {
   );
 }
 
+export async function getQuickLinks() {
+  try {
+    const dashboard = await readDashboard();
+    return dashboard.quickLinks
+      .filter((quickLink) => quickLink.isActive)
+      .sort((first, second) => first.order - second.order)
+      .map((quickLink) => serializeQuickLink(quickLink));
+  } catch {
+    return fallbackQuickLinks;
+  }
+}
+
+export async function getDashboardQuickLinks() {
+  try {
+    const dashboard = await readDashboard();
+    return dashboard.quickLinks
+      .sort((first, second) => first.order - second.order)
+      .map((quickLink) => serializeQuickLink(quickLink));
+  } catch {
+    return fallbackQuickLinks;
+  }
+}
+
 export async function getHomePageData() {
-  const [categories, featuredProducts, banners, settings] = await Promise.all([
+  const [categories, featuredProducts, banners, settings, quickLinks] = await Promise.all([
     getCategories(),
     getFeaturedProducts(),
     getBanners(),
     getSiteSettings(),
+    getQuickLinks(),
   ]);
 
-  return { categories, featuredProducts, banners, settings };
+  return { categories, featuredProducts, banners, settings, quickLinks };
 }
 
 export async function getSimilarProducts(product: Product, limit = 4) {
@@ -299,17 +344,19 @@ export async function getSimilarProducts(product: Product, limit = 4) {
 }
 
 export async function getDashboardSnapshot(): Promise<DashboardSnapshot> {
-  const [products, categories, banners, settings] = await Promise.all([
+  const [products, categories, banners, settings, quickLinks] = await Promise.all([
     getProducts(),
     getCategories(),
     getBanners(),
     getSiteSettings(),
+    getDashboardQuickLinks(),
   ]);
 
   return {
     products,
     categories,
     banners,
+    quickLinks,
     settings,
     metrics: {
       totalProducts: products.length,

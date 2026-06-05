@@ -24,14 +24,11 @@ const landscapeCategorySlugs = [
 ];
 
 export default async function Home() {
-  const [{ categories, featuredProducts, settings }, allProducts] = await Promise.all([
+  const [{ featuredProducts, settings, quickLinks }, allProducts] = await Promise.all([
     getHomePageData(),
     getProducts(),
   ]);
 
-  const flowerCategories = categories.filter(
-    (category) => !landscapeCategorySlugs.includes(category.slug),
-  );
   const customDesigns = allProducts
     .filter((product) => landscapeCategorySlugs.includes(product.category?.slug ?? ""))
     .slice(0, 3);
@@ -72,7 +69,7 @@ export default async function Home() {
 
   return (
     <>
-      <HomeFlowerShowcase categories={flowerCategories} />
+      <HomeFlowerShowcase quickLinks={quickLinks} />
       {settings.homepageSections
         .filter((section) => section.enabled)
         .sort((first, second) => first.order - second.order)

@@ -2,13 +2,20 @@ import { Buffer } from "buffer";
 import fs from "fs/promises";
 import path from "path";
 
-import { fallbackBanners, fallbackCategories, fallbackProducts, fallbackSiteSettings } from "./data/fallback-data";
-import type { Banner, Category, Product, SiteSettings } from "./types";
+import {
+  fallbackBanners,
+  fallbackCategories,
+  fallbackProducts,
+  fallbackQuickLinks,
+  fallbackSiteSettings,
+} from "./data/fallback-data";
+import type { Banner, Category, Product, QuickLink, SiteSettings } from "./types";
 
 export type DashboardData = {
   products: Product[];
   categories: Category[];
   banners: Banner[];
+  quickLinks: QuickLink[];
   settings: SiteSettings;
 };
 
@@ -75,7 +82,18 @@ function fallbackData(): DashboardData {
     products: fallbackProducts,
     categories: fallbackCategories,
     banners: fallbackBanners,
+    quickLinks: fallbackQuickLinks,
     settings: fallbackSiteSettings,
+  };
+}
+
+function normalizeDashboardData(data: Partial<DashboardData> | null | undefined): DashboardData {
+  return {
+    products: Array.isArray(data?.products) ? data.products : fallbackProducts,
+    categories: Array.isArray(data?.categories) ? data.categories : fallbackCategories,
+    banners: Array.isArray(data?.banners) ? data.banners : fallbackBanners,
+    quickLinks: Array.isArray(data?.quickLinks) ? data.quickLinks : fallbackQuickLinks,
+    settings: data?.settings ?? fallbackSiteSettings,
   };
 }
 
@@ -84,14 +102,14 @@ export async function readDashboard(): Promise<DashboardData> {
     try {
       const content = await githubRequest(`contents/${DATA_PATH}`);
       const decoded = Buffer.from(content.content ?? "", content.encoding ?? "base64").toString("utf-8");
-      return JSON.parse(decoded) as DashboardData;
+      return normalizeDashboardData(JSON.parse(decoded) as Partial<DashboardData>);
     } catch (error) {
       console.warn("[github-store] GitHub read failed, falling back to local file or built-in data", error);
     }
   }
 
   const localData = await readLocalDashboard();
-  if (localData) return localData;
+  if (localData) return normalizeDashboardData(localData);
 
   return fallbackData();
 }

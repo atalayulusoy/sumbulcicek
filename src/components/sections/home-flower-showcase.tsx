@@ -1,24 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import type { Category } from "@/lib/types";
+import type { QuickLink } from "@/lib/types";
 
 interface HomeFlowerShowcaseProps {
-  categories: Category[];
+  quickLinks: QuickLink[];
 }
-
-const categoryImages = [
-  "/home/flowers/arrangements.jpg",
-  "/home/flowers/best-sellers.jpg",
-  "/home/flowers/bouquets.jpg",
-  "/home/flowers/celebration.jpg",
-  "/home/flowers/kasimpati.jpg",
-  "/home/flowers/roses.jpg",
-  "/home/flowers/orchids.jpg",
-  "/catalog/flowers/flower-clean-01.jpg",
-  "/catalog/flowers/flower-clean-02.jpg",
-  "/catalog/flowers/flower-clean-03.jpg",
-];
 
 const showcaseTiles = [
   {
@@ -53,29 +40,32 @@ const showcaseTiles = [
   },
 ];
 
-export function HomeFlowerShowcase({ categories }: HomeFlowerShowcaseProps) {
-  const visibleCategories = categories.filter((category) => category.slug !== "dogum-gunu").slice(0, 9);
+export function HomeFlowerShowcase({ quickLinks }: HomeFlowerShowcaseProps) {
+  const visibleQuickLinks = quickLinks
+    .filter((quickLink) => quickLink.isActive)
+    .sort((first, second) => first.order - second.order)
+    .slice(0, 12);
 
   return (
     <section className="bg-white">
       <div className="container-edge py-5">
         <div className="relative border-b border-[#ededed] pb-5">
           <div className="grid grid-cols-3 gap-x-4 gap-y-5 px-1 sm:grid-cols-5 lg:grid-cols-9">
-            {visibleCategories.map((category, index) => (
+            {visibleQuickLinks.map((quickLink) => (
               <Link
-                key={category.id}
-                href={`/products?category=${category.slug}`}
+                key={quickLink.id}
+                href={quickLink.href}
                 className="min-w-0 text-center"
               >
                 <span className="relative mx-auto block h-20 w-20 overflow-hidden rounded-full border-[3px] border-white bg-[#fbfaf6] outline outline-1 outline-[#222]">
                   <Image
-                    src={categoryImages[index % categoryImages.length]}
-                    alt={category.name}
+                    src={quickLink.image}
+                    alt={quickLink.title}
                     fill
                     className="object-contain p-1.5"
                   />
                 </span>
-                <span className="mt-2 block text-sm leading-tight text-[#575757]">{category.name}</span>
+                <span className="mt-2 block text-sm leading-tight text-[#575757]">{quickLink.title}</span>
               </Link>
             ))}
           </div>

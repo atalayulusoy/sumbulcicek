@@ -154,6 +154,11 @@ export function Navbar({ categories, settings }: NavbarProps) {
     { label: "Vazolar ve Saksılar", href: "/products?category=vazolar-ve-saksilar" },
   ];
 
+  const pageNavItems = [
+    { label: "Referanslarımız", href: "/referanslar" },
+    { label: "İletişim", href: "/iletisim" },
+  ];
+
   return (
     <header className="sticky top-0 z-50 px-4 pt-4">
       <div
@@ -212,6 +217,20 @@ export function Navbar({ categories, settings }: NavbarProps) {
                   label="Parti Malzemeleri"
                   items={partyCategories}
                 />
+                {pageNavItems.map((item) => (
+                  <Link
+                    key={item.label}
+                    href={item.href}
+                    className={cn(
+                      "rounded-full px-3 py-2 text-sm font-medium transition-colors",
+                      pathname === item.href
+                        ? "bg-white text-brand"
+                        : "text-white/80 hover:bg-white/10 hover:text-white",
+                    )}
+                  >
+                    {item.label}
+                  </Link>
+                ))}
               </nav>
 
               <div className="flex items-center gap-3">
@@ -399,6 +418,17 @@ export function Navbar({ categories, settings }: NavbarProps) {
                     ))}
                   </div>
                 ) : null}
+
+                {pageNavItems.map((item) => (
+                  <Link
+                    key={item.label}
+                    href={item.href}
+                    className="rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-sm font-medium"
+                    onClick={() => setOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                ))}
               </nav>
 
               <Button asChild className="mt-4 w-full">

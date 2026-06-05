@@ -1,4 +1,4 @@
-import type { Banner, Category, Product, SiteSettings } from "@/lib/types";
+import type { Banner, Category, Product, QuickLink, SiteSettings } from "@/lib/types";
 
 import { defaultSiteSettings } from "@/lib/constants";
 
@@ -78,6 +78,90 @@ export const fallbackCategories: Category[] = categoryDefinitions.map(
     createdAt,
   }),
 );
+
+export const fallbackQuickLinks: QuickLink[] = [
+  {
+    id: "quick-valentine",
+    title: "Sevgililer Gunu Cicekleri",
+    href: "/products?category=sevgililer-gunu-cicekleri",
+    image: "/catalog/flowers/flower-clean-01.jpg",
+    order: 0,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "quick-anniversary",
+    title: "Yil Donumu",
+    href: "/products?category=yil-donumu",
+    image: "/catalog/flowers/flower-clean-02.jpg",
+    order: 1,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "quick-wreaths",
+    title: "Celenkler",
+    href: "/products?category=celenkler",
+    image: "/catalog/flowers/flower-clean-03.jpg",
+    order: 2,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "quick-terrariums",
+    title: "Teraryumlar",
+    href: "/products?category=teraryumlar",
+    image: "/catalog/flowers/flower-clean-04.jpg",
+    order: 3,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "quick-mothers-day",
+    title: "Anneler Gunu",
+    href: "/products?category=anneler-gunu",
+    image: "/catalog/flowers/flower-clean-05.jpg",
+    order: 4,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "quick-womens-day",
+    title: "Kadinlar Gunu",
+    href: "/products?category=kadinlar-gunu",
+    image: "/catalog/flowers/flower-clean-06.jpg",
+    order: 5,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "quick-edible",
+    title: "Yenilebilir Cicekler",
+    href: "/products?category=yenilebilir-cicekler",
+    image: "/catalog/flowers/flower-clean-07.jpg",
+    order: 6,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "quick-get-well",
+    title: "Gecmis Olsun",
+    href: "/products?category=gecmis-olsun",
+    image: "/catalog/flowers/flower-clean-08.jpg",
+    order: 7,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "quick-potted",
+    title: "Saksi Cicekleri",
+    href: "/products?category=saksi-cicekleri",
+    image: "/catalog/flowers/flower-clean-09.jpg",
+    order: 8,
+    isActive: true,
+    createdAt,
+  },
+];
 
 const categoryBySlug = new Map(fallbackCategories.map((category) => [category.slug, category]));
 const flowerCategorySlugs = flowerCategoryDefinitions.map((category) => category[2]);
