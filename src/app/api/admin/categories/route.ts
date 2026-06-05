@@ -9,6 +9,15 @@ import { categorySchema } from "@/lib/validators";
 import { readDashboard, writeDashboard, makeId } from "@/lib/github-store";
 import type { Category } from "@/lib/types";
 
+const storageErrorResponse = () =>
+  NextResponse.json(
+    {
+      error:
+        "Kalici kayit alani ayarlanmamis. Vercel Environment Variables icin DATABASE_URL veya GITHUB_REPOSITORY + GITHUB_PAT ekleyin.",
+    },
+    { status: 500 },
+  );
+
 export async function GET() {
   const categories = await getCategories();
   return NextResponse.json({ categories });
@@ -38,11 +47,12 @@ export async function POST(request: Request) {
     };
 
     dashboard.categories = [...(dashboard.categories || []), created];
-    await writeDashboard(dashboard, `Add category ${created.name}`);
+    const persisted = await writeDashboard(dashboard, `Add category ${created.name}`);
+    if (!persisted) {
+      return storageErrorResponse();
+    }
 
-    const categories = await getCategories();
-    const category = categories.find((item) => item.id === created.id);
-    return NextResponse.json({ category });
+    return NextResponse.json({ category: created });
   }
 
   // 2) isDatabaseConfigured true olsa bile DB erişilemeyebilir.
@@ -66,11 +76,11 @@ export async function POST(request: Request) {
     };
 
     dashboard.categories = [...(dashboard.categories || []), created];
-    await writeDashboard(dashboard, `Add category ${created.name}`);
+    const persisted = await writeDashboard(dashboard, `Add category ${created.name}`);
+    if (!persisted) {
+      return storageErrorResponse();
+    }
 
-    const categories = await getCategories();
-    const category = categories.find((item) => item.id === created.id);
-    return NextResponse.json({ category });
+    return NextResponse.json({ category: created });
   }
 }
-

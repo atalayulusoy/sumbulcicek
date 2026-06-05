@@ -38,8 +38,26 @@ export async function POST(request: Request) {
   }
 
   if (isCloudinaryConfigured) {
-    const url = await uploadImageToCloudinary(file);
-    return NextResponse.json({ url });
+    try {
+      const url = await uploadImageToCloudinary(file);
+      return NextResponse.json({ url });
+    } catch (error) {
+      console.error("[admin:upload:cloudinary]", error);
+      return NextResponse.json(
+        { error: "Cloudinary yukleme basarisiz oldu. Vercel ortam degiskenlerini kontrol edin." },
+        { status: 500 },
+      );
+    }
+  }
+
+  if (process.env.NODE_ENV === "production" || process.env.VERCEL) {
+    return NextResponse.json(
+      {
+        error:
+          "Vercel uzerinde gorsel yuklemek icin CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY ve CLOUDINARY_API_SECRET gerekli.",
+      },
+      { status: 503 },
+    );
   }
 
   const uploadsDir = path.join(process.cwd(), "public", "uploads");

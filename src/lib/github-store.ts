@@ -12,14 +12,20 @@ export type DashboardData = {
   settings: SiteSettings;
 };
 
-const REPO = process.env.GITHUB_REPOSITORY?.trim() || ""; // owner/repo
-const TOKEN = process.env.GITHUB_PAT?.trim() || "";
+const VERCEL_REPOSITORY =
+  process.env.VERCEL_GIT_REPO_OWNER && process.env.VERCEL_GIT_REPO_SLUG
+    ? `${process.env.VERCEL_GIT_REPO_OWNER}/${process.env.VERCEL_GIT_REPO_SLUG}`
+    : "";
+const REPO = process.env.GITHUB_REPOSITORY?.trim() || VERCEL_REPOSITORY; // owner/repo
+const TOKEN = process.env.GITHUB_PAT?.trim() || process.env.GITHUB_TOKEN?.trim() || "";
 const DATA_PATH = "data/dashboard.json";
 
 // Vercel üzerinde /var/task çoğu zaman read-only olur.
 // Bu yüzden local fallback'a yazmaya çalışırsak EROFS alabiliyoruz.
 // En güvenlisi: GitHub entegrasyonu aktifse onu denemek; başarısız olursa local yazmayı dene ama hatayı yut.
 const USE_GITHUB_STORE = Boolean(REPO && TOKEN);
+
+export const isGithubStoreConfigured = USE_GITHUB_STORE;
 
 function apiUrl(p: string) {
   return `https://api.github.com/repos/${REPO}/${p}`;
@@ -90,7 +96,7 @@ export async function readDashboard(): Promise<DashboardData> {
 }
 
 // endpoint'lerin 500'e düşmemesi için kesin olarak void döndürmüyor gibi davran.
-export async function writeDashboard(data: DashboardData, message = "Update dashboard via admin"): Promise<void> {
+export async function writeDashboard(data: DashboardData, message = "Update dashboard via admin"): Promise<boolean> {
   if (USE_GITHUB_STORE) {
     try {
       let sha: string | undefined;
@@ -112,7 +118,7 @@ export async function writeDashboard(data: DashboardData, message = "Update dash
         method: "PUT",
         body: JSON.stringify(body),
       });
-      return;
+      return true;
     } catch (error) {
       console.warn("[github-store] GitHub write failed, falling back to local file", error);
     }
@@ -120,9 +126,11 @@ export async function writeDashboard(data: DashboardData, message = "Update dash
 
   try {
     await writeLocalDashboard(data);
+    return true;
   } catch (error) {
     // read-only FS / permission errors vs.
     console.warn("[github-store] Local dashboard write failed (ignored)", error);
+    return false;
   }
 }
 

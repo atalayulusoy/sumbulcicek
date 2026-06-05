@@ -9,6 +9,15 @@ import { getProducts } from "@/lib/services/storefront";
 import { productSchema } from "@/lib/validators";
 import type { Product } from "@/lib/types";
 
+const storageErrorResponse = () =>
+  NextResponse.json(
+    {
+      error:
+        "Kalici kayit alani ayarlanmamis. Vercel Environment Variables icin DATABASE_URL veya GITHUB_REPOSITORY + GITHUB_PAT ekleyin.",
+    },
+    { status: 500 },
+  );
+
 export async function GET() {
   const products = await getProducts();
   return NextResponse.json({ products });
@@ -48,7 +57,10 @@ export async function POST(request: Request) {
     };
 
     dashboard.products = [newProduct, ...(dashboard.products || [])];
-    await writeDashboard(dashboard, `Add product ${newProduct.title}`);
+    const persisted = await writeDashboard(dashboard, `Add product ${newProduct.title}`);
+    if (!persisted) {
+      return storageErrorResponse();
+    }
 
     return NextResponse.json({ product: newProduct });
   }
@@ -75,9 +87,11 @@ export async function POST(request: Request) {
     };
 
     dashboard.products = [newProduct, ...(dashboard.products || [])];
-    await writeDashboard(dashboard, `Add product ${newProduct.title}`);
+    const persisted = await writeDashboard(dashboard, `Add product ${newProduct.title}`);
+    if (!persisted) {
+      return storageErrorResponse();
+    }
 
     return NextResponse.json({ product: newProduct });
   }
 }
-

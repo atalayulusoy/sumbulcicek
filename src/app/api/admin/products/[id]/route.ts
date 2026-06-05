@@ -7,6 +7,16 @@ import { slugify } from "@/lib/slugify";
 import { getProducts } from "@/lib/services/storefront";
 import { productSchema } from "@/lib/validators";
 import { readDashboard, writeDashboard } from "@/lib/github-store";
+import type { Product } from "@/lib/types";
+
+const storageErrorResponse = () =>
+  NextResponse.json(
+    {
+      error:
+        "Kalici kayit alani ayarlanmamis. Vercel Environment Variables icin DATABASE_URL veya GITHUB_REPOSITORY + GITHUB_PAT ekleyin.",
+    },
+    { status: 500 },
+  );
 
 interface ProductRouteProps {
   params: {
@@ -41,15 +51,26 @@ export async function PATCH(request: Request, { params }: ProductRouteProps) {
     // 1) DB kapalıysa direkt dashboard'a yaz.
     if (!isDatabaseConfigured) {
       const dashboard = await readDashboard();
+      let product: Product | undefined;
 
-      dashboard.products = (dashboard.products || []).map((p) =>
-        p.id === params.id ? { ...p, ...sanitizedData } : p,
-      );
+      dashboard.products = (dashboard.products || []).map((p) => {
+        if (p.id !== params.id) {
+          return p;
+        }
 
-      await writeDashboard(dashboard, `Update product ${params.id}`);
+        product = { ...p, ...sanitizedData, updatedAt: new Date().toISOString() };
+        return product;
+      });
 
-      const products = await getProducts();
-      const product = products.find((item) => item.id === params.id);
+      if (!product) {
+        return NextResponse.json({ error: "Urun bulunamadi." }, { status: 404 });
+      }
+
+      const persisted = await writeDashboard(dashboard, `Update product ${params.id}`);
+      if (!persisted) {
+        return storageErrorResponse();
+      }
+
       return NextResponse.json({ product });
     }
 
@@ -68,14 +89,26 @@ export async function PATCH(request: Request, { params }: ProductRouteProps) {
       console.warn("[admin:product:patch] prisma failed, falling back", error);
 
       const dashboard = await readDashboard();
-      dashboard.products = (dashboard.products || []).map((p) =>
-        p.id === params.id ? { ...p, ...sanitizedData } : p,
-      );
+      let product: Product | undefined;
 
-      await writeDashboard(dashboard, `Update product ${params.id}`);
+      dashboard.products = (dashboard.products || []).map((p) => {
+        if (p.id !== params.id) {
+          return p;
+        }
 
-      const products = await getProducts();
-      const product = products.find((item) => item.id === params.id);
+        product = { ...p, ...sanitizedData, updatedAt: new Date().toISOString() };
+        return product;
+      });
+
+      if (!product) {
+        return NextResponse.json({ error: "Urun bulunamadi." }, { status: 404 });
+      }
+
+      const persisted = await writeDashboard(dashboard, `Update product ${params.id}`);
+      if (!persisted) {
+        return storageErrorResponse();
+      }
+
       return NextResponse.json({ product });
     }
   } catch (error) {
@@ -91,7 +124,10 @@ export async function DELETE(_: Request, { params }: ProductRouteProps) {
     if (!isDatabaseConfigured) {
       const dashboard = await readDashboard();
       dashboard.products = (dashboard.products || []).filter((p) => p.id !== params.id);
-      await writeDashboard(dashboard, `Delete product ${params.id}`);
+      const persisted = await writeDashboard(dashboard, `Delete product ${params.id}`);
+      if (!persisted) {
+        return storageErrorResponse();
+      }
       return NextResponse.json({ success: true });
     }
 
@@ -108,7 +144,10 @@ export async function DELETE(_: Request, { params }: ProductRouteProps) {
 
       const dashboard = await readDashboard();
       dashboard.products = (dashboard.products || []).filter((p) => p.id !== params.id);
-      await writeDashboard(dashboard, `Delete product ${params.id}`);
+      const persisted = await writeDashboard(dashboard, `Delete product ${params.id}`);
+      if (!persisted) {
+        return storageErrorResponse();
+      }
 
       return NextResponse.json({ success: true });
     }
@@ -118,4 +157,3 @@ export async function DELETE(_: Request, { params }: ProductRouteProps) {
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }
-

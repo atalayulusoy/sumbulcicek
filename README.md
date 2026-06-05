@@ -48,3 +48,16 @@ Bu bilgiler `.env` içindeki `ADMIN_EMAIL` ve `ADMIN_PASSWORD` ile değiştirile
 - Veritabanı ayarsızsa storefront örnek verilerle açılır.
 - Admin CRUD işlemleri için gerçek veritabanı bağlantısı gerekir.
 - Cloudinary ayarsızsa görsel yükleme route'u 503 döner.
+
+## Vercel Admin Kayitlari
+
+Admin panelinden urun, kategori, banner ve site ayari kaydetmek icin iki yoldan birini kullanin:
+
+- Veritabani: `DATABASE_URL` girin ve Prisma tablolarini olusturun.
+- GitHub JSON store: `FORCE_GITHUB_STORE=true`, `GITHUB_REPOSITORY=atalayulusoy/sumbulcicek`, `GITHUB_PAT=<repo contents read/write token>` girin.
+
+Gorsel yuklemek icin Vercel Environment Variables alanina sunlari ekleyin:
+
+- `CLOUDINARY_CLOUD_NAME`
+- `CLOUDINARY_API_KEY`
+- `CLOUDINARY_API_SECRET`

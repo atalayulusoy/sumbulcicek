@@ -7,6 +7,16 @@ import { slugify } from "@/lib/slugify";
 import { getCategories } from "@/lib/services/storefront";
 import { categorySchema } from "@/lib/validators";
 import { readDashboard, writeDashboard } from "@/lib/github-store";
+import type { Category } from "@/lib/types";
+
+const storageErrorResponse = () =>
+  NextResponse.json(
+    {
+      error:
+        "Kalici kayit alani ayarlanmamis. Vercel Environment Variables icin DATABASE_URL veya GITHUB_REPOSITORY + GITHUB_PAT ekleyin.",
+    },
+    { status: 500 },
+  );
 
 interface CategoryRouteProps {
   params: {
@@ -32,14 +42,26 @@ export async function PATCH(request: Request, { params }: CategoryRouteProps) {
     // 1) DB kapalıysa direkt dashboard'a yaz.
     if (!isDatabaseConfigured) {
       const dashboard = await readDashboard();
-      dashboard.categories = (dashboard.categories || []).map((c) =>
-        c.id === params.id ? { ...c, ...sanitizedData } : c,
-      );
+      let category: Category | undefined;
 
-      await writeDashboard(dashboard, `Update category ${params.id}`);
+      dashboard.categories = (dashboard.categories || []).map((c) => {
+        if (c.id !== params.id) {
+          return c;
+        }
 
-      const categories = await getCategories();
-      const category = categories.find((item) => item.id === params.id);
+        category = { ...c, ...sanitizedData };
+        return category;
+      });
+
+      if (!category) {
+        return NextResponse.json({ error: "Kategori bulunamadi." }, { status: 404 });
+      }
+
+      const persisted = await writeDashboard(dashboard, `Update category ${params.id}`);
+      if (!persisted) {
+        return storageErrorResponse();
+      }
+
       return NextResponse.json({ category });
     }
 
@@ -58,14 +80,26 @@ export async function PATCH(request: Request, { params }: CategoryRouteProps) {
       console.warn("[admin:category:patch] prisma failed, falling back", error);
 
       const dashboard = await readDashboard();
-      dashboard.categories = (dashboard.categories || []).map((c) =>
-        c.id === params.id ? { ...c, ...sanitizedData } : c,
-      );
+      let category: Category | undefined;
 
-      await writeDashboard(dashboard, `Update category ${params.id}`);
+      dashboard.categories = (dashboard.categories || []).map((c) => {
+        if (c.id !== params.id) {
+          return c;
+        }
 
-      const categories = await getCategories();
-      const category = categories.find((item) => item.id === params.id);
+        category = { ...c, ...sanitizedData };
+        return category;
+      });
+
+      if (!category) {
+        return NextResponse.json({ error: "Kategori bulunamadi." }, { status: 404 });
+      }
+
+      const persisted = await writeDashboard(dashboard, `Update category ${params.id}`);
+      if (!persisted) {
+        return storageErrorResponse();
+      }
+
       return NextResponse.json({ category });
     }
   } catch (error) {
@@ -81,7 +115,10 @@ export async function DELETE(_: Request, { params }: CategoryRouteProps) {
     if (!isDatabaseConfigured) {
       const dashboard = await readDashboard();
       dashboard.categories = (dashboard.categories || []).filter((c) => c.id !== params.id);
-      await writeDashboard(dashboard, `Delete category ${params.id}`);
+      const persisted = await writeDashboard(dashboard, `Delete category ${params.id}`);
+      if (!persisted) {
+        return storageErrorResponse();
+      }
       return NextResponse.json({ success: true });
     }
 
@@ -98,7 +135,10 @@ export async function DELETE(_: Request, { params }: CategoryRouteProps) {
 
       const dashboard = await readDashboard();
       dashboard.categories = (dashboard.categories || []).filter((c) => c.id !== params.id);
-      await writeDashboard(dashboard, `Delete category ${params.id}`);
+      const persisted = await writeDashboard(dashboard, `Delete category ${params.id}`);
+      if (!persisted) {
+        return storageErrorResponse();
+      }
 
       return NextResponse.json({ success: true });
     }
@@ -108,4 +148,3 @@ export async function DELETE(_: Request, { params }: CategoryRouteProps) {
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }
-

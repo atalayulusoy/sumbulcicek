@@ -9,20 +9,29 @@ import { siteSettingsSchema } from "@/lib/validators";
 import { readDashboard, writeDashboard } from "@/lib/github-store";
 import type { SiteSettings } from "@/lib/types";
 
+const storageErrorResponse = () =>
+  NextResponse.json(
+    {
+      error:
+        "Kalici kayit alani ayarlanmamis. Vercel Environment Variables icin DATABASE_URL veya GITHUB_REPOSITORY + GITHUB_PAT ekleyin.",
+    },
+    { status: 500 },
+  );
+
 export async function GET() {
   const settings = await getSiteSettings();
   return NextResponse.json({ settings });
 }
 
 export async function PATCH(request: Request) {
-  if (!isDatabaseConfigured) {
-    const json = (await request.json()) as unknown;
-    const parsed = siteSettingsSchema.safeParse(json);
+  const json = (await request.json()) as unknown;
+  const parsed = siteSettingsSchema.safeParse(json);
 
-    if (!parsed.success) {
-      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
-    }
+  if (!parsed.success) {
+    return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+  }
 
+  const fallbackUpdate = async () => {
     const dashboard = await readDashboard();
     dashboard.settings = {
       ...(dashboard.settings || {}),
@@ -30,19 +39,19 @@ export async function PATCH(request: Request) {
       updatedAt: new Date().toISOString(),
     } as SiteSettings;
 
-    await writeDashboard(dashboard, `Update site settings`);
-
-    const settings = await getSiteSettings();
-    return NextResponse.json({ settings });
-  }
-
-    const json = (await request.json()) as unknown;
-    const parsed = siteSettingsSchema.safeParse(json);
-
-    if (!parsed.success) {
-      return NextResponse.json({ error: parsed.error.issues[0]?.message }, { status: 400 });
+    const persisted = await writeDashboard(dashboard, `Update site settings`);
+    if (!persisted) {
+      return storageErrorResponse();
     }
 
+    return NextResponse.json({ settings: dashboard.settings });
+  };
+
+  if (!isDatabaseConfigured) {
+    return fallbackUpdate();
+  }
+
+  try {
     await prisma.siteSettings.upsert({
       where: { id: "site-settings" },
       update: {
@@ -90,4 +99,8 @@ export async function PATCH(request: Request) {
 
     const settingsDb = await getSiteSettings();
     return NextResponse.json({ settings: settingsDb });
+  } catch (error) {
+    console.warn("[admin:settings:patch] prisma failed, falling back", error);
+    return fallbackUpdate();
+  }
 }
