@@ -1,25 +1,6 @@
 {
   "products": [
     {
-      "id": "prd-mq145xn1-tervd",
-      "title": "3131",
-      "slug": "3131",
-      "description": "asdşoıhasdışuasdkjşlhakjşldsklajsdjbkasd",
-      "price": 331,
-      "discountPrice": 321,
-      "images": [
-        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1780675410/sumbul-garden/qbqdszs3rx3rb6tdghb0.jpg",
-        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1780675410/sumbul-garden/cpabhrdjophmvalrntgp.jpg"
-      ],
-      "categoryId": "cat-valentine",
-      "featured": true,
-      "stockStatus": "IN_STOCK",
-      "badge": null,
-      "deliveryInfo": null,
-      "createdAt": "2026-06-05T16:03:32.365Z",
-      "updatedAt": "2026-06-05T16:03:54.962Z"
-    },
-    {
       "id": "prd-sevgililer-gunu-cicekleri-1",
       "title": "Sevgililer Günü Çiçekleri Premium Buket",
       "slug": "sevgililer-gunu-cicekleri-1",
