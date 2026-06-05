@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { ProductsExplorer } from "@/components/products/products-explorer";
 import { buildMetadata } from "@/lib/metadata";
+import { organizationCategorySlugs } from "@/lib/organization";
 import { getCategories, getProducts, getSiteSettings } from "@/lib/services/storefront";
 
 export const dynamic = "force-dynamic";
@@ -39,13 +40,16 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
   const requestedCategory = searchParams.category;
   const showingLandscapeCategory =
     requestedCategory && landscapeCategorySlugs.includes(requestedCategory);
+  const showingOrganizationCategory =
+    requestedCategory && organizationCategorySlugs.includes(requestedCategory);
+  const hiddenCategorySlugs = [...landscapeCategorySlugs, ...organizationCategorySlugs];
 
-  const visibleProducts = showingLandscapeCategory
+  const visibleProducts = showingLandscapeCategory || showingOrganizationCategory
     ? products
-    : products.filter((product) => !landscapeCategorySlugs.includes(product.category?.slug ?? ""));
-  const visibleCategories = showingLandscapeCategory
+    : products.filter((product) => !hiddenCategorySlugs.includes(product.category?.slug ?? ""));
+  const visibleCategories = showingLandscapeCategory || showingOrganizationCategory
     ? categories
-    : categories.filter((category) => !landscapeCategorySlugs.includes(category.slug));
+    : categories.filter((category) => !hiddenCategorySlugs.includes(category.slug));
   const selectedCategory = categories.find((category) => category.slug === requestedCategory);
   const pageTitle = selectedCategory?.name ?? "Çiçeklerimiz";
 

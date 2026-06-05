@@ -5,17 +5,19 @@ import path from "path";
 import {
   fallbackBanners,
   fallbackCategories,
+  fallbackHomeShowcaseSlides,
   fallbackProducts,
   fallbackQuickLinks,
   fallbackSiteSettings,
 } from "./data/fallback-data";
-import type { Banner, Category, Product, QuickLink, SiteSettings } from "./types";
+import type { Banner, Category, HomeShowcaseSlide, Product, QuickLink, SiteSettings } from "./types";
 
 export type DashboardData = {
   products: Product[];
   categories: Category[];
   banners: Banner[];
   quickLinks: QuickLink[];
+  homeShowcaseSlides: HomeShowcaseSlide[];
   settings: SiteSettings;
 };
 
@@ -83,6 +85,7 @@ function fallbackData(): DashboardData {
     categories: fallbackCategories,
     banners: fallbackBanners,
     quickLinks: fallbackQuickLinks,
+    homeShowcaseSlides: fallbackHomeShowcaseSlides,
     settings: fallbackSiteSettings,
   };
 }
@@ -93,6 +96,9 @@ function normalizeDashboardData(data: Partial<DashboardData> | null | undefined)
     categories: Array.isArray(data?.categories) ? data.categories : fallbackCategories,
     banners: Array.isArray(data?.banners) ? data.banners : fallbackBanners,
     quickLinks: Array.isArray(data?.quickLinks) ? data.quickLinks : fallbackQuickLinks,
+    homeShowcaseSlides: Array.isArray(data?.homeShowcaseSlides)
+      ? data.homeShowcaseSlides
+      : fallbackHomeShowcaseSlides,
     settings: data?.settings ?? fallbackSiteSettings,
   };
 }

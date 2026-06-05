@@ -35,6 +35,7 @@ import type {
   Banner,
   Category,
   DashboardSnapshot,
+  HomeShowcaseSlide,
   HomepageSectionConfig,
   Product,
   ProductStockStatus,
@@ -99,6 +100,16 @@ type BannerDraft = {
 };
 
 type QuickLinkDraft = {
+  id: string;
+  title: string;
+  href: string;
+  image: string;
+  order: string;
+  isActive: boolean;
+  createdAt?: string;
+};
+
+type HomeShowcaseSlideDraft = {
   id: string;
   title: string;
   href: string;
@@ -175,6 +186,30 @@ function createEmptyQuickLinkDraft(order: number): QuickLinkDraft {
     title: "",
     href: "/products",
     image: "/catalog/flowers/flower-clean-01.jpg",
+    order: String(order),
+    isActive: true,
+    createdAt: new Date().toISOString(),
+  };
+}
+
+function createHomeShowcaseSlideDraft(slide: HomeShowcaseSlide): HomeShowcaseSlideDraft {
+  return {
+    id: slide.id,
+    title: slide.title,
+    href: slide.href,
+    image: slide.image,
+    order: String(slide.order),
+    isActive: slide.isActive,
+    createdAt: slide.createdAt,
+  };
+}
+
+function createEmptyHomeShowcaseSlideDraft(order: number): HomeShowcaseSlideDraft {
+  return {
+    id: `home-slide-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
+    title: "",
+    href: "/products",
+    image: "/home/flowers/best-sellers.jpg",
     order: String(order),
     isActive: true,
     createdAt: new Date().toISOString(),
@@ -273,6 +308,9 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
   const [banners, setBanners] = useState(initialData.banners);
   const [quickLinks, setQuickLinks] = useState<QuickLinkDraft[]>(
     initialData.quickLinks.map(createQuickLinkDraft),
+  );
+  const [homeShowcaseSlides, setHomeShowcaseSlides] = useState<HomeShowcaseSlideDraft[]>(
+    initialData.homeShowcaseSlides.map(createHomeShowcaseSlideDraft),
   );
   const [settings, setSettings] = useState<SiteSettings>(initialData.settings);
   const [notice, setNotice] = useState<string | null>(null);
@@ -531,6 +569,38 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
     }
   };
 
+  const handleHomeShowcaseSlidesSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setBusy("home-showcase-slides");
+    setNotice(null);
+
+    try {
+      const payload = homeShowcaseSlides.map((slide, index) => ({
+        id: slide.id,
+        title: slide.title,
+        href: slide.href,
+        image: slide.image,
+        order: Number(slide.order || index),
+        isActive: slide.isActive,
+        createdAt: slide.createdAt,
+      }));
+
+      const response = await fetch("/api/admin/home-showcase-slides", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await readResponse<{ homeShowcaseSlides: HomeShowcaseSlide[] }>(response);
+      setHomeShowcaseSlides(data.homeShowcaseSlides.map(createHomeShowcaseSlideDraft));
+      setNotice("Fotoğraf serisi kaydedildi.");
+    } catch (submitError) {
+      setNotice(submitError instanceof Error ? submitError.message : "Fotoğraf serisi kaydedilemedi.");
+    } finally {
+      setBusy(null);
+    }
+  };
+
   const handleDelete = async (kind: "products" | "categories" | "banners", id: string) => {
     if (!window.confirm("Bu kaydi silmek istediginize emin misiniz?")) {
       return;
@@ -624,6 +694,10 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
           <TabsTrigger value="banners" className="justify-start">
             <Images className="h-4 w-4" />
             Bannerlar
+          </TabsTrigger>
+          <TabsTrigger value="home-showcase" className="justify-start">
+            <Images className="h-4 w-4" />
+            Fotoğraf Serisi
           </TabsTrigger>
           <TabsTrigger value="quick-links" className="justify-start">
             <Link2 className="h-4 w-4" />
@@ -939,6 +1013,168 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
                     <p className="mt-2 text-sm leading-7 text-foreground/62">{banner.subtitle}</p>
                   </div>
                 ))}
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          <TabsContent value="home-showcase">
+            <Card>
+              <CardHeader className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                <div>
+                  <CardTitle>Fotoğraf Serisi</CardTitle>
+                  <CardDescription>Ana sayfada yuvarlak ikonlarin altindaki kaydirmali gorsel serisini yonetin.</CardDescription>
+                </div>
+                <Button
+                  type="button"
+                  onClick={() =>
+                    setHomeShowcaseSlides((current) => [
+                      ...current,
+                      createEmptyHomeShowcaseSlideDraft(current.length),
+                    ])
+                  }
+                >
+                  <Plus className="h-4 w-4" />
+                  Yeni Slayt
+                </Button>
+              </CardHeader>
+              <CardContent>
+                <form className="grid gap-4" onSubmit={handleHomeShowcaseSlidesSubmit}>
+                  {homeShowcaseSlides.map((slide, index) => (
+                    <div
+                      key={slide.id}
+                      className="grid gap-4 rounded-[1.5rem] border border-surface-outline bg-white/70 p-4 lg:grid-cols-[180px_1fr_auto]"
+                    >
+                      <div className="space-y-2">
+                        <div
+                          className="aspect-[16/9] rounded-xl border border-surface-outline bg-[#fbfaf6] bg-cover bg-center"
+                          style={{ backgroundImage: `url(${slide.image})` }}
+                        />
+                        <span className="block text-xs text-foreground/45">Slayt #{index + 1}</span>
+                      </div>
+                      <div className="grid gap-3 md:grid-cols-2">
+                        <Input
+                          value={slide.title}
+                          onChange={(event) =>
+                            setHomeShowcaseSlides((current) =>
+                              current.map((item) =>
+                                item.id === slide.id ? { ...item, title: event.target.value } : item,
+                              ),
+                            )
+                          }
+                          placeholder="Baslik"
+                        />
+                        <Input
+                          value={slide.href}
+                          onChange={(event) =>
+                            setHomeShowcaseSlides((current) =>
+                              current.map((item) =>
+                                item.id === slide.id ? { ...item, href: event.target.value } : item,
+                              ),
+                            )
+                          }
+                          placeholder="/products veya /organizasyon"
+                        />
+                        <Input
+                          className="md:col-span-2"
+                          value={slide.image}
+                          onChange={(event) =>
+                            setHomeShowcaseSlides((current) =>
+                              current.map((item) =>
+                                item.id === slide.id ? { ...item, image: event.target.value } : item,
+                              ),
+                            )
+                          }
+                          placeholder="/home/flowers/best-sellers.jpg"
+                        />
+                        <label className="flex cursor-pointer items-center justify-center gap-2 rounded-full border border-dashed border-brand/30 bg-brand-muted/60 px-4 py-2 text-sm font-semibold text-brand md:col-span-2">
+                          {busy === `home-showcase-upload-${slide.id}` ? (
+                            <Loader2 className="h-4 w-4 animate-spin" />
+                          ) : (
+                            <ImageUp className="h-4 w-4" />
+                          )}
+                          Gorsel Yukle
+                          <input
+                            type="file"
+                            accept="image/*"
+                            className="hidden"
+                            onChange={async (event) => {
+                              const file = event.target.files?.[0];
+                              if (!file) return;
+
+                              setBusy(`home-showcase-upload-${slide.id}`);
+                              try {
+                                const url = await uploadImage(file);
+                                setHomeShowcaseSlides((current) =>
+                                  current.map((item) =>
+                                    item.id === slide.id ? { ...item, image: url } : item,
+                                  ),
+                                );
+                                setNotice("Fotoğraf serisi görseli yüklendi.");
+                              } catch (uploadError) {
+                                setNotice(
+                                  uploadError instanceof Error
+                                    ? uploadError.message
+                                    : "Gorsel yuklenemedi.",
+                                );
+                              } finally {
+                                setBusy(null);
+                                event.target.value = "";
+                              }
+                            }}
+                          />
+                        </label>
+                        <div className="grid gap-3 md:grid-cols-[120px_1fr]">
+                          <Input
+                            type="number"
+                            value={slide.order}
+                            onChange={(event) =>
+                              setHomeShowcaseSlides((current) =>
+                                current.map((item) =>
+                                  item.id === slide.id ? { ...item, order: event.target.value } : item,
+                                ),
+                              )
+                            }
+                            placeholder="Sira"
+                          />
+                          <div className="flex items-center gap-3 rounded-[1.2rem] border border-surface-outline bg-white/75 px-4">
+                            <Switch
+                              checked={slide.isActive}
+                              onCheckedChange={(checked) =>
+                                setHomeShowcaseSlides((current) =>
+                                  current.map((item) =>
+                                    item.id === slide.id ? { ...item, isActive: checked } : item,
+                                  ),
+                                )
+                              }
+                            />
+                            <span className="text-sm text-foreground/65">
+                              {slide.isActive ? "Aktif" : "Pasif"}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex items-start justify-end">
+                        <Button
+                          type="button"
+                          variant="destructive"
+                          onClick={() =>
+                            setHomeShowcaseSlides((current) =>
+                              current.filter((item) => item.id !== slide.id),
+                            )
+                          }
+                        >
+                          <Trash2 className="h-4 w-4" />
+                          Sil
+                        </Button>
+                      </div>
+                    </div>
+                  ))}
+
+                  <Button disabled={busy === "home-showcase-slides"} type="submit" className="w-fit">
+                    {busy === "home-showcase-slides" ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
+                    Fotoğraf Serisini Kaydet
+                  </Button>
+                </form>
               </CardContent>
             </Card>
           </TabsContent>

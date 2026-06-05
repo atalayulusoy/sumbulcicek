@@ -3,6 +3,7 @@ import { homepageSectionDefaults } from "@/lib/constants";
 import {
   fallbackBanners,
   fallbackCategories,
+  fallbackHomeShowcaseSlides,
   fallbackProducts,
   fallbackQuickLinks,
   fallbackSiteSettings,
@@ -14,6 +15,7 @@ import type {
   Banner,
   Category,
   DashboardSnapshot,
+  HomeShowcaseSlide,
   HomepageSectionConfig,
   Product,
   ProductStockStatus,
@@ -79,6 +81,20 @@ function serializeBanner(banner: DatabaseRecord | Banner): Banner {
 
 function serializeQuickLink(quickLink: DatabaseRecord | QuickLink): QuickLink {
   const record = quickLink as DatabaseRecord;
+
+  return {
+    id: String(record.id),
+    title: String(record.title),
+    href: String(record.href),
+    image: String(record.image),
+    order: Number(record.order ?? 0),
+    isActive: Boolean(record.isActive),
+    createdAt: stringifyDate(record.createdAt as Date | string),
+  };
+}
+
+function serializeHomeShowcaseSlide(slide: DatabaseRecord | HomeShowcaseSlide): HomeShowcaseSlide {
+  const record = slide as DatabaseRecord;
 
   return {
     id: String(record.id),
@@ -314,16 +330,40 @@ export async function getDashboardQuickLinks() {
   }
 }
 
+export async function getHomeShowcaseSlides() {
+  try {
+    const dashboard = await readDashboard();
+    return dashboard.homeShowcaseSlides
+      .filter((slide) => slide.isActive)
+      .sort((first, second) => first.order - second.order)
+      .map((slide) => serializeHomeShowcaseSlide(slide));
+  } catch {
+    return fallbackHomeShowcaseSlides;
+  }
+}
+
+export async function getDashboardHomeShowcaseSlides() {
+  try {
+    const dashboard = await readDashboard();
+    return dashboard.homeShowcaseSlides
+      .sort((first, second) => first.order - second.order)
+      .map((slide) => serializeHomeShowcaseSlide(slide));
+  } catch {
+    return fallbackHomeShowcaseSlides;
+  }
+}
+
 export async function getHomePageData() {
-  const [categories, featuredProducts, banners, settings, quickLinks] = await Promise.all([
+  const [categories, featuredProducts, banners, settings, quickLinks, homeShowcaseSlides] = await Promise.all([
     getCategories(),
     getFeaturedProducts(),
     getBanners(),
     getSiteSettings(),
     getQuickLinks(),
+    getHomeShowcaseSlides(),
   ]);
 
-  return { categories, featuredProducts, banners, settings, quickLinks };
+  return { categories, featuredProducts, banners, settings, quickLinks, homeShowcaseSlides };
 }
 
 export async function getSimilarProducts(product: Product, limit = 4) {
@@ -344,12 +384,13 @@ export async function getSimilarProducts(product: Product, limit = 4) {
 }
 
 export async function getDashboardSnapshot(): Promise<DashboardSnapshot> {
-  const [products, categories, banners, settings, quickLinks] = await Promise.all([
+  const [products, categories, banners, settings, quickLinks, homeShowcaseSlides] = await Promise.all([
     getProducts(),
     getCategories(),
     getBanners(),
     getSiteSettings(),
     getDashboardQuickLinks(),
+    getDashboardHomeShowcaseSlides(),
   ]);
 
   return {
@@ -357,6 +398,7 @@ export async function getDashboardSnapshot(): Promise<DashboardSnapshot> {
     categories,
     banners,
     quickLinks,
+    homeShowcaseSlides,
     settings,
     metrics: {
       totalProducts: products.length,

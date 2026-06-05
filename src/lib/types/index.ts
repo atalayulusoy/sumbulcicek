@@ -60,6 +60,16 @@ export interface QuickLink {
   createdAt: string;
 }
 
+export interface HomeShowcaseSlide {
+  id: string;
+  title: string;
+  href: string;
+  image: string;
+  order: number;
+  isActive: boolean;
+  createdAt: string;
+}
+
 export interface HomepageSectionConfig {
   key: HomepageSectionKey;
   label: string;
@@ -100,6 +110,7 @@ export interface DashboardSnapshot {
   categories: Category[];
   banners: Banner[];
   quickLinks: QuickLink[];
+  homeShowcaseSlides: HomeShowcaseSlide[];
   settings: SiteSettings;
   metrics: DashboardMetrics;
   isFallback: boolean;

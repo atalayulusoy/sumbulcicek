@@ -1,4 +1,11 @@
-import type { Banner, Category, Product, QuickLink, SiteSettings } from "@/lib/types";
+import type {
+  Banner,
+  Category,
+  HomeShowcaseSlide,
+  Product,
+  QuickLink,
+  SiteSettings,
+} from "@/lib/types";
 
 import { defaultSiteSettings } from "@/lib/constants";
 
@@ -158,6 +165,36 @@ export const fallbackQuickLinks: QuickLink[] = [
     href: "/products?category=saksi-cicekleri",
     image: "/catalog/flowers/flower-clean-09.jpg",
     order: 8,
+    isActive: true,
+    createdAt,
+  },
+];
+
+export const fallbackHomeShowcaseSlides: HomeShowcaseSlide[] = [
+  {
+    id: "home-showcase-best-sellers",
+    title: "Çok Satanlar",
+    href: "/products",
+    image: "/home/flowers/best-sellers.jpg",
+    order: 0,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "home-showcase-bouquets",
+    title: "Çiçek Buketleri",
+    href: "/products?category=sevgililer-gunu-cicekleri",
+    image: "/home/flowers/bouquets.jpg",
+    order: 1,
+    isActive: true,
+    createdAt,
+  },
+  {
+    id: "home-showcase-orchids",
+    title: "Orkideler",
+    href: "/products?category=salon-bitkileri",
+    image: "/home/flowers/orchids.jpg",
+    order: 2,
     isActive: true,
     createdAt,
   },

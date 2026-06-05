@@ -8,6 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { organizationCategorySlugs } from "@/lib/organization";
 import { cn } from "@/lib/utils";
 import { buildOrderTrackingUrl } from "@/lib/whatsapp";
 import type { Category, SiteSettings } from "@/lib/types";
@@ -26,35 +27,7 @@ const defaultLandscapeSlugs = new Set([
   "dikey-bahce",
 ]);
 
-const balloonSlugs = new Set([
-  "balon-folyo-balon",
-  "ucan-balon-demetleri",
-  "kisiye-ozel-balon-buket-aranjmanlari",
-  "zincir-balon-setleri",
-  "rakam-folyo-balon",
-  "dogum-gunu-balonlari",
-  "karakter-temali-dogum-gunu-balonlari",
-  "harf-folyo-balon",
-  "duz-renkli-balonlar",
-  "krom-balon",
-  "konfetili-balon",
-  "ayakli-balon-standi",
-  "toptan-balon",
-]);
-
-const partySlugs = new Set([
-  "parti-gozlugu",
-  "parti-sapkalari",
-  "konusma-balonlari",
-  "parti-taclari",
-  "konfetiler",
-  "dogum-gunu-mumlari",
-  "parti-kostumu",
-  "pinyatalar",
-  "hediyelik-canta",
-  "parti-maskeleri",
-  "dogum-gunu-afisleri",
-]);
+const organizationSlugs = new Set(organizationCategorySlugs);
 
 function isLandscapeCategory(category: Category) {
   const searchable = `${category.slug} ${category.name}`.toLocaleLowerCase("tr-TR");
@@ -88,7 +61,7 @@ function DesktopDropdown({
         href={href}
         className={cn(
           "inline-flex h-10 items-center gap-1.5 rounded-full px-2.5 text-sm font-medium transition-colors xl:px-3",
-          active ? "bg-brand-muted text-brand" : "text-foreground/70 hover:bg-brand-muted/70 hover:text-brand",
+          active ? "bg-brand-muted text-brand" : "text-white/80 hover:bg-white/10 hover:text-white",
         )}
       >
         {label}
@@ -115,9 +88,7 @@ function DesktopDropdown({
 export function Navbar({ categories, settings }: NavbarProps) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const [mobileExpanded, setMobileExpanded] = useState<
-    "flowers" | "landscape" | "balloons" | "party" | null
-  >(null);
+  const [mobileExpanded, setMobileExpanded] = useState<"flowers" | "landscape" | null>(null);
   const [scrolled, setScrolled] = useState(false);
   const orderTrackingUrl = buildOrderTrackingUrl(settings.whatsappNumber);
 
@@ -129,32 +100,22 @@ export function Navbar({ categories, settings }: NavbarProps) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const { flowerCategories, landscapeCategories, balloonCategories, partyCategories } = useMemo(() => {
+  const { flowerCategories, landscapeCategories } = useMemo(() => {
     const landscape = categories.filter(isLandscapeCategory);
-    const balloons = categories.filter((category) => balloonSlugs.has(category.slug));
-    const party = categories.filter((category) => partySlugs.has(category.slug));
     const flowers = categories.filter(
       (category) =>
         !isLandscapeCategory(category) &&
-        !balloonSlugs.has(category.slug) &&
-        !partySlugs.has(category.slug),
+        !organizationSlugs.has(category.slug),
     );
 
     return {
       flowerCategories: flowers,
       landscapeCategories: landscape,
-      balloonCategories: balloons,
-      partyCategories: party,
     };
   }, [categories]);
 
-  const normalNavItems = [
-    { label: "Kutu Çiçekler", href: "/products?category=kutu-cicekler" },
-    { label: "Salon Bitkileri", href: "/products?category=salon-bitkileri" },
-    { label: "Vazolar ve Saksılar", href: "/products?category=vazolar-ve-saksilar" },
-  ];
-
   const pageNavItems = [
+    { label: "Organizasyon", href: "/organizasyon" },
     { label: "Referanslarımız", href: "/referanslar" },
     { label: "İletişim", href: "/iletisim" },
   ];
@@ -163,110 +124,96 @@ export function Navbar({ categories, settings }: NavbarProps) {
     <header className="sticky top-0 z-50 px-4 pt-4">
       <div
         className={cn(
-          "container-edge max-w-[1280px] rounded-[2rem] border transition-all duration-300 text-white",
+          "container-edge max-w-[1280px] rounded-[2rem] border text-white transition-all duration-300",
           scrolled
             ? "border-[#1e372d] bg-[#19392b]/95 py-3 shadow-[0_20px_60px_rgba(0,0,0,0.2)] backdrop-blur-2xl"
             : "border-[#2b4e3f] bg-[#1f3c2f]/95 py-4 shadow-[0_20px_60px_rgba(0,0,0,0.16)] backdrop-blur-xl",
         )}
       >
         <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between xl:gap-5">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="relative h-14 w-14 overflow-hidden rounded-3xl border border-white/15 bg-[#f5f1e8] shadow-glow xl:h-16 xl:w-16">
-              <Image src="/sumbul-logo.png" alt="SÜMBÜL GARDEN logo" fill className="object-cover" />
-            </div>
-            <div className="min-w-0">
-              <p className="font-display text-2xl font-semibold tracking-wide text-white xl:text-3xl">SÜMBÜL GARDEN</p>
-              <p className="text-xs uppercase tracking-[0.24em] text-white/70 xl:text-sm">
-                çiçekçilik & peyzaj
-              </p>
-            </div>
-          </Link>
-
-          <div className="hidden flex-1 items-center justify-between gap-4 xl:flex">
-              <nav className="flex flex-wrap items-center gap-2">
-                <DesktopDropdown
-                  active={pathname === "/peyzaj"}
-                  href="/peyzaj"
-                  label="Peyzaj"
-                  items={landscapeCategories}
-                />
-                <DesktopDropdown
-                  active={pathname === "/products"}
-                  href="/products"
-                  label="Çiçeklerimiz"
-                  items={flowerCategories}
-                />
-                {normalNavItems.map((item) => (
-                  <Link
-                    key={item.label}
-                    href={item.href}
-                    className="rounded-full border border-white/10 px-3 py-2 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-                <DesktopDropdown
-                  active={pathname === "/products"}
-                  href="/products?category=balon-folyo-balon"
-                  label="Balon Çeşitleri"
-                  items={balloonCategories}
-                />
-                <DesktopDropdown
-                  active={pathname === "/products"}
-                  href="/products?category=parti-gozlugu"
-                  label="Parti Malzemeleri"
-                  items={partyCategories}
-                />
-                {pageNavItems.map((item) => (
-                  <Link
-                    key={item.label}
-                    href={item.href}
-                    className={cn(
-                      "rounded-full px-3 py-2 text-sm font-medium transition-colors",
-                      pathname === item.href
-                        ? "bg-white text-brand"
-                        : "text-white/80 hover:bg-white/10 hover:text-white",
-                    )}
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </nav>
-
-              <div className="flex items-center gap-3">
-                <form action="/products" className="relative min-w-[10rem] max-w-[14rem] w-full xl:w-[14rem]">
-                  <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-white/60" />
-                  <input
-                    type="search"
-                    name="query"
-                    placeholder="Ara"
-                    className="h-10 w-full rounded-full border border-white/15 bg-white/10 px-10 pr-3 text-sm text-white placeholder:text-white/60 outline-none ring-0 transition focus:border-brand/30 focus:ring-4 focus:ring-brand/15"
-                  />
-                </form>
-
-                <Button
-                  asChild
-                  size="sm"
-                  variant="secondary"
-                  className="shrink-0 rounded-full border-white/15 bg-white/10 px-4 text-xs text-white shadow-none hover:bg-white/15"
-                >
-                  <Link href={orderTrackingUrl} target="_blank" rel="noreferrer" className="whitespace-nowrap text-white">
-                    <PackageCheck className="h-4 w-4" />
-                    Sipariş Takibi
-                  </Link>
-                </Button>
+          <div className="flex items-center justify-between gap-3">
+            <Link href="/" className="flex items-center gap-3">
+              <div className="relative h-14 w-14 overflow-hidden rounded-3xl border border-white/15 bg-[#f5f1e8] shadow-glow xl:h-16 xl:w-16">
+                <Image src="/sumbul-logo.png" alt="SÜMBÜL GARDEN logo" fill className="object-cover" />
               </div>
-            </div>
+              <div className="min-w-0">
+                <p className="font-display text-2xl font-semibold tracking-wide text-white xl:text-3xl">
+                  SÜMBÜL GARDEN
+                </p>
+                <p className="text-xs uppercase tracking-[0.24em] text-white/70 xl:text-sm">
+                  çiçekçilik & peyzaj
+                </p>
+              </div>
+            </Link>
 
             <button
               type="button"
-              className="ml-auto inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white lg:hidden"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white xl:hidden"
               onClick={() => setOpen((current) => !current)}
               aria-label="Menüyü aç"
             >
               {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </button>
           </div>
+
+          <div className="hidden flex-1 items-center justify-between gap-4 xl:flex">
+            <nav className="flex flex-nowrap items-center gap-2 whitespace-nowrap">
+              <DesktopDropdown
+                active={pathname === "/peyzaj"}
+                href="/peyzaj"
+                label="Peyzaj"
+                items={landscapeCategories}
+              />
+              <DesktopDropdown
+                active={pathname === "/products"}
+                href="/products"
+                label="Çiçeklerimiz"
+                items={flowerCategories}
+              />
+              {pageNavItems.map((item) => {
+                const active =
+                  item.href === "/organizasyon" ? pathname.startsWith("/organizasyon") : pathname === item.href;
+
+                return (
+                  <Link
+                    key={item.label}
+                    href={item.href}
+                    className={cn(
+                      "rounded-full px-3 py-2 text-sm font-medium transition-colors",
+                      active ? "bg-white text-brand" : "text-white/80 hover:bg-white/10 hover:text-white",
+                    )}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
+            </nav>
+
+            <div className="flex items-center gap-3">
+              <form action="/products" className="relative w-[12rem]">
+                <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-white/60" />
+                <input
+                  type="search"
+                  name="query"
+                  placeholder="Ara"
+                  className="h-10 w-full rounded-full border border-white/15 bg-white/10 px-10 pr-3 text-sm text-white outline-none ring-0 transition placeholder:text-white/60 focus:border-brand/30 focus:ring-4 focus:ring-brand/15"
+                />
+              </form>
+
+              <Button
+                asChild
+                size="sm"
+                variant="secondary"
+                className="shrink-0 rounded-full border-white/15 bg-white/10 px-4 text-xs text-white shadow-none hover:bg-white/15"
+              >
+                <Link href={orderTrackingUrl} target="_blank" rel="noreferrer" className="whitespace-nowrap text-white">
+                  <PackageCheck className="h-4 w-4" />
+                  Sipariş Takibi
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
 
         <AnimatePresence>
           {open ? (
@@ -275,7 +222,7 @@ export function Navbar({ categories, settings }: NavbarProps) {
               animate={{ opacity: 1, height: "auto", y: 0 }}
               exit={{ opacity: 0, height: 0, y: -12 }}
               transition={{ duration: 0.25 }}
-              className="overflow-hidden lg:hidden"
+              className="overflow-hidden xl:hidden"
             >
               <form action="/products" className="relative mt-4">
                 <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-foreground/40" />
@@ -283,14 +230,14 @@ export function Navbar({ categories, settings }: NavbarProps) {
                   type="search"
                   name="query"
                   placeholder="Çiçek ara"
-                  className="h-12 w-full rounded-full border border-surface-outline bg-white/90 pl-11 pr-4 text-sm outline-none"
+                  className="h-12 w-full rounded-full border border-surface-outline bg-white/90 pl-11 pr-4 text-sm text-foreground outline-none"
                 />
               </form>
 
               <nav className="mt-4 grid gap-2">
                 <button
                   type="button"
-                  className="flex items-center justify-between rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-left text-sm font-medium"
+                  className="flex items-center justify-between rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-left text-sm font-medium text-foreground"
                   onClick={() =>
                     setMobileExpanded((current) => (current === "landscape" ? null : "landscape"))
                   }
@@ -327,7 +274,7 @@ export function Navbar({ categories, settings }: NavbarProps) {
 
                 <button
                   type="button"
-                  className="flex items-center justify-between rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-left text-sm font-medium"
+                  className="flex items-center justify-between rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-left text-sm font-medium text-foreground"
                   onClick={() =>
                     setMobileExpanded((current) => (current === "flowers" ? null : "flowers"))
                   }
@@ -359,71 +306,11 @@ export function Navbar({ categories, settings }: NavbarProps) {
                   </div>
                 ) : null}
 
-                {normalNavItems.map((item) => (
-                  <Link
-                    key={item.label}
-                    href={item.href}
-                    className="rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-sm"
-                    onClick={() => setOpen(false)}
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-                <button
-                  type="button"
-                  className="flex items-center justify-between rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-left text-sm font-medium"
-                  onClick={() =>
-                    setMobileExpanded((current) => (current === "balloons" ? null : "balloons"))
-                  }
-                >
-                  Balon Çeşitleri
-                  <ChevronDown className={cn("h-4 w-4 transition", mobileExpanded === "balloons" && "rotate-180")} />
-                </button>
-                {mobileExpanded === "balloons" ? (
-                  <div className="grid gap-1 rounded-2xl bg-white/70 p-2">
-                    {balloonCategories.map((category) => (
-                      <Link
-                        key={category.id}
-                        href={`/products?category=${category.slug}`}
-                        className="rounded-xl px-3 py-2 text-sm text-foreground/70"
-                        onClick={() => setOpen(false)}
-                      >
-                        {category.name}
-                      </Link>
-                    ))}
-                  </div>
-                ) : null}
-
-                <button
-                  type="button"
-                  className="flex items-center justify-between rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-left text-sm font-medium"
-                  onClick={() =>
-                    setMobileExpanded((current) => (current === "party" ? null : "party"))
-                  }
-                >
-                  Parti Malzemeleri
-                  <ChevronDown className={cn("h-4 w-4 transition", mobileExpanded === "party" && "rotate-180")} />
-                </button>
-                {mobileExpanded === "party" ? (
-                  <div className="grid gap-1 rounded-2xl bg-white/70 p-2">
-                    {partyCategories.map((category) => (
-                      <Link
-                        key={category.id}
-                        href={`/products?category=${category.slug}`}
-                        className="rounded-xl px-3 py-2 text-sm text-foreground/70"
-                        onClick={() => setOpen(false)}
-                      >
-                        {category.name}
-                      </Link>
-                    ))}
-                  </div>
-                ) : null}
-
                 {pageNavItems.map((item) => (
                   <Link
                     key={item.label}
                     href={item.href}
-                    className="rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-sm font-medium"
+                    className="rounded-2xl border border-surface-outline bg-white/75 px-4 py-3 text-sm font-medium text-foreground"
                     onClick={() => setOpen(false)}
                   >
                     {item.label}
