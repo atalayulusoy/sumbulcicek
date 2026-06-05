@@ -40,7 +40,7 @@ async function githubRequest(p: string, opts: RequestInit = {}) {
 
   if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
 
-  const res = await fetch(apiUrl(p), { ...opts, headers });
+  const res = await fetch(apiUrl(p), { cache: "no-store", ...opts, headers });
   if (!res.ok) {
     const txt = await res.text().catch(() => "");
     throw new Error(`GitHub API error ${res.status} ${txt}`);

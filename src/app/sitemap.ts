@@ -3,6 +3,9 @@ import type { MetadataRoute } from "next";
 import { appEnv } from "@/lib/env";
 import { getProducts } from "@/lib/services/storefront";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const products = await getProducts();
 
