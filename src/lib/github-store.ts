@@ -19,6 +19,7 @@ const VERCEL_REPOSITORY =
 const REPO = process.env.GITHUB_REPOSITORY?.trim() || VERCEL_REPOSITORY; // owner/repo
 const TOKEN = process.env.GITHUB_PAT?.trim() || process.env.GITHUB_TOKEN?.trim() || "";
 const DATA_PATH = "data/dashboard.json";
+const CAN_WRITE_LOCAL_DASHBOARD = !process.env.VERCEL && process.env.NODE_ENV !== "production";
 
 // Vercel üzerinde /var/task çoğu zaman read-only olur.
 // Bu yüzden local fallback'a yazmaya çalışırsak EROFS alabiliyoruz.
@@ -120,8 +121,16 @@ export async function writeDashboard(data: DashboardData, message = "Update dash
       });
       return true;
     } catch (error) {
-      console.warn("[github-store] GitHub write failed, falling back to local file", error);
+      console.warn("[github-store] GitHub write failed", error);
+      if (!CAN_WRITE_LOCAL_DASHBOARD) {
+        return false;
+      }
     }
+  }
+
+  if (!CAN_WRITE_LOCAL_DASHBOARD) {
+    console.warn("[github-store] No writable production store configured");
+    return false;
   }
 
   try {
