@@ -2,21 +2,25 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import type { HomeShowcaseSlide, QuickLink } from "@/lib/types";
+import type { Banner, HomeShowcaseSlide, QuickLink } from "@/lib/types";
 
 interface HomeFlowerShowcaseProps {
+  banners: Banner[];
   quickLinks: QuickLink[];
   slides: HomeShowcaseSlide[];
 }
 
-export function HomeFlowerShowcase({ quickLinks, slides }: HomeFlowerShowcaseProps) {
+export function HomeFlowerShowcase({ banners, quickLinks, slides }: HomeFlowerShowcaseProps) {
   const visibleQuickLinks = quickLinks
     .filter((quickLink) => quickLink.isActive)
     .sort((first, second) => first.order - second.order)
     .slice(0, 12);
+  const visibleBanners = banners
+    .filter((banner) => banner.isActive)
+    .sort((first, second) => first.order - second.order);
   const visibleSlides = slides
     .filter((slide) => slide.isActive)
     .sort((first, second) => first.order - second.order);
@@ -42,8 +46,52 @@ export function HomeFlowerShowcase({ quickLinks, slides }: HomeFlowerShowcasePro
           </div>
         </div>
 
+        {visibleBanners.length > 0 ? (
+          <div className="py-5">
+            <Swiper
+              modules={[Autoplay, Navigation, Pagination]}
+              slidesPerView={1}
+              loop={visibleBanners.length > 1}
+              speed={850}
+              autoplay={{ delay: 4600, disableOnInteraction: false }}
+              navigation={visibleBanners.length > 1}
+              pagination={{ clickable: true }}
+              className="home-banner-swiper pb-11"
+            >
+              {visibleBanners.map((banner) => (
+                <SwiperSlide key={banner.id}>
+                  <Link
+                    href={banner.buttonLink || "/products"}
+                    className="group relative block min-h-[230px] overflow-hidden rounded-[1.35rem] bg-[#f6f6f6] shadow-[0_18px_54px_rgba(24,42,32,0.12)] sm:aspect-[16/5] sm:min-h-[260px]"
+                  >
+                    <Image
+                      src={banner.image}
+                      alt={banner.title}
+                      fill
+                      sizes="(min-width: 1280px) 1216px, calc(100vw - 32px)"
+                      className="object-cover transition duration-700 group-hover:scale-[1.025]"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-r from-[#06130d]/72 via-[#06130d]/28 to-transparent" />
+                    <div className="absolute bottom-5 left-5 max-w-[620px] pr-5 text-white sm:bottom-8 sm:left-8">
+                      <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/74">
+                        {banner.buttonText}
+                      </p>
+                      <h2 className="mt-2 text-2xl font-semibold leading-tight sm:text-4xl">
+                        {banner.title}
+                      </h2>
+                      <p className="mt-3 hidden max-w-xl text-sm leading-6 text-white/82 sm:block">
+                        {banner.subtitle}
+                      </p>
+                    </div>
+                  </Link>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        ) : null}
+
         {visibleSlides.length > 0 ? (
-          <div className="pb-8 pt-5">
+          <div className="pb-8 pt-1">
             <Swiper
               modules={[Autoplay, Pagination]}
               slidesPerView={1.1}
@@ -56,7 +104,7 @@ export function HomeFlowerShowcase({ quickLinks, slides }: HomeFlowerShowcasePro
                 768: { slidesPerView: 2, spaceBetween: 20 },
                 1180: { slidesPerView: 3, spaceBetween: 22 },
               }}
-              className="pb-10"
+              className="home-showcase-swiper pb-10"
             >
               {visibleSlides.map((slide) => (
                 <SwiperSlide key={slide.id}>

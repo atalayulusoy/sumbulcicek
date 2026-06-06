@@ -693,7 +693,7 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
           </TabsTrigger>
           <TabsTrigger value="banners" className="justify-start">
             <Images className="h-4 w-4" />
-            Bannerlar
+            Buyuk Banner
           </TabsTrigger>
           <TabsTrigger value="home-showcase" className="justify-start">
             <Images className="h-4 w-4" />
@@ -726,7 +726,7 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
               </Card>
               <Card>
                 <CardHeader>
-                  <CardDescription>Total banners</CardDescription>
+                  <CardDescription>Buyuk bannerlar</CardDescription>
                   <CardTitle>{metrics.totalBanners}</CardTitle>
                 </CardHeader>
               </Card>
@@ -787,7 +787,7 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
                       </p>
                     </div>
                     <div className="rounded-[1.4rem] bg-[#eff6fb] p-4">
-                      <p className="text-xs uppercase tracking-[0.2em] text-foreground/45">Aktif slider</p>
+                      <p className="text-xs uppercase tracking-[0.2em] text-foreground/45">Aktif buyuk banner</p>
                       <p className="mt-3 text-2xl font-semibold text-foreground">
                         {banners.filter((banner) => banner.isActive).length}
                       </p>
@@ -980,12 +980,14 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
             <Card>
               <CardHeader className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                 <div>
-                  <CardTitle>Banner Yonetimi</CardTitle>
-                  <CardDescription>Hero slider gorselleri ve CTA metinleri burada degisir.</CardDescription>
+                  <CardTitle>Buyuk Banner Yonetimi</CardTitle>
+                  <CardDescription>
+                    Yuvarlak ikonlar ile fotograf serisi arasindaki buyuk kayan banner buradan degisir.
+                  </CardDescription>
                 </div>
                 <Button type="button" onClick={() => openBannerDialog()}>
                   <Plus className="h-4 w-4" />
-                  Yeni Banner
+                  Yeni Buyuk Banner
                 </Button>
               </CardHeader>
               <CardContent className="grid gap-4 xl:grid-cols-3">
@@ -1729,7 +1731,7 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
       <Dialog open={bannerDialogOpen} onOpenChange={setBannerDialogOpen}>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>{bannerDraft.id ? "Banner Duzenle" : "Yeni Banner"}</DialogTitle>
+            <DialogTitle>{bannerDraft.id ? "Buyuk Banner Duzenle" : "Yeni Buyuk Banner"}</DialogTitle>
           </DialogHeader>
           <form className="grid gap-4" onSubmit={handleBannerSubmit}>
             <Input
@@ -1737,21 +1739,21 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
               onChange={(event) =>
                 setBannerDraft((current) => ({ ...current, title: event.target.value }))
               }
-              placeholder="Banner basligi"
+              placeholder="Buyuk banner basligi"
             />
             <Textarea
               value={bannerDraft.subtitle}
               onChange={(event) =>
                 setBannerDraft((current) => ({ ...current, subtitle: event.target.value }))
               }
-              placeholder="Banner aciklamasi"
+              placeholder="Buyuk banner aciklamasi"
             />
             <Input
               value={bannerDraft.image}
               onChange={(event) =>
                 setBannerDraft((current) => ({ ...current, image: event.target.value }))
               }
-              placeholder="Banner gorsel URL"
+              placeholder="Buyuk banner gorsel URL"
             />
             <div className="grid gap-4 md:grid-cols-2">
               <Input
@@ -1822,7 +1824,7 @@ export function AdminDashboard({ initialData }: { initialData: DashboardSnapshot
               <Button asChild type="button" variant="secondary">
                 <span>
                   <UploadCloud className="h-4 w-4" />
-                  Banner Gorseli Yukle
+                  Buyuk Banner Gorseli Yukle
                 </span>
               </Button>
             </label>

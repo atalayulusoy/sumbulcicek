@@ -24,7 +24,7 @@ const landscapeCategorySlugs = [
 ];
 
 export default async function Home() {
-  const [{ featuredProducts, settings, quickLinks, homeShowcaseSlides }, allProducts] = await Promise.all([
+  const [{ banners, featuredProducts, settings, quickLinks, homeShowcaseSlides }, allProducts] = await Promise.all([
     getHomePageData(),
     getProducts(),
   ]);
@@ -69,7 +69,7 @@ export default async function Home() {
 
   return (
     <>
-      <HomeFlowerShowcase quickLinks={quickLinks} slides={homeShowcaseSlides} />
+      <HomeFlowerShowcase banners={banners} quickLinks={quickLinks} slides={homeShowcaseSlides} />
       {settings.homepageSections
         .filter((section) => section.enabled)
         .sort((first, second) => first.order - second.order)
