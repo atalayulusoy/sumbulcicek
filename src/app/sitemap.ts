@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { appEnv } from "@/lib/env";
+import { istanbulAreaPages } from "@/lib/istanbul-areas";
 import { organizationCategorySlugs, organizationServices } from "@/lib/organization";
 import { getCategories, getProducts } from "@/lib/services/storefront";
 
@@ -61,6 +62,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${appEnv.siteUrl}/bolge`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.78,
+    },
+    ...istanbulAreaPages.map((area) => ({
+      url: `${appEnv.siteUrl}/bolge/${area.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: area.type === "locality" ? 0.86 : area.type === "district" ? 0.82 : 0.58,
+    })),
     ...flowerCategories.map((category) => ({
       url: `${appEnv.siteUrl}/products?category=${category.slug}`,
       lastModified: new Date(),

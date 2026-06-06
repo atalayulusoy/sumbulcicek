@@ -25,7 +25,12 @@ function buildTitle(title?: string | null) {
     return `${APP_NAME} | Başakşehir Çiçekçi, Peyzaj ve Organizasyon`;
   }
 
-  return title.includes(APP_NAME) ? title : `${title} | ${APP_NAME}`;
+  const normalizedTitle = title.toLocaleLowerCase("tr-TR");
+  const normalizedBrand = APP_NAME.toLocaleLowerCase("tr-TR");
+
+  return normalizedTitle.includes(normalizedBrand) || normalizedTitle.includes("sümbül garden")
+    ? title
+    : `${title} | ${APP_NAME}`;
 }
 
 export function buildMetadata({

@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { MapPin, MessageCircleMore, PartyPopper, Sprout } from "lucide-react";
+import { ArrowRight, MapPin, MessageCircleMore, PartyPopper, Sprout } from "lucide-react";
 
+import { getFeaturedIstanbulAreas } from "@/lib/istanbul-areas";
 import type { SiteSettings } from "@/lib/types";
 
 const seoCards = [
@@ -28,6 +29,8 @@ const seoCards = [
 ];
 
 export function LocalSeoSection({ settings }: { settings: SiteSettings }) {
+  const featuredAreas = getFeaturedIstanbulAreas();
+
   return (
     <section className="container-edge pb-16">
       <div className="rounded-[2rem] border border-white/60 bg-white/78 p-6 shadow-card backdrop-blur-xl sm:p-8">
@@ -42,8 +45,8 @@ export function LocalSeoSection({ settings }: { settings: SiteSettings }) {
             </h2>
             <p className="mt-4 text-sm leading-7 text-foreground/68 sm:text-base">
               {settings.address} adresindeki SÜMBÜL GARDEN; çiçek siparişi, Sevgililer Günü
-              çiçekleri, kutu çiçekler, salon bitkileri, peyzaj tasarım ve özel gün organizasyonları
-              için Başakşehir ve İstanbul çevresinde hizmet verir.
+              çiçekleri, kutu çiçekler, salon bitkileri, peyzaj tasarımı ve özel gün
+              organizasyonları için Başakşehir ve İstanbul çevresinde hizmet verir.
             </p>
           </div>
           <Link
@@ -66,6 +69,32 @@ export function LocalSeoSection({ settings }: { settings: SiteSettings }) {
               <p className="mt-2 text-sm leading-7 text-foreground/62">{card.description}</p>
             </Link>
           ))}
+        </div>
+
+        <div className="mt-7 border-t border-surface-outline pt-5">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-sm font-semibold text-foreground/70">
+              Öne çıkan hizmet bölgeleri
+            </p>
+            <Link
+              href="/bolge"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-brand"
+            >
+              Tüm İstanbul bölgeleri
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {featuredAreas.map((area) => (
+              <Link
+                key={area.slug}
+                href={`/bolge/${area.slug}`}
+                className="rounded-full border border-surface-outline bg-white/84 px-4 py-2 text-sm text-foreground/68 transition hover:border-brand/25 hover:bg-brand-muted hover:text-brand"
+              >
+                {area.name} çiçekçilik
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </section>
