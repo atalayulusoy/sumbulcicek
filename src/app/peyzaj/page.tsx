@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Droplets, Leaf, Ruler, Sprout } from "lucide-react";
 
@@ -10,9 +10,10 @@ import { getCategories, getProducts, getSiteSettings } from "@/lib/services/stor
 export const dynamic = "force-dynamic";
 
 export const metadata = buildMetadata({
-  title: "SÜMBÜL PEYZAJ",
+  title: "Başakşehir Peyzaj | Bahçe Tasarımı ve Rulo Çim",
   description:
     "SÜMBÜL PEYZAJ bahçe tasarımı, rulo çim, bitkilendirme, otomatik sulama ve dikey bahçe uygulamaları.",
+  image: "/og-sumbul-garden.jpg",
   pathname: "/peyzaj",
 });
 

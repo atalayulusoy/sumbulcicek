@@ -10,6 +10,7 @@ export const revalidate = 0;
 export const metadata = buildMetadata({
   title: "Dashboard admin",
   description: "SÜMBÜL GARDEN admin dashboard.",
+  noIndex: true,
   pathname: "/dashboard-admin",
 });
 

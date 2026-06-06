@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, PartyPopper } from "lucide-react";
 
@@ -14,9 +14,10 @@ import { getProducts, getSiteSettings } from "@/lib/services/storefront";
 export const dynamic = "force-dynamic";
 
 export const metadata = buildMetadata({
-  title: "Organizasyon",
+  title: "Başakşehir Organizasyon | Balon ve Parti Süsleme",
   description:
     "SÜMBÜL GARDEN balon çeşitleri, parti malzemeleri, baby shower, kız isteme, düğün, nişan ve doğum günü organizasyonları.",
+  image: "/catalog/organization/organization-09.jpg",
   pathname: "/organizasyon",
 });
 

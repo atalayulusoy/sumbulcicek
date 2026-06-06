@@ -1,7 +1,7 @@
 import type { HomepageSectionConfig, SiteSettings } from "@/lib/types";
 
 export const APP_NAME = "SÜMBÜL GARDEN";
-export const DEFAULT_SITE_URL = "http://localhost:3000";
+export const DEFAULT_SITE_URL = "https://www.bahcesehircicekcisi.com";
 export const DEFAULT_WHATSAPP_NUMBER = "905306352719";
 export const DEFAULT_JWT_SECRET = "sumbul-garden-local-dev-secret";
 

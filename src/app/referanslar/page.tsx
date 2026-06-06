@@ -13,6 +13,7 @@ export const metadata = buildMetadata({
   title: "Referanslarımız",
   description:
     "SÜMBÜL GARDEN ve SÜMBÜL PEYZAJ tarafından hazırlanan çiçek, organizasyon ve peyzaj referansları.",
+  image: "/og-sumbul-garden.jpg",
   pathname: "/referanslar",
 });
 

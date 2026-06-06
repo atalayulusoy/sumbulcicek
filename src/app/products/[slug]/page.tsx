@@ -3,21 +3,29 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Clock3, Truck } from "lucide-react";
 
-export const dynamic = "force-dynamic";
-
 import { ProductCard } from "@/components/products/product-card";
 import { ProductGallery } from "@/components/products/product-gallery";
 import { WhatsappOrderButton } from "@/components/products/whatsapp-order-button";
 import { Badge } from "@/components/ui/badge";
-import { appEnv } from "@/lib/env";
-import { buildMetadata, buildProductSchema } from "@/lib/metadata";
+import {
+  absoluteUrl,
+  buildBreadcrumbSchema,
+  buildMetadata,
+  buildProductSchema,
+} from "@/lib/metadata";
 import { getProductBySlug, getProducts, getSimilarProducts, getSiteSettings } from "@/lib/services/storefront";
 import { formatCurrency } from "@/lib/utils";
+
+export const dynamic = "force-dynamic";
 
 interface ProductDetailPageProps {
   params: {
     slug: string;
   };
+}
+
+function buildProductMetaDescription(productTitle: string, categoryName?: string | null) {
+  return `${productTitle} ${categoryName ? `${categoryName} kategorisinde ` : ""}SÜMBÜL GARDEN tarafından hazırlanır. Başakşehir, Kayabaşı, Bahçeşehir ve İstanbul çevresi için WhatsApp ile sipariş verin.`;
 }
 
 export async function generateMetadata({ params }: ProductDetailPageProps): Promise<Metadata> {
@@ -26,13 +34,14 @@ export async function generateMetadata({ params }: ProductDetailPageProps): Prom
   if (!product) {
     return buildMetadata({
       title: "Ürün bulunamadı",
+      noIndex: true,
       pathname: `/products/${params.slug}`,
     });
   }
 
   return buildMetadata({
-    title: product.title,
-    description: product.description,
+    title: `${product.title} | Başakşehir Çiçekçi`,
+    description: buildProductMetaDescription(product.title, product.category?.name),
     image: product.images[0],
     pathname: `/products/${params.slug}`,
   });
@@ -52,8 +61,15 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
   const similarProducts = await getSimilarProducts(product);
   const price = product.discountPrice ?? product.price;
-  const productUrl = new URL(`/products/${product.slug}`, appEnv.siteUrl).toString();
-  const productSchema = buildProductSchema(product);
+  const productUrl = absoluteUrl(`/products/${product.slug}`);
+  const structuredData = [
+    buildProductSchema(product),
+    buildBreadcrumbSchema([
+      { name: "Ana sayfa", url: "/" },
+      { name: "Çiçeklerimiz", url: "/products" },
+      { name: product.title, url: `/products/${product.slug}` },
+    ]),
+  ];
 
   return (
     <div className="container-edge section-space">
@@ -128,7 +144,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
     </div>
   );

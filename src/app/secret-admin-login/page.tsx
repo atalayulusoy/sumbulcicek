@@ -4,6 +4,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Admin giris",
   description: "Gizli admin paneli giris ekrani.",
+  noIndex: true,
   pathname: "/secret-admin-login",
 });
 

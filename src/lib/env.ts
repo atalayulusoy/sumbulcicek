@@ -1,7 +1,16 @@
 import { DEFAULT_JWT_SECRET, DEFAULT_SITE_URL } from "@/lib/constants";
 
+const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.SITE_URL;
+const isLocalSiteUrl = configuredSiteUrl
+  ? /^(https?:\/\/)?(localhost|127\.0\.0\.1)(:\d+)?/i.test(configuredSiteUrl)
+  : false;
+const siteUrl =
+  configuredSiteUrl && !(process.env.NODE_ENV === "production" && isLocalSiteUrl)
+    ? configuredSiteUrl
+    : DEFAULT_SITE_URL;
+
 const env = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.SITE_URL || DEFAULT_SITE_URL,
+  siteUrl,
   databaseUrl: process.env.DATABASE_URL,
   jwtSecret: process.env.JWT_SECRET,
   cloudinaryCloudName: process.env.CLOUDINARY_CLOUD_NAME,

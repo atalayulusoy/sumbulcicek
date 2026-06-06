@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 import { ProductCard } from "@/components/products/product-card";
 import { Button } from "@/components/ui/button";
-import { buildMetadata } from "@/lib/metadata";
+import { buildBreadcrumbSchema, buildMetadata } from "@/lib/metadata";
 import {
   getOrganizationService,
   organizationServices,
@@ -33,8 +33,8 @@ export function generateMetadata({ params }: OrganizationDetailPageProps) {
   }
 
   return buildMetadata({
-    title: service.title,
-    description: service.description,
+    title: `${service.title} | Başakşehir Organizasyon`,
+    description: `${service.description} Başakşehir, Kayabaşı, Bahçeşehir ve İstanbul çevresi için SÜMBÜL GARDEN ile iletişime geçin.`,
     image: service.image,
     pathname: `/organizasyon/${service.slug}`,
   });
@@ -48,6 +48,11 @@ export default async function OrganizationDetailPage({ params }: OrganizationDet
 
   const [products, settings] = await Promise.all([getProducts(), getSiteSettings()]);
   const serviceProducts = products.filter((product) => productMatchesOrganizationService(product, service));
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: "Ana sayfa", url: "/" },
+    { name: "Organizasyon", url: "/organizasyon" },
+    { name: service.title, url: `/organizasyon/${service.slug}` },
+  ]);
 
   return (
     <div>
@@ -115,6 +120,10 @@ export default async function OrganizationDetailPage({ params }: OrganizationDet
           </div>
         )}
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
     </div>
   );
 }

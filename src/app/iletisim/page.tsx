@@ -11,6 +11,7 @@ export const dynamic = "force-dynamic";
 export const metadata = buildMetadata({
   title: "İletişim",
   description: "SÜMBÜL GARDEN adres, telefon, WhatsApp, Instagram ve harita bilgileri.",
+  image: "/og-sumbul-garden.jpg",
   pathname: "/iletisim",
 });
 

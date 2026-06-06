@@ -1,16 +1,17 @@
 import { AboutSection } from "@/components/sections/about-section";
 import { FeaturedProductsSection } from "@/components/sections/featured-products-section";
 import { HomeFlowerShowcase } from "@/components/sections/home-flower-showcase";
-import { appEnv } from "@/lib/env";
-import { buildMetadata } from "@/lib/metadata";
+import { LocalSeoSection } from "@/components/sections/local-seo-section";
+import { buildLocalBusinessSchema, buildMetadata, buildWebsiteSchema } from "@/lib/metadata";
 import { getHomePageData, getProducts } from "@/lib/services/storefront";
 
 export const dynamic = "force-dynamic";
 
 export const metadata = buildMetadata({
-  title: "SÜMBÜL GARDEN",
+  title: "Başakşehir Çiçekçi | Aynı Gün Çiçek Siparişi",
   description:
-    "SÜMBÜL GARDEN vitrini üzerinden çiçek siparişi verin; SÜMBÜL PEYZAJ hizmetleriyle bahçe uygulamalarını inceleyin.",
+    "Başakşehir Kayabaşı SÜMBÜL GARDEN ile çiçek siparişi, Sevgililer Günü buketleri, kutu çiçekler, peyzaj ve organizasyon talepleri için WhatsApp ile iletişime geçin.",
+  image: "/og-sumbul-garden.jpg",
   pathname: "/",
 });
 
@@ -24,10 +25,8 @@ const landscapeCategorySlugs = [
 ];
 
 export default async function Home() {
-  const [{ banners, featuredProducts, settings, quickLinks, homeShowcaseSlides }, allProducts] = await Promise.all([
-    getHomePageData(),
-    getProducts(),
-  ]);
+  const [{ banners, featuredProducts, settings, quickLinks, homeShowcaseSlides }, allProducts] =
+    await Promise.all([getHomePageData(), getProducts()]);
 
   const customDesigns = allProducts
     .filter((product) => landscapeCategorySlugs.includes(product.category?.slug ?? ""))
@@ -38,7 +37,7 @@ export default async function Home() {
     featuredProducts: (
       <FeaturedProductsSection
         title="Çok Satan Çiçekler"
-        description="Fiyatları görünen, aynı gün teslimata uygun SÜMBÜL GARDEN çiçekleri. Sipariş WhatsApp hattı üzerinden devam eder."
+        description="Başakşehir, Kayabaşı, Bahçeşehir ve çevresi için fiyatları görünen, aynı gün teslimata uygun SÜMBÜL GARDEN çiçekleri. Sipariş WhatsApp hattı üzerinden devam eder."
         products={featuredProducts.filter(
           (product) => !landscapeCategorySlugs.includes(product.category?.slug ?? ""),
         )}
@@ -49,7 +48,7 @@ export default async function Home() {
     customDesigns: (
       <FeaturedProductsSection
         title="SÜMBÜL PEYZAJ"
-        description="Bahçe tasarımı, rulo çim, bitkilendirme, otomatik sulama ve dikey bahçe uygulamalarını ayrı peyzaj sayfasında inceleyin."
+        description="Başakşehir, Bahçeşehir ve Bahçekent çevresinde bahçe tasarımı, rulo çim, bitkilendirme, otomatik sulama ve dikey bahçe uygulamalarını inceleyin."
         products={customDesigns}
         settings={settings}
       />
@@ -57,15 +56,7 @@ export default async function Home() {
     about: <AboutSection settings={settings} />,
   } as const;
 
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    name: "SÜMBÜL GARDEN",
-    alternateName: "SÜMBÜL PEYZAJ",
-    telephone: settings.phone,
-    address: settings.address,
-    url: appEnv.siteUrl,
-  };
+  const structuredData = [buildLocalBusinessSchema(settings), buildWebsiteSchema()];
 
   return (
     <>
@@ -76,9 +67,10 @@ export default async function Home() {
         .map((section) => (
           <div key={section.key}>{sectionMap[section.key]}</div>
         ))}
+      <LocalSeoSection settings={settings} />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
     </>
   );
