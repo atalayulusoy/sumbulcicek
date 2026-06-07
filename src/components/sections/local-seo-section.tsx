@@ -91,7 +91,7 @@ export function LocalSeoSection({ settings }: { settings: SiteSettings }) {
                 href={`/bolge/${area.slug}`}
                 className="rounded-full border border-surface-outline bg-white/84 px-4 py-2 text-sm text-foreground/68 transition hover:border-brand/25 hover:bg-brand-muted hover:text-brand"
               >
-                {area.name} çiçekçilik
+                {area.name} çiçekçi
               </Link>
             ))}
           </div>

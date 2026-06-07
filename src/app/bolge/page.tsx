@@ -15,7 +15,7 @@ export const dynamic = "force-dynamic";
 export const metadata = buildMetadata({
   title: "İstanbul Hizmet Bölgeleri",
   description:
-    "SÜMBÜL GARDEN İstanbul ilçe ve mahallelerinde çiçekçilik, peyzaj ve organizasyon hizmet bölgeleri.",
+    "SÜMBÜL GARDEN İstanbul ilçe ve mahallelerinde çiçekçi, peyzaj ve organizasyon hizmet bölgeleri.",
   image: "/og-sumbul-garden.jpg",
   pathname: "/bolge",
 });
@@ -42,7 +42,7 @@ export default function AreaIndexPage() {
             İstanbul hizmet bölgeleri
           </Badge>
           <h1 className="mt-6 max-w-4xl font-display text-5xl leading-tight text-foreground sm:text-7xl">
-            İstanbul çiçekçilik, peyzaj ve organizasyon bölgeleri
+            İstanbul çiçekçi, peyzaj ve organizasyon bölgeleri
           </h1>
           <p className="mt-5 max-w-3xl text-base leading-8 text-foreground/68 sm:text-lg">
             SÜMBÜL GARDEN; Başakşehir, Bahçeşehir, Kayabaşı, Ispartakule, Esenyurt ve
@@ -134,7 +134,7 @@ export default function AreaIndexPage() {
                       href={`/bolge/${districtArea.slug}`}
                       className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-white"
                     >
-                      {district} çiçekçilik
+                      {district} çiçekçi
                     </Link>
                   ) : null}
                   {neighborhoods.map((area) => (

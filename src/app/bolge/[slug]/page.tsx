@@ -55,7 +55,7 @@ function getAreaLocation(area: IstanbulAreaPage) {
 }
 
 function getAreaKeyword(area: IstanbulAreaPage) {
-  return `${area.name} çiçekçilik`;
+  return `${area.name} çiçekçi`;
 }
 
 export async function generateMetadata({ params }: AreaPageProps): Promise<Metadata> {
@@ -89,7 +89,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
   const featuredAreas = getFeaturedIstanbulAreas().filter((item) => item.slug !== area.slug);
   const phone = normalizeWhatsappNumber(settings.whatsappNumber);
   const whatsappMessage = [
-    `Merhaba, ${area.name} için çiçekçilik, peyzaj veya organizasyon hakkında bilgi almak istiyorum.`,
+    `Merhaba, ${area.name} çiçekçi, peyzaj veya organizasyon hizmetleri hakkında bilgi almak istiyorum.`,
     "",
     `Bölge: ${getAreaLocation(area)}`,
     `Sayfa: ${absoluteUrl(`/bolge/${area.slug}`)}`,
@@ -130,12 +130,12 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
             {getAreaLocation(area)}
           </Badge>
           <h1 className="mt-6 max-w-4xl font-display text-5xl leading-tight text-foreground sm:text-7xl">
-            {area.name} çiçekçilik, peyzaj ve organizasyon
+            {area.name} çiçekçi, peyzaj ve organizasyon
           </h1>
           <p className="mt-5 max-w-3xl text-base leading-8 text-foreground/68 sm:text-lg">
-            SÜMBÜL GARDEN, {getAreaLocation(area)} çevresinde çiçek siparişi, özel gün çiçekleri,
-            peyzaj keşfi, balon süsleme ve organizasyon taleplerini WhatsApp üzerinden hızlıca
-            planlar.
+            SÜMBÜL GARDEN, {getAreaKeyword(area)} arayan müşteriler için {getAreaLocation(area)}
+            çevresinde çiçek siparişi, özel gün çiçekleri, peyzaj keşfi, balon süsleme ve
+            organizasyon taleplerini WhatsApp üzerinden hızlıca planlar.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg">
@@ -258,7 +258,7 @@ export default async function AreaDetailPage({ params }: AreaPageProps) {
                 href={`/bolge/${item.slug}`}
                 className="rounded-full border border-surface-outline bg-white/84 px-4 py-2 text-sm text-foreground/68 transition hover:border-brand/25 hover:bg-brand-muted hover:text-brand"
               >
-                {item.name} çiçekçilik
+                {item.name} çiçekçi
               </Link>
             ))}
           </div>

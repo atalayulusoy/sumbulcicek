@@ -14,8 +14,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ispartakule-cicekcilik-peyzaj-organizasyon",
     "name": "Ispartakule",
-    "title": "Ispartakule Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ispartakule ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ispartakule Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ispartakule çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Tahtakale",
     "type": "locality"
@@ -23,8 +23,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcekent-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçekent",
-    "title": "Bahçekent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçekent ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçekent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçekent çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Bahçeşehir 2. Kısım",
     "type": "locality"
@@ -32,8 +32,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcesehir-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçeşehir",
-    "title": "Bahçeşehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçeşehir ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçeşehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçeşehir çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Bahçeşehir 1. Kısım",
     "type": "locality"
@@ -41,8 +41,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kayasehir-cicekcilik-peyzaj-organizasyon",
     "name": "Kayaşehir",
-    "title": "Kayaşehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kayaşehir ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kayaşehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kayaşehir çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Kayabaşı",
     "type": "locality"
@@ -50,8 +50,8 @@ export const istanbulAreaPages = [
   {
     "slug": "park-mavera-cicekcilik-peyzaj-organizasyon",
     "name": "Park Mavera",
-    "title": "Park Mavera Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Park Mavera ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Park Mavera Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Park Mavera çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Kayabaşı",
     "type": "locality"
@@ -59,8 +59,8 @@ export const istanbulAreaPages = [
   {
     "slug": "adalar-cicekcilik-peyzaj-organizasyon",
     "name": "Adalar",
-    "title": "Adalar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Adalar ve Adalar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Adalar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Adalar çiçekçi arayanlar için Adalar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Adalar",
     "neighborhood": null,
     "type": "district"
@@ -68,8 +68,8 @@ export const istanbulAreaPages = [
   {
     "slug": "arnavutkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Arnavutköy",
-    "title": "Arnavutköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Arnavutköy ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Arnavutköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Arnavutköy çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": null,
     "type": "district"
@@ -77,8 +77,8 @@ export const istanbulAreaPages = [
   {
     "slug": "atasehir-cicekcilik-peyzaj-organizasyon",
     "name": "Ataşehir",
-    "title": "Ataşehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ataşehir ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ataşehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ataşehir çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": null,
     "type": "district"
@@ -86,8 +86,8 @@ export const istanbulAreaPages = [
   {
     "slug": "avcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Avcılar",
-    "title": "Avcılar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Avcılar ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Avcılar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Avcılar çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": null,
     "type": "district"
@@ -95,8 +95,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Bağcılar",
-    "title": "Bağcılar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bağcılar ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bağcılar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bağcılar çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": null,
     "type": "district"
@@ -104,8 +104,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcelievler-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçelievler",
-    "title": "Bahçelievler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçelievler ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçelievler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçelievler çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": null,
     "type": "district"
@@ -113,8 +113,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bakirkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Bakırköy",
-    "title": "Bakırköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bakırköy ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bakırköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bakırköy çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": null,
     "type": "district"
@@ -122,8 +122,8 @@ export const istanbulAreaPages = [
   {
     "slug": "basaksehir-cicekcilik-peyzaj-organizasyon",
     "name": "Başakşehir",
-    "title": "Başakşehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Başakşehir ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Başakşehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Başakşehir çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": null,
     "type": "district"
@@ -131,8 +131,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bayrampasa-cicekcilik-peyzaj-organizasyon",
     "name": "Bayrampaşa",
-    "title": "Bayrampaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bayrampaşa ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bayrampaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bayrampaşa çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": null,
     "type": "district"
@@ -140,8 +140,8 @@ export const istanbulAreaPages = [
   {
     "slug": "besiktas-cicekcilik-peyzaj-organizasyon",
     "name": "Beşiktaş",
-    "title": "Beşiktaş Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beşiktaş ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beşiktaş Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beşiktaş çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": null,
     "type": "district"
@@ -149,8 +149,8 @@ export const istanbulAreaPages = [
   {
     "slug": "beykoz-cicekcilik-peyzaj-organizasyon",
     "name": "Beykoz",
-    "title": "Beykoz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beykoz ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beykoz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beykoz çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": null,
     "type": "district"
@@ -158,8 +158,8 @@ export const istanbulAreaPages = [
   {
     "slug": "beylikduzu-cicekcilik-peyzaj-organizasyon",
     "name": "Beylikdüzü",
-    "title": "Beylikdüzü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beylikdüzü ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beylikdüzü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beylikdüzü çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": null,
     "type": "district"
@@ -167,8 +167,8 @@ export const istanbulAreaPages = [
   {
     "slug": "beyoglu-cicekcilik-peyzaj-organizasyon",
     "name": "Beyoğlu",
-    "title": "Beyoğlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beyoğlu ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beyoğlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beyoğlu çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": null,
     "type": "district"
@@ -176,8 +176,8 @@ export const istanbulAreaPages = [
   {
     "slug": "buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Büyükçekmece",
-    "title": "Büyükçekmece Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Büyükçekmece ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Büyükçekmece Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Büyükçekmece çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": null,
     "type": "district"
@@ -185,8 +185,8 @@ export const istanbulAreaPages = [
   {
     "slug": "catalca-cicekcilik-peyzaj-organizasyon",
     "name": "Çatalca",
-    "title": "Çatalca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çatalca ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çatalca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çatalca çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": null,
     "type": "district"
@@ -194,8 +194,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Çekmeköy",
-    "title": "Çekmeköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çekmeköy ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çekmeköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çekmeköy çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": null,
     "type": "district"
@@ -203,8 +203,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esenler-cicekcilik-peyzaj-organizasyon",
     "name": "Esenler",
-    "title": "Esenler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenler ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenler çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": null,
     "type": "district"
@@ -212,8 +212,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Esenyurt",
-    "title": "Esenyurt Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenyurt ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenyurt Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenyurt çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": null,
     "type": "district"
@@ -221,8 +221,8 @@ export const istanbulAreaPages = [
   {
     "slug": "eyupsultan-cicekcilik-peyzaj-organizasyon",
     "name": "Eyüpsultan",
-    "title": "Eyüpsultan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Eyüpsultan ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Eyüpsultan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Eyüpsultan çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": null,
     "type": "district"
@@ -230,8 +230,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": null,
     "type": "district"
@@ -239,8 +239,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gaziosmanpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Gaziosmanpaşa",
-    "title": "Gaziosmanpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gaziosmanpaşa ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gaziosmanpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gaziosmanpaşa çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": null,
     "type": "district"
@@ -248,8 +248,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gungoren-cicekcilik-peyzaj-organizasyon",
     "name": "Güngören",
-    "title": "Güngören Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güngören ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güngören Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güngören çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": null,
     "type": "district"
@@ -257,8 +257,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kadikoy-cicekcilik-peyzaj-organizasyon",
     "name": "Kadıköy",
-    "title": "Kadıköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kadıköy ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kadıköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kadıköy çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": null,
     "type": "district"
@@ -266,8 +266,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kagithane-cicekcilik-peyzaj-organizasyon",
     "name": "Kağıthane",
-    "title": "Kağıthane Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kağıthane ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kağıthane Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kağıthane çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": null,
     "type": "district"
@@ -275,8 +275,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kartal-cicekcilik-peyzaj-organizasyon",
     "name": "Kartal",
-    "title": "Kartal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kartal ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kartal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kartal çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": null,
     "type": "district"
@@ -284,8 +284,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Küçükçekmece",
-    "title": "Küçükçekmece Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçükçekmece ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçükçekmece Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçükçekmece çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": null,
     "type": "district"
@@ -293,8 +293,8 @@ export const istanbulAreaPages = [
   {
     "slug": "maltepe-cicekcilik-peyzaj-organizasyon",
     "name": "Maltepe",
-    "title": "Maltepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Maltepe ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Maltepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Maltepe çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": null,
     "type": "district"
@@ -302,8 +302,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Pendik",
-    "title": "Pendik Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Pendik ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Pendik Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Pendik çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": null,
     "type": "district"
@@ -311,8 +311,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Sancaktepe",
-    "title": "Sancaktepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sancaktepe ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sancaktepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sancaktepe çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": null,
     "type": "district"
@@ -320,8 +320,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sariyer-cicekcilik-peyzaj-organizasyon",
     "name": "Sarıyer",
-    "title": "Sarıyer Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sarıyer ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sarıyer Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sarıyer çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": null,
     "type": "district"
@@ -329,8 +329,8 @@ export const istanbulAreaPages = [
   {
     "slug": "silivri-cicekcilik-peyzaj-organizasyon",
     "name": "Silivri",
-    "title": "Silivri Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Silivri ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Silivri Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Silivri çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": null,
     "type": "district"
@@ -338,8 +338,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Sultanbeyli",
-    "title": "Sultanbeyli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sultanbeyli ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sultanbeyli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sultanbeyli çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": null,
     "type": "district"
@@ -347,8 +347,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sultangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Sultangazi",
-    "title": "Sultangazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sultangazi ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sultangazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sultangazi çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": null,
     "type": "district"
@@ -356,8 +356,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sile-cicekcilik-peyzaj-organizasyon",
     "name": "Şile",
-    "title": "Şile Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şile ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şile Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şile çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": null,
     "type": "district"
@@ -365,8 +365,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sisli-cicekcilik-peyzaj-organizasyon",
     "name": "Şişli",
-    "title": "Şişli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şişli ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şişli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şişli çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": null,
     "type": "district"
@@ -374,8 +374,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tuzla-cicekcilik-peyzaj-organizasyon",
     "name": "Tuzla",
-    "title": "Tuzla Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tuzla ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tuzla Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tuzla çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": null,
     "type": "district"
@@ -383,8 +383,8 @@ export const istanbulAreaPages = [
   {
     "slug": "umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Ümraniye",
-    "title": "Ümraniye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ümraniye ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ümraniye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ümraniye çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": null,
     "type": "district"
@@ -392,8 +392,8 @@ export const istanbulAreaPages = [
   {
     "slug": "uskudar-cicekcilik-peyzaj-organizasyon",
     "name": "Üsküdar",
-    "title": "Üsküdar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Üsküdar ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Üsküdar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Üsküdar çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": null,
     "type": "district"
@@ -401,8 +401,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zeytinburnu-cicekcilik-peyzaj-organizasyon",
     "name": "Zeytinburnu",
-    "title": "Zeytinburnu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zeytinburnu ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zeytinburnu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zeytinburnu çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": null,
     "type": "district"
@@ -410,8 +410,8 @@ export const istanbulAreaPages = [
   {
     "slug": "burgazada-cicekcilik-peyzaj-organizasyon",
     "name": "Burgazada",
-    "title": "Burgazada Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Burgazada ve Adalar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Burgazada Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Burgazada çiçekçi arayanlar için Adalar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Adalar",
     "neighborhood": "Burgazada",
     "type": "neighborhood"
@@ -419,8 +419,8 @@ export const istanbulAreaPages = [
   {
     "slug": "heybeliada-cicekcilik-peyzaj-organizasyon",
     "name": "Heybeliada",
-    "title": "Heybeliada Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Heybeliada ve Adalar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Heybeliada Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Heybeliada çiçekçi arayanlar için Adalar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Adalar",
     "neighborhood": "Heybeliada",
     "type": "neighborhood"
@@ -428,8 +428,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kinaliada-cicekcilik-peyzaj-organizasyon",
     "name": "Kınalıada",
-    "title": "Kınalıada Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kınalıada ve Adalar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kınalıada Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kınalıada çiçekçi arayanlar için Adalar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Adalar",
     "neighborhood": "Kınalıada",
     "type": "neighborhood"
@@ -437,8 +437,8 @@ export const istanbulAreaPages = [
   {
     "slug": "maden-cicekcilik-peyzaj-organizasyon",
     "name": "Maden",
-    "title": "Maden Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Maden ve Adalar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Maden Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Maden çiçekçi arayanlar için Adalar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Adalar",
     "neighborhood": "Maden",
     "type": "neighborhood"
@@ -446,8 +446,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nizam-cicekcilik-peyzaj-organizasyon",
     "name": "Nizam",
-    "title": "Nizam Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nizam ve Adalar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nizam Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nizam çiçekçi arayanlar için Adalar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Adalar",
     "neighborhood": "Nizam",
     "type": "neighborhood"
@@ -455,8 +455,8 @@ export const istanbulAreaPages = [
   {
     "slug": "atakoy-1-kisim-cicekcilik-peyzaj-organizasyon",
     "name": "Ataköy 1. Kısım",
-    "title": "Ataköy 1. Kısım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ataköy 1. Kısım ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ataköy 1. Kısım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ataköy 1. Kısım çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Ataköy 1. Kısım",
     "type": "neighborhood"
@@ -464,8 +464,8 @@ export const istanbulAreaPages = [
   {
     "slug": "atakoy-2-5-6-kisim-cicekcilik-peyzaj-organizasyon",
     "name": "Ataköy 2-5-6. Kısım",
-    "title": "Ataköy 2-5-6. Kısım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ataköy 2-5-6. Kısım ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ataköy 2-5-6. Kısım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ataköy 2-5-6. Kısım çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Ataköy 2-5-6. Kısım",
     "type": "neighborhood"
@@ -473,8 +473,8 @@ export const istanbulAreaPages = [
   {
     "slug": "atakoy-3-4-11-kisim-cicekcilik-peyzaj-organizasyon",
     "name": "Ataköy 3-4-11. Kısım",
-    "title": "Ataköy 3-4-11. Kısım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ataköy 3-4-11. Kısım ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ataköy 3-4-11. Kısım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ataköy 3-4-11. Kısım çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Ataköy 3-4-11. Kısım",
     "type": "neighborhood"
@@ -482,8 +482,8 @@ export const istanbulAreaPages = [
   {
     "slug": "atakoy-7-8-9-10-kisim-cicekcilik-peyzaj-organizasyon",
     "name": "Ataköy 7-8-9-10. Kısım",
-    "title": "Ataköy 7-8-9-10. Kısım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ataköy 7-8-9-10. Kısım ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ataköy 7-8-9-10. Kısım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ataköy 7-8-9-10. Kısım çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Ataköy 7-8-9-10. Kısım",
     "type": "neighborhood"
@@ -491,8 +491,8 @@ export const istanbulAreaPages = [
   {
     "slug": "basinkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Basınköy",
-    "title": "Basınköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Basınköy ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Basınköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Basınköy çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Basınköy",
     "type": "neighborhood"
@@ -500,8 +500,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cevizlik-cicekcilik-peyzaj-organizasyon",
     "name": "Cevizlik",
-    "title": "Cevizlik Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cevizlik ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cevizlik Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cevizlik çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Cevizlik",
     "type": "neighborhood"
@@ -509,8 +509,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kartaltepe-cicekcilik-peyzaj-organizasyon",
     "name": "Kartaltepe",
-    "title": "Kartaltepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kartaltepe ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kartaltepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kartaltepe çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Kartaltepe",
     "type": "neighborhood"
@@ -518,8 +518,8 @@ export const istanbulAreaPages = [
   {
     "slug": "osmaniye-cicekcilik-peyzaj-organizasyon",
     "name": "Osmaniye",
-    "title": "Osmaniye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Osmaniye ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Osmaniye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Osmaniye çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Osmaniye",
     "type": "neighborhood"
@@ -527,8 +527,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sakizagaci-cicekcilik-peyzaj-organizasyon",
     "name": "Sakızağacı",
-    "title": "Sakızağacı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sakızağacı ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sakızağacı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sakızağacı çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Sakızağacı",
     "type": "neighborhood"
@@ -536,8 +536,8 @@ export const istanbulAreaPages = [
   {
     "slug": "senlikkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Şenlikköy",
-    "title": "Şenlikköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şenlikköy ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şenlikköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şenlikköy çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Şenlikköy",
     "type": "neighborhood"
@@ -545,8 +545,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenimahalle-cicekcilik-peyzaj-organizasyon",
     "name": "Yenimahalle",
-    "title": "Yenimahalle Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenimahalle ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenimahalle Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenimahalle çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Yenimahalle",
     "type": "neighborhood"
@@ -554,8 +554,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilköy",
-    "title": "Yeşilköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilköy ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilköy çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Yeşilköy",
     "type": "neighborhood"
@@ -563,8 +563,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilkoy-sb-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilköy Sb",
-    "title": "Yeşilköy Sb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilköy Sb ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilköy Sb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilköy Sb çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Yeşilköy Sb",
     "type": "neighborhood"
@@ -572,8 +572,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilyurt",
-    "title": "Yeşilyurt Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilyurt ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilyurt Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilyurt çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Yeşilyurt",
     "type": "neighborhood"
@@ -581,8 +581,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zeytinlik-cicekcilik-peyzaj-organizasyon",
     "name": "Zeytinlik",
-    "title": "Zeytinlik Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zeytinlik ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zeytinlik Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zeytinlik çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Zeytinlik",
     "type": "neighborhood"
@@ -590,8 +590,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zuhuratbaba-cicekcilik-peyzaj-organizasyon",
     "name": "Zuhuratbaba",
-    "title": "Zuhuratbaba Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zuhuratbaba ve Bakırköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zuhuratbaba Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zuhuratbaba çiçekçi arayanlar için Bakırköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bakırköy",
     "neighborhood": "Zuhuratbaba",
     "type": "neighborhood"
@@ -599,8 +599,8 @@ export const istanbulAreaPages = [
   {
     "slug": "abbasaga-cicekcilik-peyzaj-organizasyon",
     "name": "Abbasağa",
-    "title": "Abbasağa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Abbasağa ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Abbasağa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Abbasağa çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Abbasağa",
     "type": "neighborhood"
@@ -608,8 +608,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akat-cicekcilik-peyzaj-organizasyon",
     "name": "Akat",
-    "title": "Akat Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akat ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akat Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akat çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Akat",
     "type": "neighborhood"
@@ -617,8 +617,8 @@ export const istanbulAreaPages = [
   {
     "slug": "arnavutkoy-besiktas-cicekcilik-peyzaj-organizasyon",
     "name": "Arnavutköy",
-    "title": "Arnavutköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Arnavutköy ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Arnavutköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Arnavutköy çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Arnavutköy",
     "type": "neighborhood"
@@ -626,8 +626,8 @@ export const istanbulAreaPages = [
   {
     "slug": "balmumcu-cicekcilik-peyzaj-organizasyon",
     "name": "Balmumcu",
-    "title": "Balmumcu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Balmumcu ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Balmumcu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Balmumcu çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Balmumcu",
     "type": "neighborhood"
@@ -635,8 +635,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bebek-cicekcilik-peyzaj-organizasyon",
     "name": "Bebek",
-    "title": "Bebek Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bebek ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bebek Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bebek çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Bebek",
     "type": "neighborhood"
@@ -644,8 +644,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cihannuma-cicekcilik-peyzaj-organizasyon",
     "name": "Cihannüma",
-    "title": "Cihannüma Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cihannüma ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cihannüma Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cihannüma çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Cihannüma",
     "type": "neighborhood"
@@ -653,8 +653,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dikilitas-cicekcilik-peyzaj-organizasyon",
     "name": "Dikilitaş",
-    "title": "Dikilitaş Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dikilitaş ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dikilitaş Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dikilitaş çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Dikilitaş",
     "type": "neighborhood"
@@ -662,8 +662,8 @@ export const istanbulAreaPages = [
   {
     "slug": "etiler-cicekcilik-peyzaj-organizasyon",
     "name": "Etiler",
-    "title": "Etiler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Etiler ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Etiler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Etiler çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Etiler",
     "type": "neighborhood"
@@ -671,8 +671,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gayrettepe-cicekcilik-peyzaj-organizasyon",
     "name": "Gayrettepe",
-    "title": "Gayrettepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gayrettepe ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gayrettepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gayrettepe çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Gayrettepe",
     "type": "neighborhood"
@@ -680,8 +680,8 @@ export const istanbulAreaPages = [
   {
     "slug": "konaklar-cicekcilik-peyzaj-organizasyon",
     "name": "Konaklar",
-    "title": "Konaklar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Konaklar ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Konaklar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Konaklar çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Konaklar",
     "type": "neighborhood"
@@ -689,8 +689,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kurucesme-cicekcilik-peyzaj-organizasyon",
     "name": "Kuruçeşme",
-    "title": "Kuruçeşme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kuruçeşme ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kuruçeşme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kuruçeşme çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Kuruçeşme",
     "type": "neighborhood"
@@ -698,8 +698,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kultur-cicekcilik-peyzaj-organizasyon",
     "name": "Kültür",
-    "title": "Kültür Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kültür ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kültür Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kültür çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Kültür",
     "type": "neighborhood"
@@ -707,8 +707,8 @@ export const istanbulAreaPages = [
   {
     "slug": "levazim-cicekcilik-peyzaj-organizasyon",
     "name": "Levazım",
-    "title": "Levazım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Levazım ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Levazım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Levazım çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Levazım",
     "type": "neighborhood"
@@ -716,8 +716,8 @@ export const istanbulAreaPages = [
   {
     "slug": "levent-cicekcilik-peyzaj-organizasyon",
     "name": "Levent",
-    "title": "Levent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Levent ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Levent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Levent çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Levent",
     "type": "neighborhood"
@@ -725,8 +725,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mecidiye-cicekcilik-peyzaj-organizasyon",
     "name": "Mecidiye",
-    "title": "Mecidiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mecidiye ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mecidiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mecidiye çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Mecidiye",
     "type": "neighborhood"
@@ -734,8 +734,8 @@ export const istanbulAreaPages = [
   {
     "slug": "muradiye-cicekcilik-peyzaj-organizasyon",
     "name": "Muradiye",
-    "title": "Muradiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Muradiye ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Muradiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Muradiye çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Muradiye",
     "type": "neighborhood"
@@ -743,8 +743,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nisbetiye-cicekcilik-peyzaj-organizasyon",
     "name": "Nisbetiye",
-    "title": "Nisbetiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nisbetiye ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nisbetiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nisbetiye çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Nisbetiye",
     "type": "neighborhood"
@@ -752,8 +752,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ortakoy-cicekcilik-peyzaj-organizasyon",
     "name": "Ortaköy",
-    "title": "Ortaköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ortaköy ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ortaköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ortaköy çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Ortaköy",
     "type": "neighborhood"
@@ -761,8 +761,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sinanpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Sinanpaşa",
-    "title": "Sinanpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sinanpaşa ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sinanpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sinanpaşa çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Sinanpaşa",
     "type": "neighborhood"
@@ -770,8 +770,8 @@ export const istanbulAreaPages = [
   {
     "slug": "turkali-cicekcilik-peyzaj-organizasyon",
     "name": "Türkali",
-    "title": "Türkali Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Türkali ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Türkali Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Türkali çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Türkali",
     "type": "neighborhood"
@@ -779,8 +779,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ulus-cicekcilik-peyzaj-organizasyon",
     "name": "Ulus",
-    "title": "Ulus Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ulus ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ulus Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ulus çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Ulus",
     "type": "neighborhood"
@@ -788,8 +788,8 @@ export const istanbulAreaPages = [
   {
     "slug": "visnezade-cicekcilik-peyzaj-organizasyon",
     "name": "Vişnezade",
-    "title": "Vişnezade Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Vişnezade ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Vişnezade Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Vişnezade çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Vişnezade",
     "type": "neighborhood"
@@ -797,8 +797,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yildiz-cicekcilik-peyzaj-organizasyon",
     "name": "Yıldız",
-    "title": "Yıldız Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yıldız ve Beşiktaş çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yıldız Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yıldız çiçekçi arayanlar için Beşiktaş ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beşiktaş",
     "neighborhood": "Yıldız",
     "type": "neighborhood"
@@ -806,8 +806,8 @@ export const istanbulAreaPages = [
   {
     "slug": "acarlar-cicekcilik-peyzaj-organizasyon",
     "name": "Acarlar",
-    "title": "Acarlar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Acarlar ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Acarlar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Acarlar çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Acarlar",
     "type": "neighborhood"
@@ -815,8 +815,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akbaba-cicekcilik-peyzaj-organizasyon",
     "name": "Akbaba",
-    "title": "Akbaba Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akbaba ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akbaba Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akbaba çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Akbaba",
     "type": "neighborhood"
@@ -824,8 +824,8 @@ export const istanbulAreaPages = [
   {
     "slug": "alibahadir-cicekcilik-peyzaj-organizasyon",
     "name": "Alibahadır",
-    "title": "Alibahadır Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Alibahadır ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Alibahadır Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Alibahadır çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Alibahadır",
     "type": "neighborhood"
@@ -833,8 +833,8 @@ export const istanbulAreaPages = [
   {
     "slug": "anadolu-hisari-cicekcilik-peyzaj-organizasyon",
     "name": "Anadolu Hisarı",
-    "title": "Anadolu Hisarı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Anadolu Hisarı ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Anadolu Hisarı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Anadolu Hisarı çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Anadolu Hisarı",
     "type": "neighborhood"
@@ -842,8 +842,8 @@ export const istanbulAreaPages = [
   {
     "slug": "anadolu-kavagi-cicekcilik-peyzaj-organizasyon",
     "name": "Anadolu Kavağı",
-    "title": "Anadolu Kavağı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Anadolu Kavağı ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Anadolu Kavağı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Anadolu Kavağı çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Anadolu Kavağı",
     "type": "neighborhood"
@@ -851,8 +851,8 @@ export const istanbulAreaPages = [
   {
     "slug": "anadolufeneri-cicekcilik-peyzaj-organizasyon",
     "name": "Anadolufeneri",
-    "title": "Anadolufeneri Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Anadolufeneri ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Anadolufeneri Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Anadolufeneri çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Anadolufeneri",
     "type": "neighborhood"
@@ -860,8 +860,8 @@ export const istanbulAreaPages = [
   {
     "slug": "baklaci-cicekcilik-peyzaj-organizasyon",
     "name": "Baklacı",
-    "title": "Baklacı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Baklacı ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Baklacı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Baklacı çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Baklacı",
     "type": "neighborhood"
@@ -869,8 +869,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bozhane-cicekcilik-peyzaj-organizasyon",
     "name": "Bozhane",
-    "title": "Bozhane Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bozhane ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bozhane Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bozhane çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Bozhane",
     "type": "neighborhood"
@@ -878,8 +878,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -887,8 +887,8 @@ export const istanbulAreaPages = [
   {
     "slug": "camlibahce-cicekcilik-peyzaj-organizasyon",
     "name": "Çamlıbahçe",
-    "title": "Çamlıbahçe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çamlıbahçe ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çamlıbahçe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çamlıbahçe çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Çamlıbahçe",
     "type": "neighborhood"
@@ -896,8 +896,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cengeldere-cicekcilik-peyzaj-organizasyon",
     "name": "Çengeldere",
-    "title": "Çengeldere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çengeldere ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çengeldere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çengeldere çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Çengeldere",
     "type": "neighborhood"
@@ -905,8 +905,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ciftlik-cicekcilik-peyzaj-organizasyon",
     "name": "Çiftlik",
-    "title": "Çiftlik Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çiftlik ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çiftlik Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çiftlik çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Çiftlik",
     "type": "neighborhood"
@@ -914,8 +914,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cigdem-cicekcilik-peyzaj-organizasyon",
     "name": "Çiğdem",
-    "title": "Çiğdem Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çiğdem ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çiğdem Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çiğdem çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Çiğdem",
     "type": "neighborhood"
@@ -923,8 +923,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cubuklu-cicekcilik-peyzaj-organizasyon",
     "name": "Çubuklu",
-    "title": "Çubuklu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çubuklu ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çubuklu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çubuklu çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Çubuklu",
     "type": "neighborhood"
@@ -932,8 +932,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dereseki-cicekcilik-peyzaj-organizasyon",
     "name": "Dereseki",
-    "title": "Dereseki Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dereseki ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dereseki Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dereseki çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Dereseki",
     "type": "neighborhood"
@@ -941,8 +941,8 @@ export const istanbulAreaPages = [
   {
     "slug": "elmali-cicekcilik-peyzaj-organizasyon",
     "name": "Elmalı",
-    "title": "Elmalı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Elmalı ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Elmalı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Elmalı çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Elmalı",
     "type": "neighborhood"
@@ -950,8 +950,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-beykoz-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -959,8 +959,8 @@ export const istanbulAreaPages = [
   {
     "slug": "goksu-cicekcilik-peyzaj-organizasyon",
     "name": "Göksu",
-    "title": "Göksu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Göksu ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Göksu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Göksu çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Göksu",
     "type": "neighborhood"
@@ -968,8 +968,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gollu-cicekcilik-peyzaj-organizasyon",
     "name": "Göllü",
-    "title": "Göllü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Göllü ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Göllü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Göllü çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Göllü",
     "type": "neighborhood"
@@ -977,8 +977,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gorele-cicekcilik-peyzaj-organizasyon",
     "name": "Görele",
-    "title": "Görele Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Görele ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Görele Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Görele çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Görele",
     "type": "neighborhood"
@@ -986,8 +986,8 @@ export const istanbulAreaPages = [
   {
     "slug": "goztepe-cicekcilik-peyzaj-organizasyon",
     "name": "Göztepe",
-    "title": "Göztepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Göztepe ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Göztepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Göztepe çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Göztepe",
     "type": "neighborhood"
@@ -995,8 +995,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gumussuyu-cicekcilik-peyzaj-organizasyon",
     "name": "Gümüşsuyu",
-    "title": "Gümüşsuyu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gümüşsuyu ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gümüşsuyu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gümüşsuyu çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Gümüşsuyu",
     "type": "neighborhood"
@@ -1004,8 +1004,8 @@ export const istanbulAreaPages = [
   {
     "slug": "incirkoy-cicekcilik-peyzaj-organizasyon",
     "name": "İncirköy",
-    "title": "İncirköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İncirköy ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İncirköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İncirköy çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "İncirköy",
     "type": "neighborhood"
@@ -1013,8 +1013,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ishakli-cicekcilik-peyzaj-organizasyon",
     "name": "İshaklı",
-    "title": "İshaklı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İshaklı ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İshaklı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İshaklı çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "İshaklı",
     "type": "neighborhood"
@@ -1022,8 +1022,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kanlica-cicekcilik-peyzaj-organizasyon",
     "name": "Kanlıca",
-    "title": "Kanlıca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kanlıca ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kanlıca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kanlıca çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Kanlıca",
     "type": "neighborhood"
@@ -1031,8 +1031,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kavacik-cicekcilik-peyzaj-organizasyon",
     "name": "Kavacık",
-    "title": "Kavacık Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kavacık ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kavacık Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kavacık çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Kavacık",
     "type": "neighborhood"
@@ -1040,8 +1040,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kaynarca-cicekcilik-peyzaj-organizasyon",
     "name": "Kaynarca",
-    "title": "Kaynarca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kaynarca ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kaynarca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kaynarca çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Kaynarca",
     "type": "neighborhood"
@@ -1049,8 +1049,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kilicli-cicekcilik-peyzaj-organizasyon",
     "name": "Kılıçlı",
-    "title": "Kılıçlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kılıçlı ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kılıçlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kılıçlı çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Kılıçlı",
     "type": "neighborhood"
@@ -1058,8 +1058,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mahmutsevketpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Mahmutşevketpaşa",
-    "title": "Mahmutşevketpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mahmutşevketpaşa ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mahmutşevketpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mahmutşevketpaşa çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Mahmutşevketpaşa",
     "type": "neighborhood"
@@ -1067,8 +1067,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Merkez",
-    "title": "Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkez ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkez çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Merkez",
     "type": "neighborhood"
@@ -1076,8 +1076,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ortacesme-cicekcilik-peyzaj-organizasyon",
     "name": "Ortaçeşme",
-    "title": "Ortaçeşme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ortaçeşme ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ortaçeşme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ortaçeşme çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Ortaçeşme",
     "type": "neighborhood"
@@ -1085,8 +1085,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ogumce-cicekcilik-peyzaj-organizasyon",
     "name": "Öğümce",
-    "title": "Öğümce Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Öğümce ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Öğümce Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Öğümce çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Öğümce",
     "type": "neighborhood"
@@ -1094,8 +1094,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ornekkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Örnekköy",
-    "title": "Örnekköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Örnekköy ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Örnekköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Örnekköy çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Örnekköy",
     "type": "neighborhood"
@@ -1103,8 +1103,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pasabahce-cicekcilik-peyzaj-organizasyon",
     "name": "Paşabahçe",
-    "title": "Paşabahçe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Paşabahçe ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Paşabahçe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Paşabahçe çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Paşabahçe",
     "type": "neighborhood"
@@ -1112,8 +1112,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pasamandira-cicekcilik-peyzaj-organizasyon",
     "name": "Paşamandıra",
-    "title": "Paşamandıra Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Paşamandıra ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Paşamandıra Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Paşamandıra çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Paşamandıra",
     "type": "neighborhood"
@@ -1121,8 +1121,8 @@ export const istanbulAreaPages = [
   {
     "slug": "polonezkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Polonezköy",
-    "title": "Polonezköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Polonezköy ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Polonezköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Polonezköy çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Polonezköy",
     "type": "neighborhood"
@@ -1130,8 +1130,8 @@ export const istanbulAreaPages = [
   {
     "slug": "poyrazkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Poyrazköy",
-    "title": "Poyrazköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Poyrazköy ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Poyrazköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Poyrazköy çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Poyrazköy",
     "type": "neighborhood"
@@ -1139,8 +1139,8 @@ export const istanbulAreaPages = [
   {
     "slug": "riva-cicekcilik-peyzaj-organizasyon",
     "name": "Riva",
-    "title": "Riva Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Riva ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Riva Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Riva çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Riva",
     "type": "neighborhood"
@@ -1148,8 +1148,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ruzgarlibahce-cicekcilik-peyzaj-organizasyon",
     "name": "Rüzgarlıbahçe",
-    "title": "Rüzgarlıbahçe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Rüzgarlıbahçe ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Rüzgarlıbahçe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Rüzgarlıbahçe çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Rüzgarlıbahçe",
     "type": "neighborhood"
@@ -1157,8 +1157,8 @@ export const istanbulAreaPages = [
   {
     "slug": "soguksu-cicekcilik-peyzaj-organizasyon",
     "name": "Soğuksu",
-    "title": "Soğuksu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Soğuksu ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Soğuksu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Soğuksu çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Soğuksu",
     "type": "neighborhood"
@@ -1166,8 +1166,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tokatkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Tokatköy",
-    "title": "Tokatköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tokatköy ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tokatköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tokatköy çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Tokatköy",
     "type": "neighborhood"
@@ -1175,8 +1175,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yalikoy-cicekcilik-peyzaj-organizasyon",
     "name": "Yalıköy",
-    "title": "Yalıköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yalıköy ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yalıköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yalıköy çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Yalıköy",
     "type": "neighborhood"
@@ -1184,8 +1184,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yavuz-selim-cicekcilik-peyzaj-organizasyon",
     "name": "Yavuz Selim",
-    "title": "Yavuz Selim Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yavuz Selim ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yavuz Selim Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yavuz Selim çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Yavuz Selim",
     "type": "neighborhood"
@@ -1193,8 +1193,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yeni-mahalle-cicekcilik-peyzaj-organizasyon",
     "name": "Yeni Mahalle",
-    "title": "Yeni Mahalle Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeni Mahalle ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeni Mahalle Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeni Mahalle çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Yeni Mahalle",
     "type": "neighborhood"
@@ -1202,8 +1202,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zerzavatci-cicekcilik-peyzaj-organizasyon",
     "name": "Zerzavatçı",
-    "title": "Zerzavatçı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zerzavatçı ve Beykoz çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zerzavatçı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zerzavatçı çiçekçi arayanlar için Beykoz ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beykoz",
     "neighborhood": "Zerzavatçı",
     "type": "neighborhood"
@@ -1211,8 +1211,8 @@ export const istanbulAreaPages = [
   {
     "slug": "arap-cami-cicekcilik-peyzaj-organizasyon",
     "name": "Arap Cami",
-    "title": "Arap Cami Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Arap Cami ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Arap Cami Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Arap Cami çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Arap Cami",
     "type": "neighborhood"
@@ -1220,8 +1220,8 @@ export const istanbulAreaPages = [
   {
     "slug": "asmali-mescit-cicekcilik-peyzaj-organizasyon",
     "name": "Asmalı Mescit",
-    "title": "Asmalı Mescit Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Asmalı Mescit ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Asmalı Mescit Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Asmalı Mescit çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Asmalı Mescit",
     "type": "neighborhood"
@@ -1229,8 +1229,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bedrettin-cicekcilik-peyzaj-organizasyon",
     "name": "Bedrettin",
-    "title": "Bedrettin Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bedrettin ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bedrettin Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bedrettin çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Bedrettin",
     "type": "neighborhood"
@@ -1238,8 +1238,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bereketzade-cicekcilik-peyzaj-organizasyon",
     "name": "Bereketzade",
-    "title": "Bereketzade Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bereketzade ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bereketzade Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bereketzade çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Bereketzade",
     "type": "neighborhood"
@@ -1247,8 +1247,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bostan-cicekcilik-peyzaj-organizasyon",
     "name": "Bostan",
-    "title": "Bostan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bostan ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bostan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bostan çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Bostan",
     "type": "neighborhood"
@@ -1256,8 +1256,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bulbul-cicekcilik-peyzaj-organizasyon",
     "name": "Bülbül",
-    "title": "Bülbül Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bülbül ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bülbül Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bülbül çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Bülbül",
     "type": "neighborhood"
@@ -1265,8 +1265,8 @@ export const istanbulAreaPages = [
   {
     "slug": "camiikebir-cicekcilik-peyzaj-organizasyon",
     "name": "Camiikebir",
-    "title": "Camiikebir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Camiikebir ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Camiikebir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Camiikebir çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Camiikebir",
     "type": "neighborhood"
@@ -1274,8 +1274,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cihangir-cicekcilik-peyzaj-organizasyon",
     "name": "Cihangir",
-    "title": "Cihangir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cihangir ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cihangir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cihangir çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Cihangir",
     "type": "neighborhood"
@@ -1283,8 +1283,8 @@ export const istanbulAreaPages = [
   {
     "slug": "catma-mescit-cicekcilik-peyzaj-organizasyon",
     "name": "Çatma Mescit",
-    "title": "Çatma Mescit Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çatma Mescit ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çatma Mescit Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çatma Mescit çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Çatma Mescit",
     "type": "neighborhood"
@@ -1292,8 +1292,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cukur-cicekcilik-peyzaj-organizasyon",
     "name": "Çukur",
-    "title": "Çukur Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çukur ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çukur Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çukur çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Çukur",
     "type": "neighborhood"
@@ -1301,8 +1301,8 @@ export const istanbulAreaPages = [
   {
     "slug": "emekyemez-cicekcilik-peyzaj-organizasyon",
     "name": "Emekyemez",
-    "title": "Emekyemez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Emekyemez ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Emekyemez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Emekyemez çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Emekyemez",
     "type": "neighborhood"
@@ -1310,8 +1310,8 @@ export const istanbulAreaPages = [
   {
     "slug": "evliya-celebi-cicekcilik-peyzaj-organizasyon",
     "name": "Evliya Çelebi",
-    "title": "Evliya Çelebi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Evliya Çelebi ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Evliya Çelebi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Evliya Çelebi çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Evliya Çelebi",
     "type": "neighborhood"
@@ -1319,8 +1319,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fetihtepe-cicekcilik-peyzaj-organizasyon",
     "name": "Fetihtepe",
-    "title": "Fetihtepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fetihtepe ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fetihtepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fetihtepe çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Fetihtepe",
     "type": "neighborhood"
@@ -1328,8 +1328,8 @@ export const istanbulAreaPages = [
   {
     "slug": "firuzaga-cicekcilik-peyzaj-organizasyon",
     "name": "Firuzağa",
-    "title": "Firuzağa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Firuzağa ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Firuzağa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Firuzağa çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Firuzağa",
     "type": "neighborhood"
@@ -1337,8 +1337,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gumussuyu-beyoglu-cicekcilik-peyzaj-organizasyon",
     "name": "Gümüşsuyu",
-    "title": "Gümüşsuyu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gümüşsuyu ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gümüşsuyu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gümüşsuyu çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Gümüşsuyu",
     "type": "neighborhood"
@@ -1346,8 +1346,8 @@ export const istanbulAreaPages = [
   {
     "slug": "haciahmet-cicekcilik-peyzaj-organizasyon",
     "name": "Hacıahmet",
-    "title": "Hacıahmet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hacıahmet ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hacıahmet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hacıahmet çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Hacıahmet",
     "type": "neighborhood"
@@ -1355,8 +1355,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hacimimi-cicekcilik-peyzaj-organizasyon",
     "name": "Hacımimi",
-    "title": "Hacımimi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hacımimi ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hacımimi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hacımimi çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Hacımimi",
     "type": "neighborhood"
@@ -1364,8 +1364,8 @@ export const istanbulAreaPages = [
   {
     "slug": "halicioglu-cicekcilik-peyzaj-organizasyon",
     "name": "Halıcıoğlu",
-    "title": "Halıcıoğlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Halıcıoğlu ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Halıcıoğlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Halıcıoğlu çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Halıcıoğlu",
     "type": "neighborhood"
@@ -1373,8 +1373,8 @@ export const istanbulAreaPages = [
   {
     "slug": "huseyinaga-cicekcilik-peyzaj-organizasyon",
     "name": "Hüseyinağa",
-    "title": "Hüseyinağa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hüseyinağa ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hüseyinağa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hüseyinağa çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Hüseyinağa",
     "type": "neighborhood"
@@ -1382,8 +1382,8 @@ export const istanbulAreaPages = [
   {
     "slug": "istiklal-cicekcilik-peyzaj-organizasyon",
     "name": "İstiklal",
-    "title": "İstiklal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İstiklal ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İstiklal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İstiklal çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "İstiklal",
     "type": "neighborhood"
@@ -1391,8 +1391,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kadimehmet-efendi-cicekcilik-peyzaj-organizasyon",
     "name": "Kadımehmet Efendi",
-    "title": "Kadımehmet Efendi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kadımehmet Efendi ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kadımehmet Efendi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kadımehmet Efendi çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Kadımehmet Efendi",
     "type": "neighborhood"
@@ -1400,8 +1400,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kalyoncu-kullugu-cicekcilik-peyzaj-organizasyon",
     "name": "Kalyoncu Kulluğu",
-    "title": "Kalyoncu Kulluğu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kalyoncu Kulluğu ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kalyoncu Kulluğu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kalyoncu Kulluğu çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Kalyoncu Kulluğu",
     "type": "neighborhood"
@@ -1409,8 +1409,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kamer-hatun-cicekcilik-peyzaj-organizasyon",
     "name": "Kamer Hatun",
-    "title": "Kamer Hatun Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kamer Hatun ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kamer Hatun Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kamer Hatun çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Kamer Hatun",
     "type": "neighborhood"
@@ -1418,8 +1418,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kaptanpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Kaptanpaşa",
-    "title": "Kaptanpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kaptanpaşa ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kaptanpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kaptanpaşa çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Kaptanpaşa",
     "type": "neighborhood"
@@ -1427,8 +1427,8 @@ export const istanbulAreaPages = [
   {
     "slug": "katipmustafa-celebi-cicekcilik-peyzaj-organizasyon",
     "name": "Katipmustafa Çelebi",
-    "title": "Katipmustafa Çelebi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Katipmustafa Çelebi ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Katipmustafa Çelebi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Katipmustafa Çelebi çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Katipmustafa Çelebi",
     "type": "neighborhood"
@@ -1436,8 +1436,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kececi-piri-cicekcilik-peyzaj-organizasyon",
     "name": "Keçeci Piri",
-    "title": "Keçeci Piri Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Keçeci Piri ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Keçeci Piri Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Keçeci Piri çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Keçeci Piri",
     "type": "neighborhood"
@@ -1445,8 +1445,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kemankes-karamustafapasa-cicekcilik-peyzaj-organizasyon",
     "name": "Kemankeş Karamustafapaşa",
-    "title": "Kemankeş Karamustafapaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kemankeş Karamustafapaşa ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kemankeş Karamustafapaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kemankeş Karamustafapaşa çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Kemankeş Karamustafapaşa",
     "type": "neighborhood"
@@ -1454,8 +1454,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kilicali-pasa-cicekcilik-peyzaj-organizasyon",
     "name": "Kılıçali Paşa",
-    "title": "Kılıçali Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kılıçali Paşa ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kılıçali Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kılıçali Paşa çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Kılıçali Paşa",
     "type": "neighborhood"
@@ -1463,8 +1463,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kocatepe-cicekcilik-peyzaj-organizasyon",
     "name": "Kocatepe",
-    "title": "Kocatepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kocatepe ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kocatepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kocatepe çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Kocatepe",
     "type": "neighborhood"
@@ -1472,8 +1472,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kulaksiz-cicekcilik-peyzaj-organizasyon",
     "name": "Kulaksız",
-    "title": "Kulaksız Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kulaksız ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kulaksız Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kulaksız çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Kulaksız",
     "type": "neighborhood"
@@ -1481,8 +1481,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kuloglu-cicekcilik-peyzaj-organizasyon",
     "name": "Kuloğlu",
-    "title": "Kuloğlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kuloğlu ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kuloğlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kuloğlu çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Kuloğlu",
     "type": "neighborhood"
@@ -1490,8 +1490,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucuk-piyale-cicekcilik-peyzaj-organizasyon",
     "name": "Küçük Piyale",
-    "title": "Küçük Piyale Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçük Piyale ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçük Piyale Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçük Piyale çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Küçük Piyale",
     "type": "neighborhood"
@@ -1499,8 +1499,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mueyyetzade-cicekcilik-peyzaj-organizasyon",
     "name": "Müeyyetzade",
-    "title": "Müeyyetzade Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Müeyyetzade ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Müeyyetzade Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Müeyyetzade çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Müeyyetzade",
     "type": "neighborhood"
@@ -1508,8 +1508,8 @@ export const istanbulAreaPages = [
   {
     "slug": "omer-avni-cicekcilik-peyzaj-organizasyon",
     "name": "Ömer Avni",
-    "title": "Ömer Avni Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ömer Avni ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ömer Avni Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ömer Avni çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Ömer Avni",
     "type": "neighborhood"
@@ -1517,8 +1517,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ornektepe-cicekcilik-peyzaj-organizasyon",
     "name": "Örnektepe",
-    "title": "Örnektepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Örnektepe ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Örnektepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Örnektepe çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Örnektepe",
     "type": "neighborhood"
@@ -1526,8 +1526,8 @@ export const istanbulAreaPages = [
   {
     "slug": "piripasa-cicekcilik-peyzaj-organizasyon",
     "name": "Piripaşa",
-    "title": "Piripaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Piripaşa ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Piripaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Piripaşa çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Piripaşa",
     "type": "neighborhood"
@@ -1535,8 +1535,8 @@ export const istanbulAreaPages = [
   {
     "slug": "piyalepasa-cicekcilik-peyzaj-organizasyon",
     "name": "Piyalepaşa",
-    "title": "Piyalepaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Piyalepaşa ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Piyalepaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Piyalepaşa çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Piyalepaşa",
     "type": "neighborhood"
@@ -1544,8 +1544,8 @@ export const istanbulAreaPages = [
   {
     "slug": "purtelas-hasan-efendi-cicekcilik-peyzaj-organizasyon",
     "name": "Pürtelaş Hasan Efendi",
-    "title": "Pürtelaş Hasan Efendi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Pürtelaş Hasan Efendi ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Pürtelaş Hasan Efendi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Pürtelaş Hasan Efendi çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Pürtelaş Hasan Efendi",
     "type": "neighborhood"
@@ -1553,8 +1553,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sururi-mehmet-efendi-cicekcilik-peyzaj-organizasyon",
     "name": "Sururi Mehmet Efendi",
-    "title": "Sururi Mehmet Efendi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sururi Mehmet Efendi ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sururi Mehmet Efendi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sururi Mehmet Efendi çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Sururi Mehmet Efendi",
     "type": "neighborhood"
@@ -1562,8 +1562,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sutluce-cicekcilik-peyzaj-organizasyon",
     "name": "Sütlüce",
-    "title": "Sütlüce Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sütlüce ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sütlüce Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sütlüce çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Sütlüce",
     "type": "neighborhood"
@@ -1571,8 +1571,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sahkulu-cicekcilik-peyzaj-organizasyon",
     "name": "Şahkulu",
-    "title": "Şahkulu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şahkulu ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şahkulu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şahkulu çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Şahkulu",
     "type": "neighborhood"
@@ -1580,8 +1580,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sehit-muhtar-cicekcilik-peyzaj-organizasyon",
     "name": "Şehit Muhtar",
-    "title": "Şehit Muhtar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şehit Muhtar ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şehit Muhtar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şehit Muhtar çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Şehit Muhtar",
     "type": "neighborhood"
@@ -1589,8 +1589,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tomtom-cicekcilik-peyzaj-organizasyon",
     "name": "Tomtom",
-    "title": "Tomtom Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tomtom ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tomtom Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tomtom çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Tomtom",
     "type": "neighborhood"
@@ -1598,8 +1598,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yahya-kahya-cicekcilik-peyzaj-organizasyon",
     "name": "Yahya Kahya",
-    "title": "Yahya Kahya Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yahya Kahya ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yahya Kahya Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yahya Kahya çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Yahya Kahya",
     "type": "neighborhood"
@@ -1607,8 +1607,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenisehir-cicekcilik-peyzaj-organizasyon",
     "name": "Yenişehir",
-    "title": "Yenişehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenişehir ve Beyoğlu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenişehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenişehir çiçekçi arayanlar için Beyoğlu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beyoğlu",
     "neighborhood": "Yenişehir",
     "type": "neighborhood"
@@ -1616,8 +1616,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akalan-cicekcilik-peyzaj-organizasyon",
     "name": "Akalan",
-    "title": "Akalan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akalan ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akalan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akalan çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Akalan",
     "type": "neighborhood"
@@ -1625,8 +1625,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ataturk-cicekcilik-peyzaj-organizasyon",
     "name": "Atatürk",
-    "title": "Atatürk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atatürk ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atatürk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atatürk çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Atatürk",
     "type": "neighborhood"
@@ -1634,8 +1634,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aydinlar-cicekcilik-peyzaj-organizasyon",
     "name": "Aydınlar",
-    "title": "Aydınlar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aydınlar ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aydınlar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aydınlar çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Aydınlar",
     "type": "neighborhood"
@@ -1643,8 +1643,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahsayis-cicekcilik-peyzaj-organizasyon",
     "name": "Bahşayiş",
-    "title": "Bahşayiş Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahşayiş ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahşayiş Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahşayiş çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Bahşayiş",
     "type": "neighborhood"
@@ -1652,8 +1652,8 @@ export const istanbulAreaPages = [
   {
     "slug": "basak-cicekcilik-peyzaj-organizasyon",
     "name": "Başak",
-    "title": "Başak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Başak ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Başak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Başak çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Başak",
     "type": "neighborhood"
@@ -1661,8 +1661,8 @@ export const istanbulAreaPages = [
   {
     "slug": "belgrat-cicekcilik-peyzaj-organizasyon",
     "name": "Belgrat",
-    "title": "Belgrat Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Belgrat ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Belgrat Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Belgrat çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Belgrat",
     "type": "neighborhood"
@@ -1670,8 +1670,8 @@ export const istanbulAreaPages = [
   {
     "slug": "celepkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Celepköy",
-    "title": "Celepköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Celepköy ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Celepköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Celepköy çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Celepköy",
     "type": "neighborhood"
@@ -1679,8 +1679,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cakil-cicekcilik-peyzaj-organizasyon",
     "name": "Çakıl",
-    "title": "Çakıl Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çakıl ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çakıl Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çakıl çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Çakıl",
     "type": "neighborhood"
@@ -1688,8 +1688,8 @@ export const istanbulAreaPages = [
   {
     "slug": "canakca-cicekcilik-peyzaj-organizasyon",
     "name": "Çanakça",
-    "title": "Çanakça Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çanakça ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çanakça Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çanakça çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Çanakça",
     "type": "neighborhood"
@@ -1697,8 +1697,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ciftlikkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Çiftlikköy",
-    "title": "Çiftlikköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çiftlikköy ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çiftlikköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çiftlikköy çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Çiftlikköy",
     "type": "neighborhood"
@@ -1706,8 +1706,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dagyenice-cicekcilik-peyzaj-organizasyon",
     "name": "Dağyenice",
-    "title": "Dağyenice Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dağyenice ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dağyenice Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dağyenice çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Dağyenice",
     "type": "neighborhood"
@@ -1715,8 +1715,8 @@ export const istanbulAreaPages = [
   {
     "slug": "elbasan-cicekcilik-peyzaj-organizasyon",
     "name": "Elbasan",
-    "title": "Elbasan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Elbasan ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Elbasan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Elbasan çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Elbasan",
     "type": "neighborhood"
@@ -1724,8 +1724,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-catalca-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -1733,8 +1733,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ferhatpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Ferhatpaşa",
-    "title": "Ferhatpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ferhatpaşa ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ferhatpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ferhatpaşa çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Ferhatpaşa",
     "type": "neighborhood"
@@ -1742,8 +1742,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ferhatpasa-sb-cicekcilik-peyzaj-organizasyon",
     "name": "Ferhatpaşa Sb",
-    "title": "Ferhatpaşa Sb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ferhatpaşa Sb ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ferhatpaşa Sb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ferhatpaşa Sb çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Ferhatpaşa Sb",
     "type": "neighborhood"
@@ -1751,8 +1751,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gokceali-cicekcilik-peyzaj-organizasyon",
     "name": "Gökçeali",
-    "title": "Gökçeali Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gökçeali ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gökçeali Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gökçeali çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Gökçeali",
     "type": "neighborhood"
@@ -1760,8 +1760,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gumuspinar-cicekcilik-peyzaj-organizasyon",
     "name": "Gümüşpınar",
-    "title": "Gümüşpınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gümüşpınar ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gümüşpınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gümüşpınar çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Gümüşpınar",
     "type": "neighborhood"
@@ -1769,8 +1769,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hallacli-cicekcilik-peyzaj-organizasyon",
     "name": "Hallaçlı",
-    "title": "Hallaçlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hallaçlı ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hallaçlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hallaçlı çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Hallaçlı",
     "type": "neighborhood"
@@ -1778,8 +1778,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hisarbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Hisarbeyli",
-    "title": "Hisarbeyli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hisarbeyli ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hisarbeyli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hisarbeyli çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Hisarbeyli",
     "type": "neighborhood"
@@ -1787,8 +1787,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ihsaniye-cicekcilik-peyzaj-organizasyon",
     "name": "İhsaniye",
-    "title": "İhsaniye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İhsaniye ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İhsaniye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İhsaniye çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "İhsaniye",
     "type": "neighborhood"
@@ -1796,8 +1796,8 @@ export const istanbulAreaPages = [
   {
     "slug": "incegiz-cicekcilik-peyzaj-organizasyon",
     "name": "İnceğiz",
-    "title": "İnceğiz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İnceğiz ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İnceğiz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İnceğiz çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "İnceğiz",
     "type": "neighborhood"
@@ -1805,8 +1805,8 @@ export const istanbulAreaPages = [
   {
     "slug": "izzettin-cicekcilik-peyzaj-organizasyon",
     "name": "İzzettin",
-    "title": "İzzettin Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İzzettin ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İzzettin Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İzzettin çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "İzzettin",
     "type": "neighborhood"
@@ -1814,8 +1814,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kabakca-cicekcilik-peyzaj-organizasyon",
     "name": "Kabakça",
-    "title": "Kabakça Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kabakça ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kabakça Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kabakça çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Kabakça",
     "type": "neighborhood"
@@ -1823,8 +1823,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kaleici-cicekcilik-peyzaj-organizasyon",
     "name": "Kaleiçi",
-    "title": "Kaleiçi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kaleiçi ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kaleiçi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kaleiçi çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Kaleiçi",
     "type": "neighborhood"
@@ -1832,8 +1832,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kalfa-cicekcilik-peyzaj-organizasyon",
     "name": "Kalfa",
-    "title": "Kalfa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kalfa ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kalfa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kalfa çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Kalfa",
     "type": "neighborhood"
@@ -1841,8 +1841,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karacakoy-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Karacaköy Merkez",
-    "title": "Karacaköy Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karacaköy Merkez ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karacaköy Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karacaköy Merkez çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Karacaköy Merkez",
     "type": "neighborhood"
@@ -1850,8 +1850,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karamandere-cicekcilik-peyzaj-organizasyon",
     "name": "Karamandere",
-    "title": "Karamandere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karamandere ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karamandere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karamandere çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Karamandere",
     "type": "neighborhood"
@@ -1859,8 +1859,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kestanelik-cicekcilik-peyzaj-organizasyon",
     "name": "Kestanelik",
-    "title": "Kestanelik Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kestanelik ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kestanelik Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kestanelik çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Kestanelik",
     "type": "neighborhood"
@@ -1868,8 +1868,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kizilcaali-cicekcilik-peyzaj-organizasyon",
     "name": "Kızılcaali",
-    "title": "Kızılcaali Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kızılcaali ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kızılcaali Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kızılcaali çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Kızılcaali",
     "type": "neighborhood"
@@ -1877,8 +1877,8 @@ export const istanbulAreaPages = [
   {
     "slug": "muratbey-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Muratbey Merkez",
-    "title": "Muratbey Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Muratbey Merkez ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Muratbey Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Muratbey Merkez çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Muratbey Merkez",
     "type": "neighborhood"
@@ -1886,8 +1886,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nakkas-cicekcilik-peyzaj-organizasyon",
     "name": "Nakkaş",
-    "title": "Nakkaş Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nakkaş ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nakkaş Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nakkaş çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Nakkaş",
     "type": "neighborhood"
@@ -1895,8 +1895,8 @@ export const istanbulAreaPages = [
   {
     "slug": "oklali-cicekcilik-peyzaj-organizasyon",
     "name": "Oklalı",
-    "title": "Oklalı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Oklalı ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Oklalı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Oklalı çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Oklalı",
     "type": "neighborhood"
@@ -1904,8 +1904,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ormanli-cicekcilik-peyzaj-organizasyon",
     "name": "Ormanlı",
-    "title": "Ormanlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ormanlı ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ormanlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ormanlı çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Ormanlı",
     "type": "neighborhood"
@@ -1913,8 +1913,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ovayenice-cicekcilik-peyzaj-organizasyon",
     "name": "Ovayenice",
-    "title": "Ovayenice Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ovayenice ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ovayenice Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ovayenice çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Ovayenice",
     "type": "neighborhood"
@@ -1922,8 +1922,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orcunlu-cicekcilik-peyzaj-organizasyon",
     "name": "Örcünlü",
-    "title": "Örcünlü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Örcünlü ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Örcünlü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Örcünlü çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Örcünlü",
     "type": "neighborhood"
@@ -1931,8 +1931,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orencik-cicekcilik-peyzaj-organizasyon",
     "name": "Örencik",
-    "title": "Örencik Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Örencik ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Örencik Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Örencik çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Örencik",
     "type": "neighborhood"
@@ -1940,8 +1940,8 @@ export const istanbulAreaPages = [
   {
     "slug": "subasi-cicekcilik-peyzaj-organizasyon",
     "name": "Subaşı",
-    "title": "Subaşı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Subaşı ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Subaşı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Subaşı çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Subaşı",
     "type": "neighborhood"
@@ -1949,8 +1949,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yalikoy-catalca-cicekcilik-peyzaj-organizasyon",
     "name": "Yalıköy",
-    "title": "Yalıköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yalıköy ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yalıköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yalıköy çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Yalıköy",
     "type": "neighborhood"
@@ -1958,8 +1958,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yaylacik-cicekcilik-peyzaj-organizasyon",
     "name": "Yaylacık",
-    "title": "Yaylacık Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yaylacık ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yaylacık Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yaylacık çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Yaylacık",
     "type": "neighborhood"
@@ -1967,8 +1967,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yazlik-cicekcilik-peyzaj-organizasyon",
     "name": "Yazlık",
-    "title": "Yazlık Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yazlık ve Çatalca çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yazlık Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yazlık çiçekçi arayanlar için Çatalca ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çatalca",
     "neighborhood": "Yazlık",
     "type": "neighborhood"
@@ -1976,8 +1976,8 @@ export const istanbulAreaPages = [
   {
     "slug": "agacli-cicekcilik-peyzaj-organizasyon",
     "name": "Ağaçlı",
-    "title": "Ağaçlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ağaçlı ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ağaçlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ağaçlı çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Ağaçlı",
     "type": "neighborhood"
@@ -1985,8 +1985,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akpinar-cicekcilik-peyzaj-organizasyon",
     "name": "Akpınar",
-    "title": "Akpınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akpınar ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akpınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akpınar çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Akpınar",
     "type": "neighborhood"
@@ -1994,8 +1994,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aksemsettin-cicekcilik-peyzaj-organizasyon",
     "name": "Akşemsettin",
-    "title": "Akşemsettin Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akşemsettin ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akşemsettin Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akşemsettin çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Akşemsettin",
     "type": "neighborhood"
@@ -2003,8 +2003,8 @@ export const istanbulAreaPages = [
   {
     "slug": "alibeykoy-cicekcilik-peyzaj-organizasyon",
     "name": "Alibeyköy",
-    "title": "Alibeyköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Alibeyköy ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Alibeyköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Alibeyköy çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Alibeyköy",
     "type": "neighborhood"
@@ -2012,8 +2012,8 @@ export const istanbulAreaPages = [
   {
     "slug": "circir-cicekcilik-peyzaj-organizasyon",
     "name": "Çırçır",
-    "title": "Çırçır Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çırçır ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çırçır Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çırçır çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Çırçır",
     "type": "neighborhood"
@@ -2021,8 +2021,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ciftalan-cicekcilik-peyzaj-organizasyon",
     "name": "Çiftalan",
-    "title": "Çiftalan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çiftalan ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çiftalan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çiftalan çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Çiftalan",
     "type": "neighborhood"
@@ -2030,8 +2030,8 @@ export const istanbulAreaPages = [
   {
     "slug": "defterdar-cicekcilik-peyzaj-organizasyon",
     "name": "Defterdar",
-    "title": "Defterdar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Defterdar ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Defterdar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Defterdar çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Defterdar",
     "type": "neighborhood"
@@ -2039,8 +2039,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dugmeciler-cicekcilik-peyzaj-organizasyon",
     "name": "Düğmeciler",
-    "title": "Düğmeciler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Düğmeciler ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Düğmeciler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Düğmeciler çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Düğmeciler",
     "type": "neighborhood"
@@ -2048,8 +2048,8 @@ export const istanbulAreaPages = [
   {
     "slug": "emniyettepe-cicekcilik-peyzaj-organizasyon",
     "name": "Emniyettepe",
-    "title": "Emniyettepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Emniyettepe ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Emniyettepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Emniyettepe çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Emniyettepe",
     "type": "neighborhood"
@@ -2057,8 +2057,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esentepe-cicekcilik-peyzaj-organizasyon",
     "name": "Esentepe",
-    "title": "Esentepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esentepe ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esentepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esentepe çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Esentepe",
     "type": "neighborhood"
@@ -2066,8 +2066,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gokturk-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Göktürk Merkez",
-    "title": "Göktürk Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Göktürk Merkez ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Göktürk Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Göktürk Merkez çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Göktürk Merkez",
     "type": "neighborhood"
@@ -2075,8 +2075,8 @@ export const istanbulAreaPages = [
   {
     "slug": "guzeltepe-cicekcilik-peyzaj-organizasyon",
     "name": "Güzeltepe",
-    "title": "Güzeltepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güzeltepe ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güzeltepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güzeltepe çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Güzeltepe",
     "type": "neighborhood"
@@ -2084,8 +2084,8 @@ export const istanbulAreaPages = [
   {
     "slug": "isiklar-cicekcilik-peyzaj-organizasyon",
     "name": "Işıklar",
-    "title": "Işıklar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Işıklar ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Işıklar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Işıklar çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Işıklar",
     "type": "neighborhood"
@@ -2093,8 +2093,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ihsaniye-eyupsultan-cicekcilik-peyzaj-organizasyon",
     "name": "İhsaniye",
-    "title": "İhsaniye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İhsaniye ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İhsaniye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İhsaniye çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "İhsaniye",
     "type": "neighborhood"
@@ -2102,8 +2102,8 @@ export const istanbulAreaPages = [
   {
     "slug": "islambey-cicekcilik-peyzaj-organizasyon",
     "name": "İslambey",
-    "title": "İslambey Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İslambey ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İslambey Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İslambey çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "İslambey",
     "type": "neighborhood"
@@ -2111,8 +2111,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karadolap-cicekcilik-peyzaj-organizasyon",
     "name": "Karadolap",
-    "title": "Karadolap Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karadolap ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karadolap Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karadolap çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Karadolap",
     "type": "neighborhood"
@@ -2120,8 +2120,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkez-eyupsultan-cicekcilik-peyzaj-organizasyon",
     "name": "Merkez",
-    "title": "Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkez ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkez çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Merkez",
     "type": "neighborhood"
@@ -2129,8 +2129,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-sinan-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Sinan",
-    "title": "Mimar Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Sinan ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Sinan çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Mimar Sinan",
     "type": "neighborhood"
@@ -2138,8 +2138,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mithatpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Mithatpaşa",
-    "title": "Mithatpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mithatpaşa ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mithatpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mithatpaşa çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Mithatpaşa",
     "type": "neighborhood"
@@ -2147,8 +2147,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nisanci-cicekcilik-peyzaj-organizasyon",
     "name": "Nişancı",
-    "title": "Nişancı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nişancı ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nişancı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nişancı çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Nişancı",
     "type": "neighborhood"
@@ -2156,8 +2156,8 @@ export const istanbulAreaPages = [
   {
     "slug": "odayeri-cicekcilik-peyzaj-organizasyon",
     "name": "Odayeri",
-    "title": "Odayeri Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Odayeri ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Odayeri Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Odayeri çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Odayeri",
     "type": "neighborhood"
@@ -2165,8 +2165,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pirincci-cicekcilik-peyzaj-organizasyon",
     "name": "Pirinççi",
-    "title": "Pirinççi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Pirinççi ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Pirinççi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Pirinççi çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Pirinççi",
     "type": "neighborhood"
@@ -2174,8 +2174,8 @@ export const istanbulAreaPages = [
   {
     "slug": "rami-cuma-cicekcilik-peyzaj-organizasyon",
     "name": "Rami Cuma",
-    "title": "Rami Cuma Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Rami Cuma ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Rami Cuma Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Rami Cuma çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Rami Cuma",
     "type": "neighborhood"
@@ -2183,8 +2183,8 @@ export const istanbulAreaPages = [
   {
     "slug": "rami-yeni-cicekcilik-peyzaj-organizasyon",
     "name": "Rami Yeni",
-    "title": "Rami Yeni Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Rami Yeni ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Rami Yeni Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Rami Yeni çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Rami Yeni",
     "type": "neighborhood"
@@ -2192,8 +2192,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sakarya-cicekcilik-peyzaj-organizasyon",
     "name": "Sakarya",
-    "title": "Sakarya Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sakarya ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sakarya Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sakarya çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Sakarya",
     "type": "neighborhood"
@@ -2201,8 +2201,8 @@ export const istanbulAreaPages = [
   {
     "slug": "silahtaraga-cicekcilik-peyzaj-organizasyon",
     "name": "Silahtarağa",
-    "title": "Silahtarağa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Silahtarağa ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Silahtarağa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Silahtarağa çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Silahtarağa",
     "type": "neighborhood"
@@ -2210,8 +2210,8 @@ export const istanbulAreaPages = [
   {
     "slug": "topcular-cicekcilik-peyzaj-organizasyon",
     "name": "Topçular",
-    "title": "Topçular Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Topçular ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Topçular Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Topçular çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Topçular",
     "type": "neighborhood"
@@ -2219,8 +2219,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilpinar-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilpınar",
-    "title": "Yeşilpınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilpınar ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilpınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilpınar çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "Yeşilpınar",
     "type": "neighborhood"
@@ -2228,8 +2228,8 @@ export const istanbulAreaPages = [
   {
     "slug": "5levent-cicekcilik-peyzaj-organizasyon",
     "name": "5.levent",
-    "title": "5.levent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "5.levent ve Eyüpsultan çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "5.levent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "5.levent çiçekçi arayanlar için Eyüpsultan ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Eyüpsultan",
     "neighborhood": "5.levent",
     "type": "neighborhood"
@@ -2237,8 +2237,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aksaray-cicekcilik-peyzaj-organizasyon",
     "name": "Aksaray",
-    "title": "Aksaray Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aksaray ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aksaray Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aksaray çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Aksaray",
     "type": "neighborhood"
@@ -2246,8 +2246,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aksemsettin-fatih-cicekcilik-peyzaj-organizasyon",
     "name": "Akşemsettin",
-    "title": "Akşemsettin Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akşemsettin ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akşemsettin Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akşemsettin çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Akşemsettin",
     "type": "neighborhood"
@@ -2255,8 +2255,8 @@ export const istanbulAreaPages = [
   {
     "slug": "alemdar-cicekcilik-peyzaj-organizasyon",
     "name": "Alemdar",
-    "title": "Alemdar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Alemdar ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Alemdar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Alemdar çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Alemdar",
     "type": "neighborhood"
@@ -2264,8 +2264,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ali-kuscu-cicekcilik-peyzaj-organizasyon",
     "name": "Ali Kuşçu",
-    "title": "Ali Kuşçu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ali Kuşçu ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ali Kuşçu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ali Kuşçu çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Ali Kuşçu",
     "type": "neighborhood"
@@ -2273,8 +2273,8 @@ export const istanbulAreaPages = [
   {
     "slug": "atikali-cicekcilik-peyzaj-organizasyon",
     "name": "Atikali",
-    "title": "Atikali Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atikali ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atikali Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atikali çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Atikali",
     "type": "neighborhood"
@@ -2282,8 +2282,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ayvansaray-cicekcilik-peyzaj-organizasyon",
     "name": "Ayvansaray",
-    "title": "Ayvansaray Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ayvansaray ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ayvansaray Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ayvansaray çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Ayvansaray",
     "type": "neighborhood"
@@ -2291,8 +2291,8 @@ export const istanbulAreaPages = [
   {
     "slug": "balabanaga-cicekcilik-peyzaj-organizasyon",
     "name": "Balabanağa",
-    "title": "Balabanağa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Balabanağa ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Balabanağa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Balabanağa çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Balabanağa",
     "type": "neighborhood"
@@ -2300,8 +2300,8 @@ export const istanbulAreaPages = [
   {
     "slug": "balat-cicekcilik-peyzaj-organizasyon",
     "name": "Balat",
-    "title": "Balat Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Balat ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Balat Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Balat çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Balat",
     "type": "neighborhood"
@@ -2309,8 +2309,8 @@ export const istanbulAreaPages = [
   {
     "slug": "beyazit-cicekcilik-peyzaj-organizasyon",
     "name": "Beyazıt",
-    "title": "Beyazıt Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beyazıt ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beyazıt Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beyazıt çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Beyazıt",
     "type": "neighborhood"
@@ -2318,8 +2318,8 @@ export const istanbulAreaPages = [
   {
     "slug": "binbirdirek-cicekcilik-peyzaj-organizasyon",
     "name": "Binbirdirek",
-    "title": "Binbirdirek Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Binbirdirek ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Binbirdirek Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Binbirdirek çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Binbirdirek",
     "type": "neighborhood"
@@ -2327,8 +2327,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cankurtaran-cicekcilik-peyzaj-organizasyon",
     "name": "Cankurtaran",
-    "title": "Cankurtaran Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cankurtaran ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cankurtaran Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cankurtaran çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Cankurtaran",
     "type": "neighborhood"
@@ -2336,8 +2336,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cerrahpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Cerrahpaşa",
-    "title": "Cerrahpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cerrahpaşa ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cerrahpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cerrahpaşa çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Cerrahpaşa",
     "type": "neighborhood"
@@ -2345,8 +2345,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cibali-cicekcilik-peyzaj-organizasyon",
     "name": "Cibali",
-    "title": "Cibali Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cibali ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cibali Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cibali çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Cibali",
     "type": "neighborhood"
@@ -2354,8 +2354,8 @@ export const istanbulAreaPages = [
   {
     "slug": "demirtas-cicekcilik-peyzaj-organizasyon",
     "name": "Demirtaş",
-    "title": "Demirtaş Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Demirtaş ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Demirtaş Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Demirtaş çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Demirtaş",
     "type": "neighborhood"
@@ -2363,8 +2363,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dervis-ali-cicekcilik-peyzaj-organizasyon",
     "name": "Derviş Ali",
-    "title": "Derviş Ali Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Derviş Ali ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Derviş Ali Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Derviş Ali çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Derviş Ali",
     "type": "neighborhood"
@@ -2372,8 +2372,8 @@ export const istanbulAreaPages = [
   {
     "slug": "emin-sinan-cicekcilik-peyzaj-organizasyon",
     "name": "Emin Sinan",
-    "title": "Emin Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Emin Sinan ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Emin Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Emin Sinan çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Emin Sinan",
     "type": "neighborhood"
@@ -2381,8 +2381,8 @@ export const istanbulAreaPages = [
   {
     "slug": "haci-kadin-cicekcilik-peyzaj-organizasyon",
     "name": "Hacı Kadın",
-    "title": "Hacı Kadın Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hacı Kadın ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hacı Kadın Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hacı Kadın çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Hacı Kadın",
     "type": "neighborhood"
@@ -2390,8 +2390,8 @@ export const istanbulAreaPages = [
   {
     "slug": "haseki-sultan-cicekcilik-peyzaj-organizasyon",
     "name": "Haseki Sultan",
-    "title": "Haseki Sultan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Haseki Sultan ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Haseki Sultan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Haseki Sultan çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Haseki Sultan",
     "type": "neighborhood"
@@ -2399,8 +2399,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hirka-i-serif-cicekcilik-peyzaj-organizasyon",
     "name": "Hırka-i Şerif",
-    "title": "Hırka-i Şerif Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hırka-i Şerif ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hırka-i Şerif Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hırka-i Şerif çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Hırka-i Şerif",
     "type": "neighborhood"
@@ -2408,8 +2408,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hobyar-cicekcilik-peyzaj-organizasyon",
     "name": "Hobyar",
-    "title": "Hobyar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hobyar ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hobyar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hobyar çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Hobyar",
     "type": "neighborhood"
@@ -2417,8 +2417,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hoca-giyasettin-cicekcilik-peyzaj-organizasyon",
     "name": "Hoca Gıyasettin",
-    "title": "Hoca Gıyasettin Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hoca Gıyasettin ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hoca Gıyasettin Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hoca Gıyasettin çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Hoca Gıyasettin",
     "type": "neighborhood"
@@ -2426,8 +2426,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hocapasa-cicekcilik-peyzaj-organizasyon",
     "name": "Hocapaşa",
-    "title": "Hocapaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hocapaşa ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hocapaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hocapaşa çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Hocapaşa",
     "type": "neighborhood"
@@ -2435,8 +2435,8 @@ export const istanbulAreaPages = [
   {
     "slug": "iskenderpasa-cicekcilik-peyzaj-organizasyon",
     "name": "İskenderpaşa",
-    "title": "İskenderpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İskenderpaşa ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İskenderpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İskenderpaşa çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "İskenderpaşa",
     "type": "neighborhood"
@@ -2444,8 +2444,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kalenderhane-cicekcilik-peyzaj-organizasyon",
     "name": "Kalenderhane",
-    "title": "Kalenderhane Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kalenderhane ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kalenderhane Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kalenderhane çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Kalenderhane",
     "type": "neighborhood"
@@ -2453,8 +2453,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karagumruk-cicekcilik-peyzaj-organizasyon",
     "name": "Karagümrük",
-    "title": "Karagümrük Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karagümrük ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karagümrük Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karagümrük çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Karagümrük",
     "type": "neighborhood"
@@ -2462,8 +2462,8 @@ export const istanbulAreaPages = [
   {
     "slug": "katip-kasim-cicekcilik-peyzaj-organizasyon",
     "name": "Katip Kasım",
-    "title": "Katip Kasım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Katip Kasım ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Katip Kasım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Katip Kasım çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Katip Kasım",
     "type": "neighborhood"
@@ -2471,8 +2471,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kemalpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Kemalpaşa",
-    "title": "Kemalpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kemalpaşa ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kemalpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kemalpaşa çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Kemalpaşa",
     "type": "neighborhood"
@@ -2480,8 +2480,8 @@ export const istanbulAreaPages = [
   {
     "slug": "koca-mustafapasa-cicekcilik-peyzaj-organizasyon",
     "name": "Koca Mustafapaşa",
-    "title": "Koca Mustafapaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Koca Mustafapaşa ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Koca Mustafapaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Koca Mustafapaşa çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Koca Mustafapaşa",
     "type": "neighborhood"
@@ -2489,8 +2489,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucuk-ayasofya-cicekcilik-peyzaj-organizasyon",
     "name": "Küçük Ayasofya",
-    "title": "Küçük Ayasofya Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçük Ayasofya ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçük Ayasofya Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçük Ayasofya çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Küçük Ayasofya",
     "type": "neighborhood"
@@ -2498,8 +2498,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mercan-cicekcilik-peyzaj-organizasyon",
     "name": "Mercan",
-    "title": "Mercan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mercan ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mercan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mercan çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Mercan",
     "type": "neighborhood"
@@ -2507,8 +2507,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mesihpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Mesihpaşa",
-    "title": "Mesihpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mesihpaşa ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mesihpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mesihpaşa çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Mesihpaşa",
     "type": "neighborhood"
@@ -2516,8 +2516,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mevlanakapi-cicekcilik-peyzaj-organizasyon",
     "name": "Mevlanakapı",
-    "title": "Mevlanakapı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mevlanakapı ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mevlanakapı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mevlanakapı çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Mevlanakapı",
     "type": "neighborhood"
@@ -2525,8 +2525,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-hayrettin-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Hayrettin",
-    "title": "Mimar Hayrettin Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Hayrettin ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Hayrettin Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Hayrettin çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Mimar Hayrettin",
     "type": "neighborhood"
@@ -2534,8 +2534,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-kemalettin-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Kemalettin",
-    "title": "Mimar Kemalettin Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Kemalettin ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Kemalettin Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Kemalettin çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Mimar Kemalettin",
     "type": "neighborhood"
@@ -2543,8 +2543,8 @@ export const istanbulAreaPages = [
   {
     "slug": "molla-fenari-cicekcilik-peyzaj-organizasyon",
     "name": "Molla Fenari",
-    "title": "Molla Fenari Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Molla Fenari ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Molla Fenari Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Molla Fenari çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Molla Fenari",
     "type": "neighborhood"
@@ -2552,8 +2552,8 @@ export const istanbulAreaPages = [
   {
     "slug": "molla-gurani-cicekcilik-peyzaj-organizasyon",
     "name": "Molla Gürani",
-    "title": "Molla Gürani Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Molla Gürani ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Molla Gürani Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Molla Gürani çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Molla Gürani",
     "type": "neighborhood"
@@ -2561,8 +2561,8 @@ export const istanbulAreaPages = [
   {
     "slug": "molla-husrev-cicekcilik-peyzaj-organizasyon",
     "name": "Molla Hüsrev",
-    "title": "Molla Hüsrev Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Molla Hüsrev ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Molla Hüsrev Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Molla Hüsrev çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Molla Hüsrev",
     "type": "neighborhood"
@@ -2570,8 +2570,8 @@ export const istanbulAreaPages = [
   {
     "slug": "muhsine-hatun-cicekcilik-peyzaj-organizasyon",
     "name": "Muhsine Hatun",
-    "title": "Muhsine Hatun Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Muhsine Hatun ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Muhsine Hatun Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Muhsine Hatun çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Muhsine Hatun",
     "type": "neighborhood"
@@ -2579,8 +2579,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nisanca-cicekcilik-peyzaj-organizasyon",
     "name": "Nişanca",
-    "title": "Nişanca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nişanca ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nişanca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nişanca çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Nişanca",
     "type": "neighborhood"
@@ -2588,8 +2588,8 @@ export const istanbulAreaPages = [
   {
     "slug": "rustempasa-cicekcilik-peyzaj-organizasyon",
     "name": "Rüstempaşa",
-    "title": "Rüstempaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Rüstempaşa ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Rüstempaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Rüstempaşa çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Rüstempaşa",
     "type": "neighborhood"
@@ -2597,8 +2597,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sarac-ishak-cicekcilik-peyzaj-organizasyon",
     "name": "Saraç İshak",
-    "title": "Saraç İshak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Saraç İshak ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Saraç İshak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Saraç İshak çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Saraç İshak",
     "type": "neighborhood"
@@ -2606,8 +2606,8 @@ export const istanbulAreaPages = [
   {
     "slug": "saridemir-cicekcilik-peyzaj-organizasyon",
     "name": "Sarıdemir",
-    "title": "Sarıdemir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sarıdemir ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sarıdemir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sarıdemir çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Sarıdemir",
     "type": "neighborhood"
@@ -2615,8 +2615,8 @@ export const istanbulAreaPages = [
   {
     "slug": "seyyid-omer-cicekcilik-peyzaj-organizasyon",
     "name": "Seyyid Ömer",
-    "title": "Seyyid Ömer Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Seyyid Ömer ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Seyyid Ömer Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Seyyid Ömer çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Seyyid Ömer",
     "type": "neighborhood"
@@ -2624,8 +2624,8 @@ export const istanbulAreaPages = [
   {
     "slug": "silivrikapi-cicekcilik-peyzaj-organizasyon",
     "name": "Silivrikapı",
-    "title": "Silivrikapı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Silivrikapı ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Silivrikapı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Silivrikapı çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Silivrikapı",
     "type": "neighborhood"
@@ -2633,8 +2633,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sultan-ahmet-cicekcilik-peyzaj-organizasyon",
     "name": "Sultan Ahmet",
-    "title": "Sultan Ahmet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sultan Ahmet ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sultan Ahmet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sultan Ahmet çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Sultan Ahmet",
     "type": "neighborhood"
@@ -2642,8 +2642,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sururi-cicekcilik-peyzaj-organizasyon",
     "name": "Sururi",
-    "title": "Sururi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sururi ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sururi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sururi çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Sururi",
     "type": "neighborhood"
@@ -2651,8 +2651,8 @@ export const istanbulAreaPages = [
   {
     "slug": "suleymaniye-cicekcilik-peyzaj-organizasyon",
     "name": "Süleymaniye",
-    "title": "Süleymaniye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Süleymaniye ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Süleymaniye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Süleymaniye çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Süleymaniye",
     "type": "neighborhood"
@@ -2660,8 +2660,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sumbul-efendi-cicekcilik-peyzaj-organizasyon",
     "name": "Sümbül Efendi",
-    "title": "Sümbül Efendi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sümbül Efendi ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sümbül Efendi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sümbül Efendi çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Sümbül Efendi",
     "type": "neighborhood"
@@ -2669,8 +2669,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sehremini-cicekcilik-peyzaj-organizasyon",
     "name": "Şehremini",
-    "title": "Şehremini Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şehremini ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şehremini Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şehremini çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Şehremini",
     "type": "neighborhood"
@@ -2678,8 +2678,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sehsuvar-bey-cicekcilik-peyzaj-organizasyon",
     "name": "Şehsuvar Bey",
-    "title": "Şehsuvar Bey Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şehsuvar Bey ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şehsuvar Bey Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şehsuvar Bey çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Şehsuvar Bey",
     "type": "neighborhood"
@@ -2687,8 +2687,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tahtakale-cicekcilik-peyzaj-organizasyon",
     "name": "Tahtakale",
-    "title": "Tahtakale Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tahtakale ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tahtakale Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tahtakale çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Tahtakale",
     "type": "neighborhood"
@@ -2696,8 +2696,8 @@ export const istanbulAreaPages = [
   {
     "slug": "taya-hatun-cicekcilik-peyzaj-organizasyon",
     "name": "Taya Hatun",
-    "title": "Taya Hatun Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Taya Hatun ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Taya Hatun Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Taya Hatun çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Taya Hatun",
     "type": "neighborhood"
@@ -2705,8 +2705,8 @@ export const istanbulAreaPages = [
   {
     "slug": "topkapi-cicekcilik-peyzaj-organizasyon",
     "name": "Topkapı",
-    "title": "Topkapı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Topkapı ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Topkapı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Topkapı çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Topkapı",
     "type": "neighborhood"
@@ -2714,8 +2714,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yavuz-sinan-cicekcilik-peyzaj-organizasyon",
     "name": "Yavuz Sinan",
-    "title": "Yavuz Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yavuz Sinan ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yavuz Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yavuz Sinan çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Yavuz Sinan",
     "type": "neighborhood"
@@ -2723,8 +2723,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yavuz-sultan-selim-cicekcilik-peyzaj-organizasyon",
     "name": "Yavuz Sultan Selim",
-    "title": "Yavuz Sultan Selim Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yavuz Sultan Selim ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yavuz Sultan Selim Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yavuz Sultan Selim çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Yavuz Sultan Selim",
     "type": "neighborhood"
@@ -2732,8 +2732,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yedikule-cicekcilik-peyzaj-organizasyon",
     "name": "Yedikule",
-    "title": "Yedikule Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yedikule ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yedikule Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yedikule çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Yedikule",
     "type": "neighborhood"
@@ -2741,8 +2741,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zeyrek-cicekcilik-peyzaj-organizasyon",
     "name": "Zeyrek",
-    "title": "Zeyrek Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zeyrek ve Fatih çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zeyrek Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zeyrek çiçekçi arayanlar için Fatih ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Fatih",
     "neighborhood": "Zeyrek",
     "type": "neighborhood"
@@ -2750,8 +2750,8 @@ export const istanbulAreaPages = [
   {
     "slug": "baglarbasi-cicekcilik-peyzaj-organizasyon",
     "name": "Bağlarbaşı",
-    "title": "Bağlarbaşı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bağlarbaşı ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bağlarbaşı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bağlarbaşı çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Bağlarbaşı",
     "type": "neighborhood"
@@ -2759,8 +2759,8 @@ export const istanbulAreaPages = [
   {
     "slug": "barbaros-hayrettin-pasa-cicekcilik-peyzaj-organizasyon",
     "name": "Barbaros Hayrettin Paşa",
-    "title": "Barbaros Hayrettin Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Barbaros Hayrettin Paşa ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Barbaros Hayrettin Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Barbaros Hayrettin Paşa çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Barbaros Hayrettin Paşa",
     "type": "neighborhood"
@@ -2768,8 +2768,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fevzi-cakmak-cicekcilik-peyzaj-organizasyon",
     "name": "Fevzi Çakmak",
-    "title": "Fevzi Çakmak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fevzi Çakmak ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fevzi Çakmak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fevzi Çakmak çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Fevzi Çakmak",
     "type": "neighborhood"
@@ -2777,8 +2777,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hurriyet-cicekcilik-peyzaj-organizasyon",
     "name": "Hürriyet",
-    "title": "Hürriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hürriyet ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hürriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hürriyet çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Hürriyet",
     "type": "neighborhood"
@@ -2786,8 +2786,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karadeniz-cicekcilik-peyzaj-organizasyon",
     "name": "Karadeniz",
-    "title": "Karadeniz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karadeniz ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karadeniz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karadeniz çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Karadeniz",
     "type": "neighborhood"
@@ -2795,8 +2795,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karayollari-cicekcilik-peyzaj-organizasyon",
     "name": "Karayolları",
-    "title": "Karayolları Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karayolları ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karayolları Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karayolları çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Karayolları",
     "type": "neighborhood"
@@ -2804,8 +2804,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karlitepe-cicekcilik-peyzaj-organizasyon",
     "name": "Karlıtepe",
-    "title": "Karlıtepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karlıtepe ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karlıtepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karlıtepe çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Karlıtepe",
     "type": "neighborhood"
@@ -2813,8 +2813,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kazim-karabekir-cicekcilik-peyzaj-organizasyon",
     "name": "Kazım Karabekir",
-    "title": "Kazım Karabekir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kazım Karabekir ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kazım Karabekir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kazım Karabekir çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Kazım Karabekir",
     "type": "neighborhood"
@@ -2822,8 +2822,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkez-gaziosmanpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Merkez",
-    "title": "Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkez ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkez çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Merkez",
     "type": "neighborhood"
@@ -2831,8 +2831,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mevlana-cicekcilik-peyzaj-organizasyon",
     "name": "Mevlana",
-    "title": "Mevlana Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mevlana ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mevlana Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mevlana çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Mevlana",
     "type": "neighborhood"
@@ -2840,8 +2840,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pazarici-cicekcilik-peyzaj-organizasyon",
     "name": "Pazariçi",
-    "title": "Pazariçi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Pazariçi ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Pazariçi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Pazariçi çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Pazariçi",
     "type": "neighborhood"
@@ -2849,8 +2849,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sarigol-cicekcilik-peyzaj-organizasyon",
     "name": "Sarıgöl",
-    "title": "Sarıgöl Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sarıgöl ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sarıgöl Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sarıgöl çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Sarıgöl",
     "type": "neighborhood"
@@ -2858,8 +2858,8 @@ export const istanbulAreaPages = [
   {
     "slug": "semsipasa-cicekcilik-peyzaj-organizasyon",
     "name": "Şemsipaşa",
-    "title": "Şemsipaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şemsipaşa ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şemsipaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şemsipaşa çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Şemsipaşa",
     "type": "neighborhood"
@@ -2867,8 +2867,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yeni-mahalle-gaziosmanpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Yeni Mahalle",
-    "title": "Yeni Mahalle Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeni Mahalle ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeni Mahalle Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeni Mahalle çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Yeni Mahalle",
     "type": "neighborhood"
@@ -2876,8 +2876,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenidogan-cicekcilik-peyzaj-organizasyon",
     "name": "Yenidoğan",
-    "title": "Yenidoğan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenidoğan ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenidoğan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenidoğan çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Yenidoğan",
     "type": "neighborhood"
@@ -2885,8 +2885,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yildiztabya-cicekcilik-peyzaj-organizasyon",
     "name": "Yıldıztabya",
-    "title": "Yıldıztabya Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yıldıztabya ve Gaziosmanpaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yıldıztabya Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yıldıztabya çiçekçi arayanlar için Gaziosmanpaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Gaziosmanpaşa",
     "neighborhood": "Yıldıztabya",
     "type": "neighborhood"
@@ -2894,8 +2894,8 @@ export const istanbulAreaPages = [
   {
     "slug": "19-mayis-cicekcilik-peyzaj-organizasyon",
     "name": "19 Mayıs",
-    "title": "19 Mayıs Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "19 Mayıs ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "19 Mayıs Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "19 Mayıs çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "19 Mayıs",
     "type": "neighborhood"
@@ -2903,8 +2903,8 @@ export const istanbulAreaPages = [
   {
     "slug": "acibadem-cicekcilik-peyzaj-organizasyon",
     "name": "Acıbadem",
-    "title": "Acıbadem Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Acıbadem ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Acıbadem Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Acıbadem çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Acıbadem",
     "type": "neighborhood"
@@ -2912,8 +2912,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bostanci-cicekcilik-peyzaj-organizasyon",
     "name": "Bostancı",
-    "title": "Bostancı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bostancı ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bostancı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bostancı çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Bostancı",
     "type": "neighborhood"
@@ -2921,8 +2921,8 @@ export const istanbulAreaPages = [
   {
     "slug": "caddebostan-cicekcilik-peyzaj-organizasyon",
     "name": "Caddebostan",
-    "title": "Caddebostan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Caddebostan ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Caddebostan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Caddebostan çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Caddebostan",
     "type": "neighborhood"
@@ -2930,8 +2930,8 @@ export const istanbulAreaPages = [
   {
     "slug": "caferaga-cicekcilik-peyzaj-organizasyon",
     "name": "Caferağa",
-    "title": "Caferağa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Caferağa ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Caferağa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Caferağa çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Caferağa",
     "type": "neighborhood"
@@ -2939,8 +2939,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dumlupinar-cicekcilik-peyzaj-organizasyon",
     "name": "Dumlupınar",
-    "title": "Dumlupınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dumlupınar ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dumlupınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dumlupınar çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Dumlupınar",
     "type": "neighborhood"
@@ -2948,8 +2948,8 @@ export const istanbulAreaPages = [
   {
     "slug": "egitim-cicekcilik-peyzaj-organizasyon",
     "name": "Eğitim",
-    "title": "Eğitim Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Eğitim ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Eğitim Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Eğitim çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Eğitim",
     "type": "neighborhood"
@@ -2957,8 +2957,8 @@ export const istanbulAreaPages = [
   {
     "slug": "erenkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Erenköy",
-    "title": "Erenköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Erenköy ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Erenköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Erenköy çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Erenköy",
     "type": "neighborhood"
@@ -2966,8 +2966,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fenerbahce-cicekcilik-peyzaj-organizasyon",
     "name": "Fenerbahçe",
-    "title": "Fenerbahçe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fenerbahçe ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fenerbahçe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fenerbahçe çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Fenerbahçe",
     "type": "neighborhood"
@@ -2975,8 +2975,8 @@ export const istanbulAreaPages = [
   {
     "slug": "feneryolu-cicekcilik-peyzaj-organizasyon",
     "name": "Feneryolu",
-    "title": "Feneryolu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Feneryolu ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Feneryolu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Feneryolu çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Feneryolu",
     "type": "neighborhood"
@@ -2984,8 +2984,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fikirtepe-cicekcilik-peyzaj-organizasyon",
     "name": "Fikirtepe",
-    "title": "Fikirtepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fikirtepe ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fikirtepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fikirtepe çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Fikirtepe",
     "type": "neighborhood"
@@ -2993,8 +2993,8 @@ export const istanbulAreaPages = [
   {
     "slug": "goztepe-kadikoy-cicekcilik-peyzaj-organizasyon",
     "name": "Göztepe",
-    "title": "Göztepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Göztepe ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Göztepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Göztepe çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Göztepe",
     "type": "neighborhood"
@@ -3002,8 +3002,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hasanpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Hasanpaşa",
-    "title": "Hasanpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hasanpaşa ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hasanpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hasanpaşa çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Hasanpaşa",
     "type": "neighborhood"
@@ -3011,8 +3011,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kosuyolu-cicekcilik-peyzaj-organizasyon",
     "name": "Koşuyolu",
-    "title": "Koşuyolu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Koşuyolu ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Koşuyolu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Koşuyolu çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Koşuyolu",
     "type": "neighborhood"
@@ -3020,8 +3020,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kozyatagi-cicekcilik-peyzaj-organizasyon",
     "name": "Kozyatağı",
-    "title": "Kozyatağı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kozyatağı ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kozyatağı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kozyatağı çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Kozyatağı",
     "type": "neighborhood"
@@ -3029,8 +3029,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merdivenkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Merdivenköy",
-    "title": "Merdivenköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merdivenköy ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merdivenköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merdivenköy çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Merdivenköy",
     "type": "neighborhood"
@@ -3038,8 +3038,8 @@ export const istanbulAreaPages = [
   {
     "slug": "osmanaga-cicekcilik-peyzaj-organizasyon",
     "name": "Osmanağa",
-    "title": "Osmanağa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Osmanağa ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Osmanağa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Osmanağa çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Osmanağa",
     "type": "neighborhood"
@@ -3047,8 +3047,8 @@ export const istanbulAreaPages = [
   {
     "slug": "rasimpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Rasimpaşa",
-    "title": "Rasimpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Rasimpaşa ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Rasimpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Rasimpaşa çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Rasimpaşa",
     "type": "neighborhood"
@@ -3056,8 +3056,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sahrayicedit-cicekcilik-peyzaj-organizasyon",
     "name": "Sahrayıcedit",
-    "title": "Sahrayıcedit Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sahrayıcedit ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sahrayıcedit Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sahrayıcedit çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Sahrayıcedit",
     "type": "neighborhood"
@@ -3065,8 +3065,8 @@ export const istanbulAreaPages = [
   {
     "slug": "suadiye-cicekcilik-peyzaj-organizasyon",
     "name": "Suadiye",
-    "title": "Suadiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Suadiye ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Suadiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Suadiye çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Suadiye",
     "type": "neighborhood"
@@ -3074,8 +3074,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zuhtupasa-cicekcilik-peyzaj-organizasyon",
     "name": "Zühtüpaşa",
-    "title": "Zühtüpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zühtüpaşa ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zühtüpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zühtüpaşa çiçekçi arayanlar için Kadıköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kadıköy",
     "neighborhood": "Zühtüpaşa",
     "type": "neighborhood"
@@ -3083,7 +3083,7 @@ export const istanbulAreaPages = [
   {
     "slug": "cicekcilik-peyzaj-organizasyon",
     "name": "",
-    "title": " Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
+    "title": " Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
     "description": " ve Kadıköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
     "district": "Kadıköy",
     "neighborhood": null,
@@ -3092,8 +3092,8 @@ export const istanbulAreaPages = [
   {
     "slug": "atalar-cicekcilik-peyzaj-organizasyon",
     "name": "Atalar",
-    "title": "Atalar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atalar ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atalar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atalar çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Atalar",
     "type": "neighborhood"
@@ -3101,8 +3101,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cevizli-cicekcilik-peyzaj-organizasyon",
     "name": "Cevizli",
-    "title": "Cevizli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cevizli ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cevizli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cevizli çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Cevizli",
     "type": "neighborhood"
@@ -3110,8 +3110,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-kartal-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -3119,8 +3119,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cavusoglu-cicekcilik-peyzaj-organizasyon",
     "name": "Çavuşoğlu",
-    "title": "Çavuşoğlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çavuşoğlu ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çavuşoğlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çavuşoğlu çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Çavuşoğlu",
     "type": "neighborhood"
@@ -3128,8 +3128,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esentepe-kartal-cicekcilik-peyzaj-organizasyon",
     "name": "Esentepe",
-    "title": "Esentepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esentepe ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esentepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esentepe çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Esentepe",
     "type": "neighborhood"
@@ -3137,8 +3137,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gumuspinar-kartal-cicekcilik-peyzaj-organizasyon",
     "name": "Gümüşpınar",
-    "title": "Gümüşpınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gümüşpınar ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gümüşpınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gümüşpınar çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Gümüşpınar",
     "type": "neighborhood"
@@ -3146,8 +3146,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hurriyet-kartal-cicekcilik-peyzaj-organizasyon",
     "name": "Hürriyet",
-    "title": "Hürriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hürriyet ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hürriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hürriyet çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Hürriyet",
     "type": "neighborhood"
@@ -3155,8 +3155,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karliktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Karlıktepe",
-    "title": "Karlıktepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karlıktepe ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karlıktepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karlıktepe çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Karlıktepe",
     "type": "neighborhood"
@@ -3164,8 +3164,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kordonboyu-cicekcilik-peyzaj-organizasyon",
     "name": "Kordonboyu",
-    "title": "Kordonboyu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kordonboyu ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kordonboyu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kordonboyu çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Kordonboyu",
     "type": "neighborhood"
@@ -3173,8 +3173,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orhantepe-cicekcilik-peyzaj-organizasyon",
     "name": "Orhantepe",
-    "title": "Orhantepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Orhantepe ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Orhantepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Orhantepe çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Orhantepe",
     "type": "neighborhood"
@@ -3182,8 +3182,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orta-cicekcilik-peyzaj-organizasyon",
     "name": "Orta",
-    "title": "Orta Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Orta ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Orta Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Orta çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Orta",
     "type": "neighborhood"
@@ -3191,8 +3191,8 @@ export const istanbulAreaPages = [
   {
     "slug": "petrol-is-cicekcilik-peyzaj-organizasyon",
     "name": "Petrol İş",
-    "title": "Petrol İş Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Petrol İş ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Petrol İş Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Petrol İş çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Petrol İş",
     "type": "neighborhood"
@@ -3200,8 +3200,8 @@ export const istanbulAreaPages = [
   {
     "slug": "soganlik-yeni-cicekcilik-peyzaj-organizasyon",
     "name": "Soğanlık Yeni",
-    "title": "Soğanlık Yeni Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Soğanlık Yeni ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Soğanlık Yeni Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Soğanlık Yeni çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Soğanlık Yeni",
     "type": "neighborhood"
@@ -3209,8 +3209,8 @@ export const istanbulAreaPages = [
   {
     "slug": "topselvi-cicekcilik-peyzaj-organizasyon",
     "name": "Topselvi",
-    "title": "Topselvi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Topselvi ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Topselvi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Topselvi çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Topselvi",
     "type": "neighborhood"
@@ -3218,8 +3218,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ugur-mumcu-cicekcilik-peyzaj-organizasyon",
     "name": "Uğur Mumcu",
-    "title": "Uğur Mumcu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Uğur Mumcu ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Uğur Mumcu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Uğur Mumcu çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Uğur Mumcu",
     "type": "neighborhood"
@@ -3227,8 +3227,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yakacik-carsi-cicekcilik-peyzaj-organizasyon",
     "name": "Yakacık Çarşı",
-    "title": "Yakacık Çarşı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yakacık Çarşı ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yakacık Çarşı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yakacık Çarşı çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Yakacık Çarşı",
     "type": "neighborhood"
@@ -3236,8 +3236,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yakacik-yeni-cicekcilik-peyzaj-organizasyon",
     "name": "Yakacık Yeni",
-    "title": "Yakacık Yeni Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yakacık Yeni ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yakacık Yeni Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yakacık Yeni çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Yakacık Yeni",
     "type": "neighborhood"
@@ -3245,8 +3245,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yali-cicekcilik-peyzaj-organizasyon",
     "name": "Yalı",
-    "title": "Yalı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yalı ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yalı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yalı çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Yalı",
     "type": "neighborhood"
@@ -3254,8 +3254,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yukari-cicekcilik-peyzaj-organizasyon",
     "name": "Yukarı",
-    "title": "Yukarı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yukarı ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yukarı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yukarı çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Yukarı",
     "type": "neighborhood"
@@ -3263,8 +3263,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yunus-cicekcilik-peyzaj-organizasyon",
     "name": "Yunus",
-    "title": "Yunus Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yunus ve Kartal çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yunus Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yunus çiçekçi arayanlar için Kartal ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kartal",
     "neighborhood": "Yunus",
     "type": "neighborhood"
@@ -3272,8 +3272,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ayazaga-cicekcilik-peyzaj-organizasyon",
     "name": "Ayazağa",
-    "title": "Ayazağa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ayazağa ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ayazağa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ayazağa çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Ayazağa",
     "type": "neighborhood"
@@ -3281,8 +3281,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcekoy-kemer-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçeköy Kemer",
-    "title": "Bahçeköy Kemer Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçeköy Kemer ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçeköy Kemer Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçeköy Kemer çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Bahçeköy Kemer",
     "type": "neighborhood"
@@ -3290,8 +3290,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcekoy-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçeköy Merkez",
-    "title": "Bahçeköy Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçeköy Merkez ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçeköy Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçeköy Merkez çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Bahçeköy Merkez",
     "type": "neighborhood"
@@ -3299,8 +3299,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcekoy-yeni-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçeköy Yeni",
-    "title": "Bahçeköy Yeni Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçeköy Yeni ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçeköy Yeni Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçeköy Yeni çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Bahçeköy Yeni",
     "type": "neighborhood"
@@ -3308,8 +3308,8 @@ export const istanbulAreaPages = [
   {
     "slug": "baltalimani-cicekcilik-peyzaj-organizasyon",
     "name": "Baltalimanı",
-    "title": "Baltalimanı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Baltalimanı ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Baltalimanı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Baltalimanı çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Baltalimanı",
     "type": "neighborhood"
@@ -3317,8 +3317,8 @@ export const istanbulAreaPages = [
   {
     "slug": "buyukdere-cicekcilik-peyzaj-organizasyon",
     "name": "Büyükdere",
-    "title": "Büyükdere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Büyükdere ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Büyükdere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Büyükdere çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Büyükdere",
     "type": "neighborhood"
@@ -3326,8 +3326,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-sariyer-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -3335,8 +3335,8 @@ export const istanbulAreaPages = [
   {
     "slug": "camlitepe-cicekcilik-peyzaj-organizasyon",
     "name": "Çamlıtepe",
-    "title": "Çamlıtepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çamlıtepe ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çamlıtepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çamlıtepe çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Çamlıtepe",
     "type": "neighborhood"
@@ -3344,8 +3344,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cayirbasi-cicekcilik-peyzaj-organizasyon",
     "name": "Çayırbaşı",
-    "title": "Çayırbaşı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çayırbaşı ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çayırbaşı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çayırbaşı çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Çayırbaşı",
     "type": "neighborhood"
@@ -3353,8 +3353,8 @@ export const istanbulAreaPages = [
   {
     "slug": "darussafaka-cicekcilik-peyzaj-organizasyon",
     "name": "Darüşşafaka",
-    "title": "Darüşşafaka Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Darüşşafaka ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Darüşşafaka Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Darüşşafaka çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Darüşşafaka",
     "type": "neighborhood"
@@ -3362,8 +3362,8 @@ export const istanbulAreaPages = [
   {
     "slug": "demircikoy-cicekcilik-peyzaj-organizasyon",
     "name": "Demirciköy",
-    "title": "Demirciköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Demirciköy ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Demirciköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Demirciköy çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Demirciköy",
     "type": "neighborhood"
@@ -3371,8 +3371,8 @@ export const istanbulAreaPages = [
   {
     "slug": "emirgan-cicekcilik-peyzaj-organizasyon",
     "name": "Emirgan",
-    "title": "Emirgan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Emirgan ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Emirgan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Emirgan çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Emirgan",
     "type": "neighborhood"
@@ -3380,8 +3380,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-sultan-mehmet-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih Sultan Mehmet",
-    "title": "Fatih Sultan Mehmet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih Sultan Mehmet ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Sultan Mehmet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih Sultan Mehmet çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Fatih Sultan Mehmet",
     "type": "neighborhood"
@@ -3389,8 +3389,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ferahevler-cicekcilik-peyzaj-organizasyon",
     "name": "Ferahevler",
-    "title": "Ferahevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ferahevler ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ferahevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ferahevler çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Ferahevler",
     "type": "neighborhood"
@@ -3398,8 +3398,8 @@ export const istanbulAreaPages = [
   {
     "slug": "garipce-cicekcilik-peyzaj-organizasyon",
     "name": "Garipçe",
-    "title": "Garipçe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Garipçe ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Garipçe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Garipçe çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Garipçe",
     "type": "neighborhood"
@@ -3407,8 +3407,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gumusdere-cicekcilik-peyzaj-organizasyon",
     "name": "Gümüşdere",
-    "title": "Gümüşdere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gümüşdere ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gümüşdere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gümüşdere çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Gümüşdere",
     "type": "neighborhood"
@@ -3416,8 +3416,8 @@ export const istanbulAreaPages = [
   {
     "slug": "huzur-cicekcilik-peyzaj-organizasyon",
     "name": "Huzur",
-    "title": "Huzur Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Huzur ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Huzur Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Huzur çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Huzur",
     "type": "neighborhood"
@@ -3425,8 +3425,8 @@ export const istanbulAreaPages = [
   {
     "slug": "istinye-cicekcilik-peyzaj-organizasyon",
     "name": "İstinye",
-    "title": "İstinye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İstinye ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İstinye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İstinye çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "İstinye",
     "type": "neighborhood"
@@ -3434,8 +3434,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kazim-karabekir-pasa-cicekcilik-peyzaj-organizasyon",
     "name": "Kazım Karabekir Paşa",
-    "title": "Kazım Karabekir Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kazım Karabekir Paşa ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kazım Karabekir Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kazım Karabekir Paşa çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Kazım Karabekir Paşa",
     "type": "neighborhood"
@@ -3443,8 +3443,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kisirkaya-cicekcilik-peyzaj-organizasyon",
     "name": "Kısırkaya",
-    "title": "Kısırkaya Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kısırkaya ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kısırkaya Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kısırkaya çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Kısırkaya",
     "type": "neighborhood"
@@ -3452,8 +3452,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kirecburnu-cicekcilik-peyzaj-organizasyon",
     "name": "Kireçburnu",
-    "title": "Kireçburnu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kireçburnu ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kireçburnu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kireçburnu çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Kireçburnu",
     "type": "neighborhood"
@@ -3461,8 +3461,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kocatas-cicekcilik-peyzaj-organizasyon",
     "name": "Kocataş",
-    "title": "Kocataş Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kocataş ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kocataş Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kocataş çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Kocataş",
     "type": "neighborhood"
@@ -3470,8 +3470,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kumkoy-kilyos-cicekcilik-peyzaj-organizasyon",
     "name": "Kumköy (kilyos)",
-    "title": "Kumköy (kilyos) Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kumköy (kilyos) ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kumköy (kilyos) Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kumköy (kilyos) çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Kumköy (kilyos)",
     "type": "neighborhood"
@@ -3479,8 +3479,8 @@ export const istanbulAreaPages = [
   {
     "slug": "maden-sariyer-cicekcilik-peyzaj-organizasyon",
     "name": "Maden",
-    "title": "Maden Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Maden ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Maden Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Maden çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Maden",
     "type": "neighborhood"
@@ -3488,8 +3488,8 @@ export const istanbulAreaPages = [
   {
     "slug": "maslak-cicekcilik-peyzaj-organizasyon",
     "name": "Maslak",
-    "title": "Maslak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Maslak ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Maslak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Maslak çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Maslak",
     "type": "neighborhood"
@@ -3497,8 +3497,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pinar-cicekcilik-peyzaj-organizasyon",
     "name": "Pınar",
-    "title": "Pınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Pınar ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Pınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Pınar çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Pınar",
     "type": "neighborhood"
@@ -3506,8 +3506,8 @@ export const istanbulAreaPages = [
   {
     "slug": "poligon-cicekcilik-peyzaj-organizasyon",
     "name": "Poligon",
-    "title": "Poligon Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Poligon ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Poligon Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Poligon çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Poligon",
     "type": "neighborhood"
@@ -3515,8 +3515,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ptt-evleri-cicekcilik-peyzaj-organizasyon",
     "name": "Ptt Evleri",
-    "title": "Ptt Evleri Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ptt Evleri ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ptt Evleri Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ptt Evleri çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Ptt Evleri",
     "type": "neighborhood"
@@ -3524,8 +3524,8 @@ export const istanbulAreaPages = [
   {
     "slug": "resitpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Reşitpaşa",
-    "title": "Reşitpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Reşitpaşa ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Reşitpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Reşitpaşa çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Reşitpaşa",
     "type": "neighborhood"
@@ -3533,8 +3533,8 @@ export const istanbulAreaPages = [
   {
     "slug": "rumelifeneri-cicekcilik-peyzaj-organizasyon",
     "name": "Rumelifeneri",
-    "title": "Rumelifeneri Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Rumelifeneri ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Rumelifeneri Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Rumelifeneri çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Rumelifeneri",
     "type": "neighborhood"
@@ -3542,8 +3542,8 @@ export const istanbulAreaPages = [
   {
     "slug": "rumelihisari-cicekcilik-peyzaj-organizasyon",
     "name": "Rumelihisarı",
-    "title": "Rumelihisarı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Rumelihisarı ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Rumelihisarı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Rumelihisarı çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Rumelihisarı",
     "type": "neighborhood"
@@ -3551,8 +3551,8 @@ export const istanbulAreaPages = [
   {
     "slug": "rumelikavagi-cicekcilik-peyzaj-organizasyon",
     "name": "Rumelikavağı",
-    "title": "Rumelikavağı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Rumelikavağı ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Rumelikavağı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Rumelikavağı çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Rumelikavağı",
     "type": "neighborhood"
@@ -3560,8 +3560,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sariyer-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Sarıyer Merkez",
-    "title": "Sarıyer Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sarıyer Merkez ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sarıyer Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sarıyer Merkez çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Sarıyer Merkez",
     "type": "neighborhood"
@@ -3569,8 +3569,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tarabya-cicekcilik-peyzaj-organizasyon",
     "name": "Tarabya",
-    "title": "Tarabya Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tarabya ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tarabya Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tarabya çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Tarabya",
     "type": "neighborhood"
@@ -3578,8 +3578,8 @@ export const istanbulAreaPages = [
   {
     "slug": "uskumrukoy-cicekcilik-peyzaj-organizasyon",
     "name": "Uskumruköy",
-    "title": "Uskumruköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Uskumruköy ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Uskumruköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Uskumruköy çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Uskumruköy",
     "type": "neighborhood"
@@ -3587,8 +3587,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yeni-cicekcilik-peyzaj-organizasyon",
     "name": "Yeni",
-    "title": "Yeni Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeni ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeni Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeni çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Yeni",
     "type": "neighborhood"
@@ -3596,8 +3596,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenikoy-cicekcilik-peyzaj-organizasyon",
     "name": "Yeniköy",
-    "title": "Yeniköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeniköy ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeniköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeniköy çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Yeniköy",
     "type": "neighborhood"
@@ -3605,8 +3605,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zekeriyakoy-cicekcilik-peyzaj-organizasyon",
     "name": "Zekeriyaköy",
-    "title": "Zekeriyaköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zekeriyaköy ve Sarıyer çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zekeriyaköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zekeriyaköy çiçekçi arayanlar için Sarıyer ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sarıyer",
     "neighborhood": "Zekeriyaköy",
     "type": "neighborhood"
@@ -3614,8 +3614,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akoren-cicekcilik-peyzaj-organizasyon",
     "name": "Akören",
-    "title": "Akören Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akören ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akören Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akören çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Akören",
     "type": "neighborhood"
@@ -3623,8 +3623,8 @@ export const istanbulAreaPages = [
   {
     "slug": "alibey-cicekcilik-peyzaj-organizasyon",
     "name": "Alibey",
-    "title": "Alibey Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Alibey ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Alibey Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Alibey çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Alibey",
     "type": "neighborhood"
@@ -3632,8 +3632,8 @@ export const istanbulAreaPages = [
   {
     "slug": "alipasa-cicekcilik-peyzaj-organizasyon",
     "name": "Alipaşa",
-    "title": "Alipaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Alipaşa ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Alipaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Alipaşa çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Alipaşa",
     "type": "neighborhood"
@@ -3641,8 +3641,8 @@ export const istanbulAreaPages = [
   {
     "slug": "balaban-cicekcilik-peyzaj-organizasyon",
     "name": "Balaban",
-    "title": "Balaban Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Balaban ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Balaban Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Balaban çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Balaban",
     "type": "neighborhood"
@@ -3650,8 +3650,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bekirli-cicekcilik-peyzaj-organizasyon",
     "name": "Bekirli",
-    "title": "Bekirli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bekirli ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bekirli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bekirli çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Bekirli",
     "type": "neighborhood"
@@ -3659,8 +3659,8 @@ export const istanbulAreaPages = [
   {
     "slug": "beyciler-cicekcilik-peyzaj-organizasyon",
     "name": "Beyciler",
-    "title": "Beyciler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beyciler ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beyciler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beyciler çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Beyciler",
     "type": "neighborhood"
@@ -3668,8 +3668,8 @@ export const istanbulAreaPages = [
   {
     "slug": "buyuk-cavuslu-cicekcilik-peyzaj-organizasyon",
     "name": "Büyük Çavuşlu",
-    "title": "Büyük Çavuşlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Büyük Çavuşlu ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Büyük Çavuşlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Büyük Çavuşlu çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Büyük Çavuşlu",
     "type": "neighborhood"
@@ -3677,8 +3677,8 @@ export const istanbulAreaPages = [
   {
     "slug": "buyuk-kilicli-cicekcilik-peyzaj-organizasyon",
     "name": "Büyük Kılıçlı",
-    "title": "Büyük Kılıçlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Büyük Kılıçlı ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Büyük Kılıçlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Büyük Kılıçlı çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Büyük Kılıçlı",
     "type": "neighborhood"
@@ -3686,8 +3686,8 @@ export const istanbulAreaPages = [
   {
     "slug": "buyuk-sinekli-cicekcilik-peyzaj-organizasyon",
     "name": "Büyük Sinekli",
-    "title": "Büyük Sinekli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Büyük Sinekli ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Büyük Sinekli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Büyük Sinekli çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Büyük Sinekli",
     "type": "neighborhood"
@@ -3695,8 +3695,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-silivri-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -3704,8 +3704,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cayirdere-cicekcilik-peyzaj-organizasyon",
     "name": "Çayırdere",
-    "title": "Çayırdere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çayırdere ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çayırdere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çayırdere çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Çayırdere",
     "type": "neighborhood"
@@ -3713,8 +3713,8 @@ export const istanbulAreaPages = [
   {
     "slug": "celtik-cicekcilik-peyzaj-organizasyon",
     "name": "Çeltik",
-    "title": "Çeltik Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çeltik ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çeltik Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çeltik çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Çeltik",
     "type": "neighborhood"
@@ -3722,8 +3722,8 @@ export const istanbulAreaPages = [
   {
     "slug": "danamandira-cicekcilik-peyzaj-organizasyon",
     "name": "Danamandıra",
-    "title": "Danamandıra Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Danamandıra ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Danamandıra Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Danamandıra çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Danamandıra",
     "type": "neighborhood"
@@ -3731,8 +3731,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-silivri-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -3740,8 +3740,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fener-cicekcilik-peyzaj-organizasyon",
     "name": "Fener",
-    "title": "Fener Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fener ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fener Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fener çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Fener",
     "type": "neighborhood"
@@ -3749,8 +3749,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fevzipasa-cicekcilik-peyzaj-organizasyon",
     "name": "Fevzipaşa",
-    "title": "Fevzipaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fevzipaşa ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fevzipaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fevzipaşa çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Fevzipaşa",
     "type": "neighborhood"
@@ -3758,8 +3758,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gazitepe-cicekcilik-peyzaj-organizasyon",
     "name": "Gazitepe",
-    "title": "Gazitepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gazitepe ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gazitepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gazitepe çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Gazitepe",
     "type": "neighborhood"
@@ -3767,8 +3767,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gumusyaka-cicekcilik-peyzaj-organizasyon",
     "name": "Gümüşyaka",
-    "title": "Gümüşyaka Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gümüşyaka ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gümüşyaka Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gümüşyaka çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Gümüşyaka",
     "type": "neighborhood"
@@ -3776,8 +3776,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hurriyet-silivri-cicekcilik-peyzaj-organizasyon",
     "name": "Hürriyet",
-    "title": "Hürriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hürriyet ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hürriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hürriyet çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Hürriyet",
     "type": "neighborhood"
@@ -3785,8 +3785,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ismetpasa-cicekcilik-peyzaj-organizasyon",
     "name": "İsmetpaşa",
-    "title": "İsmetpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İsmetpaşa ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İsmetpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İsmetpaşa çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "İsmetpaşa",
     "type": "neighborhood"
@@ -3794,8 +3794,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kadikoy-silivri-cicekcilik-peyzaj-organizasyon",
     "name": "Kadıköy",
-    "title": "Kadıköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kadıköy ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kadıköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kadıköy çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Kadıköy",
     "type": "neighborhood"
@@ -3803,8 +3803,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kavakli-cicekcilik-peyzaj-organizasyon",
     "name": "Kavaklı",
-    "title": "Kavaklı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kavaklı ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kavaklı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kavaklı çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Kavaklı",
     "type": "neighborhood"
@@ -3812,8 +3812,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kurfalli-cicekcilik-peyzaj-organizasyon",
     "name": "Kurfallı",
-    "title": "Kurfallı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kurfallı ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kurfallı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kurfallı çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Kurfallı",
     "type": "neighborhood"
@@ -3821,8 +3821,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucuk-kilicli-cicekcilik-peyzaj-organizasyon",
     "name": "Küçük Kılıçlı",
-    "title": "Küçük Kılıçlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçük Kılıçlı ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçük Kılıçlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçük Kılıçlı çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Küçük Kılıçlı",
     "type": "neighborhood"
@@ -3830,8 +3830,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucuk-sinekli-cicekcilik-peyzaj-organizasyon",
     "name": "Küçük Sinekli",
-    "title": "Küçük Sinekli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçük Sinekli ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçük Sinekli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçük Sinekli çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Küçük Sinekli",
     "type": "neighborhood"
@@ -3839,8 +3839,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-sinan-silivri-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Sinan",
-    "title": "Mimar Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Sinan ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Sinan çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Mimar Sinan",
     "type": "neighborhood"
@@ -3848,8 +3848,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ortakoy-silivri-cicekcilik-peyzaj-organizasyon",
     "name": "Ortaköy",
-    "title": "Ortaköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ortaköy ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ortaköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ortaköy çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Ortaköy",
     "type": "neighborhood"
@@ -3857,8 +3857,8 @@ export const istanbulAreaPages = [
   {
     "slug": "piri-mehmet-pasa-cicekcilik-peyzaj-organizasyon",
     "name": "Piri Mehmet Paşa",
-    "title": "Piri Mehmet Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Piri Mehmet Paşa ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Piri Mehmet Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Piri Mehmet Paşa çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Piri Mehmet Paşa",
     "type": "neighborhood"
@@ -3866,8 +3866,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sancaktepe-silivri-cicekcilik-peyzaj-organizasyon",
     "name": "Sancaktepe",
-    "title": "Sancaktepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sancaktepe ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sancaktepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sancaktepe çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Sancaktepe",
     "type": "neighborhood"
@@ -3875,8 +3875,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sayalar-cicekcilik-peyzaj-organizasyon",
     "name": "Sayalar",
-    "title": "Sayalar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sayalar ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sayalar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sayalar çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Sayalar",
     "type": "neighborhood"
@@ -3884,8 +3884,8 @@ export const istanbulAreaPages = [
   {
     "slug": "selimpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Selimpaşa",
-    "title": "Selimpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Selimpaşa ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Selimpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Selimpaşa çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Selimpaşa",
     "type": "neighborhood"
@@ -3893,8 +3893,8 @@ export const istanbulAreaPages = [
   {
     "slug": "semizkumlar-cicekcilik-peyzaj-organizasyon",
     "name": "Semizkumlar",
-    "title": "Semizkumlar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Semizkumlar ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Semizkumlar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Semizkumlar çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Semizkumlar",
     "type": "neighborhood"
@@ -3902,8 +3902,8 @@ export const istanbulAreaPages = [
   {
     "slug": "seymen-cicekcilik-peyzaj-organizasyon",
     "name": "Seymen",
-    "title": "Seymen Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Seymen ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Seymen Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Seymen çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Seymen",
     "type": "neighborhood"
@@ -3911,8 +3911,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yeni-silivri-cicekcilik-peyzaj-organizasyon",
     "name": "Yeni",
-    "title": "Yeni Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeni ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeni Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeni çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Yeni",
     "type": "neighborhood"
@@ -3920,8 +3920,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yolcati-cicekcilik-peyzaj-organizasyon",
     "name": "Yolçatı",
-    "title": "Yolçatı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yolçatı ve Silivri çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yolçatı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yolçatı çiçekçi arayanlar için Silivri ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Silivri",
     "neighborhood": "Yolçatı",
     "type": "neighborhood"
@@ -3929,8 +3929,8 @@ export const istanbulAreaPages = [
   {
     "slug": "agacdere-cicekcilik-peyzaj-organizasyon",
     "name": "Ağaçdere",
-    "title": "Ağaçdere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ağaçdere ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ağaçdere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ağaçdere çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Ağaçdere",
     "type": "neighborhood"
@@ -3938,8 +3938,8 @@ export const istanbulAreaPages = [
   {
     "slug": "agva-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Ağva Merkez",
-    "title": "Ağva Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ağva Merkez ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ağva Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ağva Merkez çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Ağva Merkez",
     "type": "neighborhood"
@@ -3947,8 +3947,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ahmetli-cicekcilik-peyzaj-organizasyon",
     "name": "Ahmetli",
-    "title": "Ahmetli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ahmetli ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ahmetli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ahmetli çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Ahmetli",
     "type": "neighborhood"
@@ -3956,8 +3956,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akcakese-cicekcilik-peyzaj-organizasyon",
     "name": "Akçakese",
-    "title": "Akçakese Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akçakese ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akçakese Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akçakese çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Akçakese",
     "type": "neighborhood"
@@ -3965,8 +3965,8 @@ export const istanbulAreaPages = [
   {
     "slug": "alacali-cicekcilik-peyzaj-organizasyon",
     "name": "Alacalı",
-    "title": "Alacalı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Alacalı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Alacalı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Alacalı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Alacalı",
     "type": "neighborhood"
@@ -3974,8 +3974,8 @@ export const istanbulAreaPages = [
   {
     "slug": "avcikoru-cicekcilik-peyzaj-organizasyon",
     "name": "Avcıkoru",
-    "title": "Avcıkoru Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Avcıkoru ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Avcıkoru Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Avcıkoru çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Avcıkoru",
     "type": "neighborhood"
@@ -3983,8 +3983,8 @@ export const istanbulAreaPages = [
   {
     "slug": "balibey-cicekcilik-peyzaj-organizasyon",
     "name": "Balibey",
-    "title": "Balibey Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Balibey ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Balibey Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Balibey çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Balibey",
     "type": "neighborhood"
@@ -3992,8 +3992,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bickidere-cicekcilik-peyzaj-organizasyon",
     "name": "Bıçkıdere",
-    "title": "Bıçkıdere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bıçkıdere ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bıçkıdere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bıçkıdere çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Bıçkıdere",
     "type": "neighborhood"
@@ -4001,8 +4001,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bozgoca-cicekcilik-peyzaj-organizasyon",
     "name": "Bozgoca",
-    "title": "Bozgoca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bozgoca ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bozgoca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bozgoca çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Bozgoca",
     "type": "neighborhood"
@@ -4010,8 +4010,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bucakli-cicekcilik-peyzaj-organizasyon",
     "name": "Bucaklı",
-    "title": "Bucaklı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bucaklı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bucaklı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bucaklı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Bucaklı",
     "type": "neighborhood"
@@ -4019,8 +4019,8 @@ export const istanbulAreaPages = [
   {
     "slug": "catakli-cicekcilik-peyzaj-organizasyon",
     "name": "Çataklı",
-    "title": "Çataklı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çataklı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çataklı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çataklı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Çataklı",
     "type": "neighborhood"
@@ -4028,8 +4028,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cavus-cicekcilik-peyzaj-organizasyon",
     "name": "Çavuş",
-    "title": "Çavuş Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çavuş ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çavuş Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çavuş çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Çavuş",
     "type": "neighborhood"
@@ -4037,8 +4037,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cayirbasi-sile-cicekcilik-peyzaj-organizasyon",
     "name": "Çayırbaşı",
-    "title": "Çayırbaşı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çayırbaşı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çayırbaşı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çayırbaşı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Çayırbaşı",
     "type": "neighborhood"
@@ -4046,8 +4046,8 @@ export const istanbulAreaPages = [
   {
     "slug": "celebi-cicekcilik-peyzaj-organizasyon",
     "name": "Çelebi",
-    "title": "Çelebi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çelebi ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çelebi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çelebi çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Çelebi",
     "type": "neighborhood"
@@ -4055,8 +4055,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cengilli-cicekcilik-peyzaj-organizasyon",
     "name": "Çengilli",
-    "title": "Çengilli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çengilli ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çengilli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çengilli çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Çengilli",
     "type": "neighborhood"
@@ -4064,8 +4064,8 @@ export const istanbulAreaPages = [
   {
     "slug": "darlik-cicekcilik-peyzaj-organizasyon",
     "name": "Darlık",
-    "title": "Darlık Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Darlık ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Darlık Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Darlık çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Darlık",
     "type": "neighborhood"
@@ -4073,8 +4073,8 @@ export const istanbulAreaPages = [
   {
     "slug": "degirmencayiri-cicekcilik-peyzaj-organizasyon",
     "name": "Değirmençayırı",
-    "title": "Değirmençayırı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Değirmençayırı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Değirmençayırı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Değirmençayırı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Değirmençayırı",
     "type": "neighborhood"
@@ -4082,8 +4082,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dogancili-cicekcilik-peyzaj-organizasyon",
     "name": "Doğancılı",
-    "title": "Doğancılı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Doğancılı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Doğancılı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Doğancılı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Doğancılı",
     "type": "neighborhood"
@@ -4091,8 +4091,8 @@ export const istanbulAreaPages = [
   {
     "slug": "erenler-cicekcilik-peyzaj-organizasyon",
     "name": "Erenler",
-    "title": "Erenler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Erenler ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Erenler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Erenler çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Erenler",
     "type": "neighborhood"
@@ -4100,8 +4100,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esenceli-cicekcilik-peyzaj-organizasyon",
     "name": "Esenceli",
-    "title": "Esenceli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenceli ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenceli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenceli çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Esenceli",
     "type": "neighborhood"
@@ -4109,8 +4109,8 @@ export const istanbulAreaPages = [
   {
     "slug": "geredeli-cicekcilik-peyzaj-organizasyon",
     "name": "Geredeli",
-    "title": "Geredeli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Geredeli ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Geredeli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Geredeli çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Geredeli",
     "type": "neighborhood"
@@ -4118,8 +4118,8 @@ export const istanbulAreaPages = [
   {
     "slug": "goce-cicekcilik-peyzaj-organizasyon",
     "name": "Göçe",
-    "title": "Göçe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Göçe ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Göçe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Göçe çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Göçe",
     "type": "neighborhood"
@@ -4127,8 +4127,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gokmasli-cicekcilik-peyzaj-organizasyon",
     "name": "Gökmaşlı",
-    "title": "Gökmaşlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gökmaşlı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gökmaşlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gökmaşlı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Gökmaşlı",
     "type": "neighborhood"
@@ -4136,8 +4136,8 @@ export const istanbulAreaPages = [
   {
     "slug": "goksu-sile-cicekcilik-peyzaj-organizasyon",
     "name": "Göksu",
-    "title": "Göksu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Göksu ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Göksu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Göksu çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Göksu",
     "type": "neighborhood"
@@ -4145,8 +4145,8 @@ export const istanbulAreaPages = [
   {
     "slug": "haci-kasim-cicekcilik-peyzaj-organizasyon",
     "name": "Hacı Kasım",
-    "title": "Hacı Kasım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hacı Kasım ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hacı Kasım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hacı Kasım çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Hacı Kasım",
     "type": "neighborhood"
@@ -4154,8 +4154,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hacilli-cicekcilik-peyzaj-organizasyon",
     "name": "Hacıllı",
-    "title": "Hacıllı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hacıllı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hacıllı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hacıllı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Hacıllı",
     "type": "neighborhood"
@@ -4163,8 +4163,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hasanli-cicekcilik-peyzaj-organizasyon",
     "name": "Hasanlı",
-    "title": "Hasanlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hasanlı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hasanlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hasanlı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Hasanlı",
     "type": "neighborhood"
@@ -4172,8 +4172,8 @@ export const istanbulAreaPages = [
   {
     "slug": "imrendere-cicekcilik-peyzaj-organizasyon",
     "name": "İmrendere",
-    "title": "İmrendere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İmrendere ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İmrendere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İmrendere çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "İmrendere",
     "type": "neighborhood"
@@ -4181,8 +4181,8 @@ export const istanbulAreaPages = [
   {
     "slug": "imrenli-cicekcilik-peyzaj-organizasyon",
     "name": "İmrenli",
-    "title": "İmrenli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İmrenli ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İmrenli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İmrenli çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "İmrenli",
     "type": "neighborhood"
@@ -4190,8 +4190,8 @@ export const istanbulAreaPages = [
   {
     "slug": "isakoy-cicekcilik-peyzaj-organizasyon",
     "name": "İsaköy",
-    "title": "İsaköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İsaköy ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İsaköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İsaköy çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "İsaköy",
     "type": "neighborhood"
@@ -4199,8 +4199,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kabakoz-cicekcilik-peyzaj-organizasyon",
     "name": "Kabakoz",
-    "title": "Kabakoz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kabakoz ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kabakoz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kabakoz çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Kabakoz",
     "type": "neighborhood"
@@ -4208,8 +4208,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kadikoy-sile-cicekcilik-peyzaj-organizasyon",
     "name": "Kadıköy",
-    "title": "Kadıköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kadıköy ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kadıköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kadıköy çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Kadıköy",
     "type": "neighborhood"
@@ -4217,8 +4217,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kalem-cicekcilik-peyzaj-organizasyon",
     "name": "Kalem",
-    "title": "Kalem Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kalem ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kalem Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kalem çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Kalem",
     "type": "neighborhood"
@@ -4226,8 +4226,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karabeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Karabeyli",
-    "title": "Karabeyli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karabeyli ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karabeyli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karabeyli çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Karabeyli",
     "type": "neighborhood"
@@ -4235,8 +4235,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karacakoy-cicekcilik-peyzaj-organizasyon",
     "name": "Karacaköy",
-    "title": "Karacaköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karacaköy ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karacaköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karacaköy çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Karacaköy",
     "type": "neighborhood"
@@ -4244,8 +4244,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karakiraz-cicekcilik-peyzaj-organizasyon",
     "name": "Karakiraz",
-    "title": "Karakiraz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karakiraz ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karakiraz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karakiraz çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Karakiraz",
     "type": "neighborhood"
@@ -4253,8 +4253,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karamandere-sile-cicekcilik-peyzaj-organizasyon",
     "name": "Karamandere",
-    "title": "Karamandere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karamandere ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karamandere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karamandere çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Karamandere",
     "type": "neighborhood"
@@ -4262,8 +4262,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kervansaray-cicekcilik-peyzaj-organizasyon",
     "name": "Kervansaray",
-    "title": "Kervansaray Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kervansaray ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kervansaray Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kervansaray çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Kervansaray",
     "type": "neighborhood"
@@ -4271,8 +4271,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kizilca-cicekcilik-peyzaj-organizasyon",
     "name": "Kızılca",
-    "title": "Kızılca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kızılca ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kızılca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kızılca çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Kızılca",
     "type": "neighborhood"
@@ -4280,8 +4280,8 @@ export const istanbulAreaPages = [
   {
     "slug": "korucu-cicekcilik-peyzaj-organizasyon",
     "name": "Korucu",
-    "title": "Korucu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Korucu ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Korucu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Korucu çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Korucu",
     "type": "neighborhood"
@@ -4289,8 +4289,8 @@ export const istanbulAreaPages = [
   {
     "slug": "komurluk-cicekcilik-peyzaj-organizasyon",
     "name": "Kömürlük",
-    "title": "Kömürlük Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kömürlük ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kömürlük Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kömürlük çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Kömürlük",
     "type": "neighborhood"
@@ -4298,8 +4298,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kumbaba-cicekcilik-peyzaj-organizasyon",
     "name": "Kumbaba",
-    "title": "Kumbaba Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kumbaba ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kumbaba Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kumbaba çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Kumbaba",
     "type": "neighborhood"
@@ -4307,8 +4307,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kurfalli-sile-cicekcilik-peyzaj-organizasyon",
     "name": "Kurfallı",
-    "title": "Kurfallı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kurfallı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kurfallı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kurfallı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Kurfallı",
     "type": "neighborhood"
@@ -4316,8 +4316,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kurna-cicekcilik-peyzaj-organizasyon",
     "name": "Kurna",
-    "title": "Kurna Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kurna ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kurna Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kurna çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Kurna",
     "type": "neighborhood"
@@ -4325,8 +4325,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mesrutiyet-cicekcilik-peyzaj-organizasyon",
     "name": "Meşrutiyet",
-    "title": "Meşrutiyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Meşrutiyet ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Meşrutiyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Meşrutiyet çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Meşrutiyet",
     "type": "neighborhood"
@@ -4334,8 +4334,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orucoglu-cicekcilik-peyzaj-organizasyon",
     "name": "Oruçoğlu",
-    "title": "Oruçoğlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Oruçoğlu ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Oruçoğlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Oruçoğlu çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Oruçoğlu",
     "type": "neighborhood"
@@ -4343,8 +4343,8 @@ export const istanbulAreaPages = [
   {
     "slug": "osmankoy-cicekcilik-peyzaj-organizasyon",
     "name": "Osmanköy",
-    "title": "Osmanköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Osmanköy ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Osmanköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Osmanköy çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Osmanköy",
     "type": "neighborhood"
@@ -4352,8 +4352,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ovacik-cicekcilik-peyzaj-organizasyon",
     "name": "Ovacık",
-    "title": "Ovacık Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ovacık ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ovacık Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ovacık çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Ovacık",
     "type": "neighborhood"
@@ -4361,8 +4361,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sahilkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Sahilköy",
-    "title": "Sahilköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sahilköy ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sahilköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sahilköy çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Sahilköy",
     "type": "neighborhood"
@@ -4370,8 +4370,8 @@ export const istanbulAreaPages = [
   {
     "slug": "satmazli-cicekcilik-peyzaj-organizasyon",
     "name": "Satmazlı",
-    "title": "Satmazlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Satmazlı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Satmazlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Satmazlı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Satmazlı",
     "type": "neighborhood"
@@ -4379,8 +4379,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sofular-cicekcilik-peyzaj-organizasyon",
     "name": "Sofular",
-    "title": "Sofular Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sofular ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sofular Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sofular çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Sofular",
     "type": "neighborhood"
@@ -4388,8 +4388,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sogullu-cicekcilik-peyzaj-organizasyon",
     "name": "Soğullu",
-    "title": "Soğullu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Soğullu ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Soğullu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Soğullu çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Soğullu",
     "type": "neighborhood"
@@ -4397,8 +4397,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sortullu-cicekcilik-peyzaj-organizasyon",
     "name": "Sortullu",
-    "title": "Sortullu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sortullu ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sortullu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sortullu çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Sortullu",
     "type": "neighborhood"
@@ -4406,8 +4406,8 @@ export const istanbulAreaPages = [
   {
     "slug": "suayipli-cicekcilik-peyzaj-organizasyon",
     "name": "Şuayipli",
-    "title": "Şuayipli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şuayipli ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şuayipli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şuayipli çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Şuayipli",
     "type": "neighborhood"
@@ -4415,8 +4415,8 @@ export const istanbulAreaPages = [
   {
     "slug": "teke-cicekcilik-peyzaj-organizasyon",
     "name": "Teke",
-    "title": "Teke Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Teke ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Teke Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Teke çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Teke",
     "type": "neighborhood"
@@ -4424,8 +4424,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ulupelit-cicekcilik-peyzaj-organizasyon",
     "name": "Ulupelit",
-    "title": "Ulupelit Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ulupelit ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ulupelit Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ulupelit çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Ulupelit",
     "type": "neighborhood"
@@ -4433,8 +4433,8 @@ export const istanbulAreaPages = [
   {
     "slug": "uvezli-cicekcilik-peyzaj-organizasyon",
     "name": "Üvezli",
-    "title": "Üvezli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Üvezli ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Üvezli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Üvezli çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Üvezli",
     "type": "neighborhood"
@@ -4442,8 +4442,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yaka-cicekcilik-peyzaj-organizasyon",
     "name": "Yaka",
-    "title": "Yaka Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yaka ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yaka Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yaka çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Yaka",
     "type": "neighborhood"
@@ -4451,8 +4451,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yaylali-cicekcilik-peyzaj-organizasyon",
     "name": "Yaylalı",
-    "title": "Yaylalı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yaylalı ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yaylalı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yaylalı çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Yaylalı",
     "type": "neighborhood"
@@ -4460,8 +4460,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yazimanayir-cicekcilik-peyzaj-organizasyon",
     "name": "Yazımanayır",
-    "title": "Yazımanayır Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yazımanayır ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yazımanayır Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yazımanayır çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Yazımanayır",
     "type": "neighborhood"
@@ -4469,8 +4469,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenikoy-sile-cicekcilik-peyzaj-organizasyon",
     "name": "Yeniköy",
-    "title": "Yeniköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeniköy ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeniköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeniköy çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Yeniköy",
     "type": "neighborhood"
@@ -4478,8 +4478,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilvadi-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilvadi",
-    "title": "Yeşilvadi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilvadi ve Şile çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilvadi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilvadi çiçekçi arayanlar için Şile ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şile",
     "neighborhood": "Yeşilvadi",
     "type": "neighborhood"
@@ -4487,8 +4487,8 @@ export const istanbulAreaPages = [
   {
     "slug": "19-mayis-sisli-cicekcilik-peyzaj-organizasyon",
     "name": "19 Mayıs",
-    "title": "19 Mayıs Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "19 Mayıs ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "19 Mayıs Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "19 Mayıs çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "19 Mayıs",
     "type": "neighborhood"
@@ -4496,8 +4496,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bozkurt-cicekcilik-peyzaj-organizasyon",
     "name": "Bozkurt",
-    "title": "Bozkurt Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bozkurt ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bozkurt Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bozkurt çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Bozkurt",
     "type": "neighborhood"
@@ -4505,8 +4505,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-sisli-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -4514,8 +4514,8 @@ export const istanbulAreaPages = [
   {
     "slug": "duatepe-cicekcilik-peyzaj-organizasyon",
     "name": "Duatepe",
-    "title": "Duatepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Duatepe ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Duatepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Duatepe çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Duatepe",
     "type": "neighborhood"
@@ -4523,8 +4523,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ergenekon-cicekcilik-peyzaj-organizasyon",
     "name": "Ergenekon",
-    "title": "Ergenekon Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ergenekon ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ergenekon Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ergenekon çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Ergenekon",
     "type": "neighborhood"
@@ -4532,8 +4532,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esentepe-sisli-cicekcilik-peyzaj-organizasyon",
     "name": "Esentepe",
-    "title": "Esentepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esentepe ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esentepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esentepe çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Esentepe",
     "type": "neighborhood"
@@ -4541,8 +4541,8 @@ export const istanbulAreaPages = [
   {
     "slug": "eskisehir-cicekcilik-peyzaj-organizasyon",
     "name": "Eskişehir",
-    "title": "Eskişehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Eskişehir ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Eskişehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Eskişehir çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Eskişehir",
     "type": "neighborhood"
@@ -4550,8 +4550,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ferikoy-cicekcilik-peyzaj-organizasyon",
     "name": "Feriköy",
-    "title": "Feriköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Feriköy ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Feriköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Feriköy çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Feriköy",
     "type": "neighborhood"
@@ -4559,8 +4559,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fulya-cicekcilik-peyzaj-organizasyon",
     "name": "Fulya",
-    "title": "Fulya Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fulya ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fulya Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fulya çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Fulya",
     "type": "neighborhood"
@@ -4568,8 +4568,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gulbahar-cicekcilik-peyzaj-organizasyon",
     "name": "Gülbahar",
-    "title": "Gülbahar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gülbahar ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gülbahar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gülbahar çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Gülbahar",
     "type": "neighborhood"
@@ -4577,8 +4577,8 @@ export const istanbulAreaPages = [
   {
     "slug": "halaskargazi-cicekcilik-peyzaj-organizasyon",
     "name": "Halaskargazi",
-    "title": "Halaskargazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Halaskargazi ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Halaskargazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Halaskargazi çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Halaskargazi",
     "type": "neighborhood"
@@ -4586,8 +4586,8 @@ export const istanbulAreaPages = [
   {
     "slug": "halide-edip-adivar-cicekcilik-peyzaj-organizasyon",
     "name": "Halide Edip Adıvar",
-    "title": "Halide Edip Adıvar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Halide Edip Adıvar ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Halide Edip Adıvar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Halide Edip Adıvar çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Halide Edip Adıvar",
     "type": "neighborhood"
@@ -4595,8 +4595,8 @@ export const istanbulAreaPages = [
   {
     "slug": "halil-rifat-pasa-cicekcilik-peyzaj-organizasyon",
     "name": "Halil Rıfat Paşa",
-    "title": "Halil Rıfat Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Halil Rıfat Paşa ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Halil Rıfat Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Halil Rıfat Paşa çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Halil Rıfat Paşa",
     "type": "neighborhood"
@@ -4604,8 +4604,8 @@ export const istanbulAreaPages = [
   {
     "slug": "harbiye-cicekcilik-peyzaj-organizasyon",
     "name": "Harbiye",
-    "title": "Harbiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Harbiye ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Harbiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Harbiye çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Harbiye",
     "type": "neighborhood"
@@ -4613,8 +4613,8 @@ export const istanbulAreaPages = [
   {
     "slug": "inonu-cicekcilik-peyzaj-organizasyon",
     "name": "İnönü",
-    "title": "İnönü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İnönü ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İnönü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İnönü çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "İnönü",
     "type": "neighborhood"
@@ -4622,8 +4622,8 @@ export const istanbulAreaPages = [
   {
     "slug": "izzet-pasa-cicekcilik-peyzaj-organizasyon",
     "name": "İzzet Paşa",
-    "title": "İzzet Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İzzet Paşa ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İzzet Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İzzet Paşa çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "İzzet Paşa",
     "type": "neighborhood"
@@ -4631,8 +4631,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kaptanpasa-sisli-cicekcilik-peyzaj-organizasyon",
     "name": "Kaptanpaşa",
-    "title": "Kaptanpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kaptanpaşa ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kaptanpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kaptanpaşa çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Kaptanpaşa",
     "type": "neighborhood"
@@ -4640,8 +4640,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kustepe-cicekcilik-peyzaj-organizasyon",
     "name": "Kuştepe",
-    "title": "Kuştepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kuştepe ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kuştepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kuştepe çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Kuştepe",
     "type": "neighborhood"
@@ -4649,8 +4649,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mahmut-sevket-pasa-cicekcilik-peyzaj-organizasyon",
     "name": "Mahmut Şevket Paşa",
-    "title": "Mahmut Şevket Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mahmut Şevket Paşa ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mahmut Şevket Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mahmut Şevket Paşa çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Mahmut Şevket Paşa",
     "type": "neighborhood"
@@ -4658,8 +4658,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mecidiyekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Mecidiyeköy",
-    "title": "Mecidiyeköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mecidiyeköy ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mecidiyeköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mecidiyeköy çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Mecidiyeköy",
     "type": "neighborhood"
@@ -4667,8 +4667,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkez-sisli-cicekcilik-peyzaj-organizasyon",
     "name": "Merkez",
-    "title": "Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkez ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkez çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Merkez",
     "type": "neighborhood"
@@ -4676,8 +4676,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mesrutiyet-sisli-cicekcilik-peyzaj-organizasyon",
     "name": "Meşrutiyet",
-    "title": "Meşrutiyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Meşrutiyet ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Meşrutiyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Meşrutiyet çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Meşrutiyet",
     "type": "neighborhood"
@@ -4685,8 +4685,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pasa-cicekcilik-peyzaj-organizasyon",
     "name": "Paşa",
-    "title": "Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Paşa ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Paşa çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Paşa",
     "type": "neighborhood"
@@ -4694,8 +4694,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tesvikiye-cicekcilik-peyzaj-organizasyon",
     "name": "Teşvikiye",
-    "title": "Teşvikiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Teşvikiye ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Teşvikiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Teşvikiye çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Teşvikiye",
     "type": "neighborhood"
@@ -4703,8 +4703,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yayla-cicekcilik-peyzaj-organizasyon",
     "name": "Yayla",
-    "title": "Yayla Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yayla ve Şişli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yayla Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yayla çiçekçi arayanlar için Şişli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Şişli",
     "neighborhood": "Yayla",
     "type": "neighborhood"
@@ -4712,8 +4712,8 @@ export const istanbulAreaPages = [
   {
     "slug": "acibadem-uskudar-cicekcilik-peyzaj-organizasyon",
     "name": "Acıbadem",
-    "title": "Acıbadem Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Acıbadem ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Acıbadem Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Acıbadem çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Acıbadem",
     "type": "neighborhood"
@@ -4721,8 +4721,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ahmediye-cicekcilik-peyzaj-organizasyon",
     "name": "Ahmediye",
-    "title": "Ahmediye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ahmediye ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ahmediye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ahmediye çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Ahmediye",
     "type": "neighborhood"
@@ -4730,8 +4730,8 @@ export const istanbulAreaPages = [
   {
     "slug": "altunizade-cicekcilik-peyzaj-organizasyon",
     "name": "Altunizade",
-    "title": "Altunizade Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Altunizade ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Altunizade Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Altunizade çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Altunizade",
     "type": "neighborhood"
@@ -4739,8 +4739,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aziz-mahmut-hudayi-cicekcilik-peyzaj-organizasyon",
     "name": "Aziz Mahmut Hüdayi",
-    "title": "Aziz Mahmut Hüdayi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aziz Mahmut Hüdayi ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aziz Mahmut Hüdayi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aziz Mahmut Hüdayi çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Aziz Mahmut Hüdayi",
     "type": "neighborhood"
@@ -4748,8 +4748,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcelievler-uskudar-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçelievler",
-    "title": "Bahçelievler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçelievler ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçelievler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçelievler çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Bahçelievler",
     "type": "neighborhood"
@@ -4757,8 +4757,8 @@ export const istanbulAreaPages = [
   {
     "slug": "barbaros-cicekcilik-peyzaj-organizasyon",
     "name": "Barbaros",
-    "title": "Barbaros Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Barbaros ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Barbaros Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Barbaros çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Barbaros",
     "type": "neighborhood"
@@ -4766,8 +4766,8 @@ export const istanbulAreaPages = [
   {
     "slug": "beylerbeyi-cicekcilik-peyzaj-organizasyon",
     "name": "Beylerbeyi",
-    "title": "Beylerbeyi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beylerbeyi ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beylerbeyi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beylerbeyi çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Beylerbeyi",
     "type": "neighborhood"
@@ -4775,8 +4775,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bulgurlu-cicekcilik-peyzaj-organizasyon",
     "name": "Bulgurlu",
-    "title": "Bulgurlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bulgurlu ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bulgurlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bulgurlu çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Bulgurlu",
     "type": "neighborhood"
@@ -4784,8 +4784,8 @@ export const istanbulAreaPages = [
   {
     "slug": "burhaniye-cicekcilik-peyzaj-organizasyon",
     "name": "Burhaniye",
-    "title": "Burhaniye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Burhaniye ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Burhaniye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Burhaniye çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Burhaniye",
     "type": "neighborhood"
@@ -4793,8 +4793,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-uskudar-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -4802,8 +4802,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cengelkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Çengelköy",
-    "title": "Çengelköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çengelköy ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çengelköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çengelköy çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Çengelköy",
     "type": "neighborhood"
@@ -4811,8 +4811,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ferah-cicekcilik-peyzaj-organizasyon",
     "name": "Ferah",
-    "title": "Ferah Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ferah ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ferah Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ferah çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Ferah",
     "type": "neighborhood"
@@ -4820,8 +4820,8 @@ export const istanbulAreaPages = [
   {
     "slug": "guzeltepe-uskudar-cicekcilik-peyzaj-organizasyon",
     "name": "Güzeltepe",
-    "title": "Güzeltepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güzeltepe ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güzeltepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güzeltepe çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Güzeltepe",
     "type": "neighborhood"
@@ -4829,8 +4829,8 @@ export const istanbulAreaPages = [
   {
     "slug": "icadiye-cicekcilik-peyzaj-organizasyon",
     "name": "İcadiye",
-    "title": "İcadiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İcadiye ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İcadiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İcadiye çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "İcadiye",
     "type": "neighborhood"
@@ -4838,8 +4838,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kandilli-cicekcilik-peyzaj-organizasyon",
     "name": "Kandilli",
-    "title": "Kandilli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kandilli ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kandilli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kandilli çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Kandilli",
     "type": "neighborhood"
@@ -4847,8 +4847,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kisikli-cicekcilik-peyzaj-organizasyon",
     "name": "Kısıklı",
-    "title": "Kısıklı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kısıklı ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kısıklı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kısıklı çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Kısıklı",
     "type": "neighborhood"
@@ -4856,8 +4856,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kirazlitepe-cicekcilik-peyzaj-organizasyon",
     "name": "Kirazlıtepe",
-    "title": "Kirazlıtepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kirazlıtepe ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kirazlıtepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kirazlıtepe çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Kirazlıtepe",
     "type": "neighborhood"
@@ -4865,8 +4865,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kuleli-cicekcilik-peyzaj-organizasyon",
     "name": "Kuleli",
-    "title": "Kuleli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kuleli ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kuleli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kuleli çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Kuleli",
     "type": "neighborhood"
@@ -4874,8 +4874,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kuzguncuk-cicekcilik-peyzaj-organizasyon",
     "name": "Kuzguncuk",
-    "title": "Kuzguncuk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kuzguncuk ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kuzguncuk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kuzguncuk çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Kuzguncuk",
     "type": "neighborhood"
@@ -4883,8 +4883,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucuk-camlica-cicekcilik-peyzaj-organizasyon",
     "name": "Küçük Çamlıca",
-    "title": "Küçük Çamlıca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçük Çamlıca ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçük Çamlıca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçük Çamlıca çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Küçük Çamlıca",
     "type": "neighborhood"
@@ -4892,8 +4892,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucuksu-cicekcilik-peyzaj-organizasyon",
     "name": "Küçüksu",
-    "title": "Küçüksu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçüksu ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçüksu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçüksu çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Küçüksu",
     "type": "neighborhood"
@@ -4901,8 +4901,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kupluce-cicekcilik-peyzaj-organizasyon",
     "name": "Küplüce",
-    "title": "Küplüce Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küplüce ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küplüce Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küplüce çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Küplüce",
     "type": "neighborhood"
@@ -4910,8 +4910,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehmet-akif-ersoy-cicekcilik-peyzaj-organizasyon",
     "name": "Mehmet Akif Ersoy",
-    "title": "Mehmet Akif Ersoy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehmet Akif Ersoy ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehmet Akif Ersoy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehmet Akif Ersoy çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Mehmet Akif Ersoy",
     "type": "neighborhood"
@@ -4919,8 +4919,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-sinan-uskudar-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Sinan",
-    "title": "Mimar Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Sinan ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Sinan çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Mimar Sinan",
     "type": "neighborhood"
@@ -4928,8 +4928,8 @@ export const istanbulAreaPages = [
   {
     "slug": "muratreis-cicekcilik-peyzaj-organizasyon",
     "name": "Muratreis",
-    "title": "Muratreis Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Muratreis ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Muratreis Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Muratreis çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Muratreis",
     "type": "neighborhood"
@@ -4937,8 +4937,8 @@ export const istanbulAreaPages = [
   {
     "slug": "salacak-cicekcilik-peyzaj-organizasyon",
     "name": "Salacak",
-    "title": "Salacak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Salacak ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Salacak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Salacak çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Salacak",
     "type": "neighborhood"
@@ -4946,8 +4946,8 @@ export const istanbulAreaPages = [
   {
     "slug": "selami-ali-cicekcilik-peyzaj-organizasyon",
     "name": "Selami Ali",
-    "title": "Selami Ali Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Selami Ali ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Selami Ali Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Selami Ali çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Selami Ali",
     "type": "neighborhood"
@@ -4955,8 +4955,8 @@ export const istanbulAreaPages = [
   {
     "slug": "selimiye-cicekcilik-peyzaj-organizasyon",
     "name": "Selimiye",
-    "title": "Selimiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Selimiye ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Selimiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Selimiye çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Selimiye",
     "type": "neighborhood"
@@ -4964,8 +4964,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sultantepe-cicekcilik-peyzaj-organizasyon",
     "name": "Sultantepe",
-    "title": "Sultantepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sultantepe ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sultantepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sultantepe çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Sultantepe",
     "type": "neighborhood"
@@ -4973,8 +4973,8 @@ export const istanbulAreaPages = [
   {
     "slug": "unalan-cicekcilik-peyzaj-organizasyon",
     "name": "Ünalan",
-    "title": "Ünalan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ünalan ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ünalan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ünalan çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Ünalan",
     "type": "neighborhood"
@@ -4982,8 +4982,8 @@ export const istanbulAreaPages = [
   {
     "slug": "valide-i-atik-cicekcilik-peyzaj-organizasyon",
     "name": "Valide-i Atik",
-    "title": "Valide-i Atik Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Valide-i Atik ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Valide-i Atik Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Valide-i Atik çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Valide-i Atik",
     "type": "neighborhood"
@@ -4991,8 +4991,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yavuzturk-cicekcilik-peyzaj-organizasyon",
     "name": "Yavuztürk",
-    "title": "Yavuztürk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yavuztürk ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yavuztürk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yavuztürk çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Yavuztürk",
     "type": "neighborhood"
@@ -5000,8 +5000,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zeynep-kamil-cicekcilik-peyzaj-organizasyon",
     "name": "Zeynep Kamil",
-    "title": "Zeynep Kamil Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zeynep Kamil ve Üsküdar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zeynep Kamil Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zeynep Kamil çiçekçi arayanlar için Üsküdar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Üsküdar",
     "neighborhood": "Zeynep Kamil",
     "type": "neighborhood"
@@ -5009,8 +5009,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bestelsiz-cicekcilik-peyzaj-organizasyon",
     "name": "Beştelsiz",
-    "title": "Beştelsiz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beştelsiz ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beştelsiz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beştelsiz çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Beştelsiz",
     "type": "neighborhood"
@@ -5018,8 +5018,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cirpici-cicekcilik-peyzaj-organizasyon",
     "name": "Çırpıcı",
-    "title": "Çırpıcı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çırpıcı ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çırpıcı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çırpıcı çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Çırpıcı",
     "type": "neighborhood"
@@ -5027,8 +5027,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gokalp-cicekcilik-peyzaj-organizasyon",
     "name": "Gökalp",
-    "title": "Gökalp Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gökalp ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gökalp Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gökalp çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Gökalp",
     "type": "neighborhood"
@@ -5036,8 +5036,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kazlicesme-cicekcilik-peyzaj-organizasyon",
     "name": "Kazlıçeşme",
-    "title": "Kazlıçeşme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kazlıçeşme ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kazlıçeşme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kazlıçeşme çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Kazlıçeşme",
     "type": "neighborhood"
@@ -5045,8 +5045,8 @@ export const istanbulAreaPages = [
   {
     "slug": "maltepe-zeytinburnu-cicekcilik-peyzaj-organizasyon",
     "name": "Maltepe",
-    "title": "Maltepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Maltepe ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Maltepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Maltepe çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Maltepe",
     "type": "neighborhood"
@@ -5054,8 +5054,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkezefendi-cicekcilik-peyzaj-organizasyon",
     "name": "Merkezefendi",
-    "title": "Merkezefendi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkezefendi ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkezefendi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkezefendi çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Merkezefendi",
     "type": "neighborhood"
@@ -5063,8 +5063,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nuripasa-cicekcilik-peyzaj-organizasyon",
     "name": "Nuripaşa",
-    "title": "Nuripaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nuripaşa ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nuripaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nuripaşa çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Nuripaşa",
     "type": "neighborhood"
@@ -5072,8 +5072,8 @@ export const istanbulAreaPages = [
   {
     "slug": "seyitnizam-cicekcilik-peyzaj-organizasyon",
     "name": "Seyitnizam",
-    "title": "Seyitnizam Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Seyitnizam ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Seyitnizam Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Seyitnizam çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Seyitnizam",
     "type": "neighborhood"
@@ -5081,8 +5081,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sumer-cicekcilik-peyzaj-organizasyon",
     "name": "Sümer",
-    "title": "Sümer Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sümer ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sümer Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sümer çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Sümer",
     "type": "neighborhood"
@@ -5090,8 +5090,8 @@ export const istanbulAreaPages = [
   {
     "slug": "telsiz-cicekcilik-peyzaj-organizasyon",
     "name": "Telsiz",
-    "title": "Telsiz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Telsiz ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Telsiz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Telsiz çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Telsiz",
     "type": "neighborhood"
@@ -5099,8 +5099,8 @@ export const istanbulAreaPages = [
   {
     "slug": "veliefendi-cicekcilik-peyzaj-organizasyon",
     "name": "Veliefendi",
-    "title": "Veliefendi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Veliefendi ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Veliefendi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Veliefendi çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Veliefendi",
     "type": "neighborhood"
@@ -5108,8 +5108,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenidogan-zeytinburnu-cicekcilik-peyzaj-organizasyon",
     "name": "Yenidoğan",
-    "title": "Yenidoğan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenidoğan ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenidoğan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenidoğan çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Yenidoğan",
     "type": "neighborhood"
@@ -5117,8 +5117,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesiltepe-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşiltepe",
-    "title": "Yeşiltepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşiltepe ve Zeytinburnu çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşiltepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşiltepe çiçekçi arayanlar için Zeytinburnu ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Zeytinburnu",
     "neighborhood": "Yeşiltepe",
     "type": "neighborhood"
@@ -5126,8 +5126,8 @@ export const istanbulAreaPages = [
   {
     "slug": "19-mayis-buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "19 Mayıs",
-    "title": "19 Mayıs Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "19 Mayıs ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "19 Mayıs Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "19 Mayıs çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "19 Mayıs",
     "type": "neighborhood"
@@ -5135,8 +5135,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ahmediye-buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Ahmediye",
-    "title": "Ahmediye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ahmediye ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ahmediye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ahmediye çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Ahmediye",
     "type": "neighborhood"
@@ -5144,8 +5144,8 @@ export const istanbulAreaPages = [
   {
     "slug": "alkent-2000-cicekcilik-peyzaj-organizasyon",
     "name": "Alkent 2000",
-    "title": "Alkent 2000 Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Alkent 2000 ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Alkent 2000 Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Alkent 2000 çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Alkent 2000",
     "type": "neighborhood"
@@ -5153,8 +5153,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ataturk-buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Atatürk",
-    "title": "Atatürk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atatürk ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atatürk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atatürk çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Atatürk",
     "type": "neighborhood"
@@ -5162,8 +5162,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcelievler-buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçelievler",
-    "title": "Bahçelievler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçelievler ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçelievler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçelievler çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Bahçelievler",
     "type": "neighborhood"
@@ -5171,8 +5171,8 @@ export const istanbulAreaPages = [
   {
     "slug": "celaliye-cicekcilik-peyzaj-organizasyon",
     "name": "Celaliye",
-    "title": "Celaliye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Celaliye ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Celaliye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Celaliye çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Celaliye",
     "type": "neighborhood"
@@ -5180,8 +5180,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -5189,8 +5189,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cakmakli-cicekcilik-peyzaj-organizasyon",
     "name": "Çakmaklı",
-    "title": "Çakmaklı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çakmaklı ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çakmaklı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çakmaklı çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Çakmaklı",
     "type": "neighborhood"
@@ -5198,8 +5198,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dizdariye-cicekcilik-peyzaj-organizasyon",
     "name": "Dizdariye",
-    "title": "Dizdariye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dizdariye ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dizdariye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dizdariye çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Dizdariye",
     "type": "neighborhood"
@@ -5207,8 +5207,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ekinoba-cicekcilik-peyzaj-organizasyon",
     "name": "Ekinoba",
-    "title": "Ekinoba Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ekinoba ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ekinoba Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ekinoba çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Ekinoba",
     "type": "neighborhood"
@@ -5216,8 +5216,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -5225,8 +5225,8 @@ export const istanbulAreaPages = [
   {
     "slug": "guzelce-cicekcilik-peyzaj-organizasyon",
     "name": "Güzelce",
-    "title": "Güzelce Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güzelce ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güzelce Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güzelce çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Güzelce",
     "type": "neighborhood"
@@ -5234,8 +5234,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hurriyet-buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Hürriyet",
-    "title": "Hürriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hürriyet ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hürriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hürriyet çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Hürriyet",
     "type": "neighborhood"
@@ -5243,8 +5243,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kamiloba-cicekcilik-peyzaj-organizasyon",
     "name": "Kamiloba",
-    "title": "Kamiloba Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kamiloba ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kamiloba Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kamiloba çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Kamiloba",
     "type": "neighborhood"
@@ -5252,8 +5252,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karaagac-cicekcilik-peyzaj-organizasyon",
     "name": "Karaağaç",
-    "title": "Karaağaç Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karaağaç ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karaağaç Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karaağaç çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Karaağaç",
     "type": "neighborhood"
@@ -5261,8 +5261,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kumburgaz-cicekcilik-peyzaj-organizasyon",
     "name": "Kumburgaz",
-    "title": "Kumburgaz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kumburgaz ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kumburgaz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kumburgaz çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Kumburgaz",
     "type": "neighborhood"
@@ -5270,8 +5270,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimaroba-cicekcilik-peyzaj-organizasyon",
     "name": "Mimaroba",
-    "title": "Mimaroba Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimaroba ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimaroba Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimaroba çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Mimaroba",
     "type": "neighborhood"
@@ -5279,8 +5279,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimarsinan-cicekcilik-peyzaj-organizasyon",
     "name": "Mimarsinan",
-    "title": "Mimarsinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimarsinan ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimarsinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimarsinan çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Mimarsinan",
     "type": "neighborhood"
@@ -5288,8 +5288,8 @@ export const istanbulAreaPages = [
   {
     "slug": "murat-cesme-cicekcilik-peyzaj-organizasyon",
     "name": "Murat Çesme",
-    "title": "Murat Çesme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Murat Çesme ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Murat Çesme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Murat Çesme çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Murat Çesme",
     "type": "neighborhood"
@@ -5297,8 +5297,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pinartepe-cicekcilik-peyzaj-organizasyon",
     "name": "Pınartepe",
-    "title": "Pınartepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Pınartepe ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Pınartepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Pınartepe çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Pınartepe",
     "type": "neighborhood"
@@ -5306,8 +5306,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sinanoba-cicekcilik-peyzaj-organizasyon",
     "name": "Sinanoba",
-    "title": "Sinanoba Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sinanoba ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sinanoba Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sinanoba çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Sinanoba",
     "type": "neighborhood"
@@ -5315,8 +5315,8 @@ export const istanbulAreaPages = [
   {
     "slug": "turkoba-cicekcilik-peyzaj-organizasyon",
     "name": "Türkoba",
-    "title": "Türkoba Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Türkoba ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Türkoba Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Türkoba çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Türkoba",
     "type": "neighborhood"
@@ -5324,8 +5324,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ulus-buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Ulus",
-    "title": "Ulus Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ulus ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ulus Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ulus çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Ulus",
     "type": "neighborhood"
@@ -5333,8 +5333,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenimahalle-buyukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Yenimahalle",
-    "title": "Yenimahalle Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenimahalle ve Büyükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenimahalle Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenimahalle çiçekçi arayanlar için Büyükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Büyükçekmece",
     "neighborhood": "Yenimahalle",
     "type": "neighborhood"
@@ -5342,8 +5342,8 @@ export const istanbulAreaPages = [
   {
     "slug": "caglayan-cicekcilik-peyzaj-organizasyon",
     "name": "Çağlayan",
-    "title": "Çağlayan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çağlayan ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çağlayan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çağlayan çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Çağlayan",
     "type": "neighborhood"
@@ -5351,8 +5351,8 @@ export const istanbulAreaPages = [
   {
     "slug": "celiktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Çeliktepe",
-    "title": "Çeliktepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çeliktepe ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çeliktepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çeliktepe çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Çeliktepe",
     "type": "neighborhood"
@@ -5360,8 +5360,8 @@ export const istanbulAreaPages = [
   {
     "slug": "emniyet-evleri-cicekcilik-peyzaj-organizasyon",
     "name": "Emniyet Evleri",
-    "title": "Emniyet Evleri Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Emniyet Evleri ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Emniyet Evleri Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Emniyet Evleri çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Emniyet Evleri",
     "type": "neighborhood"
@@ -5369,8 +5369,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gultepe-cicekcilik-peyzaj-organizasyon",
     "name": "Gültepe",
-    "title": "Gültepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gültepe ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gültepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gültepe çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Gültepe",
     "type": "neighborhood"
@@ -5378,8 +5378,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gursel-cicekcilik-peyzaj-organizasyon",
     "name": "Gürsel",
-    "title": "Gürsel Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gürsel ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gürsel Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gürsel çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Gürsel",
     "type": "neighborhood"
@@ -5387,8 +5387,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hamidiye-cicekcilik-peyzaj-organizasyon",
     "name": "Hamidiye",
-    "title": "Hamidiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hamidiye ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hamidiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hamidiye çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Hamidiye",
     "type": "neighborhood"
@@ -5396,8 +5396,8 @@ export const istanbulAreaPages = [
   {
     "slug": "harmantepe-cicekcilik-peyzaj-organizasyon",
     "name": "Harmantepe",
-    "title": "Harmantepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Harmantepe ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Harmantepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Harmantepe çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Harmantepe",
     "type": "neighborhood"
@@ -5405,8 +5405,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hurriyet-kagithane-cicekcilik-peyzaj-organizasyon",
     "name": "Hürriyet",
-    "title": "Hürriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hürriyet ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hürriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hürriyet çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Hürriyet",
     "type": "neighborhood"
@@ -5414,8 +5414,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehmet-akif-ersoy-kagithane-cicekcilik-peyzaj-organizasyon",
     "name": "Mehmet Akif Ersoy",
-    "title": "Mehmet Akif Ersoy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehmet Akif Ersoy ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehmet Akif Ersoy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehmet Akif Ersoy çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Mehmet Akif Ersoy",
     "type": "neighborhood"
@@ -5423,8 +5423,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkez-kagithane-cicekcilik-peyzaj-organizasyon",
     "name": "Merkez",
-    "title": "Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkez ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkez çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Merkez",
     "type": "neighborhood"
@@ -5432,8 +5432,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nurtepe-cicekcilik-peyzaj-organizasyon",
     "name": "Nurtepe",
-    "title": "Nurtepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nurtepe ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nurtepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nurtepe çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Nurtepe",
     "type": "neighborhood"
@@ -5441,8 +5441,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ortabayir-cicekcilik-peyzaj-organizasyon",
     "name": "Ortabayır",
-    "title": "Ortabayır Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ortabayır ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ortabayır Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ortabayır çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Ortabayır",
     "type": "neighborhood"
@@ -5450,8 +5450,8 @@ export const istanbulAreaPages = [
   {
     "slug": "seyrantepe-cicekcilik-peyzaj-organizasyon",
     "name": "Seyrantepe",
-    "title": "Seyrantepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Seyrantepe ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Seyrantepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Seyrantepe çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Seyrantepe",
     "type": "neighborhood"
@@ -5459,8 +5459,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sultan-selim-cicekcilik-peyzaj-organizasyon",
     "name": "Sultan Selim",
-    "title": "Sultan Selim Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sultan Selim ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sultan Selim Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sultan Selim çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Sultan Selim",
     "type": "neighborhood"
@@ -5468,8 +5468,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sirintepe-cicekcilik-peyzaj-organizasyon",
     "name": "Şirintepe",
-    "title": "Şirintepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şirintepe ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şirintepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şirintepe çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Şirintepe",
     "type": "neighborhood"
@@ -5477,8 +5477,8 @@ export const istanbulAreaPages = [
   {
     "slug": "talatpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Talatpaşa",
-    "title": "Talatpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Talatpaşa ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Talatpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Talatpaşa çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Talatpaşa",
     "type": "neighborhood"
@@ -5486,8 +5486,8 @@ export const istanbulAreaPages = [
   {
     "slug": "telsizler-cicekcilik-peyzaj-organizasyon",
     "name": "Telsizler",
-    "title": "Telsizler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Telsizler ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Telsizler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Telsizler çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Telsizler",
     "type": "neighborhood"
@@ -5495,8 +5495,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yahya-kemal-cicekcilik-peyzaj-organizasyon",
     "name": "Yahya Kemal",
-    "title": "Yahya Kemal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yahya Kemal ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yahya Kemal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yahya Kemal çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Yahya Kemal",
     "type": "neighborhood"
@@ -5504,8 +5504,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilce-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilce",
-    "title": "Yeşilce Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilce ve Kağıthane çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilce Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilce çiçekçi arayanlar için Kağıthane ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Kağıthane",
     "neighborhood": "Yeşilce",
     "type": "neighborhood"
@@ -5513,8 +5513,8 @@ export const istanbulAreaPages = [
   {
     "slug": "atakent-cicekcilik-peyzaj-organizasyon",
     "name": "Atakent",
-    "title": "Atakent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atakent ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atakent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atakent çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Atakent",
     "type": "neighborhood"
@@ -5522,8 +5522,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ataturk-kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Atatürk",
-    "title": "Atatürk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atatürk ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atatürk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atatürk çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Atatürk",
     "type": "neighborhood"
@@ -5531,8 +5531,8 @@ export const istanbulAreaPages = [
   {
     "slug": "besyol-cicekcilik-peyzaj-organizasyon",
     "name": "Beşyol",
-    "title": "Beşyol Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beşyol ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beşyol Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beşyol çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Beşyol",
     "type": "neighborhood"
@@ -5540,8 +5540,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cennet-cicekcilik-peyzaj-organizasyon",
     "name": "Cennet",
-    "title": "Cennet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cennet ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cennet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cennet çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Cennet",
     "type": "neighborhood"
@@ -5549,8 +5549,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -5558,8 +5558,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -5567,8 +5567,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fevzi-cakmak-kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Fevzi Çakmak",
-    "title": "Fevzi Çakmak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fevzi Çakmak ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fevzi Çakmak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fevzi Çakmak çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Fevzi Çakmak",
     "type": "neighborhood"
@@ -5576,8 +5576,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gultepe-kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Gültepe",
-    "title": "Gültepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gültepe ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gültepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gültepe çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Gültepe",
     "type": "neighborhood"
@@ -5585,8 +5585,8 @@ export const istanbulAreaPages = [
   {
     "slug": "halkali-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Halkalı Merkez",
-    "title": "Halkalı Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Halkalı Merkez ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Halkalı Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Halkalı Merkez çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Halkalı Merkez",
     "type": "neighborhood"
@@ -5594,8 +5594,8 @@ export const istanbulAreaPages = [
   {
     "slug": "inonu-kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "İnönü",
-    "title": "İnönü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İnönü ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İnönü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İnönü çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "İnönü",
     "type": "neighborhood"
@@ -5603,8 +5603,8 @@ export const istanbulAreaPages = [
   {
     "slug": "istasyon-cicekcilik-peyzaj-organizasyon",
     "name": "İstasyon",
-    "title": "İstasyon Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İstasyon ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İstasyon Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İstasyon çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "İstasyon",
     "type": "neighborhood"
@@ -5612,8 +5612,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kanarya-cicekcilik-peyzaj-organizasyon",
     "name": "Kanarya",
-    "title": "Kanarya Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kanarya ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kanarya Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kanarya çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Kanarya",
     "type": "neighborhood"
@@ -5621,8 +5621,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kartaltepe-kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Kartaltepe",
-    "title": "Kartaltepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kartaltepe ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kartaltepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kartaltepe çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Kartaltepe",
     "type": "neighborhood"
@@ -5630,8 +5630,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kemalpasa-kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Kemalpaşa",
-    "title": "Kemalpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kemalpaşa ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kemalpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kemalpaşa çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Kemalpaşa",
     "type": "neighborhood"
@@ -5639,8 +5639,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucukcekmece-ikitelliosb-cicekcilik-peyzaj-organizasyon",
     "name": "Küçükçekmece İkitelliosb",
-    "title": "Küçükçekmece İkitelliosb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçükçekmece İkitelliosb ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçükçekmece İkitelliosb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçükçekmece İkitelliosb çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Küçükçekmece İkitelliosb",
     "type": "neighborhood"
@@ -5648,8 +5648,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehmet-akif-cicekcilik-peyzaj-organizasyon",
     "name": "Mehmet Akif",
-    "title": "Mehmet Akif Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehmet Akif ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehmet Akif Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehmet Akif çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Mehmet Akif",
     "type": "neighborhood"
@@ -5657,8 +5657,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sogutlu-cesme-cicekcilik-peyzaj-organizasyon",
     "name": "Söğütlü Çeşme",
-    "title": "Söğütlü Çeşme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Söğütlü Çeşme ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Söğütlü Çeşme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Söğütlü Çeşme çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Söğütlü Çeşme",
     "type": "neighborhood"
@@ -5666,8 +5666,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sultan-murat-cicekcilik-peyzaj-organizasyon",
     "name": "Sultan Murat",
-    "title": "Sultan Murat Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sultan Murat ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sultan Murat Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sultan Murat çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Sultan Murat",
     "type": "neighborhood"
@@ -5675,8 +5675,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tevfikbey-cicekcilik-peyzaj-organizasyon",
     "name": "Tevfikbey",
-    "title": "Tevfikbey Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tevfikbey ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tevfikbey Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tevfikbey çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Tevfikbey",
     "type": "neighborhood"
@@ -5684,8 +5684,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yarimburgaz-cicekcilik-peyzaj-organizasyon",
     "name": "Yarımburgaz",
-    "title": "Yarımburgaz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yarımburgaz ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yarımburgaz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yarımburgaz çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Yarımburgaz",
     "type": "neighborhood"
@@ -5693,8 +5693,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yeni-mahalle-kucukcekmece-cicekcilik-peyzaj-organizasyon",
     "name": "Yeni Mahalle",
-    "title": "Yeni Mahalle Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeni Mahalle ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeni Mahalle Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeni Mahalle çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Yeni Mahalle",
     "type": "neighborhood"
@@ -5702,8 +5702,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilova-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilova",
-    "title": "Yeşilova Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilova ve Küçükçekmece çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilova Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilova çiçekçi arayanlar için Küçükçekmece ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Küçükçekmece",
     "neighborhood": "Yeşilova",
     "type": "neighborhood"
@@ -5711,8 +5711,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ahmet-yesevi-cicekcilik-peyzaj-organizasyon",
     "name": "Ahmet Yesevi",
-    "title": "Ahmet Yesevi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ahmet Yesevi ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ahmet Yesevi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ahmet Yesevi çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Ahmet Yesevi",
     "type": "neighborhood"
@@ -5720,8 +5720,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcelievler-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçelievler",
-    "title": "Bahçelievler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçelievler ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçelievler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçelievler çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Bahçelievler",
     "type": "neighborhood"
@@ -5729,8 +5729,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ballica-cicekcilik-peyzaj-organizasyon",
     "name": "Ballıca",
-    "title": "Ballıca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ballıca ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ballıca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ballıca çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Ballıca",
     "type": "neighborhood"
@@ -5738,8 +5738,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bati-cicekcilik-peyzaj-organizasyon",
     "name": "Batı",
-    "title": "Batı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Batı ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Batı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Batı çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Batı",
     "type": "neighborhood"
@@ -5747,8 +5747,8 @@ export const istanbulAreaPages = [
   {
     "slug": "camcesme-cicekcilik-peyzaj-organizasyon",
     "name": "Çamçeşme",
-    "title": "Çamçeşme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çamçeşme ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çamçeşme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çamçeşme çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Çamçeşme",
     "type": "neighborhood"
@@ -5756,8 +5756,8 @@ export const istanbulAreaPages = [
   {
     "slug": "camlik-cicekcilik-peyzaj-organizasyon",
     "name": "Çamlık",
-    "title": "Çamlık Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çamlık ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çamlık Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çamlık çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Çamlık",
     "type": "neighborhood"
@@ -5765,8 +5765,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cinardere-cicekcilik-peyzaj-organizasyon",
     "name": "Çınardere",
-    "title": "Çınardere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çınardere ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çınardere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çınardere çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Çınardere",
     "type": "neighborhood"
@@ -5774,8 +5774,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dogu-cicekcilik-peyzaj-organizasyon",
     "name": "Doğu",
-    "title": "Doğu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Doğu ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Doğu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Doğu çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Doğu",
     "type": "neighborhood"
@@ -5783,8 +5783,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dumlupinar-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Dumlupınar",
-    "title": "Dumlupınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dumlupınar ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dumlupınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dumlupınar çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Dumlupınar",
     "type": "neighborhood"
@@ -5792,8 +5792,8 @@ export const istanbulAreaPages = [
   {
     "slug": "emirli-cicekcilik-peyzaj-organizasyon",
     "name": "Emirli",
-    "title": "Emirli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Emirli ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Emirli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Emirli çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Emirli",
     "type": "neighborhood"
@@ -5801,8 +5801,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ertugrul-gazi-cicekcilik-peyzaj-organizasyon",
     "name": "Ertuğrul Gazi",
-    "title": "Ertuğrul Gazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ertuğrul Gazi ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ertuğrul Gazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ertuğrul Gazi çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Ertuğrul Gazi",
     "type": "neighborhood"
@@ -5810,8 +5810,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esenler-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Esenler",
-    "title": "Esenler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenler ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenler çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Esenler",
     "type": "neighborhood"
@@ -5819,8 +5819,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esenyali-cicekcilik-peyzaj-organizasyon",
     "name": "Esenyalı",
-    "title": "Esenyalı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenyalı ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenyalı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenyalı çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Esenyalı",
     "type": "neighborhood"
@@ -5828,8 +5828,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -5837,8 +5837,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fevzi-cakmak-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Fevzi Çakmak",
-    "title": "Fevzi Çakmak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fevzi Çakmak ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fevzi Çakmak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fevzi Çakmak çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Fevzi Çakmak",
     "type": "neighborhood"
@@ -5846,8 +5846,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gocbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Göçbeyli",
-    "title": "Göçbeyli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Göçbeyli ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Göçbeyli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Göçbeyli çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Göçbeyli",
     "type": "neighborhood"
@@ -5855,8 +5855,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gullu-baglar-cicekcilik-peyzaj-organizasyon",
     "name": "Güllü Bağlar",
-    "title": "Güllü Bağlar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güllü Bağlar ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güllü Bağlar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güllü Bağlar çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Güllü Bağlar",
     "type": "neighborhood"
@@ -5864,8 +5864,8 @@ export const istanbulAreaPages = [
   {
     "slug": "guzelyali-cicekcilik-peyzaj-organizasyon",
     "name": "Güzelyalı",
-    "title": "Güzelyalı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güzelyalı ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güzelyalı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güzelyalı çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Güzelyalı",
     "type": "neighborhood"
@@ -5873,8 +5873,8 @@ export const istanbulAreaPages = [
   {
     "slug": "harmandere-cicekcilik-peyzaj-organizasyon",
     "name": "Harmandere",
-    "title": "Harmandere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Harmandere ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Harmandere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Harmandere çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Harmandere",
     "type": "neighborhood"
@@ -5882,8 +5882,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kavakpinar-cicekcilik-peyzaj-organizasyon",
     "name": "Kavakpınar",
-    "title": "Kavakpınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kavakpınar ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kavakpınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kavakpınar çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Kavakpınar",
     "type": "neighborhood"
@@ -5891,8 +5891,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kaynarca-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Kaynarca",
-    "title": "Kaynarca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kaynarca ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kaynarca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kaynarca çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Kaynarca",
     "type": "neighborhood"
@@ -5900,8 +5900,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kurna-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Kurna",
-    "title": "Kurna Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kurna ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kurna Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kurna çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Kurna",
     "type": "neighborhood"
@@ -5909,8 +5909,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kurtdogmus-cicekcilik-peyzaj-organizasyon",
     "name": "Kurtdoğmuş",
-    "title": "Kurtdoğmuş Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kurtdoğmuş ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kurtdoğmuş Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kurtdoğmuş çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Kurtdoğmuş",
     "type": "neighborhood"
@@ -5918,8 +5918,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kurtkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Kurtköy",
-    "title": "Kurtköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kurtköy ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kurtköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kurtköy çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Kurtköy",
     "type": "neighborhood"
@@ -5927,8 +5927,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orhangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Orhangazi",
-    "title": "Orhangazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Orhangazi ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Orhangazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Orhangazi çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Orhangazi",
     "type": "neighborhood"
@@ -5936,8 +5936,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orta-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Orta",
-    "title": "Orta Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Orta ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Orta Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Orta çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Orta",
     "type": "neighborhood"
@@ -5945,8 +5945,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ramazanoglu-cicekcilik-peyzaj-organizasyon",
     "name": "Ramazanoğlu",
-    "title": "Ramazanoğlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ramazanoğlu ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ramazanoğlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ramazanoğlu çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Ramazanoğlu",
     "type": "neighborhood"
@@ -5954,8 +5954,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sanayi-cicekcilik-peyzaj-organizasyon",
     "name": "Sanayi",
-    "title": "Sanayi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sanayi ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sanayi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sanayi çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Sanayi",
     "type": "neighborhood"
@@ -5963,8 +5963,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sapan-baglari-cicekcilik-peyzaj-organizasyon",
     "name": "Sapan Bağları",
-    "title": "Sapan Bağları Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sapan Bağları ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sapan Bağları Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sapan Bağları çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Sapan Bağları",
     "type": "neighborhood"
@@ -5972,8 +5972,8 @@ export const istanbulAreaPages = [
   {
     "slug": "suluntepe-cicekcilik-peyzaj-organizasyon",
     "name": "Sülüntepe",
-    "title": "Sülüntepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sülüntepe ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sülüntepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sülüntepe çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Sülüntepe",
     "type": "neighborhood"
@@ -5981,8 +5981,8 @@ export const istanbulAreaPages = [
   {
     "slug": "seyhli-cicekcilik-peyzaj-organizasyon",
     "name": "Şeyhli",
-    "title": "Şeyhli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şeyhli ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şeyhli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şeyhli çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Şeyhli",
     "type": "neighborhood"
@@ -5990,8 +5990,8 @@ export const istanbulAreaPages = [
   {
     "slug": "velibaba-cicekcilik-peyzaj-organizasyon",
     "name": "Velibaba",
-    "title": "Velibaba Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Velibaba ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Velibaba Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Velibaba çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Velibaba",
     "type": "neighborhood"
@@ -5999,8 +5999,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yayalar-cicekcilik-peyzaj-organizasyon",
     "name": "Yayalar",
-    "title": "Yayalar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yayalar ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yayalar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yayalar çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Yayalar",
     "type": "neighborhood"
@@ -6008,8 +6008,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yeni-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Yeni",
-    "title": "Yeni Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeni ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeni Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeni çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Yeni",
     "type": "neighborhood"
@@ -6017,8 +6017,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenisehir-pendik-cicekcilik-peyzaj-organizasyon",
     "name": "Yenişehir",
-    "title": "Yenişehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenişehir ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenişehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenişehir çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Yenişehir",
     "type": "neighborhood"
@@ -6026,8 +6026,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilbaglar-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilbağlar",
-    "title": "Yeşilbağlar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilbağlar ve Pendik çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilbağlar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilbağlar çiçekçi arayanlar için Pendik ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Pendik",
     "neighborhood": "Yeşilbağlar",
     "type": "neighborhood"
@@ -6035,8 +6035,8 @@ export const istanbulAreaPages = [
   {
     "slug": "adem-yavuz-cicekcilik-peyzaj-organizasyon",
     "name": "Adem Yavuz",
-    "title": "Adem Yavuz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Adem Yavuz ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Adem Yavuz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Adem Yavuz çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Adem Yavuz",
     "type": "neighborhood"
@@ -6044,8 +6044,8 @@ export const istanbulAreaPages = [
   {
     "slug": "altinsehir-cicekcilik-peyzaj-organizasyon",
     "name": "Altınşehir",
-    "title": "Altınşehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Altınşehir ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Altınşehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Altınşehir çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Altınşehir",
     "type": "neighborhood"
@@ -6053,8 +6053,8 @@ export const istanbulAreaPages = [
   {
     "slug": "armaganevler-cicekcilik-peyzaj-organizasyon",
     "name": "Armağanevler",
-    "title": "Armağanevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Armağanevler ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Armağanevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Armağanevler çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Armağanevler",
     "type": "neighborhood"
@@ -6062,8 +6062,8 @@ export const istanbulAreaPages = [
   {
     "slug": "asagi-dudullu-cicekcilik-peyzaj-organizasyon",
     "name": "Aşağı Dudullu",
-    "title": "Aşağı Dudullu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aşağı Dudullu ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aşağı Dudullu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aşağı Dudullu çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Aşağı Dudullu",
     "type": "neighborhood"
@@ -6071,8 +6071,8 @@ export const istanbulAreaPages = [
   {
     "slug": "atakent-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Atakent",
-    "title": "Atakent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atakent ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atakent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atakent çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Atakent",
     "type": "neighborhood"
@@ -6080,8 +6080,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ataturk-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Atatürk",
-    "title": "Atatürk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atatürk ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atatürk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atatürk çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Atatürk",
     "type": "neighborhood"
@@ -6089,8 +6089,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cemil-meric-cicekcilik-peyzaj-organizasyon",
     "name": "Cemil Meriç",
-    "title": "Cemil Meriç Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cemil Meriç ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cemil Meriç Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cemil Meriç çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Cemil Meriç",
     "type": "neighborhood"
@@ -6098,8 +6098,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cakmak-cicekcilik-peyzaj-organizasyon",
     "name": "Çakmak",
-    "title": "Çakmak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çakmak ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çakmak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çakmak çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Çakmak",
     "type": "neighborhood"
@@ -6107,8 +6107,8 @@ export const istanbulAreaPages = [
   {
     "slug": "camlik-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Çamlık",
-    "title": "Çamlık Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çamlık ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çamlık Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çamlık çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Çamlık",
     "type": "neighborhood"
@@ -6116,8 +6116,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dudullu-osb-cicekcilik-peyzaj-organizasyon",
     "name": "Dudullu Osb",
-    "title": "Dudullu Osb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dudullu Osb ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dudullu Osb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dudullu Osb çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Dudullu Osb",
     "type": "neighborhood"
@@ -6125,8 +6125,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dumlupinar-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Dumlupınar",
-    "title": "Dumlupınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dumlupınar ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dumlupınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dumlupınar çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Dumlupınar",
     "type": "neighborhood"
@@ -6134,8 +6134,8 @@ export const istanbulAreaPages = [
   {
     "slug": "elmalikent-cicekcilik-peyzaj-organizasyon",
     "name": "Elmalıkent",
-    "title": "Elmalıkent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Elmalıkent ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Elmalıkent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Elmalıkent çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Elmalıkent",
     "type": "neighborhood"
@@ -6143,8 +6143,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esenevler-cicekcilik-peyzaj-organizasyon",
     "name": "Esenevler",
-    "title": "Esenevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenevler ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenevler çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Esenevler",
     "type": "neighborhood"
@@ -6152,8 +6152,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esenkent-cicekcilik-peyzaj-organizasyon",
     "name": "Esenkent",
-    "title": "Esenkent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenkent ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenkent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenkent çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Esenkent",
     "type": "neighborhood"
@@ -6161,8 +6161,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esensehir-cicekcilik-peyzaj-organizasyon",
     "name": "Esenşehir",
-    "title": "Esenşehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenşehir ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenşehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenşehir çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Esenşehir",
     "type": "neighborhood"
@@ -6170,8 +6170,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-sultan-mehmet-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih Sultan Mehmet",
-    "title": "Fatih Sultan Mehmet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih Sultan Mehmet ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Sultan Mehmet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih Sultan Mehmet çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Fatih Sultan Mehmet",
     "type": "neighborhood"
@@ -6179,8 +6179,8 @@ export const istanbulAreaPages = [
   {
     "slug": "finanskent-cicekcilik-peyzaj-organizasyon",
     "name": "Finanskent",
-    "title": "Finanskent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Finanskent ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Finanskent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Finanskent çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Finanskent",
     "type": "neighborhood"
@@ -6188,8 +6188,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hekimbasi-cicekcilik-peyzaj-organizasyon",
     "name": "Hekimbaşı",
-    "title": "Hekimbaşı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hekimbaşı ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hekimbaşı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hekimbaşı çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Hekimbaşı",
     "type": "neighborhood"
@@ -6197,8 +6197,8 @@ export const istanbulAreaPages = [
   {
     "slug": "huzur-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Huzur",
-    "title": "Huzur Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Huzur ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Huzur Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Huzur çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Huzur",
     "type": "neighborhood"
@@ -6206,8 +6206,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ihlamurkuyu-cicekcilik-peyzaj-organizasyon",
     "name": "Ihlamurkuyu",
-    "title": "Ihlamurkuyu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ihlamurkuyu ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ihlamurkuyu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ihlamurkuyu çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Ihlamurkuyu",
     "type": "neighborhood"
@@ -6215,8 +6215,8 @@ export const istanbulAreaPages = [
   {
     "slug": "inkilap-cicekcilik-peyzaj-organizasyon",
     "name": "İnkılap",
-    "title": "İnkılap Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İnkılap ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İnkılap Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İnkılap çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "İnkılap",
     "type": "neighborhood"
@@ -6224,8 +6224,8 @@ export const istanbulAreaPages = [
   {
     "slug": "istiklal-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "İstiklal",
-    "title": "İstiklal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İstiklal ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İstiklal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İstiklal çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "İstiklal",
     "type": "neighborhood"
@@ -6233,8 +6233,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kazim-karabekir-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Kazım Karabekir",
-    "title": "Kazım Karabekir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kazım Karabekir ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kazım Karabekir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kazım Karabekir çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Kazım Karabekir",
     "type": "neighborhood"
@@ -6242,8 +6242,8 @@ export const istanbulAreaPages = [
   {
     "slug": "madenler-cicekcilik-peyzaj-organizasyon",
     "name": "Madenler",
-    "title": "Madenler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Madenler ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Madenler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Madenler çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Madenler",
     "type": "neighborhood"
@@ -6251,8 +6251,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehmet-akif-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Mehmet Akif",
-    "title": "Mehmet Akif Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehmet Akif ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehmet Akif Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehmet Akif çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Mehmet Akif",
     "type": "neighborhood"
@@ -6260,8 +6260,8 @@ export const istanbulAreaPages = [
   {
     "slug": "namik-kemal-cicekcilik-peyzaj-organizasyon",
     "name": "Namık Kemal",
-    "title": "Namık Kemal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Namık Kemal ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Namık Kemal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Namık Kemal çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Namık Kemal",
     "type": "neighborhood"
@@ -6269,8 +6269,8 @@ export const istanbulAreaPages = [
   {
     "slug": "necip-fazil-cicekcilik-peyzaj-organizasyon",
     "name": "Necip Fazıl",
-    "title": "Necip Fazıl Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Necip Fazıl ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Necip Fazıl Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Necip Fazıl çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Necip Fazıl",
     "type": "neighborhood"
@@ -6278,8 +6278,8 @@ export const istanbulAreaPages = [
   {
     "slug": "parseller-cicekcilik-peyzaj-organizasyon",
     "name": "Parseller",
-    "title": "Parseller Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Parseller ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Parseller Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Parseller çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Parseller",
     "type": "neighborhood"
@@ -6287,8 +6287,8 @@ export const istanbulAreaPages = [
   {
     "slug": "saray-cicekcilik-peyzaj-organizasyon",
     "name": "Saray",
-    "title": "Saray Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Saray ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Saray Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Saray çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Saray",
     "type": "neighborhood"
@@ -6296,8 +6296,8 @@ export const istanbulAreaPages = [
   {
     "slug": "site-cicekcilik-peyzaj-organizasyon",
     "name": "Site",
-    "title": "Site Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Site ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Site Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Site çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Site",
     "type": "neighborhood"
@@ -6305,8 +6305,8 @@ export const istanbulAreaPages = [
   {
     "slug": "serifali-cicekcilik-peyzaj-organizasyon",
     "name": "Şerifali",
-    "title": "Şerifali Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şerifali ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şerifali Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şerifali çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Şerifali",
     "type": "neighborhood"
@@ -6314,8 +6314,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tantavi-cicekcilik-peyzaj-organizasyon",
     "name": "Tantavi",
-    "title": "Tantavi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tantavi ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tantavi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tantavi çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Tantavi",
     "type": "neighborhood"
@@ -6323,8 +6323,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tatlisu-cicekcilik-peyzaj-organizasyon",
     "name": "Tatlısu",
-    "title": "Tatlısu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tatlısu ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tatlısu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tatlısu çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Tatlısu",
     "type": "neighborhood"
@@ -6332,8 +6332,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tepeustu-cicekcilik-peyzaj-organizasyon",
     "name": "Tepeüstü",
-    "title": "Tepeüstü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tepeüstü ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tepeüstü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tepeüstü çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Tepeüstü",
     "type": "neighborhood"
@@ -6341,8 +6341,8 @@ export const istanbulAreaPages = [
   {
     "slug": "topagaci-cicekcilik-peyzaj-organizasyon",
     "name": "Topağacı",
-    "title": "Topağacı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Topağacı ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Topağacı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Topağacı çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Topağacı",
     "type": "neighborhood"
@@ -6350,8 +6350,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yamanevler-cicekcilik-peyzaj-organizasyon",
     "name": "Yamanevler",
-    "title": "Yamanevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yamanevler ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yamanevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yamanevler çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Yamanevler",
     "type": "neighborhood"
@@ -6359,8 +6359,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenisehir-umraniye-cicekcilik-peyzaj-organizasyon",
     "name": "Yenişehir",
-    "title": "Yenişehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenişehir ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenişehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenişehir çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Yenişehir",
     "type": "neighborhood"
@@ -6368,8 +6368,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yukari-dudullu-cicekcilik-peyzaj-organizasyon",
     "name": "Yukarı Dudullu",
-    "title": "Yukarı Dudullu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yukarı Dudullu ve Ümraniye çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yukarı Dudullu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yukarı Dudullu çiçekçi arayanlar için Ümraniye ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ümraniye",
     "neighborhood": "Yukarı Dudullu",
     "type": "neighborhood"
@@ -6377,8 +6377,8 @@ export const istanbulAreaPages = [
   {
     "slug": "altintepsi-cicekcilik-peyzaj-organizasyon",
     "name": "Altıntepsi",
-    "title": "Altıntepsi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Altıntepsi ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Altıntepsi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Altıntepsi çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Altıntepsi",
     "type": "neighborhood"
@@ -6386,8 +6386,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cevatpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Cevatpaşa",
-    "title": "Cevatpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cevatpaşa ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cevatpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cevatpaşa çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Cevatpaşa",
     "type": "neighborhood"
@@ -6395,8 +6395,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ismet-pasa-cicekcilik-peyzaj-organizasyon",
     "name": "İsmet Paşa",
-    "title": "İsmet Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İsmet Paşa ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İsmet Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İsmet Paşa çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "İsmet Paşa",
     "type": "neighborhood"
@@ -6404,8 +6404,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kartaltepe-bayrampasa-cicekcilik-peyzaj-organizasyon",
     "name": "Kartaltepe",
-    "title": "Kartaltepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kartaltepe ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kartaltepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kartaltepe çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Kartaltepe",
     "type": "neighborhood"
@@ -6413,8 +6413,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kocatepe-bayrampasa-cicekcilik-peyzaj-organizasyon",
     "name": "Kocatepe",
-    "title": "Kocatepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kocatepe ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kocatepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kocatepe çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Kocatepe",
     "type": "neighborhood"
@@ -6422,8 +6422,8 @@ export const istanbulAreaPages = [
   {
     "slug": "muratpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Muratpaşa",
-    "title": "Muratpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Muratpaşa ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Muratpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Muratpaşa çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Muratpaşa",
     "type": "neighborhood"
@@ -6431,8 +6431,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orta-bayrampasa-cicekcilik-peyzaj-organizasyon",
     "name": "Orta",
-    "title": "Orta Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Orta ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Orta Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Orta çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Orta",
     "type": "neighborhood"
@@ -6440,8 +6440,8 @@ export const istanbulAreaPages = [
   {
     "slug": "terazidere-cicekcilik-peyzaj-organizasyon",
     "name": "Terazidere",
-    "title": "Terazidere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Terazidere ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Terazidere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Terazidere çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Terazidere",
     "type": "neighborhood"
@@ -6449,8 +6449,8 @@ export const istanbulAreaPages = [
   {
     "slug": "vatan-cicekcilik-peyzaj-organizasyon",
     "name": "Vatan",
-    "title": "Vatan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Vatan ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Vatan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Vatan çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Vatan",
     "type": "neighborhood"
@@ -6458,8 +6458,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenidogan-bayrampasa-cicekcilik-peyzaj-organizasyon",
     "name": "Yenidoğan",
-    "title": "Yenidoğan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenidoğan ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenidoğan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenidoğan çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Yenidoğan",
     "type": "neighborhood"
@@ -6467,8 +6467,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yildirim-cicekcilik-peyzaj-organizasyon",
     "name": "Yıldırım",
-    "title": "Yıldırım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yıldırım ve Bayrampaşa çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yıldırım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yıldırım çiçekçi arayanlar için Bayrampaşa ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bayrampaşa",
     "neighborhood": "Yıldırım",
     "type": "neighborhood"
@@ -6476,8 +6476,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ambarli-cicekcilik-peyzaj-organizasyon",
     "name": "Ambarlı",
-    "title": "Ambarlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ambarlı ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ambarlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ambarlı çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Ambarlı",
     "type": "neighborhood"
@@ -6485,8 +6485,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cihangir-avcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Cihangir",
-    "title": "Cihangir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cihangir ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cihangir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cihangir çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Cihangir",
     "type": "neighborhood"
@@ -6494,8 +6494,8 @@ export const istanbulAreaPages = [
   {
     "slug": "denizkoskler-cicekcilik-peyzaj-organizasyon",
     "name": "Denizköşkler",
-    "title": "Denizköşkler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Denizköşkler ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Denizköşkler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Denizköşkler çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Denizköşkler",
     "type": "neighborhood"
@@ -6503,8 +6503,8 @@ export const istanbulAreaPages = [
   {
     "slug": "firuzkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Firuzköy",
-    "title": "Firuzköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Firuzköy ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Firuzköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Firuzköy çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Firuzköy",
     "type": "neighborhood"
@@ -6512,8 +6512,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gumuspala-cicekcilik-peyzaj-organizasyon",
     "name": "Gümüşpala",
-    "title": "Gümüşpala Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gümüşpala ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gümüşpala Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gümüşpala çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Gümüşpala",
     "type": "neighborhood"
@@ -6521,8 +6521,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkez-avcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Merkez",
-    "title": "Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkez ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkez çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Merkez",
     "type": "neighborhood"
@@ -6530,8 +6530,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mustafa-kemalpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Mustafa Kemalpaşa",
-    "title": "Mustafa Kemalpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mustafa Kemalpaşa ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mustafa Kemalpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mustafa Kemalpaşa çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Mustafa Kemalpaşa",
     "type": "neighborhood"
@@ -6539,8 +6539,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tahtakale-avcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Tahtakale",
-    "title": "Tahtakale Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tahtakale ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tahtakale Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tahtakale çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Tahtakale",
     "type": "neighborhood"
@@ -6548,8 +6548,8 @@ export const istanbulAreaPages = [
   {
     "slug": "universite-cicekcilik-peyzaj-organizasyon",
     "name": "Üniversite",
-    "title": "Üniversite Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Üniversite ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Üniversite Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Üniversite çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Üniversite",
     "type": "neighborhood"
@@ -6557,8 +6557,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilkent-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilkent",
-    "title": "Yeşilkent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilkent ve Avcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilkent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilkent çiçekçi arayanlar için Avcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Avcılar",
     "neighborhood": "Yeşilkent",
     "type": "neighborhood"
@@ -6566,8 +6566,8 @@ export const istanbulAreaPages = [
   {
     "slug": "100-yil-cicekcilik-peyzaj-organizasyon",
     "name": "100. Yıl",
-    "title": "100. Yıl Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "100. Yıl ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "100. Yıl Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "100. Yıl çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "100. Yıl",
     "type": "neighborhood"
@@ -6575,8 +6575,8 @@ export const istanbulAreaPages = [
   {
     "slug": "15-temmuz-cicekcilik-peyzaj-organizasyon",
     "name": "15 Temmuz",
-    "title": "15 Temmuz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "15 Temmuz ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "15 Temmuz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "15 Temmuz çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "15 Temmuz",
     "type": "neighborhood"
@@ -6584,8 +6584,8 @@ export const istanbulAreaPages = [
   {
     "slug": "baglar-cicekcilik-peyzaj-organizasyon",
     "name": "Bağlar",
-    "title": "Bağlar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bağlar ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bağlar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bağlar çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Bağlar",
     "type": "neighborhood"
@@ -6593,8 +6593,8 @@ export const istanbulAreaPages = [
   {
     "slug": "barbaros-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Barbaros",
-    "title": "Barbaros Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Barbaros ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Barbaros Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Barbaros çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Barbaros",
     "type": "neighborhood"
@@ -6602,8 +6602,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cinar-cicekcilik-peyzaj-organizasyon",
     "name": "Çınar",
-    "title": "Çınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çınar ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çınar çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Çınar",
     "type": "neighborhood"
@@ -6611,8 +6611,8 @@ export const istanbulAreaPages = [
   {
     "slug": "demirkapi-cicekcilik-peyzaj-organizasyon",
     "name": "Demirkapı",
-    "title": "Demirkapı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Demirkapı ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Demirkapı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Demirkapı çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Demirkapı",
     "type": "neighborhood"
@@ -6620,8 +6620,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -6629,8 +6629,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fevzi-cakmak-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Fevzi Çakmak",
-    "title": "Fevzi Çakmak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fevzi Çakmak ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fevzi Çakmak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fevzi Çakmak çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Fevzi Çakmak",
     "type": "neighborhood"
@@ -6638,8 +6638,8 @@ export const istanbulAreaPages = [
   {
     "slug": "goztepe-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Göztepe",
-    "title": "Göztepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Göztepe ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Göztepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Göztepe çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Göztepe",
     "type": "neighborhood"
@@ -6647,8 +6647,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gunesli-cicekcilik-peyzaj-organizasyon",
     "name": "Güneşli",
-    "title": "Güneşli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güneşli ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güneşli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güneşli çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Güneşli",
     "type": "neighborhood"
@@ -6656,8 +6656,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hurriyet-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Hürriyet",
-    "title": "Hürriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hürriyet ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hürriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hürriyet çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Hürriyet",
     "type": "neighborhood"
@@ -6665,8 +6665,8 @@ export const istanbulAreaPages = [
   {
     "slug": "inonu-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "İnönü",
-    "title": "İnönü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İnönü ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İnönü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İnönü çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "İnönü",
     "type": "neighborhood"
@@ -6674,8 +6674,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kazim-karabekir-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Kazım Karabekir",
-    "title": "Kazım Karabekir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kazım Karabekir ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kazım Karabekir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kazım Karabekir çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Kazım Karabekir",
     "type": "neighborhood"
@@ -6683,8 +6683,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kemalpasa-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Kemalpaşa",
-    "title": "Kemalpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kemalpaşa ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kemalpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kemalpaşa çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Kemalpaşa",
     "type": "neighborhood"
@@ -6692,8 +6692,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kirazli-cicekcilik-peyzaj-organizasyon",
     "name": "Kirazlı",
-    "title": "Kirazlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kirazlı ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kirazlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kirazlı çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Kirazlı",
     "type": "neighborhood"
@@ -6701,8 +6701,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mahmutbey-cicekcilik-peyzaj-organizasyon",
     "name": "Mahmutbey",
-    "title": "Mahmutbey Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mahmutbey ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mahmutbey Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mahmutbey çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Mahmutbey",
     "type": "neighborhood"
@@ -6710,8 +6710,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkez-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Merkez",
-    "title": "Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkez ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkez çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Merkez",
     "type": "neighborhood"
@@ -6719,8 +6719,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sancaktepe-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Sancaktepe",
-    "title": "Sancaktepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sancaktepe ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sancaktepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sancaktepe çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Sancaktepe",
     "type": "neighborhood"
@@ -6728,8 +6728,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yavuz-selim-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Yavuz Selim",
-    "title": "Yavuz Selim Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yavuz Selim ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yavuz Selim Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yavuz Selim çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Yavuz Selim",
     "type": "neighborhood"
@@ -6737,8 +6737,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenigun-cicekcilik-peyzaj-organizasyon",
     "name": "Yenigün",
-    "title": "Yenigün Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenigün ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenigün Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenigün çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Yenigün",
     "type": "neighborhood"
@@ -6746,8 +6746,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenimahalle-bagcilar-cicekcilik-peyzaj-organizasyon",
     "name": "Yenimahalle",
-    "title": "Yenimahalle Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenimahalle ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenimahalle Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenimahalle çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Yenimahalle",
     "type": "neighborhood"
@@ -6755,8 +6755,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yildiztepe-cicekcilik-peyzaj-organizasyon",
     "name": "Yıldıztepe",
-    "title": "Yıldıztepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yıldıztepe ve Bağcılar çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yıldıztepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yıldıztepe çiçekçi arayanlar için Bağcılar ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bağcılar",
     "neighborhood": "Yıldıztepe",
     "type": "neighborhood"
@@ -6764,8 +6764,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcelievler-bahcelievler-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçelievler",
-    "title": "Bahçelievler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçelievler ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçelievler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçelievler çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Bahçelievler",
     "type": "neighborhood"
@@ -6773,8 +6773,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-bahcelievler-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -6782,8 +6782,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cobancesme-cicekcilik-peyzaj-organizasyon",
     "name": "Çobançeşme",
-    "title": "Çobançeşme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çobançeşme ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çobançeşme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çobançeşme çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Çobançeşme",
     "type": "neighborhood"
@@ -6791,8 +6791,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fevzi-cakmak-bahcelievler-cicekcilik-peyzaj-organizasyon",
     "name": "Fevzi Çakmak",
-    "title": "Fevzi Çakmak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fevzi Çakmak ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fevzi Çakmak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fevzi Çakmak çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Fevzi Çakmak",
     "type": "neighborhood"
@@ -6800,8 +6800,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hurriyet-bahcelievler-cicekcilik-peyzaj-organizasyon",
     "name": "Hürriyet",
-    "title": "Hürriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hürriyet ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hürriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hürriyet çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Hürriyet",
     "type": "neighborhood"
@@ -6809,8 +6809,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kocasinan-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Kocasinan Merkez",
-    "title": "Kocasinan Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kocasinan Merkez ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kocasinan Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kocasinan Merkez çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Kocasinan Merkez",
     "type": "neighborhood"
@@ -6818,8 +6818,8 @@ export const istanbulAreaPages = [
   {
     "slug": "siyavuspasa-cicekcilik-peyzaj-organizasyon",
     "name": "Siyavuşpaşa",
-    "title": "Siyavuşpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Siyavuşpaşa ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Siyavuşpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Siyavuşpaşa çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Siyavuşpaşa",
     "type": "neighborhood"
@@ -6827,8 +6827,8 @@ export const istanbulAreaPages = [
   {
     "slug": "soganli-cicekcilik-peyzaj-organizasyon",
     "name": "Soğanlı",
-    "title": "Soğanlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Soğanlı ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Soğanlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Soğanlı çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Soğanlı",
     "type": "neighborhood"
@@ -6836,8 +6836,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sirinevler-cicekcilik-peyzaj-organizasyon",
     "name": "Şirinevler",
-    "title": "Şirinevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şirinevler ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şirinevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şirinevler çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Şirinevler",
     "type": "neighborhood"
@@ -6845,8 +6845,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenibosna-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Yenibosna Merkez",
-    "title": "Yenibosna Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenibosna Merkez ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenibosna Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenibosna Merkez çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Yenibosna Merkez",
     "type": "neighborhood"
@@ -6854,8 +6854,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zafer-cicekcilik-peyzaj-organizasyon",
     "name": "Zafer",
-    "title": "Zafer Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zafer ve Bahçelievler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zafer Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zafer çiçekçi arayanlar için Bahçelievler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Bahçelievler",
     "neighborhood": "Zafer",
     "type": "neighborhood"
@@ -6863,8 +6863,8 @@ export const istanbulAreaPages = [
   {
     "slug": "abdurrahman-nafiz-gurman-cicekcilik-peyzaj-organizasyon",
     "name": "Abdurrahman Nafiz Gürman",
-    "title": "Abdurrahman Nafiz Gürman Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Abdurrahman Nafiz Gürman ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Abdurrahman Nafiz Gürman Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Abdurrahman Nafiz Gürman çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Abdurrahman Nafiz Gürman",
     "type": "neighborhood"
@@ -6872,8 +6872,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akincilar-cicekcilik-peyzaj-organizasyon",
     "name": "Akıncılar",
-    "title": "Akıncılar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akıncılar ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akıncılar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akıncılar çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Akıncılar",
     "type": "neighborhood"
@@ -6881,8 +6881,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gencosman-cicekcilik-peyzaj-organizasyon",
     "name": "Gençosman",
-    "title": "Gençosman Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gençosman ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gençosman Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gençosman çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Gençosman",
     "type": "neighborhood"
@@ -6890,8 +6890,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gunestepe-cicekcilik-peyzaj-organizasyon",
     "name": "Güneştepe",
-    "title": "Güneştepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güneştepe ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güneştepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güneştepe çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Güneştepe",
     "type": "neighborhood"
@@ -6899,8 +6899,8 @@ export const istanbulAreaPages = [
   {
     "slug": "guven-cicekcilik-peyzaj-organizasyon",
     "name": "Güven",
-    "title": "Güven Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güven ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güven Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güven çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Güven",
     "type": "neighborhood"
@@ -6908,8 +6908,8 @@ export const istanbulAreaPages = [
   {
     "slug": "haznedar-cicekcilik-peyzaj-organizasyon",
     "name": "Haznedar",
-    "title": "Haznedar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Haznedar ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Haznedar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Haznedar çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Haznedar",
     "type": "neighborhood"
@@ -6917,8 +6917,8 @@ export const istanbulAreaPages = [
   {
     "slug": "maresal-cakmak-cicekcilik-peyzaj-organizasyon",
     "name": "Mareşal Çakmak",
-    "title": "Mareşal Çakmak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mareşal Çakmak ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mareşal Çakmak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mareşal Çakmak çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Mareşal Çakmak",
     "type": "neighborhood"
@@ -6926,8 +6926,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehmet-nesih-ozmen-cicekcilik-peyzaj-organizasyon",
     "name": "Mehmet Nesih Özmen",
-    "title": "Mehmet Nesih Özmen Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehmet Nesih Özmen ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehmet Nesih Özmen Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehmet Nesih Özmen çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Mehmet Nesih Özmen",
     "type": "neighborhood"
@@ -6935,8 +6935,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkez-gungoren-cicekcilik-peyzaj-organizasyon",
     "name": "Merkez",
-    "title": "Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkez ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkez çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Merkez",
     "type": "neighborhood"
@@ -6944,8 +6944,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sanayi-gungoren-cicekcilik-peyzaj-organizasyon",
     "name": "Sanayi",
-    "title": "Sanayi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sanayi ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sanayi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sanayi çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Sanayi",
     "type": "neighborhood"
@@ -6953,8 +6953,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tozkoparan-cicekcilik-peyzaj-organizasyon",
     "name": "Tozkoparan",
-    "title": "Tozkoparan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tozkoparan ve Güngören çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tozkoparan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tozkoparan çiçekçi arayanlar için Güngören ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Güngören",
     "neighborhood": "Tozkoparan",
     "type": "neighborhood"
@@ -6962,8 +6962,8 @@ export const istanbulAreaPages = [
   {
     "slug": "altaycesme-cicekcilik-peyzaj-organizasyon",
     "name": "Altayçeşme",
-    "title": "Altayçeşme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Altayçeşme ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Altayçeşme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Altayçeşme çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Altayçeşme",
     "type": "neighborhood"
@@ -6971,8 +6971,8 @@ export const istanbulAreaPages = [
   {
     "slug": "altintepe-cicekcilik-peyzaj-organizasyon",
     "name": "Altıntepe",
-    "title": "Altıntepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Altıntepe ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Altıntepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Altıntepe çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Altıntepe",
     "type": "neighborhood"
@@ -6980,8 +6980,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aydinevler-cicekcilik-peyzaj-organizasyon",
     "name": "Aydınevler",
-    "title": "Aydınevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aydınevler ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aydınevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aydınevler çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Aydınevler",
     "type": "neighborhood"
@@ -6989,8 +6989,8 @@ export const istanbulAreaPages = [
   {
     "slug": "baglarbasi-maltepe-cicekcilik-peyzaj-organizasyon",
     "name": "Bağlarbaşı",
-    "title": "Bağlarbaşı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bağlarbaşı ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bağlarbaşı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bağlarbaşı çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Bağlarbaşı",
     "type": "neighborhood"
@@ -6998,8 +6998,8 @@ export const istanbulAreaPages = [
   {
     "slug": "basibuyuk-cicekcilik-peyzaj-organizasyon",
     "name": "Başıbüyük",
-    "title": "Başıbüyük Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Başıbüyük ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Başıbüyük Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Başıbüyük çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Başıbüyük",
     "type": "neighborhood"
@@ -7007,8 +7007,8 @@ export const istanbulAreaPages = [
   {
     "slug": "buyukbakkalkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Büyükbakkalköy",
-    "title": "Büyükbakkalköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Büyükbakkalköy ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Büyükbakkalköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Büyükbakkalköy çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Büyükbakkalköy",
     "type": "neighborhood"
@@ -7016,8 +7016,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cevizli-maltepe-cicekcilik-peyzaj-organizasyon",
     "name": "Cevizli",
-    "title": "Cevizli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cevizli ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cevizli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cevizli çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Cevizli",
     "type": "neighborhood"
@@ -7025,8 +7025,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cinar-maltepe-cicekcilik-peyzaj-organizasyon",
     "name": "Çınar",
-    "title": "Çınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çınar ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çınar çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Çınar",
     "type": "neighborhood"
@@ -7034,8 +7034,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esenkent-maltepe-cicekcilik-peyzaj-organizasyon",
     "name": "Esenkent",
-    "title": "Esenkent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenkent ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenkent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenkent çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Esenkent",
     "type": "neighborhood"
@@ -7043,8 +7043,8 @@ export const istanbulAreaPages = [
   {
     "slug": "feyzullah-cicekcilik-peyzaj-organizasyon",
     "name": "Feyzullah",
-    "title": "Feyzullah Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Feyzullah ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Feyzullah Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Feyzullah çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Feyzullah",
     "type": "neighborhood"
@@ -7052,8 +7052,8 @@ export const istanbulAreaPages = [
   {
     "slug": "findikli-cicekcilik-peyzaj-organizasyon",
     "name": "Fındıklı",
-    "title": "Fındıklı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fındıklı ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fındıklı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fındıklı çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Fındıklı",
     "type": "neighborhood"
@@ -7061,8 +7061,8 @@ export const istanbulAreaPages = [
   {
     "slug": "girne-cicekcilik-peyzaj-organizasyon",
     "name": "Girne",
-    "title": "Girne Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Girne ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Girne Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Girne çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Girne",
     "type": "neighborhood"
@@ -7070,8 +7070,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gulensu-cicekcilik-peyzaj-organizasyon",
     "name": "Gülensu",
-    "title": "Gülensu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gülensu ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gülensu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gülensu çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Gülensu",
     "type": "neighborhood"
@@ -7079,8 +7079,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gulsuyu-cicekcilik-peyzaj-organizasyon",
     "name": "Gülsuyu",
-    "title": "Gülsuyu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gülsuyu ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gülsuyu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gülsuyu çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Gülsuyu",
     "type": "neighborhood"
@@ -7088,8 +7088,8 @@ export const istanbulAreaPages = [
   {
     "slug": "idealtepe-cicekcilik-peyzaj-organizasyon",
     "name": "İdealtepe",
-    "title": "İdealtepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İdealtepe ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İdealtepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İdealtepe çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "İdealtepe",
     "type": "neighborhood"
@@ -7097,8 +7097,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucukyali-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Küçükyalı Merkez",
-    "title": "Küçükyalı Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçükyalı Merkez ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçükyalı Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçükyalı Merkez çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Küçükyalı Merkez",
     "type": "neighborhood"
@@ -7106,8 +7106,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yali-maltepe-cicekcilik-peyzaj-organizasyon",
     "name": "Yalı",
-    "title": "Yalı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yalı ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yalı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yalı çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Yalı",
     "type": "neighborhood"
@@ -7115,8 +7115,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zumrutevler-cicekcilik-peyzaj-organizasyon",
     "name": "Zümrütevler",
-    "title": "Zümrütevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zümrütevler ve Maltepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zümrütevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zümrütevler çiçekçi arayanlar için Maltepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Maltepe",
     "neighborhood": "Zümrütevler",
     "type": "neighborhood"
@@ -7124,8 +7124,8 @@ export const istanbulAreaPages = [
   {
     "slug": "abdurrahmangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Abdurrahmangazi",
-    "title": "Abdurrahmangazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Abdurrahmangazi ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Abdurrahmangazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Abdurrahmangazi çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Abdurrahmangazi",
     "type": "neighborhood"
@@ -7133,8 +7133,8 @@ export const istanbulAreaPages = [
   {
     "slug": "adil-cicekcilik-peyzaj-organizasyon",
     "name": "Adil",
-    "title": "Adil Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Adil ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Adil Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Adil çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Adil",
     "type": "neighborhood"
@@ -7142,8 +7142,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ahmet-yesevi-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Ahmet Yesevi",
-    "title": "Ahmet Yesevi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ahmet Yesevi ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ahmet Yesevi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ahmet Yesevi çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Ahmet Yesevi",
     "type": "neighborhood"
@@ -7151,8 +7151,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aksemsettin-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Akşemsettin",
-    "title": "Akşemsettin Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akşemsettin ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akşemsettin Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akşemsettin çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Akşemsettin",
     "type": "neighborhood"
@@ -7160,8 +7160,8 @@ export const istanbulAreaPages = [
   {
     "slug": "battalgazi-cicekcilik-peyzaj-organizasyon",
     "name": "Battalgazi",
-    "title": "Battalgazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Battalgazi ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Battalgazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Battalgazi çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Battalgazi",
     "type": "neighborhood"
@@ -7169,8 +7169,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -7178,8 +7178,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hamidiye-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Hamidiye",
-    "title": "Hamidiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hamidiye ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hamidiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hamidiye çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Hamidiye",
     "type": "neighborhood"
@@ -7187,8 +7187,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hasanpasa-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Hasanpaşa",
-    "title": "Hasanpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hasanpaşa ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hasanpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hasanpaşa çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Hasanpaşa",
     "type": "neighborhood"
@@ -7196,8 +7196,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mecidiye-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Mecidiye",
-    "title": "Mecidiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mecidiye ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mecidiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mecidiye çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Mecidiye",
     "type": "neighborhood"
@@ -7205,8 +7205,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehmet-akif-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Mehmet Akif",
-    "title": "Mehmet Akif Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehmet Akif ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehmet Akif Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehmet Akif çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Mehmet Akif",
     "type": "neighborhood"
@@ -7214,8 +7214,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-sinan-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Sinan",
-    "title": "Mimar Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Sinan ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Sinan çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Mimar Sinan",
     "type": "neighborhood"
@@ -7223,8 +7223,8 @@ export const istanbulAreaPages = [
   {
     "slug": "necip-fazil-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Necip Fazıl",
-    "title": "Necip Fazıl Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Necip Fazıl ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Necip Fazıl Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Necip Fazıl çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Necip Fazıl",
     "type": "neighborhood"
@@ -7232,8 +7232,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orhangazi-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Orhangazi",
-    "title": "Orhangazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Orhangazi ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Orhangazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Orhangazi çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Orhangazi",
     "type": "neighborhood"
@@ -7241,8 +7241,8 @@ export const istanbulAreaPages = [
   {
     "slug": "turgut-reis-cicekcilik-peyzaj-organizasyon",
     "name": "Turgut Reis",
-    "title": "Turgut Reis Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Turgut Reis ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Turgut Reis Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Turgut Reis çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Turgut Reis",
     "type": "neighborhood"
@@ -7250,8 +7250,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yavuz-selim-sultanbeyli-cicekcilik-peyzaj-organizasyon",
     "name": "Yavuz Selim",
-    "title": "Yavuz Selim Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yavuz Selim ve Sultanbeyli çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yavuz Selim Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yavuz Selim çiçekçi arayanlar için Sultanbeyli ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultanbeyli",
     "neighborhood": "Yavuz Selim",
     "type": "neighborhood"
@@ -7259,8 +7259,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akfirat-cicekcilik-peyzaj-organizasyon",
     "name": "Akfırat",
-    "title": "Akfırat Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akfırat ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akfırat Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akfırat çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Akfırat",
     "type": "neighborhood"
@@ -7268,8 +7268,8 @@ export const istanbulAreaPages = [
   {
     "slug": "anadolu-cicekcilik-peyzaj-organizasyon",
     "name": "Anadolu",
-    "title": "Anadolu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Anadolu ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Anadolu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Anadolu çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Anadolu",
     "type": "neighborhood"
@@ -7277,8 +7277,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aydinli-birlik-osb-cicekcilik-peyzaj-organizasyon",
     "name": "Aydınlı - Birlik Osb",
-    "title": "Aydınlı - Birlik Osb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aydınlı - Birlik Osb ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aydınlı - Birlik Osb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aydınlı - Birlik Osb çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Aydınlı - Birlik Osb",
     "type": "neighborhood"
@@ -7286,8 +7286,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aydinli-istanbul-ayosb-cicekcilik-peyzaj-organizasyon",
     "name": "Aydınlı - İstanbul Ayosb",
-    "title": "Aydınlı - İstanbul Ayosb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aydınlı - İstanbul Ayosb ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aydınlı - İstanbul Ayosb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aydınlı - İstanbul Ayosb çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Aydınlı - İstanbul Ayosb",
     "type": "neighborhood"
@@ -7295,8 +7295,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aydinli-cicekcilik-peyzaj-organizasyon",
     "name": "Aydınlı",
-    "title": "Aydınlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aydınlı ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aydınlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aydınlı çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Aydınlı",
     "type": "neighborhood"
@@ -7304,8 +7304,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aydinli-sb-cicekcilik-peyzaj-organizasyon",
     "name": "Aydınlı Sb",
-    "title": "Aydınlı Sb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aydınlı Sb ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aydınlı Sb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aydınlı Sb çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Aydınlı Sb",
     "type": "neighborhood"
@@ -7313,8 +7313,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aydinli-kosb-cicekcilik-peyzaj-organizasyon",
     "name": "Aydınlı-kosb",
-    "title": "Aydınlı-kosb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aydınlı-kosb ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aydınlı-kosb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aydınlı-kosb çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Aydınlı-kosb",
     "type": "neighborhood"
@@ -7322,8 +7322,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aydintepe-cicekcilik-peyzaj-organizasyon",
     "name": "Aydıntepe",
-    "title": "Aydıntepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aydıntepe ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aydıntepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aydıntepe çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Aydıntepe",
     "type": "neighborhood"
@@ -7331,8 +7331,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cami-cicekcilik-peyzaj-organizasyon",
     "name": "Cami",
-    "title": "Cami Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cami ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cami Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cami çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Cami",
     "type": "neighborhood"
@@ -7340,8 +7340,8 @@ export const istanbulAreaPages = [
   {
     "slug": "deri-osb-cicekcilik-peyzaj-organizasyon",
     "name": "Deri Osb",
-    "title": "Deri Osb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Deri Osb ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Deri Osb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Deri Osb çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Deri Osb",
     "type": "neighborhood"
@@ -7349,8 +7349,8 @@ export const istanbulAreaPages = [
   {
     "slug": "evliya-celebi-tuzla-cicekcilik-peyzaj-organizasyon",
     "name": "Evliya Çelebi",
-    "title": "Evliya Çelebi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Evliya Çelebi ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Evliya Çelebi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Evliya Çelebi çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Evliya Çelebi",
     "type": "neighborhood"
@@ -7358,8 +7358,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-tuzla-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -7367,8 +7367,8 @@ export const istanbulAreaPages = [
   {
     "slug": "icmeler-cicekcilik-peyzaj-organizasyon",
     "name": "İçmeler",
-    "title": "İçmeler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İçmeler ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İçmeler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İçmeler çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "İçmeler",
     "type": "neighborhood"
@@ -7376,8 +7376,8 @@ export const istanbulAreaPages = [
   {
     "slug": "istasyon-tuzla-cicekcilik-peyzaj-organizasyon",
     "name": "İstasyon",
-    "title": "İstasyon Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İstasyon ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İstasyon Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İstasyon çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "İstasyon",
     "type": "neighborhood"
@@ -7385,8 +7385,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mescit-cicekcilik-peyzaj-organizasyon",
     "name": "Mescit",
-    "title": "Mescit Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mescit ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mescit Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mescit çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Mescit",
     "type": "neighborhood"
@@ -7394,8 +7394,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-sinan-tuzla-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Sinan",
-    "title": "Mimar Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Sinan ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Sinan çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Mimar Sinan",
     "type": "neighborhood"
@@ -7403,8 +7403,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orhanli-cicekcilik-peyzaj-organizasyon",
     "name": "Orhanlı",
-    "title": "Orhanlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Orhanlı ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Orhanlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Orhanlı çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Orhanlı",
     "type": "neighborhood"
@@ -7412,8 +7412,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orta-tuzla-cicekcilik-peyzaj-organizasyon",
     "name": "Orta",
-    "title": "Orta Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Orta ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Orta Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Orta çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Orta",
     "type": "neighborhood"
@@ -7421,8 +7421,8 @@ export const istanbulAreaPages = [
   {
     "slug": "postane-cicekcilik-peyzaj-organizasyon",
     "name": "Postane",
-    "title": "Postane Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Postane ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Postane Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Postane çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Postane",
     "type": "neighborhood"
@@ -7430,8 +7430,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sifa-cicekcilik-peyzaj-organizasyon",
     "name": "Şifa",
-    "title": "Şifa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şifa ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şifa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şifa çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Şifa",
     "type": "neighborhood"
@@ -7439,8 +7439,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tepeoren-itosb-cicekcilik-peyzaj-organizasyon",
     "name": "Tepeoren İtosb",
-    "title": "Tepeoren İtosb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tepeoren İtosb ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tepeoren İtosb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tepeoren İtosb çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Tepeoren İtosb",
     "type": "neighborhood"
@@ -7448,8 +7448,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tepeoren-cicekcilik-peyzaj-organizasyon",
     "name": "Tepeören",
-    "title": "Tepeören Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tepeören ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tepeören Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tepeören çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Tepeören",
     "type": "neighborhood"
@@ -7457,8 +7457,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yayla-tuzla-cicekcilik-peyzaj-organizasyon",
     "name": "Yayla",
-    "title": "Yayla Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yayla ve Tuzla çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yayla Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yayla çiçekçi arayanlar için Tuzla ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Tuzla",
     "neighborhood": "Yayla",
     "type": "neighborhood"
@@ -7466,8 +7466,8 @@ export const istanbulAreaPages = [
   {
     "slug": "15-temmuz-esenler-cicekcilik-peyzaj-organizasyon",
     "name": "15 Temmuz",
-    "title": "15 Temmuz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "15 Temmuz ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "15 Temmuz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "15 Temmuz çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "15 Temmuz",
     "type": "neighborhood"
@@ -7475,8 +7475,8 @@ export const istanbulAreaPages = [
   {
     "slug": "birlik-cicekcilik-peyzaj-organizasyon",
     "name": "Birlik",
-    "title": "Birlik Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Birlik ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Birlik Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Birlik çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Birlik",
     "type": "neighborhood"
@@ -7484,8 +7484,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cifte-havuzlar-cicekcilik-peyzaj-organizasyon",
     "name": "Çifte Havuzlar",
-    "title": "Çifte Havuzlar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çifte Havuzlar ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çifte Havuzlar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çifte Havuzlar çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Çifte Havuzlar",
     "type": "neighborhood"
@@ -7493,8 +7493,8 @@ export const istanbulAreaPages = [
   {
     "slug": "davutpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Davutpaşa",
-    "title": "Davutpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Davutpaşa ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Davutpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Davutpaşa çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Davutpaşa",
     "type": "neighborhood"
@@ -7502,8 +7502,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-esenler-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -7511,8 +7511,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fevzi-cakmak-esenler-cicekcilik-peyzaj-organizasyon",
     "name": "Fevzi Çakmak",
-    "title": "Fevzi Çakmak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fevzi Çakmak ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fevzi Çakmak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fevzi Çakmak çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Fevzi Çakmak",
     "type": "neighborhood"
@@ -7520,8 +7520,8 @@ export const istanbulAreaPages = [
   {
     "slug": "havaalani-cicekcilik-peyzaj-organizasyon",
     "name": "Havaalanı",
-    "title": "Havaalanı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Havaalanı ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Havaalanı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Havaalanı çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Havaalanı",
     "type": "neighborhood"
@@ -7529,8 +7529,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kazim-karabekir-esenler-cicekcilik-peyzaj-organizasyon",
     "name": "Kazım Karabekir",
-    "title": "Kazım Karabekir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kazım Karabekir ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kazım Karabekir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kazım Karabekir çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Kazım Karabekir",
     "type": "neighborhood"
@@ -7538,8 +7538,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kemer-cicekcilik-peyzaj-organizasyon",
     "name": "Kemer",
-    "title": "Kemer Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kemer ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kemer Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kemer çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Kemer",
     "type": "neighborhood"
@@ -7547,8 +7547,8 @@ export const istanbulAreaPages = [
   {
     "slug": "menderes-cicekcilik-peyzaj-organizasyon",
     "name": "Menderes",
-    "title": "Menderes Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Menderes ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Menderes Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Menderes çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Menderes",
     "type": "neighborhood"
@@ -7556,8 +7556,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-sinan-esenler-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Sinan",
-    "title": "Mimar Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Sinan ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Sinan çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Mimar Sinan",
     "type": "neighborhood"
@@ -7565,8 +7565,8 @@ export const istanbulAreaPages = [
   {
     "slug": "namik-kemal-esenler-cicekcilik-peyzaj-organizasyon",
     "name": "Namık Kemal",
-    "title": "Namık Kemal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Namık Kemal ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Namık Kemal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Namık Kemal çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Namık Kemal",
     "type": "neighborhood"
@@ -7574,8 +7574,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nine-hatun-cicekcilik-peyzaj-organizasyon",
     "name": "Nine Hatun",
-    "title": "Nine Hatun Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nine Hatun ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nine Hatun Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nine Hatun çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Nine Hatun",
     "type": "neighborhood"
@@ -7583,8 +7583,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orucreis-cicekcilik-peyzaj-organizasyon",
     "name": "Oruçreis",
-    "title": "Oruçreis Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Oruçreis ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Oruçreis Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Oruçreis çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Oruçreis",
     "type": "neighborhood"
@@ -7592,8 +7592,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tuna-cicekcilik-peyzaj-organizasyon",
     "name": "Tuna",
-    "title": "Tuna Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tuna ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tuna Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tuna çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Tuna",
     "type": "neighborhood"
@@ -7601,8 +7601,8 @@ export const istanbulAreaPages = [
   {
     "slug": "turgut-reis-esenler-cicekcilik-peyzaj-organizasyon",
     "name": "Turgut Reis",
-    "title": "Turgut Reis Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Turgut Reis ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Turgut Reis Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Turgut Reis çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Turgut Reis",
     "type": "neighborhood"
@@ -7610,8 +7610,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yavuz-selim-esenler-cicekcilik-peyzaj-organizasyon",
     "name": "Yavuz Selim",
-    "title": "Yavuz Selim Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yavuz Selim ve Esenler çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yavuz Selim Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yavuz Selim çiçekçi arayanlar için Esenler ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenler",
     "neighborhood": "Yavuz Selim",
     "type": "neighborhood"
@@ -7619,8 +7619,8 @@ export const istanbulAreaPages = [
   {
     "slug": "adnan-menderes-cicekcilik-peyzaj-organizasyon",
     "name": "Adnan Menderes",
-    "title": "Adnan Menderes Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Adnan Menderes ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Adnan Menderes Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Adnan Menderes çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Adnan Menderes",
     "type": "neighborhood"
@@ -7628,8 +7628,8 @@ export const istanbulAreaPages = [
   {
     "slug": "anadolu-arnavutkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Anadolu",
-    "title": "Anadolu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Anadolu ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Anadolu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Anadolu çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Anadolu",
     "type": "neighborhood"
@@ -7637,8 +7637,8 @@ export const istanbulAreaPages = [
   {
     "slug": "arnavutkoy-merkez-cicekcilik-peyzaj-organizasyon",
     "name": "Arnavutköy Merkez",
-    "title": "Arnavutköy Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Arnavutköy Merkez ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Arnavutköy Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Arnavutköy Merkez çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Arnavutköy Merkez",
     "type": "neighborhood"
@@ -7646,8 +7646,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ataturk-arnavutkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Atatürk",
-    "title": "Atatürk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atatürk ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atatürk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atatürk çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Atatürk",
     "type": "neighborhood"
@@ -7655,8 +7655,8 @@ export const istanbulAreaPages = [
   {
     "slug": "baklali-cicekcilik-peyzaj-organizasyon",
     "name": "Baklalı",
-    "title": "Baklalı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Baklalı ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Baklalı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Baklalı çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Baklalı",
     "type": "neighborhood"
@@ -7664,8 +7664,8 @@ export const istanbulAreaPages = [
   {
     "slug": "balaban-arnavutkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Balaban",
-    "title": "Balaban Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Balaban ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Balaban Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Balaban çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Balaban",
     "type": "neighborhood"
@@ -7673,8 +7673,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bogazkoy-istiklal-cicekcilik-peyzaj-organizasyon",
     "name": "Boğazköy İstiklal",
-    "title": "Boğazköy İstiklal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Boğazköy İstiklal ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Boğazköy İstiklal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Boğazköy İstiklal çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Boğazköy İstiklal",
     "type": "neighborhood"
@@ -7682,8 +7682,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bolluca-cicekcilik-peyzaj-organizasyon",
     "name": "Bolluca",
-    "title": "Bolluca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bolluca ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bolluca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bolluca çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Bolluca",
     "type": "neighborhood"
@@ -7691,8 +7691,8 @@ export const istanbulAreaPages = [
   {
     "slug": "boyalik-cicekcilik-peyzaj-organizasyon",
     "name": "Boyalık",
-    "title": "Boyalık Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Boyalık ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Boyalık Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Boyalık çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Boyalık",
     "type": "neighborhood"
@@ -7700,8 +7700,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cilingir-cicekcilik-peyzaj-organizasyon",
     "name": "Çilingir",
-    "title": "Çilingir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çilingir ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çilingir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çilingir çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Çilingir",
     "type": "neighborhood"
@@ -7709,8 +7709,8 @@ export const istanbulAreaPages = [
   {
     "slug": "deliklikaya-cicekcilik-peyzaj-organizasyon",
     "name": "Deliklikaya",
-    "title": "Deliklikaya Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Deliklikaya ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Deliklikaya Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Deliklikaya çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Deliklikaya",
     "type": "neighborhood"
@@ -7718,8 +7718,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dursunkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Dursunköy",
-    "title": "Dursunköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dursunköy ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dursunköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dursunköy çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Dursunköy",
     "type": "neighborhood"
@@ -7727,8 +7727,8 @@ export const istanbulAreaPages = [
   {
     "slug": "durusu-cicekcilik-peyzaj-organizasyon",
     "name": "Durusu",
-    "title": "Durusu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Durusu ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Durusu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Durusu çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Durusu",
     "type": "neighborhood"
@@ -7736,8 +7736,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-arnavutkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -7745,8 +7745,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hacimasli-cicekcilik-peyzaj-organizasyon",
     "name": "Hacımaşlı",
-    "title": "Hacımaşlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hacımaşlı ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hacımaşlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hacımaşlı çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Hacımaşlı",
     "type": "neighborhood"
@@ -7754,8 +7754,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hadimkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Hadımköy",
-    "title": "Hadımköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hadımköy ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hadımköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hadımköy çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Hadımköy",
     "type": "neighborhood"
@@ -7763,8 +7763,8 @@ export const istanbulAreaPages = [
   {
     "slug": "haracci-cicekcilik-peyzaj-organizasyon",
     "name": "Haraççı",
-    "title": "Haraççı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Haraççı ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Haraççı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Haraççı çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Haraççı",
     "type": "neighborhood"
@@ -7772,8 +7772,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hastane-cicekcilik-peyzaj-organizasyon",
     "name": "Hastane",
-    "title": "Hastane Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hastane ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hastane Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hastane çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Hastane",
     "type": "neighborhood"
@@ -7781,8 +7781,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hicret-cicekcilik-peyzaj-organizasyon",
     "name": "Hicret",
-    "title": "Hicret Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hicret ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hicret Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hicret çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Hicret",
     "type": "neighborhood"
@@ -7790,8 +7790,8 @@ export const istanbulAreaPages = [
   {
     "slug": "imrahor-cicekcilik-peyzaj-organizasyon",
     "name": "İmrahor",
-    "title": "İmrahor Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İmrahor ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İmrahor Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İmrahor çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "İmrahor",
     "type": "neighborhood"
@@ -7799,8 +7799,8 @@ export const istanbulAreaPages = [
   {
     "slug": "islambey-arnavutkoy-cicekcilik-peyzaj-organizasyon",
     "name": "İslambey",
-    "title": "İslambey Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İslambey ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İslambey Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İslambey çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "İslambey",
     "type": "neighborhood"
@@ -7808,8 +7808,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karaburun-cicekcilik-peyzaj-organizasyon",
     "name": "Karaburun",
-    "title": "Karaburun Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karaburun ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karaburun Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karaburun çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Karaburun",
     "type": "neighborhood"
@@ -7817,8 +7817,8 @@ export const istanbulAreaPages = [
   {
     "slug": "karlibayir-cicekcilik-peyzaj-organizasyon",
     "name": "Karlıbayır",
-    "title": "Karlıbayır Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Karlıbayır ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Karlıbayır Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Karlıbayır çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Karlıbayır",
     "type": "neighborhood"
@@ -7826,8 +7826,8 @@ export const istanbulAreaPages = [
   {
     "slug": "maresal-fevzi-cakmak-cicekcilik-peyzaj-organizasyon",
     "name": "Mareşal Fevzi Çakmak",
-    "title": "Mareşal Fevzi Çakmak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mareşal Fevzi Çakmak ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mareşal Fevzi Çakmak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mareşal Fevzi Çakmak çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Mareşal Fevzi Çakmak",
     "type": "neighborhood"
@@ -7835,8 +7835,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mavigol-cicekcilik-peyzaj-organizasyon",
     "name": "Mavigöl",
-    "title": "Mavigöl Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mavigöl ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mavigöl Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mavigöl çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Mavigöl",
     "type": "neighborhood"
@@ -7844,8 +7844,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehmet-akif-ersoy-arnavutkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Mehmet Akif Ersoy",
-    "title": "Mehmet Akif Ersoy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehmet Akif Ersoy ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehmet Akif Ersoy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehmet Akif Ersoy çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Mehmet Akif Ersoy",
     "type": "neighborhood"
@@ -7853,8 +7853,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mustafa-kemal-pasa-cicekcilik-peyzaj-organizasyon",
     "name": "Mustafa Kemal Paşa",
-    "title": "Mustafa Kemal Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mustafa Kemal Paşa ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mustafa Kemal Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mustafa Kemal Paşa çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Mustafa Kemal Paşa",
     "type": "neighborhood"
@@ -7862,8 +7862,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nenehatun-cicekcilik-peyzaj-organizasyon",
     "name": "Nenehatun",
-    "title": "Nenehatun Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nenehatun ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nenehatun Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nenehatun çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Nenehatun",
     "type": "neighborhood"
@@ -7871,8 +7871,8 @@ export const istanbulAreaPages = [
   {
     "slug": "omerli-cicekcilik-peyzaj-organizasyon",
     "name": "Ömerli",
-    "title": "Ömerli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ömerli ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ömerli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ömerli çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Ömerli",
     "type": "neighborhood"
@@ -7880,8 +7880,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sazlibosna-cicekcilik-peyzaj-organizasyon",
     "name": "Sazlıbosna",
-    "title": "Sazlıbosna Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sazlıbosna ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sazlıbosna Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sazlıbosna çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Sazlıbosna",
     "type": "neighborhood"
@@ -7889,8 +7889,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tasoluk-cicekcilik-peyzaj-organizasyon",
     "name": "Taşoluk",
-    "title": "Taşoluk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Taşoluk ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Taşoluk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Taşoluk çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Taşoluk",
     "type": "neighborhood"
@@ -7898,8 +7898,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tayakadin-cicekcilik-peyzaj-organizasyon",
     "name": "Tayakadın",
-    "title": "Tayakadın Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Tayakadın ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Tayakadın Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Tayakadın çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Tayakadın",
     "type": "neighborhood"
@@ -7907,8 +7907,8 @@ export const istanbulAreaPages = [
   {
     "slug": "terkos-cicekcilik-peyzaj-organizasyon",
     "name": "Terkos",
-    "title": "Terkos Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Terkos ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Terkos Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Terkos çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Terkos",
     "type": "neighborhood"
@@ -7916,8 +7916,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yassioren-cicekcilik-peyzaj-organizasyon",
     "name": "Yassıören",
-    "title": "Yassıören Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yassıören ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yassıören Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yassıören çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Yassıören",
     "type": "neighborhood"
@@ -7925,8 +7925,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yavuz-selim-arnavutkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Yavuz Selim",
-    "title": "Yavuz Selim Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yavuz Selim ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yavuz Selim Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yavuz Selim çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Yavuz Selim",
     "type": "neighborhood"
@@ -7934,8 +7934,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenikoy-arnavutkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Yeniköy",
-    "title": "Yeniköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeniköy ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeniköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeniköy çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Yeniköy",
     "type": "neighborhood"
@@ -7943,8 +7943,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilbayir-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilbayır",
-    "title": "Yeşilbayır Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilbayır ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilbayır Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilbayır çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Yeşilbayır",
     "type": "neighborhood"
@@ -7952,8 +7952,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yunus-emre-cicekcilik-peyzaj-organizasyon",
     "name": "Yunus Emre",
-    "title": "Yunus Emre Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yunus Emre ve Arnavutköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yunus Emre Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yunus Emre çiçekçi arayanlar için Arnavutköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Arnavutköy",
     "neighborhood": "Yunus Emre",
     "type": "neighborhood"
@@ -7961,8 +7961,8 @@ export const istanbulAreaPages = [
   {
     "slug": "asikveysel-cicekcilik-peyzaj-organizasyon",
     "name": "Aşıkveysel",
-    "title": "Aşıkveysel Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aşıkveysel ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aşıkveysel Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aşıkveysel çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Aşıkveysel",
     "type": "neighborhood"
@@ -7970,8 +7970,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ataturk-atasehir-cicekcilik-peyzaj-organizasyon",
     "name": "Atatürk",
-    "title": "Atatürk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atatürk ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atatürk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atatürk çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Atatürk",
     "type": "neighborhood"
@@ -7979,8 +7979,8 @@ export const istanbulAreaPages = [
   {
     "slug": "barbaros-atasehir-cicekcilik-peyzaj-organizasyon",
     "name": "Barbaros",
-    "title": "Barbaros Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Barbaros ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Barbaros Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Barbaros çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Barbaros",
     "type": "neighborhood"
@@ -7988,8 +7988,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esatpasa-cicekcilik-peyzaj-organizasyon",
     "name": "Esatpaşa",
-    "title": "Esatpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esatpaşa ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esatpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esatpaşa çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Esatpaşa",
     "type": "neighborhood"
@@ -7997,8 +7997,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ferhatpasa-atasehir-cicekcilik-peyzaj-organizasyon",
     "name": "Ferhatpaşa",
-    "title": "Ferhatpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ferhatpaşa ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ferhatpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ferhatpaşa çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Ferhatpaşa",
     "type": "neighborhood"
@@ -8006,8 +8006,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fetih-cicekcilik-peyzaj-organizasyon",
     "name": "Fetih",
-    "title": "Fetih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fetih ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fetih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fetih çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Fetih",
     "type": "neighborhood"
@@ -8015,8 +8015,8 @@ export const istanbulAreaPages = [
   {
     "slug": "icerenkoy-cicekcilik-peyzaj-organizasyon",
     "name": "İçerenköy",
-    "title": "İçerenköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İçerenköy ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İçerenköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İçerenköy çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "İçerenköy",
     "type": "neighborhood"
@@ -8024,8 +8024,8 @@ export const istanbulAreaPages = [
   {
     "slug": "inonu-atasehir-cicekcilik-peyzaj-organizasyon",
     "name": "İnönü",
-    "title": "İnönü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İnönü ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İnönü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İnönü çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "İnönü",
     "type": "neighborhood"
@@ -8033,8 +8033,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kayisdagi-cicekcilik-peyzaj-organizasyon",
     "name": "Kayışdağı",
-    "title": "Kayışdağı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kayışdağı ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kayışdağı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kayışdağı çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Kayışdağı",
     "type": "neighborhood"
@@ -8042,8 +8042,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kucukbakkalkoy-cicekcilik-peyzaj-organizasyon",
     "name": "Küçükbakkalköy",
-    "title": "Küçükbakkalköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Küçükbakkalköy ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Küçükbakkalköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Küçükbakkalköy çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Küçükbakkalköy",
     "type": "neighborhood"
@@ -8051,8 +8051,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mevlana-atasehir-cicekcilik-peyzaj-organizasyon",
     "name": "Mevlana",
-    "title": "Mevlana Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mevlana ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mevlana Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mevlana çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Mevlana",
     "type": "neighborhood"
@@ -8060,8 +8060,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-sinan-atasehir-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Sinan",
-    "title": "Mimar Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Sinan ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Sinan çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Mimar Sinan",
     "type": "neighborhood"
@@ -8069,8 +8069,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mustafa-kemal-cicekcilik-peyzaj-organizasyon",
     "name": "Mustafa Kemal",
-    "title": "Mustafa Kemal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mustafa Kemal ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mustafa Kemal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mustafa Kemal çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Mustafa Kemal",
     "type": "neighborhood"
@@ -8078,8 +8078,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ornek-cicekcilik-peyzaj-organizasyon",
     "name": "Örnek",
-    "title": "Örnek Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Örnek ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Örnek Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Örnek çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Örnek",
     "type": "neighborhood"
@@ -8087,8 +8087,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yeni-camlica-cicekcilik-peyzaj-organizasyon",
     "name": "Yeni Çamlıca",
-    "title": "Yeni Çamlıca Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeni Çamlıca ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeni Çamlıca Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeni Çamlıca çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Yeni Çamlıca",
     "type": "neighborhood"
@@ -8096,8 +8096,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenisahra-cicekcilik-peyzaj-organizasyon",
     "name": "Yenisahra",
-    "title": "Yenisahra Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenisahra ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenisahra Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenisahra çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Yenisahra",
     "type": "neighborhood"
@@ -8105,8 +8105,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenisehir-atasehir-cicekcilik-peyzaj-organizasyon",
     "name": "Yenişehir",
-    "title": "Yenişehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenişehir ve Ataşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenişehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenişehir çiçekçi arayanlar için Ataşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Ataşehir",
     "neighborhood": "Yenişehir",
     "type": "neighborhood"
@@ -8114,8 +8114,8 @@ export const istanbulAreaPages = [
   {
     "slug": "altinsehir-basaksehir-cicekcilik-peyzaj-organizasyon",
     "name": "Altınşehir",
-    "title": "Altınşehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Altınşehir ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Altınşehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Altınşehir çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Altınşehir",
     "type": "neighborhood"
@@ -8123,8 +8123,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcesehir-1-kisim-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçeşehir 1. Kısım",
-    "title": "Bahçeşehir 1. Kısım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçeşehir 1. Kısım ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçeşehir 1. Kısım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçeşehir 1. Kısım çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Bahçeşehir 1. Kısım",
     "type": "neighborhood"
@@ -8132,8 +8132,8 @@ export const istanbulAreaPages = [
   {
     "slug": "bahcesehir-2-kisim-cicekcilik-peyzaj-organizasyon",
     "name": "Bahçeşehir 2. Kısım",
-    "title": "Bahçeşehir 2. Kısım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bahçeşehir 2. Kısım ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bahçeşehir 2. Kısım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bahçeşehir 2. Kısım çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Bahçeşehir 2. Kısım",
     "type": "neighborhood"
@@ -8141,8 +8141,8 @@ export const istanbulAreaPages = [
   {
     "slug": "basak-basaksehir-cicekcilik-peyzaj-organizasyon",
     "name": "Başak",
-    "title": "Başak Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Başak ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Başak Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Başak çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Başak",
     "type": "neighborhood"
@@ -8150,8 +8150,8 @@ export const istanbulAreaPages = [
   {
     "slug": "basaksehir-basaksehir-cicekcilik-peyzaj-organizasyon",
     "name": "Başakşehir",
-    "title": "Başakşehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Başakşehir ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Başakşehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Başakşehir çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Başakşehir",
     "type": "neighborhood"
@@ -8159,8 +8159,8 @@ export const istanbulAreaPages = [
   {
     "slug": "guvercintepe-cicekcilik-peyzaj-organizasyon",
     "name": "Güvercintepe",
-    "title": "Güvercintepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güvercintepe ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güvercintepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güvercintepe çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Güvercintepe",
     "type": "neighborhood"
@@ -8168,8 +8168,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ikitelli-osb-cicekcilik-peyzaj-organizasyon",
     "name": "İkitelli Osb",
-    "title": "İkitelli Osb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İkitelli Osb ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İkitelli Osb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İkitelli Osb çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "İkitelli Osb",
     "type": "neighborhood"
@@ -8177,8 +8177,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kayabasi-cicekcilik-peyzaj-organizasyon",
     "name": "Kayabaşı",
-    "title": "Kayabaşı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kayabaşı ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kayabaşı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kayabaşı çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Kayabaşı",
     "type": "neighborhood"
@@ -8186,8 +8186,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sahintepe-cicekcilik-peyzaj-organizasyon",
     "name": "Şahintepe",
-    "title": "Şahintepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şahintepe ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şahintepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şahintepe çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Şahintepe",
     "type": "neighborhood"
@@ -8195,8 +8195,8 @@ export const istanbulAreaPages = [
   {
     "slug": "samlar-cicekcilik-peyzaj-organizasyon",
     "name": "Şamlar",
-    "title": "Şamlar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şamlar ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şamlar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şamlar çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Şamlar",
     "type": "neighborhood"
@@ -8204,8 +8204,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ziya-gokalp-cicekcilik-peyzaj-organizasyon",
     "name": "Ziya Gökalp",
-    "title": "Ziya Gökalp Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ziya Gökalp ve Başakşehir çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ziya Gökalp Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ziya Gökalp çiçekçi arayanlar için Başakşehir ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Başakşehir",
     "neighborhood": "Ziya Gökalp",
     "type": "neighborhood"
@@ -8213,8 +8213,8 @@ export const istanbulAreaPages = [
   {
     "slug": "adnan-kahveci-cicekcilik-peyzaj-organizasyon",
     "name": "Adnan Kahveci",
-    "title": "Adnan Kahveci Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Adnan Kahveci ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Adnan Kahveci Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Adnan Kahveci çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Adnan Kahveci",
     "type": "neighborhood"
@@ -8222,8 +8222,8 @@ export const istanbulAreaPages = [
   {
     "slug": "baris-cicekcilik-peyzaj-organizasyon",
     "name": "Barış",
-    "title": "Barış Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Barış ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Barış Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Barış çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Barış",
     "type": "neighborhood"
@@ -8231,8 +8231,8 @@ export const istanbulAreaPages = [
   {
     "slug": "beylikduzuosb-cicekcilik-peyzaj-organizasyon",
     "name": "Beylikdüzüosb",
-    "title": "Beylikdüzüosb Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Beylikdüzüosb ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Beylikdüzüosb Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Beylikdüzüosb çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Beylikdüzüosb",
     "type": "neighborhood"
@@ -8240,8 +8240,8 @@ export const istanbulAreaPages = [
   {
     "slug": "buyuksehir-cicekcilik-peyzaj-organizasyon",
     "name": "Büyükşehir",
-    "title": "Büyükşehir Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Büyükşehir ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Büyükşehir Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Büyükşehir çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Büyükşehir",
     "type": "neighborhood"
@@ -8249,8 +8249,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-beylikduzu-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -8258,8 +8258,8 @@ export const istanbulAreaPages = [
   {
     "slug": "dereagzi-cicekcilik-peyzaj-organizasyon",
     "name": "Dereağzı",
-    "title": "Dereağzı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Dereağzı ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Dereağzı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Dereağzı çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Dereağzı",
     "type": "neighborhood"
@@ -8267,8 +8267,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gurpinar-cicekcilik-peyzaj-organizasyon",
     "name": "Gürpınar",
-    "title": "Gürpınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gürpınar ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gürpınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gürpınar çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Gürpınar",
     "type": "neighborhood"
@@ -8276,8 +8276,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kavakli-beylikduzu-cicekcilik-peyzaj-organizasyon",
     "name": "Kavaklı",
-    "title": "Kavaklı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kavaklı ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kavaklı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kavaklı çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Kavaklı",
     "type": "neighborhood"
@@ -8285,8 +8285,8 @@ export const istanbulAreaPages = [
   {
     "slug": "marmara-cicekcilik-peyzaj-organizasyon",
     "name": "Marmara",
-    "title": "Marmara Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Marmara ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Marmara Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Marmara çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Marmara",
     "type": "neighborhood"
@@ -8294,8 +8294,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sahil-cicekcilik-peyzaj-organizasyon",
     "name": "Sahil",
-    "title": "Sahil Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sahil ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sahil Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sahil çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Sahil",
     "type": "neighborhood"
@@ -8303,8 +8303,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yakuplu-cicekcilik-peyzaj-organizasyon",
     "name": "Yakuplu",
-    "title": "Yakuplu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yakuplu ve Beylikdüzü çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yakuplu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yakuplu çiçekçi arayanlar için Beylikdüzü ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Beylikdüzü",
     "neighborhood": "Yakuplu",
     "type": "neighborhood"
@@ -8312,8 +8312,8 @@ export const istanbulAreaPages = [
   {
     "slug": "alemdag-cicekcilik-peyzaj-organizasyon",
     "name": "Alemdağ",
-    "title": "Alemdağ Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Alemdağ ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Alemdağ Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Alemdağ çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Alemdağ",
     "type": "neighborhood"
@@ -8321,8 +8321,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aydinlar-cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Aydınlar",
-    "title": "Aydınlar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aydınlar ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aydınlar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aydınlar çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Aydınlar",
     "type": "neighborhood"
@@ -8330,8 +8330,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -8339,8 +8339,8 @@ export const istanbulAreaPages = [
   {
     "slug": "camlik-cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Çamlık",
-    "title": "Çamlık Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çamlık ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çamlık Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çamlık çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Çamlık",
     "type": "neighborhood"
@@ -8348,8 +8348,8 @@ export const istanbulAreaPages = [
   {
     "slug": "catalmese-cicekcilik-peyzaj-organizasyon",
     "name": "Çatalmeşe",
-    "title": "Çatalmeşe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çatalmeşe ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çatalmeşe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çatalmeşe çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Çatalmeşe",
     "type": "neighborhood"
@@ -8357,8 +8357,8 @@ export const istanbulAreaPages = [
   {
     "slug": "eksioglu-cicekcilik-peyzaj-organizasyon",
     "name": "Ekşioğlu",
-    "title": "Ekşioğlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ekşioğlu ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ekşioğlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ekşioğlu çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Ekşioğlu",
     "type": "neighborhood"
@@ -8366,8 +8366,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gungoren-cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Güngören",
-    "title": "Güngören Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güngören ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güngören Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güngören çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Güngören",
     "type": "neighborhood"
@@ -8375,8 +8375,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hamidiye-cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Hamidiye",
-    "title": "Hamidiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hamidiye ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hamidiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hamidiye çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Hamidiye",
     "type": "neighborhood"
@@ -8384,8 +8384,8 @@ export const istanbulAreaPages = [
   {
     "slug": "huseyinli-cicekcilik-peyzaj-organizasyon",
     "name": "Hüseyinli",
-    "title": "Hüseyinli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hüseyinli ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hüseyinli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hüseyinli çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Hüseyinli",
     "type": "neighborhood"
@@ -8393,8 +8393,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kirazlidere-cicekcilik-peyzaj-organizasyon",
     "name": "Kirazlıdere",
-    "title": "Kirazlıdere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kirazlıdere ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kirazlıdere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kirazlıdere çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Kirazlıdere",
     "type": "neighborhood"
@@ -8402,8 +8402,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kocullu-cicekcilik-peyzaj-organizasyon",
     "name": "Koçullu",
-    "title": "Koçullu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Koçullu ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Koçullu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Koçullu çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Koçullu",
     "type": "neighborhood"
@@ -8411,8 +8411,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehmet-akif-cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Mehmet Akif",
-    "title": "Mehmet Akif Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehmet Akif ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehmet Akif Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehmet Akif çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Mehmet Akif",
     "type": "neighborhood"
@@ -8420,8 +8420,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merkez-cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Merkez",
-    "title": "Merkez Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merkez ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merkez Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merkez çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Merkez",
     "type": "neighborhood"
@@ -8429,8 +8429,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mimar-sinan-cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Mimar Sinan",
-    "title": "Mimar Sinan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mimar Sinan ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mimar Sinan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mimar Sinan çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Mimar Sinan",
     "type": "neighborhood"
@@ -8438,8 +8438,8 @@ export const istanbulAreaPages = [
   {
     "slug": "nisantepe-cicekcilik-peyzaj-organizasyon",
     "name": "Nişantepe",
-    "title": "Nişantepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Nişantepe ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Nişantepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Nişantepe çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Nişantepe",
     "type": "neighborhood"
@@ -8447,8 +8447,8 @@ export const istanbulAreaPages = [
   {
     "slug": "omerli-cekmekoy-cicekcilik-peyzaj-organizasyon",
     "name": "Ömerli",
-    "title": "Ömerli Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ömerli ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ömerli Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ömerli çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Ömerli",
     "type": "neighborhood"
@@ -8456,8 +8456,8 @@ export const istanbulAreaPages = [
   {
     "slug": "resadiye-cicekcilik-peyzaj-organizasyon",
     "name": "Reşadiye",
-    "title": "Reşadiye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Reşadiye ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Reşadiye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Reşadiye çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Reşadiye",
     "type": "neighborhood"
@@ -8465,8 +8465,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sirapinar-cicekcilik-peyzaj-organizasyon",
     "name": "Sırapınar",
-    "title": "Sırapınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sırapınar ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sırapınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sırapınar çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Sırapınar",
     "type": "neighborhood"
@@ -8474,8 +8474,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sogukpinar-cicekcilik-peyzaj-organizasyon",
     "name": "Soğukpınar",
-    "title": "Soğukpınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Soğukpınar ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Soğukpınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Soğukpınar çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Soğukpınar",
     "type": "neighborhood"
@@ -8483,8 +8483,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sultanciftligi-cicekcilik-peyzaj-organizasyon",
     "name": "Sultançiftliği",
-    "title": "Sultançiftliği Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sultançiftliği ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sultançiftliği Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sultançiftliği çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Sultançiftliği",
     "type": "neighborhood"
@@ -8492,8 +8492,8 @@ export const istanbulAreaPages = [
   {
     "slug": "tasdelen-cicekcilik-peyzaj-organizasyon",
     "name": "Taşdelen",
-    "title": "Taşdelen Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Taşdelen ve Çekmeköy çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Taşdelen Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Taşdelen çiçekçi arayanlar için Çekmeköy ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Çekmeköy",
     "neighborhood": "Taşdelen",
     "type": "neighborhood"
@@ -8501,8 +8501,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akcaburgaz-cicekcilik-peyzaj-organizasyon",
     "name": "Akçaburgaz",
-    "title": "Akçaburgaz Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akçaburgaz ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akçaburgaz Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akçaburgaz çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Akçaburgaz",
     "type": "neighborhood"
@@ -8510,8 +8510,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akevler-cicekcilik-peyzaj-organizasyon",
     "name": "Akevler",
-    "title": "Akevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akevler ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akevler çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Akevler",
     "type": "neighborhood"
@@ -8519,8 +8519,8 @@ export const istanbulAreaPages = [
   {
     "slug": "aksemseddin-cicekcilik-peyzaj-organizasyon",
     "name": "Akşemseddin",
-    "title": "Akşemseddin Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akşemseddin ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akşemseddin Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akşemseddin çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Akşemseddin",
     "type": "neighborhood"
@@ -8528,8 +8528,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ardicli-cicekcilik-peyzaj-organizasyon",
     "name": "Ardıçlı",
-    "title": "Ardıçlı Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Ardıçlı ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Ardıçlı Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Ardıçlı çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Ardıçlı",
     "type": "neighborhood"
@@ -8537,8 +8537,8 @@ export const istanbulAreaPages = [
   {
     "slug": "asik-veysel-cicekcilik-peyzaj-organizasyon",
     "name": "Aşık Veysel",
-    "title": "Aşık Veysel Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Aşık Veysel ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Aşık Veysel Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Aşık Veysel çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Aşık Veysel",
     "type": "neighborhood"
@@ -8546,8 +8546,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ataturk-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Atatürk",
-    "title": "Atatürk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atatürk ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atatürk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atatürk çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Atatürk",
     "type": "neighborhood"
@@ -8555,8 +8555,8 @@ export const istanbulAreaPages = [
   {
     "slug": "baglarcesme-cicekcilik-peyzaj-organizasyon",
     "name": "Bağlarçeşme",
-    "title": "Bağlarçeşme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Bağlarçeşme ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Bağlarçeşme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Bağlarçeşme çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Bağlarçeşme",
     "type": "neighborhood"
@@ -8564,8 +8564,8 @@ export const istanbulAreaPages = [
   {
     "slug": "balikyolu-cicekcilik-peyzaj-organizasyon",
     "name": "Balıkyolu",
-    "title": "Balıkyolu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Balıkyolu ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Balıkyolu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Balıkyolu çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Balıkyolu",
     "type": "neighborhood"
@@ -8573,8 +8573,8 @@ export const istanbulAreaPages = [
   {
     "slug": "barbaros-hayrettin-pasa-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Barbaros Hayrettin Paşa",
-    "title": "Barbaros Hayrettin Paşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Barbaros Hayrettin Paşa ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Barbaros Hayrettin Paşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Barbaros Hayrettin Paşa çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Barbaros Hayrettin Paşa",
     "type": "neighborhood"
@@ -8582,8 +8582,8 @@ export const istanbulAreaPages = [
   {
     "slug": "battalgazi-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Battalgazi",
-    "title": "Battalgazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Battalgazi ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Battalgazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Battalgazi çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Battalgazi",
     "type": "neighborhood"
@@ -8591,8 +8591,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -8600,8 +8600,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cinar-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Çınar",
-    "title": "Çınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Çınar ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Çınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Çınar çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Çınar",
     "type": "neighborhood"
@@ -8609,8 +8609,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esenkent-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Esenkent",
-    "title": "Esenkent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esenkent ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esenkent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esenkent çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Esenkent",
     "type": "neighborhood"
@@ -8618,8 +8618,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -8627,8 +8627,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gokevler-cicekcilik-peyzaj-organizasyon",
     "name": "Gökevler",
-    "title": "Gökevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gökevler ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gökevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gökevler çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Gökevler",
     "type": "neighborhood"
@@ -8636,8 +8636,8 @@ export const istanbulAreaPages = [
   {
     "slug": "guzelyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Güzelyurt",
-    "title": "Güzelyurt Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Güzelyurt ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Güzelyurt Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Güzelyurt çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Güzelyurt",
     "type": "neighborhood"
@@ -8645,8 +8645,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hurriyet-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Hürriyet",
-    "title": "Hürriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hürriyet ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hürriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hürriyet çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Hürriyet",
     "type": "neighborhood"
@@ -8654,8 +8654,8 @@ export const istanbulAreaPages = [
   {
     "slug": "incirtepe-cicekcilik-peyzaj-organizasyon",
     "name": "İncirtepe",
-    "title": "İncirtepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İncirtepe ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İncirtepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İncirtepe çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "İncirtepe",
     "type": "neighborhood"
@@ -8663,8 +8663,8 @@ export const istanbulAreaPages = [
   {
     "slug": "inonu-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "İnönü",
-    "title": "İnönü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İnönü ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İnönü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İnönü çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "İnönü",
     "type": "neighborhood"
@@ -8672,8 +8672,8 @@ export const istanbulAreaPages = [
   {
     "slug": "istiklal-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "İstiklal",
-    "title": "İstiklal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İstiklal ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İstiklal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İstiklal çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "İstiklal",
     "type": "neighborhood"
@@ -8681,8 +8681,8 @@ export const istanbulAreaPages = [
   {
     "slug": "koza-cicekcilik-peyzaj-organizasyon",
     "name": "Koza",
-    "title": "Koza Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Koza ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Koza Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Koza çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Koza",
     "type": "neighborhood"
@@ -8690,8 +8690,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehmet-akif-ersoy-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Mehmet Akif Ersoy",
-    "title": "Mehmet Akif Ersoy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehmet Akif Ersoy ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehmet Akif Ersoy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehmet Akif Ersoy çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Mehmet Akif Ersoy",
     "type": "neighborhood"
@@ -8699,8 +8699,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mehtercesme-cicekcilik-peyzaj-organizasyon",
     "name": "Mehterçeşme",
-    "title": "Mehterçeşme Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mehterçeşme ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mehterçeşme Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mehterçeşme çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Mehterçeşme",
     "type": "neighborhood"
@@ -8708,8 +8708,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mevlana-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Mevlana",
-    "title": "Mevlana Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mevlana ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mevlana Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mevlana çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Mevlana",
     "type": "neighborhood"
@@ -8717,8 +8717,8 @@ export const istanbulAreaPages = [
   {
     "slug": "namik-kemal-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Namık Kemal",
-    "title": "Namık Kemal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Namık Kemal ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Namık Kemal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Namık Kemal çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Namık Kemal",
     "type": "neighborhood"
@@ -8726,8 +8726,8 @@ export const istanbulAreaPages = [
   {
     "slug": "necip-fazil-kisakurek-cicekcilik-peyzaj-organizasyon",
     "name": "Necip Fazıl Kısakürek",
-    "title": "Necip Fazıl Kısakürek Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Necip Fazıl Kısakürek ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Necip Fazıl Kısakürek Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Necip Fazıl Kısakürek çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Necip Fazıl Kısakürek",
     "type": "neighborhood"
@@ -8735,8 +8735,8 @@ export const istanbulAreaPages = [
   {
     "slug": "orhan-gazi-cicekcilik-peyzaj-organizasyon",
     "name": "Orhan Gazi",
-    "title": "Orhan Gazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Orhan Gazi ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Orhan Gazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Orhan Gazi çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Orhan Gazi",
     "type": "neighborhood"
@@ -8744,8 +8744,8 @@ export const istanbulAreaPages = [
   {
     "slug": "osmangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Osmangazi",
-    "title": "Osmangazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Osmangazi ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Osmangazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Osmangazi çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Osmangazi",
     "type": "neighborhood"
@@ -8753,8 +8753,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ornek-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Örnek",
-    "title": "Örnek Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Örnek ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Örnek Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Örnek çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Örnek",
     "type": "neighborhood"
@@ -8762,8 +8762,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pinar-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Pınar",
-    "title": "Pınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Pınar ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Pınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Pınar çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Pınar",
     "type": "neighborhood"
@@ -8771,8 +8771,8 @@ export const istanbulAreaPages = [
   {
     "slug": "piri-reis-cicekcilik-peyzaj-organizasyon",
     "name": "Piri Reis",
-    "title": "Piri Reis Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Piri Reis ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Piri Reis Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Piri Reis çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Piri Reis",
     "type": "neighborhood"
@@ -8780,8 +8780,8 @@ export const istanbulAreaPages = [
   {
     "slug": "saadetdere-cicekcilik-peyzaj-organizasyon",
     "name": "Saadetdere",
-    "title": "Saadetdere Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Saadetdere ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Saadetdere Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Saadetdere çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Saadetdere",
     "type": "neighborhood"
@@ -8789,8 +8789,8 @@ export const istanbulAreaPages = [
   {
     "slug": "selahaddin-eyyubi-cicekcilik-peyzaj-organizasyon",
     "name": "Selahaddin Eyyubi",
-    "title": "Selahaddin Eyyubi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Selahaddin Eyyubi ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Selahaddin Eyyubi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Selahaddin Eyyubi çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Selahaddin Eyyubi",
     "type": "neighborhood"
@@ -8798,8 +8798,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sultaniye-cicekcilik-peyzaj-organizasyon",
     "name": "Sultaniye",
-    "title": "Sultaniye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sultaniye ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sultaniye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sultaniye çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Sultaniye",
     "type": "neighborhood"
@@ -8807,8 +8807,8 @@ export const istanbulAreaPages = [
   {
     "slug": "suleymaniye-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Süleymaniye",
-    "title": "Süleymaniye Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Süleymaniye ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Süleymaniye Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Süleymaniye çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Süleymaniye",
     "type": "neighborhood"
@@ -8816,8 +8816,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sehitler-cicekcilik-peyzaj-organizasyon",
     "name": "Şehitler",
-    "title": "Şehitler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Şehitler ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Şehitler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Şehitler çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Şehitler",
     "type": "neighborhood"
@@ -8825,8 +8825,8 @@ export const istanbulAreaPages = [
   {
     "slug": "talatpasa-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Talatpaşa",
-    "title": "Talatpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Talatpaşa ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Talatpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Talatpaşa çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Talatpaşa",
     "type": "neighborhood"
@@ -8834,8 +8834,8 @@ export const istanbulAreaPages = [
   {
     "slug": "turgut-ozal-cicekcilik-peyzaj-organizasyon",
     "name": "Turgut Özal",
-    "title": "Turgut Özal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Turgut Özal ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Turgut Özal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Turgut Özal çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Turgut Özal",
     "type": "neighborhood"
@@ -8843,8 +8843,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ucevler-cicekcilik-peyzaj-organizasyon",
     "name": "Üçevler",
-    "title": "Üçevler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Üçevler ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Üçevler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Üçevler çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Üçevler",
     "type": "neighborhood"
@@ -8852,8 +8852,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenikent-cicekcilik-peyzaj-organizasyon",
     "name": "Yenikent",
-    "title": "Yenikent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenikent ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenikent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenikent çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Yenikent",
     "type": "neighborhood"
@@ -8861,8 +8861,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yesilkent-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Yeşilkent",
-    "title": "Yeşilkent Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yeşilkent ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yeşilkent Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yeşilkent çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Yeşilkent",
     "type": "neighborhood"
@@ -8870,8 +8870,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yunus-emre-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Yunus Emre",
-    "title": "Yunus Emre Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yunus Emre ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yunus Emre Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yunus Emre çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Yunus Emre",
     "type": "neighborhood"
@@ -8879,8 +8879,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zafer-esenyurt-cicekcilik-peyzaj-organizasyon",
     "name": "Zafer",
-    "title": "Zafer Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zafer ve Esenyurt çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zafer Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zafer çiçekçi arayanlar için Esenyurt ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Esenyurt",
     "neighborhood": "Zafer",
     "type": "neighborhood"
@@ -8888,8 +8888,8 @@ export const istanbulAreaPages = [
   {
     "slug": "abdurrahmangazi-sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Abdurrahmangazi",
-    "title": "Abdurrahmangazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Abdurrahmangazi ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Abdurrahmangazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Abdurrahmangazi çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Abdurrahmangazi",
     "type": "neighborhood"
@@ -8897,8 +8897,8 @@ export const istanbulAreaPages = [
   {
     "slug": "akpinar-sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Akpınar",
-    "title": "Akpınar Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Akpınar ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Akpınar Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Akpınar çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Akpınar",
     "type": "neighborhood"
@@ -8906,8 +8906,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ataturk-sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Atatürk",
-    "title": "Atatürk Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Atatürk ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Atatürk Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Atatürk çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Atatürk",
     "type": "neighborhood"
@@ -8915,8 +8915,8 @@ export const istanbulAreaPages = [
   {
     "slug": "emek-cicekcilik-peyzaj-organizasyon",
     "name": "Emek",
-    "title": "Emek Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Emek ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Emek Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Emek çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Emek",
     "type": "neighborhood"
@@ -8924,8 +8924,8 @@ export const istanbulAreaPages = [
   {
     "slug": "eyup-sultan-cicekcilik-peyzaj-organizasyon",
     "name": "Eyüp Sultan",
-    "title": "Eyüp Sultan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Eyüp Sultan ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Eyüp Sultan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Eyüp Sultan çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Eyüp Sultan",
     "type": "neighborhood"
@@ -8933,8 +8933,8 @@ export const istanbulAreaPages = [
   {
     "slug": "fatih-sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Fatih",
-    "title": "Fatih Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Fatih ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Fatih Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Fatih çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Fatih",
     "type": "neighborhood"
@@ -8942,8 +8942,8 @@ export const istanbulAreaPages = [
   {
     "slug": "hilal-cicekcilik-peyzaj-organizasyon",
     "name": "Hilal",
-    "title": "Hilal Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Hilal ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Hilal Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Hilal çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Hilal",
     "type": "neighborhood"
@@ -8951,8 +8951,8 @@ export const istanbulAreaPages = [
   {
     "slug": "inonu-sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "İnönü",
-    "title": "İnönü Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İnönü ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İnönü Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İnönü çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "İnönü",
     "type": "neighborhood"
@@ -8960,8 +8960,8 @@ export const istanbulAreaPages = [
   {
     "slug": "kemal-turkler-cicekcilik-peyzaj-organizasyon",
     "name": "Kemal Türkler",
-    "title": "Kemal Türkler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Kemal Türkler ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Kemal Türkler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Kemal Türkler çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Kemal Türkler",
     "type": "neighborhood"
@@ -8969,8 +8969,8 @@ export const istanbulAreaPages = [
   {
     "slug": "meclis-cicekcilik-peyzaj-organizasyon",
     "name": "Meclis",
-    "title": "Meclis Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Meclis ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Meclis Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Meclis çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Meclis",
     "type": "neighborhood"
@@ -8978,8 +8978,8 @@ export const istanbulAreaPages = [
   {
     "slug": "merve-cicekcilik-peyzaj-organizasyon",
     "name": "Merve",
-    "title": "Merve Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Merve ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Merve Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Merve çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Merve",
     "type": "neighborhood"
@@ -8987,8 +8987,8 @@ export const istanbulAreaPages = [
   {
     "slug": "mevlana-sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Mevlana",
-    "title": "Mevlana Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Mevlana ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Mevlana Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Mevlana çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Mevlana",
     "type": "neighborhood"
@@ -8996,8 +8996,8 @@ export const istanbulAreaPages = [
   {
     "slug": "osmangazi-sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Osmangazi",
-    "title": "Osmangazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Osmangazi ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Osmangazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Osmangazi çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Osmangazi",
     "type": "neighborhood"
@@ -9005,8 +9005,8 @@ export const istanbulAreaPages = [
   {
     "slug": "pasakoy-cicekcilik-peyzaj-organizasyon",
     "name": "Paşaköy",
-    "title": "Paşaköy Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Paşaköy ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Paşaköy Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Paşaköy çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Paşaköy",
     "type": "neighborhood"
@@ -9014,8 +9014,8 @@ export const istanbulAreaPages = [
   {
     "slug": "safa-cicekcilik-peyzaj-organizasyon",
     "name": "Safa",
-    "title": "Safa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Safa ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Safa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Safa çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Safa",
     "type": "neighborhood"
@@ -9023,8 +9023,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sarigazi-cicekcilik-peyzaj-organizasyon",
     "name": "Sarıgazi",
-    "title": "Sarıgazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sarıgazi ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sarıgazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sarıgazi çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Sarıgazi",
     "type": "neighborhood"
@@ -9032,8 +9032,8 @@ export const istanbulAreaPages = [
   {
     "slug": "veysel-karani-cicekcilik-peyzaj-organizasyon",
     "name": "Veysel Karani",
-    "title": "Veysel Karani Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Veysel Karani ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Veysel Karani Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Veysel Karani çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Veysel Karani",
     "type": "neighborhood"
@@ -9041,8 +9041,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yenidogan-sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Yenidoğan",
-    "title": "Yenidoğan Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yenidoğan ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yenidoğan Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yenidoğan çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Yenidoğan",
     "type": "neighborhood"
@@ -9050,8 +9050,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yunus-emre-sancaktepe-cicekcilik-peyzaj-organizasyon",
     "name": "Yunus Emre",
-    "title": "Yunus Emre Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yunus Emre ve Sancaktepe çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yunus Emre Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yunus Emre çiçekçi arayanlar için Sancaktepe ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sancaktepe",
     "neighborhood": "Yunus Emre",
     "type": "neighborhood"
@@ -9059,8 +9059,8 @@ export const istanbulAreaPages = [
   {
     "slug": "50-yil-cicekcilik-peyzaj-organizasyon",
     "name": "50. Yıl",
-    "title": "50. Yıl Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "50. Yıl ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "50. Yıl Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "50. Yıl çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "50. Yıl",
     "type": "neighborhood"
@@ -9068,8 +9068,8 @@ export const istanbulAreaPages = [
   {
     "slug": "75-yil-cicekcilik-peyzaj-organizasyon",
     "name": "75. Yıl",
-    "title": "75. Yıl Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "75. Yıl ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "75. Yıl Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "75. Yıl çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "75. Yıl",
     "type": "neighborhood"
@@ -9077,8 +9077,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cebeci-cicekcilik-peyzaj-organizasyon",
     "name": "Cebeci",
-    "title": "Cebeci Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cebeci ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cebeci Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cebeci çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Cebeci",
     "type": "neighborhood"
@@ -9086,8 +9086,8 @@ export const istanbulAreaPages = [
   {
     "slug": "cumhuriyet-sultangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Cumhuriyet",
-    "title": "Cumhuriyet Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Cumhuriyet ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Cumhuriyet Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Cumhuriyet çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Cumhuriyet",
     "type": "neighborhood"
@@ -9095,8 +9095,8 @@ export const istanbulAreaPages = [
   {
     "slug": "esentepe-sultangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Esentepe",
-    "title": "Esentepe Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Esentepe ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Esentepe Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Esentepe çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Esentepe",
     "type": "neighborhood"
@@ -9104,8 +9104,8 @@ export const istanbulAreaPages = [
   {
     "slug": "eski-habipler-cicekcilik-peyzaj-organizasyon",
     "name": "Eski Habipler",
-    "title": "Eski Habipler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Eski Habipler ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Eski Habipler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Eski Habipler çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Eski Habipler",
     "type": "neighborhood"
@@ -9113,8 +9113,8 @@ export const istanbulAreaPages = [
   {
     "slug": "gazi-cicekcilik-peyzaj-organizasyon",
     "name": "Gazi",
-    "title": "Gazi Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Gazi ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Gazi Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Gazi çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Gazi",
     "type": "neighborhood"
@@ -9122,8 +9122,8 @@ export const istanbulAreaPages = [
   {
     "slug": "habibler-cicekcilik-peyzaj-organizasyon",
     "name": "Habibler",
-    "title": "Habibler Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Habibler ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Habibler Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Habibler çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Habibler",
     "type": "neighborhood"
@@ -9131,8 +9131,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ismetpasa-sultangazi-cicekcilik-peyzaj-organizasyon",
     "name": "İsmetpaşa",
-    "title": "İsmetpaşa Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "İsmetpaşa ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "İsmetpaşa Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "İsmetpaşa çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "İsmetpaşa",
     "type": "neighborhood"
@@ -9140,8 +9140,8 @@ export const istanbulAreaPages = [
   {
     "slug": "malkocoglu-cicekcilik-peyzaj-organizasyon",
     "name": "Malkoçoğlu",
-    "title": "Malkoçoğlu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Malkoçoğlu ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Malkoçoğlu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Malkoçoğlu çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Malkoçoğlu",
     "type": "neighborhood"
@@ -9149,8 +9149,8 @@ export const istanbulAreaPages = [
   {
     "slug": "sultanciftligi-sultangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Sultançiftliği",
-    "title": "Sultançiftliği Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Sultançiftliği ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Sultançiftliği Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Sultançiftliği çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Sultançiftliği",
     "type": "neighborhood"
@@ -9158,8 +9158,8 @@ export const istanbulAreaPages = [
   {
     "slug": "ugur-mumcu-sultangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Uğur Mumcu",
-    "title": "Uğur Mumcu Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Uğur Mumcu ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Uğur Mumcu Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Uğur Mumcu çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Uğur Mumcu",
     "type": "neighborhood"
@@ -9167,8 +9167,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yayla-sultangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Yayla",
-    "title": "Yayla Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yayla ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yayla Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yayla çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Yayla",
     "type": "neighborhood"
@@ -9176,8 +9176,8 @@ export const istanbulAreaPages = [
   {
     "slug": "yunus-emre-sultangazi-cicekcilik-peyzaj-organizasyon",
     "name": "Yunus Emre",
-    "title": "Yunus Emre Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Yunus Emre ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Yunus Emre Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Yunus Emre çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Yunus Emre",
     "type": "neighborhood"
@@ -9185,8 +9185,8 @@ export const istanbulAreaPages = [
   {
     "slug": "zubeyde-hanim-cicekcilik-peyzaj-organizasyon",
     "name": "Zübeyde Hanım",
-    "title": "Zübeyde Hanım Çiçekçilik - Peyzaj - Organizasyon | Sümbül Garden",
-    "description": "Zübeyde Hanım ve Sultangazi çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme için Sümbül Garden ile hızlı iletişim.",
+    "title": "Zübeyde Hanım Çiçekçi - Peyzaj ve Organizasyon | Sümbül Garden",
+    "description": "Zübeyde Hanım çiçekçi arayanlar için Sultangazi ve İstanbul çevresinde çiçek siparişi, peyzaj keşfi, organizasyon ve balon süsleme hizmetleri.",
     "district": "Sultangazi",
     "neighborhood": "Zübeyde Hanım",
     "type": "neighborhood"
