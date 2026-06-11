@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, MapPin, MessageCircleMore, PartyPopper, Sprout } from "lucide-react";
 
 import { getFeaturedIstanbulAreas } from "@/lib/istanbul-areas";
+import { getPrioritySeoLandingPages } from "@/lib/seo-landing-pages";
 import type { SiteSettings } from "@/lib/types";
 
 const seoCards = [
@@ -30,6 +31,7 @@ const seoCards = [
 
 export function LocalSeoSection({ settings }: { settings: SiteSettings }) {
   const featuredAreas = getFeaturedIstanbulAreas();
+  const prioritySeoPages = getPrioritySeoLandingPages(10);
 
   return (
     <section className="container-edge pb-16">
@@ -92,6 +94,21 @@ export function LocalSeoSection({ settings }: { settings: SiteSettings }) {
                 className="rounded-full border border-surface-outline bg-white/84 px-4 py-2 text-sm text-foreground/68 transition hover:border-brand/25 hover:bg-brand-muted hover:text-brand"
               >
                 {area.name} çiçekçi
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-6 border-t border-surface-outline pt-5">
+          <p className="text-sm font-semibold text-foreground/70">Popüler çiçekçi aramaları</p>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {prioritySeoPages.map((page) => (
+              <Link
+                key={page.slug}
+                href={`/${page.slug}`}
+                className="rounded-full border border-surface-outline bg-white/84 px-4 py-2 text-sm text-foreground/68 transition hover:border-brand/25 hover:bg-brand-muted hover:text-brand"
+              >
+                {page.keyword}
               </Link>
             ))}
           </div>

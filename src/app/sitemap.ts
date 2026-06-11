@@ -4,6 +4,7 @@ import { appEnv } from "@/lib/env";
 import { istanbulAreaPages } from "@/lib/istanbul-areas";
 import { organizationCategorySlugs, organizationServices } from "@/lib/organization";
 import { getCategories, getProducts } from "@/lib/services/storefront";
+import { seoLandingPages } from "@/lib/seo-landing-pages";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -73,6 +74,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: area.type === "locality" ? 0.86 : area.type === "district" ? 0.82 : 0.58,
+    })),
+    ...seoLandingPages.map((page) => ({
+      url: new URL(`/${page.slug}`, appEnv.siteUrl).toString(),
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: page.priority,
     })),
     ...flowerCategories.map((category) => ({
       url: `${appEnv.siteUrl}/products?category=${category.slug}`,
