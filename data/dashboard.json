@@ -2,11 +2,11 @@
   "products": [
     {
       "id": "prd-sevgililer-gunu-cicekleri-1",
-      "title": "Sevgililer Günü Çiçekleri Premium Buket",
+      "title": "Sevgililer Günü Buketi",
       "slug": "sevgililer-gunu-cicekleri-1",
       "description": "Taze kesme çiçekler, yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
-      "price": 5,
-      "discountPrice": 1,
+      "price": 2750,
+      "discountPrice": 2500,
       "images": [
         "/catalog/flowers/flower-clean-01.jpg",
         "/catalog/flowers/flower-clean-08.jpg",
@@ -25,7 +25,7 @@
       "badge": "Aynı gün",
       "deliveryInfo": "33",
       "createdAt": "2024-12-31T21:00:00.000Z",
-      "updatedAt": "2026-06-05T16:02:48.655Z"
+      "updatedAt": "2026-06-21T21:36:02.104Z"
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-2",
@@ -6110,6 +6110,118 @@
       "buttonText": "Organizasyon Ürünleri",
       "buttonLink": "/products?category=ucan-balon-demetleri",
       "theme": "neutral",
+      "order": 2,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "quickLinks": [
+    {
+      "id": "quick-valentine",
+      "title": "Sevgililer Gunu Cicekleri",
+      "href": "/products?category=sevgililer-gunu-cicekleri",
+      "image": "/catalog/flowers/flower-clean-01.jpg",
+      "order": 0,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "quick-anniversary",
+      "title": "Yil Donumu",
+      "href": "/products?category=yil-donumu",
+      "image": "/catalog/flowers/flower-clean-02.jpg",
+      "order": 1,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "quick-wreaths",
+      "title": "Celenkler",
+      "href": "/products?category=celenkler",
+      "image": "/catalog/flowers/flower-clean-03.jpg",
+      "order": 2,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "quick-terrariums",
+      "title": "Teraryumlar",
+      "href": "/products?category=teraryumlar",
+      "image": "/catalog/flowers/flower-clean-04.jpg",
+      "order": 3,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "quick-mothers-day",
+      "title": "Anneler Gunu",
+      "href": "/products?category=anneler-gunu",
+      "image": "/catalog/flowers/flower-clean-05.jpg",
+      "order": 4,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "quick-womens-day",
+      "title": "Kadinlar Gunu",
+      "href": "/products?category=kadinlar-gunu",
+      "image": "/catalog/flowers/flower-clean-06.jpg",
+      "order": 5,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "quick-edible",
+      "title": "Yenilebilir Cicekler",
+      "href": "/products?category=yenilebilir-cicekler",
+      "image": "/catalog/flowers/flower-clean-07.jpg",
+      "order": 6,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "quick-get-well",
+      "title": "Gecmis Olsun",
+      "href": "/products?category=gecmis-olsun",
+      "image": "/catalog/flowers/flower-clean-08.jpg",
+      "order": 7,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "quick-potted",
+      "title": "Saksi Cicekleri",
+      "href": "/products?category=saksi-cicekleri",
+      "image": "/catalog/flowers/flower-clean-09.jpg",
+      "order": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    }
+  ],
+  "homeShowcaseSlides": [
+    {
+      "id": "home-showcase-best-sellers",
+      "title": "Çok Satanlar",
+      "href": "/products",
+      "image": "/home/flowers/best-sellers.jpg",
+      "order": 0,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "home-showcase-bouquets",
+      "title": "Çiçek Buketleri",
+      "href": "/products?category=sevgililer-gunu-cicekleri",
+      "image": "/home/flowers/bouquets.jpg",
+      "order": 1,
+      "isActive": true,
+      "createdAt": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "home-showcase-orchids",
+      "title": "Orkideler",
+      "href": "/products?category=salon-bitkileri",
+      "image": "/home/flowers/orchids.jpg",
       "order": 2,
       "isActive": true,
       "createdAt": "2025-01-01T00:00:00.000Z"
