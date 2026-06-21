@@ -54,8 +54,8 @@
       "id": "prd-sevgililer-gunu-cicekleri-3",
       "title": "Sevgililer Günü Çiçekleri Vazolu Tasarım",
       "slug": "sevgililer-gunu-cicekleri-3",
-      "description": "Cam vazo veya dekoratif saksı hissiyle sunulan, ev ve ofis teslimatlarında şık duran hazır çiçek düzenlemesi.",
-      "price": 1570,
+      "description": "Renkli papatyalarla renk şöleni sunulan şık buketimiz, isteğe göre cam vazo ile de tasarlanabilir.",
+      "price": 1750,
       "discountPrice": null,
       "images": [
         "/catalog/flowers/flower-clean-03.jpg",
@@ -73,7 +73,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Vazolu",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-02T21:00:00.000Z"
+      "createdAt": "2025-01-02T21:00:00.000Z",
+      "updatedAt": "2026-06-21T21:54:00.370Z"
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-4",
