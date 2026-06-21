@@ -27,14 +27,13 @@
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-2",
-      "title": "Sevgililer Günü Çiçekleri Kutulu Aranjman",
+      "title": "Sevgililer Günü Buketi",
       "slug": "sevgililer-gunu-cicekleri-2",
-      "description": "Kutu formunda hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
+      "description": "30 Tane Kırmızı güller ile kişi özel hazırlanan gül buketimiz.",
       "price": 1250,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-02.jpg",
-        "/catalog/flowers/flower-clean-09.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1782078026/sumbul-garden/lttacy7dk8knkm397225.jpg"
       ],
       "categoryId": "cat-valentine",
       "category": {
@@ -48,7 +47,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Kutu tasarım",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-01T21:00:00.000Z"
+      "createdAt": "2025-01-01T21:00:00.000Z",
+      "updatedAt": "2026-06-21T21:40:36.532Z"
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-3",
