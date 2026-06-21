@@ -58,8 +58,7 @@
       "price": 1750,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-03.jpg",
-        "/catalog/flowers/flower-clean-10.jpg"
+        "/catalog/flowers/flower-clean-03.jpg"
       ],
       "categoryId": "cat-valentine",
       "category": {
@@ -74,7 +73,7 @@
       "badge": "Vazolu",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
       "createdAt": "2025-01-02T21:00:00.000Z",
-      "updatedAt": "2026-06-21T21:55:30.823Z"
+      "updatedAt": "2026-06-21T21:55:53.933Z"
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-4",
