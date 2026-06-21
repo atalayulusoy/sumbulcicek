@@ -8,9 +8,7 @@
       "price": 2750,
       "discountPrice": 2500,
       "images": [
-        "/catalog/flowers/flower-clean-01.jpg",
-        "/catalog/flowers/flower-clean-08.jpg",
-        "/uploads/1780593161149-WhatsApp_Image_2026-06-03_at_17.44.51__3_.jpeg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1782077832/sumbul-garden/slrtmvdgxtdwz6bsli75.jpg"
       ],
       "categoryId": "cat-valentine",
       "category": {
@@ -25,7 +23,7 @@
       "badge": "Aynı gün",
       "deliveryInfo": "33",
       "createdAt": "2024-12-31T21:00:00.000Z",
-      "updatedAt": "2026-06-21T21:36:02.104Z"
+      "updatedAt": "2026-06-21T21:37:24.266Z"
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-2",
