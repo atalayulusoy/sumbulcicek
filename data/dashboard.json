@@ -131,7 +131,7 @@
       "slug": "yil-donumu-1",
       "description": "Taze kesme çiçeklerimiz 3 Gül ve Papatyalarla hazırlanan sade şık tasarımıyla sizlerle.",
       "price": 2000,
-      "discountPrice": 1750,
+      "discountPrice": null,
       "images": [
         "https://res.cloudinary.com/dfurm1n9n/image/upload/v1782078422/sumbul-garden/nzwaxbkkz7g1egdkcb0i.jpg"
       ],
@@ -148,7 +148,7 @@
       "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
       "createdAt": "2025-01-05T21:00:00.000Z",
-      "updatedAt": "2026-06-21T21:49:15.862Z"
+      "updatedAt": "2026-06-21T21:56:40.523Z"
     },
     {
       "id": "prd-yil-donumu-2",
