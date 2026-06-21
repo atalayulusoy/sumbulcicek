@@ -102,14 +102,13 @@
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-5",
-      "title": "Sevgililer Günü Çiçekleri Organizasyon Seçimi",
+      "title": "Sevgililer Günü",
       "slug": "sevgililer-gunu-cicekleri-5",
-      "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2390,
+      "description": "15 Tane kırmızı gül ile kalpli cam vazoda şık tasarımıyla kişiye özel sunulan cam vazolu buketimiz.",
+      "price": 4500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-05.jpg",
-        "/catalog/flowers/flower-clean-12.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1782079486/sumbul-garden/raqq3nyleh2nmsn0gwvk.jpg"
       ],
       "categoryId": "cat-valentine",
       "category": {
@@ -123,7 +122,8 @@
       "stockStatus": "PRE_ORDER",
       "badge": "Özel hazırlık",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-04T21:00:00.000Z"
+      "createdAt": "2025-01-04T21:00:00.000Z",
+      "updatedAt": "2026-06-21T22:05:30.050Z"
     },
     {
       "id": "prd-yil-donumu-1",
