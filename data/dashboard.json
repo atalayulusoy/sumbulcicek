@@ -79,12 +79,11 @@
       "id": "prd-sevgililer-gunu-cicekleri-4",
       "title": "Sevgililer Günü Çiçekleri Lüks Mix",
       "slug": "sevgililer-gunu-cicekleri-4",
-      "description": "Gül, lilyum, orkide veya mevsim çiçekleriyle hazırlanabilen daha hacimli ve etkili SÜMBÜL seçimi.",
-      "price": 1870,
+      "description": "Beyaz güller ve Lilyumlarla hazırlanan şık buketimiz.",
+      "price": 3500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-04.jpg",
-        "/catalog/flowers/flower-clean-11.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1782079098/sumbul-garden/xg9tsj4cf0ej1wcomqed.jpg"
       ],
       "categoryId": "cat-valentine",
       "category": {
@@ -94,11 +93,12 @@
         "icon": "Heart",
         "createdAt": "2025-01-01T00:00:00.000Z"
       },
-      "featured": false,
+      "featured": true,
       "stockStatus": "IN_STOCK",
       "badge": "Öne çıkan",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-03T21:00:00.000Z"
+      "createdAt": "2025-01-03T21:00:00.000Z",
+      "updatedAt": "2026-06-21T22:01:01.947Z"
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-5",
