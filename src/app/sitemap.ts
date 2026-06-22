@@ -1,10 +1,10 @@
 import type { MetadataRoute } from "next";
 
-import { appEnv } from "@/lib/env";
 import { istanbulAreaPages } from "@/lib/istanbul-areas";
 import { organizationCategorySlugs, organizationServices } from "@/lib/organization";
 import { getCategories, getProducts } from "@/lib/services/storefront";
 import { seoLandingPages } from "@/lib/seo-landing-pages";
+import { getRequestSiteUrl } from "@/lib/site-url";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -19,6 +19,7 @@ const landscapeCategorySlugs = [
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const siteUrl = getRequestSiteUrl();
   const [products, categories] = await Promise.all([getProducts(), getCategories()]);
   const flowerCategories = categories.filter(
     (category) =>
@@ -28,73 +29,73 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     {
-      url: appEnv.siteUrl,
+      url: siteUrl,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: `${appEnv.siteUrl}/products`,
+      url: `${siteUrl}/products`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 0.9,
     },
     {
-      url: `${appEnv.siteUrl}/organizasyon`,
+      url: `${siteUrl}/organizasyon`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${appEnv.siteUrl}/peyzaj`,
+      url: `${siteUrl}/peyzaj`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.85,
     },
     {
-      url: `${appEnv.siteUrl}/iletisim`,
+      url: `${siteUrl}/iletisim`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.75,
     },
     {
-      url: `${appEnv.siteUrl}/referanslar`,
+      url: `${siteUrl}/referanslar`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.7,
     },
     {
-      url: `${appEnv.siteUrl}/bolge`,
+      url: `${siteUrl}/bolge`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.78,
     },
     ...istanbulAreaPages.map((area) => ({
-      url: `${appEnv.siteUrl}/bolge/${area.slug}`,
+      url: `${siteUrl}/bolge/${area.slug}`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: area.type === "locality" ? 0.86 : area.type === "district" ? 0.82 : 0.58,
     })),
     ...seoLandingPages.map((page) => ({
-      url: new URL(`/${page.slug}`, appEnv.siteUrl).toString(),
+      url: new URL(`/${page.slug}`, siteUrl).toString(),
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: page.priority,
     })),
     ...flowerCategories.map((category) => ({
-      url: `${appEnv.siteUrl}/products?category=${category.slug}`,
+      url: `${siteUrl}/products?category=${category.slug}`,
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: category.slug === "sevgililer-gunu-cicekleri" ? 0.9 : 0.72,
     })),
     ...organizationServices.map((service) => ({
-      url: `${appEnv.siteUrl}/organizasyon/${service.slug}`,
+      url: `${siteUrl}/organizasyon/${service.slug}`,
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),
     ...products.map((product) => ({
-      url: `${appEnv.siteUrl}/products/${product.slug}`,
+      url: `${siteUrl}/products/${product.slug}`,
       lastModified: new Date(product.updatedAt ?? product.createdAt),
       changeFrequency: "weekly" as const,
       priority: 0.8,

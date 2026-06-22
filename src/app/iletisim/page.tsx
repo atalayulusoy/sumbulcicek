@@ -8,12 +8,14 @@ import { getSiteSettings } from "@/lib/services/storefront";
 
 export const dynamic = "force-dynamic";
 
-export const metadata = buildMetadata({
-  title: "İletişim",
-  description: "SÜMBÜL GARDEN adres, telefon, WhatsApp, Instagram ve harita bilgileri.",
-  image: "/og-sumbul-garden.jpg",
-  pathname: "/iletisim",
-});
+export function generateMetadata() {
+  return buildMetadata({
+    title: "İletişim",
+    description: "SÜMBÜL GARDEN adres, telefon, WhatsApp, Instagram ve harita bilgileri.",
+    image: "/og-sumbul-garden.jpg",
+    pathname: "/iletisim",
+  });
+}
 
 const fallbackAddress =
   "Kayabaşı Mh. Gazi Yaşargil Cd. Park Mavera 1 Sitesi T8/14 Blok Dükkan No 15 AO Başakşehir/İstanbul";

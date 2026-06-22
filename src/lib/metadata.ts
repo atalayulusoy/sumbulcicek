@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import { APP_NAME, DEFAULT_WHATSAPP_NUMBER } from "@/lib/constants";
-import { appEnv } from "@/lib/env";
+import { getRequestSiteUrl } from "@/lib/site-url";
 import type { Product, SiteSettings } from "@/lib/types";
 
 interface MetadataInput {
@@ -11,14 +11,15 @@ interface MetadataInput {
   noIndex?: boolean;
   pathname?: string;
   appendBrand?: boolean;
+  siteUrl?: string;
 }
 
 const defaultDescription =
   "Başakşehir Kayabaşı SÜMBÜL GARDEN ile çiçek siparişi, aynı gün teslimat, peyzaj keşfi ve özel gün organizasyonları için WhatsApp üzerinden hızlı iletişim.";
 const defaultOgImage = "/og-sumbul-garden.jpg";
 
-export function absoluteUrl(pathname = "/") {
-  return new URL(pathname, appEnv.siteUrl).toString();
+export function absoluteUrl(pathname = "/", siteUrl = getRequestSiteUrl()) {
+  return new URL(pathname, siteUrl).toString();
 }
 
 function buildTitle(title?: string | null, appendBrand = true) {
@@ -45,14 +46,15 @@ export function buildMetadata({
   noIndex = false,
   pathname = "/",
   appendBrand = true,
+  siteUrl = getRequestSiteUrl(),
 }: MetadataInput): Metadata {
   const metadataTitle = buildTitle(title, appendBrand);
   const metadataDescription = description ?? defaultDescription;
-  const url = absoluteUrl(pathname);
+  const url = absoluteUrl(pathname, siteUrl);
   const metadataImage = image || defaultOgImage;
 
   return {
-    metadataBase: new URL(appEnv.siteUrl),
+    metadataBase: new URL(siteUrl),
     title: metadataTitle,
     description: metadataDescription,
     applicationName: APP_NAME,
@@ -107,8 +109,8 @@ export function buildMetadata({
   };
 }
 
-export function buildProductSchema(product: Product) {
-  const productUrl = absoluteUrl(`/products/${product.slug}`);
+export function buildProductSchema(product: Product, siteUrl = getRequestSiteUrl()) {
+  const productUrl = absoluteUrl(`/products/${product.slug}`, siteUrl);
 
   return {
     "@context": "https://schema.org",
@@ -116,7 +118,7 @@ export function buildProductSchema(product: Product) {
     "@id": `${productUrl}#product`,
     name: product.title,
     description: product.description,
-    image: product.images.map((item) => absoluteUrl(item)),
+    image: product.images.map((item) => absoluteUrl(item, siteUrl)),
     url: productUrl,
     category: product.category?.name,
     offers: {
@@ -137,36 +139,39 @@ export function buildProductSchema(product: Product) {
 }
 
 export function buildWebsiteSchema() {
+  const siteUrl = getRequestSiteUrl();
+
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": `${appEnv.siteUrl}/#website`,
+    "@id": `${siteUrl}/#website`,
     name: APP_NAME,
-    url: appEnv.siteUrl,
+    url: siteUrl,
     inLanguage: "tr-TR",
     potentialAction: {
       "@type": "SearchAction",
-      target: `${appEnv.siteUrl}/products?query={search_term_string}`,
+      target: `${siteUrl}/products?query={search_term_string}`,
       "query-input": "required name=search_term_string",
     },
   };
 }
 
 export function buildLocalBusinessSchema(settings: SiteSettings) {
+  const siteUrl = getRequestSiteUrl();
   const phone = settings.phone || `+${DEFAULT_WHATSAPP_NUMBER}`;
   const instagram = settings.instagram?.trim();
 
   return {
     "@context": "https://schema.org",
     "@type": "Florist",
-    "@id": `${appEnv.siteUrl}/#localbusiness`,
+    "@id": `${siteUrl}/#localbusiness`,
     name: APP_NAME,
     alternateName: ["SÜMBÜL PEYZAJ", "SÜMBÜL GARDEN Çiçekçilik & Peyzaj"],
     description:
       "Başakşehir Kayabaşı merkezli çiçekçi, peyzaj ve organizasyon hizmetleri. Çiçek siparişi, aynı gün teslimat, balon süsleme ve bahçe düzenleme talepleri WhatsApp üzerinden alınır.",
-    url: appEnv.siteUrl,
-    logo: absoluteUrl("/icon.png"),
-    image: [absoluteUrl(defaultOgImage), absoluteUrl("/sumbul-logo.png")],
+    url: siteUrl,
+    logo: absoluteUrl("/icon.png", siteUrl),
+    image: [absoluteUrl(defaultOgImage, siteUrl), absoluteUrl("/sumbul-logo.png", siteUrl)],
     telephone: phone,
     priceRange: "₺₺",
     address: {
@@ -212,7 +217,7 @@ export function buildLocalBusinessSchema(settings: SiteSettings) {
   };
 }
 
-export function buildBreadcrumbSchema(items: Array<{ name: string; url: string }>) {
+export function buildBreadcrumbSchema(items: Array<{ name: string; url: string }>, siteUrl = getRequestSiteUrl()) {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -220,7 +225,7 @@ export function buildBreadcrumbSchema(items: Array<{ name: string; url: string }
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: absoluteUrl(item.url),
+      item: absoluteUrl(item.url, siteUrl),
     })),
   };
 }

@@ -7,12 +7,14 @@ import { redirect } from "next/navigation";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
-export const metadata = buildMetadata({
-  title: "Dashboard admin",
-  description: "SÜMBÜL GARDEN admin dashboard.",
-  noIndex: true,
-  pathname: "/dashboard-admin",
-});
+export function generateMetadata() {
+  return buildMetadata({
+    title: "Dashboard admin",
+    description: "SÜMBÜL GARDEN admin dashboard.",
+    noIndex: true,
+    pathname: "/dashboard-admin",
+  });
+}
 
 export default async function DashboardAdminPage() {
   const admin = await getAdminFromCookies();

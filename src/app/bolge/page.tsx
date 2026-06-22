@@ -12,13 +12,15 @@ import { buildBreadcrumbSchema, buildMetadata } from "@/lib/metadata";
 
 export const dynamic = "force-dynamic";
 
-export const metadata = buildMetadata({
-  title: "İstanbul Hizmet Bölgeleri",
-  description:
-    "SÜMBÜL GARDEN İstanbul ilçe ve mahallelerinde çiçekçi, peyzaj ve organizasyon hizmet bölgeleri.",
-  image: "/og-sumbul-garden.jpg",
-  pathname: "/bolge",
-});
+export function generateMetadata() {
+  return buildMetadata({
+    title: "İstanbul Hizmet Bölgeleri",
+    description:
+      "SÜMBÜL GARDEN İstanbul ilçe ve mahallelerinde çiçekçi, peyzaj ve organizasyon hizmet bölgeleri.",
+    image: "/og-sumbul-garden.jpg",
+    pathname: "/bolge",
+  });
+}
 
 export default function AreaIndexPage() {
   const featuredAreas = getFeaturedIstanbulAreas();

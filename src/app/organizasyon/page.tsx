@@ -13,13 +13,15 @@ import { getProducts, getSiteSettings } from "@/lib/services/storefront";
 
 export const dynamic = "force-dynamic";
 
-export const metadata = buildMetadata({
-  title: "Başakşehir Organizasyon | Balon ve Parti Süsleme",
-  description:
-    "SÜMBÜL GARDEN balon çeşitleri, parti malzemeleri, baby shower, kız isteme, düğün, nişan ve doğum günü organizasyonları.",
-  image: "/catalog/organization/organization-09.jpg",
-  pathname: "/organizasyon",
-});
+export function generateMetadata() {
+  return buildMetadata({
+    title: "Başakşehir Organizasyon | Balon ve Parti Süsleme",
+    description:
+      "SÜMBÜL GARDEN balon çeşitleri, parti malzemeleri, baby shower, kız isteme, düğün, nişan ve doğum günü organizasyonları.",
+    image: "/catalog/organization/organization-09.jpg",
+    pathname: "/organizasyon",
+  });
+}
 
 export default async function OrganizationPage() {
   const [products, settings] = await Promise.all([getProducts(), getSiteSettings()]);

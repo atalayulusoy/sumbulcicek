@@ -9,13 +9,15 @@ import { getCategories, getProducts, getSiteSettings } from "@/lib/services/stor
 
 export const dynamic = "force-dynamic";
 
-export const metadata = buildMetadata({
-  title: "Başakşehir Peyzaj | Bahçe Tasarımı ve Rulo Çim",
-  description:
-    "SÜMBÜL PEYZAJ bahçe tasarımı, rulo çim, bitkilendirme, otomatik sulama ve dikey bahçe uygulamaları.",
-  image: "/og-sumbul-garden.jpg",
-  pathname: "/peyzaj",
-});
+export function generateMetadata() {
+  return buildMetadata({
+    title: "Başakşehir Peyzaj | Bahçe Tasarımı ve Rulo Çim",
+    description:
+      "SÜMBÜL PEYZAJ bahçe tasarımı, rulo çim, bitkilendirme, otomatik sulama ve dikey bahçe uygulamaları.",
+    image: "/og-sumbul-garden.jpg",
+    pathname: "/peyzaj",
+  });
+}
 
 const landscapeCategorySlugs = [
   "peyzaj-tasarim",

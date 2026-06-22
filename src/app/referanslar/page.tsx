@@ -9,13 +9,15 @@ import type { Product } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
-export const metadata = buildMetadata({
-  title: "Referanslarımız",
-  description:
-    "SÜMBÜL GARDEN ve SÜMBÜL PEYZAJ tarafından hazırlanan çiçek, organizasyon ve peyzaj referansları.",
-  image: "/og-sumbul-garden.jpg",
-  pathname: "/referanslar",
-});
+export function generateMetadata() {
+  return buildMetadata({
+    title: "Referanslarımız",
+    description:
+      "SÜMBÜL GARDEN ve SÜMBÜL PEYZAJ tarafından hazırlanan çiçek, organizasyon ve peyzaj referansları.",
+    image: "/og-sumbul-garden.jpg",
+    pathname: "/referanslar",
+  });
+}
 
 const referenceKeywords = [
   "peyzaj",

@@ -1,12 +1,14 @@
 import { AdminLoginForm } from "@/components/admin/admin-login-form";
 import { buildMetadata } from "@/lib/metadata";
 
-export const metadata = buildMetadata({
-  title: "Admin giris",
-  description: "Gizli admin paneli giris ekrani.",
-  noIndex: true,
-  pathname: "/secret-admin-login",
-});
+export function generateMetadata() {
+  return buildMetadata({
+    title: "Admin giris",
+    description: "Gizli admin paneli giris ekrani.",
+    noIndex: true,
+    pathname: "/secret-admin-login",
+  });
+}
 
 export default function SecretAdminLoginPage() {
   return (
