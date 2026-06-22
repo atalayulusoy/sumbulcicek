@@ -16,7 +16,7 @@ export const homepageSectionDefaults: HomepageSectionConfig[] = [
 export const defaultSiteSettings: SiteSettings = {
   id: "site-settings",
   whatsappNumber: DEFAULT_WHATSAPP_NUMBER,
-  instagram: "https://www.instagram.com/sumbulpeyzaj?utm_source=qr",
+  instagram: "https://www.instagram.com/sumbulgarden",
   address:
     "Kayabaşı Mh. Gazi Yaşargil Cd. Park Mavera 1 Sitesi T8/14 Blok Dükkan No 15 AO Başakşehir/İSTANBUL",
   phone: "+90 530 635 27 19",
@@ -32,7 +32,7 @@ export const defaultSiteSettings: SiteSettings = {
   footerText:
     "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı. Açılış organizasyonları, düğün organizasyonları, kaliteli bitki çeşitleri ve modern peyzaj uygulamaları için SÜMBÜL GARDEN yanınızda.",
   deliveryInfo:
-    "Online çiçek siparişi, sipariş takibi ve peyzaj keşif talepleri için WhatsApp hattımız: +90 530 635 27 19.",
+    "Online çiçek siparişi ve peyzaj keşif talepleri için WhatsApp hattımız: +90 530 635 27 19.",
   primaryColor: "#123322",
   secondaryColor: "#EEF3EA",
   accentColor: "#A67C52",

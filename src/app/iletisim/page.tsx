@@ -19,7 +19,7 @@ const fallbackAddress =
   "Kayabaşı Mh. Gazi Yaşargil Cd. Park Mavera 1 Sitesi T8/14 Blok Dükkan No 15 AO Başakşehir/İstanbul";
 
 function normalizeInstagramUrl(value: string | null) {
-  if (!value) return "https://www.instagram.com/sumbulpeyzaj";
+  if (!value) return "https://www.instagram.com/sumbulgarden";
 
   const trimmed = value.trim();
   if (trimmed.startsWith("http://") || trimmed.startsWith("https://")) {

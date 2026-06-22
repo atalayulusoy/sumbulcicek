@@ -26,10 +26,3 @@ export function buildWhatsappUrl({ phone, title, price, link }: WhatsappOrderPay
   const message = buildWhatsappMessage({ title, price, link });
   return `https://wa.me/${normalizedPhone}?text=${encodeURIComponent(message)}`;
 }
-
-export function buildOrderTrackingUrl(phone?: string | null) {
-  const normalizedPhone = normalizeWhatsappNumber(phone);
-  const message = "Merhaba, siparişim vardı. Siparişimin durumunu öğrenmek istiyorum.";
-
-  return `https://wa.me/${normalizedPhone}?text=${encodeURIComponent(message)}`;
-}

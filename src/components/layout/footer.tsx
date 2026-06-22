@@ -1,13 +1,10 @@
 import Link from "next/link";
-import { AtSign, MapPin, PackageCheck, Phone, Send } from "lucide-react";
+import { AtSign, MapPin, Phone, Send } from "lucide-react";
 
 import { workingHours } from "@/lib/constants";
-import { buildOrderTrackingUrl } from "@/lib/whatsapp";
 import type { SiteSettings } from "@/lib/types";
 
 export function Footer({ settings }: { settings: SiteSettings }) {
-  const orderTrackingUrl = buildOrderTrackingUrl(settings.whatsappNumber);
-
   return (
     <footer id="iletisim" className="container-edge pb-10 pt-16">
       <div className="rounded-[2rem] border border-white/60 bg-white/75 p-8 shadow-card backdrop-blur-2xl dark:border-white/10 dark:bg-white/5">
@@ -35,12 +32,6 @@ export function Footer({ settings }: { settings: SiteSettings }) {
                 <Send className="mt-0.5 h-4 w-4 text-brand" />
                 <Link href={`https://wa.me/${settings.whatsappNumber.replace(/[^\d]/g, "")}`}>
                   WhatsApp Sipariş Hattı
-                </Link>
-              </div>
-              <div className="flex items-start gap-3">
-                <PackageCheck className="mt-0.5 h-4 w-4 text-brand" />
-                <Link href={orderTrackingUrl} target="_blank" rel="noreferrer">
-                  Sipariş Takibi
                 </Link>
               </div>
             </div>

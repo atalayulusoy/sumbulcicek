@@ -1,4 +1,4 @@
-import { Leaf, PackageCheck, Truck } from "lucide-react";
+import { Leaf, MessageCircleMore, Truck } from "lucide-react";
 
 import { Reveal } from "@/components/interactive/reveal";
 import { Card, CardContent } from "@/components/ui/card";
@@ -16,9 +16,9 @@ const perks = [
     description: "Bahçeşehir, Bahçekent, Başakşehir ve Esenyurt çevresinde peyzaj işleri için yerinde keşif ve planlama akışı sunulur.",
   },
   {
-    icon: PackageCheck,
+    icon: MessageCircleMore,
     title: "WhatsApp talep akışı",
-    description: "Sipariş, sipariş takibi veya keşif talebi tek tıkla hazır WhatsApp mesajına dönüşür.",
+    description: "Sipariş veya keşif talebi tek tıkla hazır WhatsApp mesajına dönüşür.",
   },
 ];
 
@@ -42,7 +42,7 @@ export function AboutSection({ settings }: { settings: SiteSettings }) {
               </div>
               <div className="rounded-[1.6rem] bg-brand-rose/75 p-5">
                 <p className="text-3xl font-semibold text-brand">7/24</p>
-                <p className="mt-2 text-sm text-foreground/65">Sipariş ve takip hattı</p>
+                <p className="mt-2 text-sm text-foreground/65">Sipariş ve keşif hattı</p>
               </div>
               <div className="rounded-[1.6rem] bg-[#eff6fb] p-5">
                 <p className="text-3xl font-semibold text-brand">100%</p>

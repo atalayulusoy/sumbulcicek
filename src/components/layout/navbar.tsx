@@ -3,14 +3,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ChevronDown, Menu, PackageCheck, Search, X } from "lucide-react";
+import { ChevronDown, Menu, Search, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { organizationCategorySlugs } from "@/lib/organization";
 import { cn } from "@/lib/utils";
-import { buildOrderTrackingUrl } from "@/lib/whatsapp";
 import type { Category, SiteSettings } from "@/lib/types";
 
 interface NavbarProps {
@@ -90,7 +89,6 @@ export function Navbar({ categories, settings }: NavbarProps) {
   const [open, setOpen] = useState(false);
   const [mobileExpanded, setMobileExpanded] = useState<"flowers" | "landscape" | null>(null);
   const [scrolled, setScrolled] = useState(false);
-  const orderTrackingUrl = buildOrderTrackingUrl(settings.whatsappNumber);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -200,17 +198,6 @@ export function Navbar({ categories, settings }: NavbarProps) {
                 />
               </form>
 
-              <Button
-                asChild
-                size="sm"
-                variant="secondary"
-                className="shrink-0 rounded-full border-white/15 bg-white/10 px-4 text-xs text-white shadow-none hover:bg-white/15"
-              >
-                <Link href={orderTrackingUrl} target="_blank" rel="noreferrer" className="whitespace-nowrap text-white">
-                  <PackageCheck className="h-4 w-4" />
-                  Sipariş Takibi
-                </Link>
-              </Button>
             </div>
           </div>
         </div>
@@ -318,13 +305,7 @@ export function Navbar({ categories, settings }: NavbarProps) {
                 ))}
               </nav>
 
-              <Button asChild className="mt-4 w-full">
-                <Link href={orderTrackingUrl} target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                  Sipariş Takibi
-                </Link>
-              </Button>
-
-              <Button asChild className="mt-3 w-full" variant="secondary">
+              <Button asChild className="mt-4 w-full" variant="secondary">
                 <Link href={`https://wa.me/${settings.whatsappNumber.replace(/[^\d]/g, "")}`}>
                   WhatsApp ile İletişime Geç
                 </Link>

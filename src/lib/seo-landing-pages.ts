@@ -835,7 +835,7 @@ const servicePages = [
     nearby: ["İstanbul", "Başakşehir", "Bahçeşehir", "Esenyurt"],
     landmarks: ["online vitrin", "WhatsApp sipariş hattı", "ürün katalog sayfaları"],
     deliveryAngle:
-      "Online siparişte ürün, adres ve teslim saati yazılı olarak ilerlediği için hata riski azalır ve sipariş takibi kolaylaşır.",
+      "Online siparişte ürün, adres ve teslim saati yazılı olarak ilerlediği için hata riski azalır ve teslimat teyidi kolaylaşır.",
     productAngle:
       "Buket çiçek, saksı çiçekleri, orkide, gül buketi ve özel gün ürünleri katalog üzerinden seçilebilir.",
     occasionAngle:

@@ -7,7 +7,7 @@ Next.js 14, TypeScript, TailwindCSS, Framer Motion, Swiper, Prisma ve PostgreSQL
 - SÜMBÜL GARDEN çiçek vitrini
 - SÜMBÜL PEYZAJ için ayrı peyzaj sayfası
 - Ürünlerde fiyat gösterimi
-- WhatsApp ile sipariş ve sipariş takibi
+- WhatsApp ile sipariş ve keşif talepleri
 - Admin panelden ürün, kategori, banner ve site ayarı yönetimi
 - Gizli admin giriş route'u: `/secret-admin-login`
 - Middleware ile korunan dashboard route'u: `/dashboard-admin`
@@ -41,7 +41,7 @@ Bu bilgiler `.env` içindeki `ADMIN_EMAIL` ve `ADMIN_PASSWORD` ile değiştirile
 ## İletişim
 
 - Telefon / WhatsApp: `+90 530 635 27 19`
-- Instagram: `https://www.instagram.com/sumbulpeyzaj?utm_source=qr`
+- Instagram: `https://www.instagram.com/sumbulgarden`
 
 ## Notlar
 
