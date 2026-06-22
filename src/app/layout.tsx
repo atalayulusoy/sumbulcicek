@@ -30,6 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: settings.metaTitle,
     description: settings.metaDescription,
     pathname: "/",
+    appendBrand: false,
   });
 }
 

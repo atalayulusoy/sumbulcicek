@@ -23,7 +23,7 @@ export const defaultSiteSettings: SiteSettings = {
   heroTitle: "SÜMBÜL GARDEN ile taze çiçek ve yaşayan mekanlar.",
   heroSubtitle:
     "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı; kaliteli bitki çeşitleri, profesyonel peyzaj uygulamaları ve modern bahçe tasarımları.",
-  metaTitle: `${APP_NAME} | Çiçek ve Peyzaj Çözümleri`,
+  metaTitle: "Bahçeşehir Çiçekçisi - Peyzaj - Organizasyon | Çiçek Buketleri",
   metaDescription:
     "SÜMBÜL GARDEN vitrini üzerinden fiyatlı çiçekleri inceleyin, SÜMBÜL PEYZAJ bahçe ve dış mekan uygulamalarını keşfedin.",
   aboutTitle: "SÜMBÜL GARDEN ve SÜMBÜL PEYZAJ",

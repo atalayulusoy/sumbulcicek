@@ -10,6 +10,7 @@ interface MetadataInput {
   image?: string | null;
   noIndex?: boolean;
   pathname?: string;
+  appendBrand?: boolean;
 }
 
 const defaultDescription =
@@ -20,9 +21,13 @@ export function absoluteUrl(pathname = "/") {
   return new URL(pathname, appEnv.siteUrl).toString();
 }
 
-function buildTitle(title?: string | null) {
+function buildTitle(title?: string | null, appendBrand = true) {
   if (!title) {
     return `${APP_NAME} | Başakşehir Çiçekçi, Peyzaj ve Organizasyon`;
+  }
+
+  if (!appendBrand) {
+    return title;
   }
 
   const normalizedTitle = title.toLocaleLowerCase("tr-TR");
@@ -39,8 +44,9 @@ export function buildMetadata({
   image,
   noIndex = false,
   pathname = "/",
+  appendBrand = true,
 }: MetadataInput): Metadata {
-  const metadataTitle = buildTitle(title);
+  const metadataTitle = buildTitle(title, appendBrand);
   const metadataDescription = description ?? defaultDescription;
   const url = absoluteUrl(pathname);
   const metadataImage = image || defaultOgImage;

@@ -8,11 +8,12 @@ import { getHomePageData, getProducts } from "@/lib/services/storefront";
 export const dynamic = "force-dynamic";
 
 export const metadata = buildMetadata({
-  title: "Başakşehir Çiçekçi | Aynı Gün Çiçek Siparişi",
+  title: "Bahçeşehir Çiçekçisi - Peyzaj - Organizasyon | Çiçek Buketleri",
   description:
     "Başakşehir Kayabaşı SÜMBÜL GARDEN ile çiçek siparişi, Sevgililer Günü buketleri, kutu çiçekler, peyzaj ve organizasyon talepleri için WhatsApp ile iletişime geçin.",
   image: "/og-sumbul-garden.jpg",
   pathname: "/",
+  appendBrand: false,
 });
 
 const landscapeCategorySlugs = [
