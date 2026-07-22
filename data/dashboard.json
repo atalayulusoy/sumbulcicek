@@ -183,7 +183,7 @@
       "price": 3500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-09.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784729987/sumbul-garden/aezai8gsnr3jct2tqfe5.jpg"
       ],
       "categoryId": "cat-anniversary",
       "category": {
@@ -198,7 +198,7 @@
       "badge": "Öne çıkan",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
       "createdAt": "2025-01-08T21:00:00.000Z",
-      "updatedAt": "2026-07-22T14:18:00.207Z"
+      "updatedAt": "2026-07-22T14:19:50.355Z"
     },
     {
       "id": "prd-yil-donumu-5",
