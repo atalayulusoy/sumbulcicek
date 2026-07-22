@@ -845,13 +845,12 @@
     },
     {
       "id": "prd-kadinlar-gunu-5",
-      "title": "Kadınlar Günü Organizasyon Seçimi",
+      "title": "Kadınlar Günü Buketi",
       "slug": "kadinlar-gunu-5",
-      "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2600,
+      "description": "Renkli taze kesme çiçeklerimizle hazırlanan şık görünümüyle en çok tercih edilen buketimiz aynı gün teslimatla teslim edilir.",
+      "price": 1650,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-35.jpg",
         "/catalog/flowers/flower-clean-42.jpg"
       ],
       "categoryId": "cat-womens-day",
@@ -866,7 +865,8 @@
       "stockStatus": "PRE_ORDER",
       "badge": "Özel hazırlık",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-03T21:00:00.000Z"
+      "createdAt": "2025-02-03T21:00:00.000Z",
+      "updatedAt": "2026-07-22T17:54:01.815Z"
     },
     {
       "id": "prd-yenilebilir-cicekler-1",
