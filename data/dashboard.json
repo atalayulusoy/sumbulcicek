@@ -252,14 +252,13 @@
     },
     {
       "id": "prd-celenkler-2",
-      "title": "Çelenkler Kutulu Aranjman",
+      "title": "Cenaze Çelengi",
       "slug": "celenkler-2",
-      "description": "Kutu formunda hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
-      "price": 1320,
+      "description": "Cenaze için kırmızı ve beyaz gerberalar ile özel yazı yazılarak hazırlanan cenaze çelengimiz.",
+      "price": 6500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-12.jpg",
-        "/catalog/flowers/flower-clean-19.webp"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784730709/sumbul-garden/xk7ns6rpp8d7otugcvjr.jpg"
       ],
       "categoryId": "cat-wreaths",
       "category": {
@@ -273,7 +272,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Kutu tasarım",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-11T21:00:00.000Z"
+      "createdAt": "2025-01-11T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:31:52.802Z"
     },
     {
       "id": "prd-celenkler-3",
