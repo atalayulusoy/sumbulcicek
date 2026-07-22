@@ -1020,14 +1020,13 @@
     },
     {
       "id": "prd-gecmis-olsun-2",
-      "title": "Geçmiş Olsun Kutulu Aranjman",
+      "title": "Geçmiş Olsun Premium Buket",
       "slug": "gecmis-olsun-2",
-      "description": "Kutu formunda hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
-      "price": 1530,
+      "description": "Beyaz taze kesme çiçeklerle hazırladığımız buketimiz geçmiş olsun için en çok tercih edilen ürünümüzdür.",
+      "price": 2000,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-42.jpg",
-        "/catalog/flowers/flower-clean-01.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784743548/sumbul-garden/jdnfopt7yrubdl0dsxht.webp"
       ],
       "categoryId": "cat-get-well",
       "category": {
@@ -1039,9 +1038,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Kutu tasarım",
+      "badge": "Aynı Gün Teslimat",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-10T21:00:00.000Z"
+      "createdAt": "2025-02-10T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:07:37.820Z"
     },
     {
       "id": "prd-gecmis-olsun-3",
