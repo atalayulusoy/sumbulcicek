@@ -202,14 +202,13 @@
     },
     {
       "id": "prd-yil-donumu-5",
-      "title": "Yıl Dönümü Organizasyon Seçimi",
+      "title": "Yıl Dönümü",
       "slug": "yil-donumu-5",
-      "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2425,
+      "description": "9`lu Kırmızı ithal güllerle Yıl Dönümü için Aşk buketimiz.",
+      "price": 2500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-10.jpg",
-        "/catalog/flowers/flower-clean-17.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784730086/sumbul-garden/d3fflpnahzr3xkxcrwgh.jpg"
       ],
       "categoryId": "cat-anniversary",
       "category": {
@@ -223,7 +222,8 @@
       "stockStatus": "PRE_ORDER",
       "badge": "Özel hazırlık",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-09T21:00:00.000Z"
+      "createdAt": "2025-01-09T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:22:49.166Z"
     },
     {
       "id": "prd-celenkler-1",
