@@ -1120,14 +1120,13 @@
     },
     {
       "id": "prd-saksi-cicekleri-1",
-      "title": "Saksı Çiçekleri Premium Buket",
+      "title": "Saksı Çiçekleri Antoryum",
       "slug": "saksi-cicekleri-1",
-      "description": "Taze kesme çiçekler, yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
-      "price": 1305,
-      "discountPrice": 1215,
+      "description": "Geometrik çizgili saksıda kırmızı antoryum özel tasarımıyla aynı gün teslimat yapılmaktadır.",
+      "price": 1500,
+      "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-46.jpg",
-        "/catalog/flowers/flower-clean-05.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784744479/sumbul-garden/coc1r6ek11qfkzswmmro.jpg"
       ],
       "categoryId": "cat-potted",
       "category": {
@@ -1141,7 +1140,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-14T21:00:00.000Z"
+      "createdAt": "2025-02-14T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:21:27.121Z"
     },
     {
       "id": "prd-saksi-cicekleri-2",
