@@ -277,14 +277,13 @@
     },
     {
       "id": "prd-celenkler-3",
-      "title": "Çelenkler Vazolu Tasarım",
+      "title": "Açılış Çelenk",
       "slug": "celenkler-3",
-      "description": "Cam vazo veya dekoratif saksı hissiyle sunulan, ev ve ofis teslimatlarında şık duran hazır çiçek düzenlemesi.",
-      "price": 1640,
+      "description": "Açılış için hazırlanan kırmızı gerberalar ile kişiye özel yazı yazılarak aynı gün teslimat yapılır.",
+      "price": 3000,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-13.jpg",
-        "/catalog/flowers/flower-clean-20.webp"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784730862/sumbul-garden/ekx9nhho3akq2dn543fj.jpg"
       ],
       "categoryId": "cat-wreaths",
       "category": {
@@ -296,9 +295,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Vazolu",
+      "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-12T21:00:00.000Z"
+      "createdAt": "2025-01-12T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:34:28.011Z"
     },
     {
       "id": "prd-celenkler-4",
