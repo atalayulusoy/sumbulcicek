@@ -622,12 +622,11 @@
       "id": "prd-anneler-gunu-1",
       "title": "Anneler Günü Premium Buket",
       "slug": "anneler-gunu-1",
-      "description": "Taze kesme çiçekler, yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
-      "price": 1165,
-      "discountPrice": 1075,
+      "description": "Taze sarı laleler ile yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
+      "price": 1750,
+      "discountPrice": 1500,
       "images": [
-        "/catalog/flowers/flower-clean-26.webp",
-        "/catalog/flowers/flower-clean-33.jpg"
+        "/catalog/flowers/flower-clean-26.webp"
       ],
       "categoryId": "cat-mothers-day",
       "category": {
@@ -641,7 +640,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-25T21:00:00.000Z"
+      "createdAt": "2025-01-25T21:00:00.000Z",
+      "updatedAt": "2026-07-22T15:14:09.524Z"
     },
     {
       "id": "prd-anneler-gunu-2",
