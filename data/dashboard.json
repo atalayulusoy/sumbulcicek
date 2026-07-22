@@ -798,10 +798,9 @@
       "title": "Kadınlar Günü Vazolu Tasarım",
       "slug": "kadinlar-gunu-3",
       "description": "Cam vazo veya dekoratif saksı hissiyle sunulan, ev ve ofis teslimatlarında şık duran hazır çiçek düzenlemesi.",
-      "price": 1780,
+      "price": 1750,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-33.jpg",
         "/catalog/flowers/flower-clean-40.jpg"
       ],
       "categoryId": "cat-womens-day",
@@ -816,7 +815,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Vazolu",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-01T21:00:00.000Z"
+      "createdAt": "2025-02-01T21:00:00.000Z",
+      "updatedAt": "2026-07-22T17:51:11.196Z"
     },
     {
       "id": "prd-kadinlar-gunu-4",
