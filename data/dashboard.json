@@ -355,11 +355,10 @@
       "title": "Doğum Günü Premium Buket",
       "slug": "dogum-gunu-1",
       "description": "Taze kesme çiçekler, yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
-      "price": 1095,
-      "discountPrice": 1005,
+      "price": 2000,
+      "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-16.jpg",
-        "/catalog/flowers/flower-clean-23.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784731607/sumbul-garden/nig8gkvmigj8yarqfmja.jpg"
       ],
       "categoryId": "cat-birthday",
       "category": {
@@ -369,11 +368,12 @@
         "icon": "Gift",
         "createdAt": "2025-01-01T00:00:00.000Z"
       },
-      "featured": true,
+      "featured": false,
       "stockStatus": "IN_STOCK",
       "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-15T21:00:00.000Z"
+      "createdAt": "2025-01-15T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:47:05.585Z"
     },
     {
       "id": "prd-dogum-gunu-2",
