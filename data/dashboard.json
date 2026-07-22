@@ -452,14 +452,13 @@
     },
     {
       "id": "prd-dogum-gunu-5",
-      "title": "Doğum Günü Organizasyon Seçimi",
+      "title": "Doğum Günü",
       "slug": "dogum-gunu-5",
-      "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2495,
-      "discountPrice": null,
+      "description": "Kişiye özel hazırlanan sade şık buketlerimiz aynı gün teslimat ile doğum günü için en güzel buketler Sümbül Garden farkıyla sizlerle.",
+      "price": 2000,
+      "discountPrice": 1500,
       "images": [
-        "/catalog/flowers/flower-clean-20.webp",
-        "/catalog/flowers/flower-clean-27.jpg"
+        "/catalog/flowers/flower-clean-20.webp"
       ],
       "categoryId": "cat-birthday",
       "category": {
@@ -473,7 +472,8 @@
       "stockStatus": "PRE_ORDER",
       "badge": "Özel hazırlık",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-19T21:00:00.000Z"
+      "createdAt": "2025-01-19T21:00:00.000Z",
+      "updatedAt": "2026-07-22T15:00:03.576Z"
     },
     {
       "id": "prd-teraryumlar-1",
