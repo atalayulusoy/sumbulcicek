@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "prd-mrw7pxnt-oybaf",
-      "title": "Doğum Günü Lüks Buket",
+      "title": "Doğum Günü Buket",
       "slug": "dogum-gunu-luks-buket",
       "description": "Nadir bulunan ithal renkli kesme çiçeklerimiz. Kişiye özel doğum günü buketimiz aynı gün teslimat yapılmaktadır.",
       "price": 3000,
@@ -13,10 +13,10 @@
       "categoryId": "cat-birthday",
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Çok Satan",
+      "badge": "Aynı Gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
       "createdAt": "2026-07-22T15:03:38.153Z",
-      "updatedAt": "2026-07-22T15:05:19.910Z"
+      "updatedAt": "2026-07-22T15:06:38.811Z"
     },
     {
       "id": "prd-sevgililer-gunu-cicekleri-1",
