@@ -1072,12 +1072,11 @@
       "id": "prd-gecmis-olsun-4",
       "title": "Geçmiş Olsun Lüks Mix",
       "slug": "gecmis-olsun-4",
-      "description": "Gül, lilyum, orkide veya mevsim çiçekleriyle hazırlanabilen daha hacimli ve etkili SÜMBÜL seçimi.",
-      "price": 2150,
+      "description": "Beyaz gerbera ile hazırlanan çiçek buketi aynı gün teslimat.",
+      "price": 1500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-44.jpg",
-        "/catalog/flowers/flower-clean-03.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784743805/sumbul-garden/q6gsfz9cnb2frj4kqcih.jpg"
       ],
       "categoryId": "cat-get-well",
       "category": {
@@ -1089,9 +1088,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Öne çıkan",
+      "badge": "Çok Satan",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-12T21:00:00.000Z"
+      "createdAt": "2025-02-12T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:14:11.869Z"
     },
     {
       "id": "prd-gecmis-olsun-5",
