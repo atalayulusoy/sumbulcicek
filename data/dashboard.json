@@ -1170,14 +1170,13 @@
     },
     {
       "id": "prd-saksi-cicekleri-3",
-      "title": "Saksı Çiçekleri Vazolu Tasarım",
+      "title": "Saksı Çiçekleri Guzmanya",
       "slug": "saksi-cicekleri-3",
-      "description": "Cam vazo veya dekoratif saksı hissiyle sunulan, ev ve ofis teslimatlarında şık duran hazır çiçek düzenlemesi.",
-      "price": 1885,
+      "description": "Sarı buketli saksıda guzmanya özel tasarımıyla aynı gün teslimat.",
+      "price": 1500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-48.jpg",
-        "/catalog/flowers/flower-clean-07.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784744732/sumbul-garden/uoofptx0hsgwglydpnkp.jpg"
       ],
       "categoryId": "cat-potted",
       "category": {
@@ -1189,9 +1188,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Vazolu",
+      "badge": "Aynı Gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-16T21:00:00.000Z"
+      "createdAt": "2025-02-16T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:27:30.510Z"
     },
     {
       "id": "prd-saksi-cicekleri-4",
