@@ -998,10 +998,9 @@
       "title": "Geçmiş Olsun Premium Buket",
       "slug": "gecmis-olsun-1",
       "description": "Taze kesme çiçekler, yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
-      "price": 1270,
-      "discountPrice": 1180,
+      "price": 1500,
+      "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-41.jpg",
         "/catalog/flowers/flower-clean-48.jpg"
       ],
       "categoryId": "cat-get-well",
@@ -1016,7 +1015,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-09T21:00:00.000Z"
+      "createdAt": "2025-02-09T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:05:18.911Z"
     },
     {
       "id": "prd-gecmis-olsun-2",
