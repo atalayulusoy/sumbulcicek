@@ -720,14 +720,13 @@
     },
     {
       "id": "prd-anneler-gunu-5",
-      "title": "Anneler Günü Organizasyon Seçimi",
+      "title": "Anneler Günü",
       "slug": "anneler-gunu-5",
-      "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2565,
+      "description": "Anneler günü için dayanıklı Annelerin en çok tercih ettiği Beyaz orkide şık tasarımıyla aynı gün teslimat yapılmaktadır.",
+      "price": 2000,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-30.jpg",
-        "/catalog/flowers/flower-clean-37.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784741537/sumbul-garden/frumbmykixpqik4qywka.jpg"
       ],
       "categoryId": "cat-mothers-day",
       "category": {
@@ -741,7 +740,8 @@
       "stockStatus": "PRE_ORDER",
       "badge": "Özel hazırlık",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-29T21:00:00.000Z"
+      "createdAt": "2025-01-29T21:00:00.000Z",
+      "updatedAt": "2026-07-22T17:34:00.520Z"
     },
     {
       "id": "prd-kadinlar-gunu-1",
