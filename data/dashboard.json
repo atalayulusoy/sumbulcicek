@@ -179,12 +179,11 @@
       "id": "prd-yil-donumu-4",
       "title": "Yıl Dönümü Lüks Mix",
       "slug": "yil-donumu-4",
-      "description": "Gül, lilyum, orkide veya mevsim çiçekleriyle hazırlanabilen daha hacimli ve etkili SÜMBÜL seçimi.",
-      "price": 1905,
+      "description": "Pembe Gül, lilyum, ve mevsim çiçekleriyle hazırlanabilen daha hacimli ve etkili. Şık buketimiz sizlerle.",
+      "price": 3500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-09.jpg",
-        "/catalog/flowers/flower-clean-16.jpg"
+        "/catalog/flowers/flower-clean-09.jpg"
       ],
       "categoryId": "cat-anniversary",
       "category": {
@@ -198,7 +197,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Öne çıkan",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-08T21:00:00.000Z"
+      "createdAt": "2025-01-08T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:18:00.207Z"
     },
     {
       "id": "prd-yil-donumu-5",
