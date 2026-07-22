@@ -1195,14 +1195,13 @@
     },
     {
       "id": "prd-saksi-cicekleri-4",
-      "title": "Saksı Çiçekleri Lüks Mix",
+      "title": "Saksı Çiçekleri Spatifilyum",
       "slug": "saksi-cicekleri-4",
-      "description": "Gül, lilyum, orkide veya mevsim çiçekleriyle hazırlanabilen daha hacimli ve etkili SÜMBÜL seçimi.",
-      "price": 2185,
+      "description": "Lila pembe buketli polimer saksıda spatifilyum kişiye özel tasarımlarla aynı gün teslimat",
+      "price": 1850,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-01.jpg",
-        "/catalog/flowers/flower-clean-08.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784744886/sumbul-garden/wpezxedzv1nfbxc1zvt6.jpg"
       ],
       "categoryId": "cat-potted",
       "category": {
@@ -1216,7 +1215,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Öne çıkan",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-17T21:00:00.000Z"
+      "createdAt": "2025-02-17T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:29:47.116Z"
     },
     {
       "id": "prd-saksi-cicekleri-5",
