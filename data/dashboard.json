@@ -770,13 +770,12 @@
     },
     {
       "id": "prd-kadinlar-gunu-2",
-      "title": "Kadınlar Günü Kutulu Aranjman",
+      "title": "Kadınlar Günü Aranjman",
       "slug": "kadinlar-gunu-2",
       "description": "Kutu formunda hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
-      "price": 1460,
+      "price": 1750,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-32.jpg",
         "/catalog/flowers/flower-clean-39.jpg"
       ],
       "categoryId": "cat-womens-day",
@@ -787,11 +786,12 @@
         "icon": "Flower2",
         "createdAt": "2025-01-01T00:00:00.000Z"
       },
-      "featured": true,
+      "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Kutu tasarım",
+      "badge": "Aranjman",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-31T21:00:00.000Z"
+      "createdAt": "2025-01-31T21:00:00.000Z",
+      "updatedAt": "2026-07-22T17:49:47.623Z"
     },
     {
       "id": "prd-kadinlar-gunu-3",
