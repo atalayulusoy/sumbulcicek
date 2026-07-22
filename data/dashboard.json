@@ -151,31 +151,6 @@
       "updatedAt": "2026-06-21T21:56:40.523Z"
     },
     {
-      "id": "prd-yil-donumu-2",
-      "title": "Yıl Dönümü Kutulu Aranjman",
-      "slug": "yil-donumu-2",
-      "description": "Kutu formunda 15`li Kırmızı güller ile hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
-      "price": 4250,
-      "discountPrice": null,
-      "images": [
-        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1782079761/sumbul-garden/aamdabyty9mzevv3q4j1.png"
-      ],
-      "categoryId": "cat-anniversary",
-      "category": {
-        "id": "cat-anniversary",
-        "name": "Yıl Dönümü",
-        "slug": "yil-donumu",
-        "icon": "Sparkles",
-        "createdAt": "2025-01-01T00:00:00.000Z"
-      },
-      "featured": true,
-      "stockStatus": "IN_STOCK",
-      "badge": "Kutu tasarım",
-      "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-06T21:00:00.000Z",
-      "updatedAt": "2026-06-21T22:10:33.431Z"
-    },
-    {
       "id": "prd-yil-donumu-3",
       "title": "Yıl Dönümü Vazolu Tasarım",
       "slug": "yil-donumu-3",
