@@ -1047,12 +1047,11 @@
       "id": "prd-gecmis-olsun-3",
       "title": "Geçmiş Olsun Vazolu Tasarım",
       "slug": "gecmis-olsun-3",
-      "description": "Cam vazo veya dekoratif saksı hissiyle sunulan, ev ve ofis teslimatlarında şık duran hazır çiçek düzenlemesi.",
+      "description": "Cam vazo ile sunulan, geçmiş olsun teslimatlarında şık duran hazır çiçek düzenlemesi. aynı gün teslimat ile kapınızda.",
       "price": 1850,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-43.jpg",
-        "/catalog/flowers/flower-clean-02.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784743685/sumbul-garden/oaavpwi6eqn1cr2ylukh.jpg"
       ],
       "categoryId": "cat-get-well",
       "category": {
@@ -1066,7 +1065,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Vazolu",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-11T21:00:00.000Z"
+      "createdAt": "2025-02-11T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:09:34.213Z"
     },
     {
       "id": "prd-gecmis-olsun-4",
