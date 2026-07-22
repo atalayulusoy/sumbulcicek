@@ -1145,14 +1145,13 @@
     },
     {
       "id": "prd-saksi-cicekleri-2",
-      "title": "Saksı Çiçekleri Kutulu Aranjman",
+      "title": "Saksı Çiçekleri Orkide",
       "slug": "saksi-cicekleri-2",
-      "description": "Kutu formunda hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
-      "price": 1565,
+      "description": "Kahve buketli saksıda çift dallı orkide fenix dallarıyla tasarlanmıştır. Aynı gün teslimat ile kapınızda.",
+      "price": 2000,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-47.jpg",
-        "/catalog/flowers/flower-clean-06.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784744689/sumbul-garden/lz7mkrwmv30ilaqszi5c.jpg"
       ],
       "categoryId": "cat-potted",
       "category": {
@@ -1164,9 +1163,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Kutu tasarım",
+      "badge": "Orkide",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-15T21:00:00.000Z"
+      "createdAt": "2025-02-15T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:24:51.827Z"
     },
     {
       "id": "prd-saksi-cicekleri-3",
