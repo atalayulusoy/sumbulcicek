@@ -1095,14 +1095,13 @@
     },
     {
       "id": "prd-gecmis-olsun-5",
-      "title": "Geçmiş Olsun Organizasyon Seçimi",
+      "title": "Geçmiş Olsun Aranjman",
       "slug": "gecmis-olsun-5",
-      "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2670,
+      "description": "Renkli gerberalar ile hazırlanan aranjmanımız bej çizgili vazo içerisinde aynı gün teslimat yapılmaktadır",
+      "price": 1800,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-45.jpg",
-        "/catalog/flowers/flower-clean-04.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784744254/sumbul-garden/s7uhprkxk0xthlhf7b5c.jpg"
       ],
       "categoryId": "cat-get-well",
       "category": {
@@ -1114,9 +1113,10 @@
       },
       "featured": false,
       "stockStatus": "PRE_ORDER",
-      "badge": "Özel hazırlık",
+      "badge": "Aranjman",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-13T21:00:00.000Z"
+      "createdAt": "2025-02-13T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:17:53.364Z"
     },
     {
       "id": "prd-saksi-cicekleri-1",
