@@ -745,14 +745,13 @@
     },
     {
       "id": "prd-kadinlar-gunu-1",
-      "title": "Kadınlar Günü Premium Buket",
+      "title": "Kadınlar Günü",
       "slug": "kadinlar-gunu-1",
-      "description": "Taze kesme çiçekler, yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
-      "price": 1200,
-      "discountPrice": 1110,
+      "description": "Çift köklü mor orkidemiz şık tasarımıyla aynı gün teslimat yapılmaktadır.",
+      "price": 2000,
+      "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-31.webp",
-        "/catalog/flowers/flower-clean-38.webp"
+        "/catalog/flowers/flower-clean-31.webp"
       ],
       "categoryId": "cat-womens-day",
       "category": {
@@ -762,11 +761,12 @@
         "icon": "Flower2",
         "createdAt": "2025-01-01T00:00:00.000Z"
       },
-      "featured": true,
+      "featured": false,
       "stockStatus": "IN_STOCK",
       "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-30T21:00:00.000Z"
+      "createdAt": "2025-01-30T21:00:00.000Z",
+      "updatedAt": "2026-07-22T17:48:25.054Z"
     },
     {
       "id": "prd-kadinlar-gunu-2",
