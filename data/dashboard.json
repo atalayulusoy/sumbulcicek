@@ -645,14 +645,13 @@
     },
     {
       "id": "prd-anneler-gunu-2",
-      "title": "Anneler Günü Kutulu Aranjman",
+      "title": "Anneler Günü",
       "slug": "anneler-gunu-2",
-      "description": "Kutu formunda hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
-      "price": 1425,
-      "discountPrice": null,
+      "description": "Pembe güller ve taze kesme çiçeklerle tatlı şık bir sunumla hazırlanan Anneler günü için aynı gün teslimat yapılmaktadır.",
+      "price": 3500,
+      "discountPrice": 3000,
       "images": [
-        "/catalog/flowers/flower-clean-27.jpg",
-        "/catalog/flowers/flower-clean-34.webp"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784733287/sumbul-garden/yfwml5kaehfjsqymfraz.webp"
       ],
       "categoryId": "cat-mothers-day",
       "category": {
@@ -664,9 +663,10 @@
       },
       "featured": true,
       "stockStatus": "IN_STOCK",
-      "badge": "Kutu tasarım",
+      "badge": null,
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-26T21:00:00.000Z"
+      "createdAt": "2025-01-26T21:00:00.000Z",
+      "updatedAt": "2026-07-22T15:16:43.903Z"
     },
     {
       "id": "prd-anneler-gunu-3",
