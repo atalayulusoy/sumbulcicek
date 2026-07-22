@@ -672,12 +672,11 @@
       "id": "prd-anneler-gunu-3",
       "title": "Anneler Günü Vazolu Tasarım",
       "slug": "anneler-gunu-3",
-      "description": "Cam vazo veya dekoratif saksı hissiyle sunulan, ev ve ofis teslimatlarında şık duran hazır çiçek düzenlemesi.",
-      "price": 1745,
+      "description": "Cam vazo ile taze kesme renkli çiçeklerimiz. Şık duran sunumuyla çiçek aranjmanı aynı gün teslimatla sizlerle",
+      "price": 2750,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-28.jpg",
-        "/catalog/flowers/flower-clean-35.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784739621/sumbul-garden/ebd52u0ifvzy97beahyv.jpg"
       ],
       "categoryId": "cat-mothers-day",
       "category": {
@@ -691,7 +690,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Vazolu",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-27T21:00:00.000Z"
+      "createdAt": "2025-01-27T21:00:00.000Z",
+      "updatedAt": "2026-07-22T17:03:00.999Z"
     },
     {
       "id": "prd-anneler-gunu-4",
