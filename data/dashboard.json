@@ -268,12 +268,12 @@
         "icon": "Flower2",
         "createdAt": "2025-01-01T00:00:00.000Z"
       },
-      "featured": true,
+      "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Kutu tasarım",
+      "badge": null,
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
       "createdAt": "2025-01-11T21:00:00.000Z",
-      "updatedAt": "2026-07-22T14:31:52.802Z"
+      "updatedAt": "2026-07-22T14:32:12.395Z"
     },
     {
       "id": "prd-celenkler-3",
