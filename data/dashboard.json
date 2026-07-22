@@ -327,14 +327,13 @@
     },
     {
       "id": "prd-celenkler-5",
-      "title": "Çelenkler Organizasyon Seçimi",
+      "title": "Renkli Çelenk",
       "slug": "celenkler-5",
       "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2460,
+      "price": 3000,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-15.jpg",
-        "/catalog/flowers/flower-clean-22.webp"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784731182/sumbul-garden/jk6dfxq5zgokbalv5bzu.jpg"
       ],
       "categoryId": "cat-wreaths",
       "category": {
@@ -348,7 +347,8 @@
       "stockStatus": "PRE_ORDER",
       "badge": "Özel hazırlık",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-14T21:00:00.000Z"
+      "createdAt": "2025-01-14T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:40:43.725Z"
     },
     {
       "id": "prd-dogum-gunu-1",
