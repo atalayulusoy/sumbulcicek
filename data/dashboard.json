@@ -1220,14 +1220,13 @@
     },
     {
       "id": "prd-saksi-cicekleri-5",
-      "title": "Saksı Çiçekleri Organizasyon Seçimi",
+      "title": "Saksı Çiçekleri",
       "slug": "saksi-cicekleri-5",
-      "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2705,
+      "description": "Seramik saksıda çift dalı orkide şık tasarımıyla aynı gün teslimat yapılmaktadır.",
+      "price": 1850,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-02.jpg",
-        "/catalog/flowers/flower-clean-09.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784745031/sumbul-garden/yfpoxytlplnic55jhyug.jpg"
       ],
       "categoryId": "cat-potted",
       "category": {
@@ -1241,7 +1240,8 @@
       "stockStatus": "PRE_ORDER",
       "badge": "Özel hazırlık",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-18T21:00:00.000Z"
+      "createdAt": "2025-02-18T21:00:00.000Z",
+      "updatedAt": "2026-07-22T18:31:23.997Z"
     },
     {
       "id": "prd-yeni-bebek-1",
