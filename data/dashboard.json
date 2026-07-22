@@ -302,14 +302,13 @@
     },
     {
       "id": "prd-celenkler-4",
-      "title": "Çelenkler Lüks Mix",
+      "title": "Cenaze Çelengi",
       "slug": "celenkler-4",
-      "description": "Gül, lilyum, orkide veya mevsim çiçekleriyle hazırlanabilen daha hacimli ve etkili SÜMBÜL seçimi.",
-      "price": 1940,
+      "description": "Beyaz gerberalar ile kişiye özel istenen yazılar yazılarak cenaze çelengimiz aynı gün teslimat yapılmaktadır.",
+      "price": 5500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-14.webp",
-        "/catalog/flowers/flower-clean-21.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784730955/sumbul-garden/q7p0jxb5n85l7g2rjohl.jpg"
       ],
       "categoryId": "cat-wreaths",
       "category": {
@@ -321,9 +320,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Öne çıkan",
+      "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-13T21:00:00.000Z"
+      "createdAt": "2025-01-13T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:37:33.966Z"
     },
     {
       "id": "prd-celenkler-5",
