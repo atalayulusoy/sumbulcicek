@@ -377,14 +377,13 @@
     },
     {
       "id": "prd-dogum-gunu-2",
-      "title": "Doğum Günü Kutulu Aranjman",
+      "title": "Doğum Günü Buketi",
       "slug": "dogum-gunu-2",
-      "description": "Kutu formunda hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
-      "price": 1355,
+      "description": "Taze renkli kesme çiçeklerle hazırlanan Doğum günü buketimiz kişiye özel tasarımlarla aynı gün teslimat yapılmaktadır.",
+      "price": 2500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-17.jpg",
-        "/catalog/flowers/flower-clean-24.webp"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784731675/sumbul-garden/m2nyuyq8s3ugbhcjodwt.webp"
       ],
       "categoryId": "cat-birthday",
       "category": {
@@ -394,11 +393,12 @@
         "icon": "Gift",
         "createdAt": "2025-01-01T00:00:00.000Z"
       },
-      "featured": true,
+      "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Kutu tasarım",
+      "badge": "Aynı Gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-16T21:00:00.000Z"
+      "createdAt": "2025-01-16T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:49:41.685Z"
     },
     {
       "id": "prd-dogum-gunu-3",
