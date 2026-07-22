@@ -427,14 +427,13 @@
     },
     {
       "id": "prd-dogum-gunu-4",
-      "title": "Doğum Günü Lüks Mix",
+      "title": "Doğum Günü Mix",
       "slug": "dogum-gunu-4",
-      "description": "Gül, lilyum, orkide veya mevsim çiçekleriyle hazırlanabilen daha hacimli ve etkili SÜMBÜL seçimi.",
-      "price": 1975,
-      "discountPrice": null,
+      "description": "Doğum Günü için hazırlanan Pembe çiçeklerle renkli şık duran buketimiz kişi özel tasarlanarak aynı gün teslimat yapılmaktadır.",
+      "price": 2000,
+      "discountPrice": 1500,
       "images": [
-        "/catalog/flowers/flower-clean-19.webp",
-        "/catalog/flowers/flower-clean-26.webp"
+        "/catalog/flowers/flower-clean-19.webp"
       ],
       "categoryId": "cat-birthday",
       "category": {
@@ -446,9 +445,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Öne çıkan",
+      "badge": "Çok Satan",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-18T21:00:00.000Z"
+      "createdAt": "2025-01-18T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:57:40.363Z"
     },
     {
       "id": "prd-dogum-gunu-5",
