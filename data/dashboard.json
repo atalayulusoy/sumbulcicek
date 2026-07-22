@@ -404,12 +404,11 @@
       "id": "prd-dogum-gunu-3",
       "title": "Doğum Günü Vazolu Tasarım",
       "slug": "dogum-gunu-3",
-      "description": "Cam vazo veya dekoratif saksı hissiyle sunulan, ev ve ofis teslimatlarında şık duran hazır çiçek düzenlemesi.",
-      "price": 1675,
+      "description": "Cam vazo ile sunulan, Doğum günü teslimatlarında renkli şık duran hazır çiçek düzenlemesi. Kişiye özel notlarla aynı gün teslimat yapılmaktadır.",
+      "price": 2750,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-18.webp",
-        "/catalog/flowers/flower-clean-25.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784731922/sumbul-garden/hetxbfsor6oanv5cz6d6.jpg"
       ],
       "categoryId": "cat-birthday",
       "category": {
@@ -423,7 +422,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Vazolu",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-01-17T21:00:00.000Z"
+      "createdAt": "2025-01-17T21:00:00.000Z",
+      "updatedAt": "2026-07-22T14:53:38.881Z"
     },
     {
       "id": "prd-dogum-gunu-4",
