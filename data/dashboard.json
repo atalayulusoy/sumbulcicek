@@ -1396,14 +1396,13 @@
     },
     {
       "id": "prd-soz-nisan-dugun-2",
-      "title": "Söz Nişan Düğün Kutulu Aranjman",
+      "title": "Söz Nişan Beyaz Gül Buketi",
       "slug": "soz-nisan-dugun-2",
-      "description": "Kutu formunda hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
-      "price": 1635,
+      "description": "Beyaz buket içerisinde beyaz güllerle hazırlanan kişiye özel tasarımlarla söz nişan için en uygun buket aynı gün teslimat yapılmaktadır.",
+      "price": 3000,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-09.jpg",
-        "/catalog/flowers/flower-clean-16.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784818662/sumbul-garden/hrhqkccgi0gggz0ecfxh.webp"
       ],
       "categoryId": "cat-engagement",
       "category": {
@@ -1415,9 +1414,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Kutu tasarım",
+      "badge": "Özel Tasarım",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-25T21:00:00.000Z"
+      "createdAt": "2025-02-25T21:00:00.000Z",
+      "updatedAt": "2026-07-23T14:59:40.136Z"
     },
     {
       "id": "prd-soz-nisan-dugun-3",
