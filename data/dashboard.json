@@ -1295,14 +1295,13 @@
     },
     {
       "id": "prd-yeni-bebek-3",
-      "title": "Yeni Bebek Vazolu Tasarım",
+      "title": "Yeni Bebek Yazılı Balon",
       "slug": "yeni-bebek-3",
-      "description": "Cam vazo veya dekoratif saksı hissiyle sunulan, ev ve ofis teslimatlarında şık duran hazır çiçek düzenlemesi.",
-      "price": 1920,
+      "description": "Pembe balonlarla kişiye özel yazılar hazırlanarak yapılmaktadır.",
+      "price": 2500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-05.jpg",
-        "/catalog/flowers/flower-clean-12.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784816044/sumbul-garden/seyc8nky2nysaouravwv.jpg"
       ],
       "categoryId": "cat-new-baby",
       "category": {
@@ -1314,9 +1313,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Vazolu",
+      "badge": null,
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-21T21:00:00.000Z"
+      "createdAt": "2025-02-21T21:00:00.000Z",
+      "updatedAt": "2026-07-23T14:15:54.225Z"
     },
     {
       "id": "prd-yeni-bebek-4",
