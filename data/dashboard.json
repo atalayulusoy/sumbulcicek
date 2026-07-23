@@ -1245,14 +1245,13 @@
     },
     {
       "id": "prd-yeni-bebek-1",
-      "title": "Yeni Bebek Premium Buket",
+      "title": "Yeni Bebek Sandal Sepet",
       "slug": "yeni-bebek-1",
-      "description": "Taze kesme çiçekler, yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
-      "price": 1340,
-      "discountPrice": 1250,
+      "description": "Yapay çiçeklerle hazırlanan sandal görünümlü sepet içerisinde kişiye özel sunumlarla aynı gün teslimat yapılmaktadır.",
+      "price": 2750,
+      "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-03.jpg",
-        "/catalog/flowers/flower-clean-10.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784815733/sumbul-garden/a4brfjd8in98jsvgxlbd.jpg"
       ],
       "categoryId": "cat-new-baby",
       "category": {
@@ -1266,7 +1265,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-19T21:00:00.000Z"
+      "createdAt": "2025-02-19T21:00:00.000Z",
+      "updatedAt": "2026-07-23T14:10:54.536Z"
     },
     {
       "id": "prd-yeni-bebek-2",
