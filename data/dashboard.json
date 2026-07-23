@@ -1472,14 +1472,14 @@
     },
     {
       "id": "prd-soz-nisan-dugun-5",
-      "title": "Söz Nişan Düğün Organizasyon Seçimi",
+      "title": "Söz Nişan Kırmızı Gül Buketi",
       "slug": "soz-nisan-dugun-5",
-      "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2775,
+      "description": "Kırmızı güllerle siyah buket içerisinde kişiye özel hazırlanan buketimiz aynı gün teslimat yapılmaktadır.",
+      "price": 3500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-12.jpg",
-        "/catalog/flowers/flower-clean-19.webp"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784819152/sumbul-garden/hkqgyfdvtldoxm8k34k7.jpg",
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784819156/sumbul-garden/cvln4xjg51v6cpp7in0c.jpg"
       ],
       "categoryId": "cat-engagement",
       "category": {
@@ -1491,9 +1491,10 @@
       },
       "featured": false,
       "stockStatus": "PRE_ORDER",
-      "badge": "Özel hazırlık",
+      "badge": "Özel Tasarım Aynı Gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-28T21:00:00.000Z"
+      "createdAt": "2025-02-28T21:00:00.000Z",
+      "updatedAt": "2026-07-23T15:07:28.352Z"
     },
     {
       "id": "prd-yilbasi-1",
