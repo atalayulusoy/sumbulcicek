@@ -1372,12 +1372,12 @@
       "id": "prd-soz-nisan-dugun-1",
       "title": "Söz Nişan Düğün Premium Buket",
       "slug": "soz-nisan-dugun-1",
-      "description": "Taze kesme çiçekler, yeşillikler ve SÜMBÜL GARDEN paketleme diliyle hazırlanan zarif günlük tasarım.",
-      "price": 1375,
-      "discountPrice": 1285,
+      "description": "Renkli şakayıklarla söz ve nişan için tercih edilen buketimiz özel tasarımlarla hazırlanmaktadır.",
+      "price": 2750,
+      "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-08.jpg",
-        "/catalog/flowers/flower-clean-15.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784818496/sumbul-garden/njupvo1vuwus4kjzehpl.jpg",
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784818501/sumbul-garden/cxhwbenn3f9whxigwhen.jpg"
       ],
       "categoryId": "cat-engagement",
       "category": {
@@ -1391,7 +1391,8 @@
       "stockStatus": "IN_STOCK",
       "badge": "Aynı gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-24T21:00:00.000Z"
+      "createdAt": "2025-02-24T21:00:00.000Z",
+      "updatedAt": "2026-07-23T14:56:44.797Z"
     },
     {
       "id": "prd-soz-nisan-dugun-2",
