@@ -1446,14 +1446,14 @@
     },
     {
       "id": "prd-soz-nisan-dugun-4",
-      "title": "Söz Nişan Düğün Lüks Mix",
+      "title": "Söz Nişan Pembe Gül Buketi",
       "slug": "soz-nisan-dugun-4",
-      "description": "Gül, lilyum, orkide veya mevsim çiçekleriyle hazırlanabilen daha hacimli ve etkili SÜMBÜL seçimi.",
-      "price": 2255,
+      "description": "Pembe güllerle kişiye özel tasarımlarla hazırlanan söz nişan buketimiz.",
+      "price": 3500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-11.jpg",
-        "/catalog/flowers/flower-clean-18.webp"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784819040/sumbul-garden/bumbpmee6irbiw2bhml7.jpg",
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784819044/sumbul-garden/vjhttrzb4fxavxpcu6zc.jpg"
       ],
       "categoryId": "cat-engagement",
       "category": {
@@ -1465,9 +1465,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Öne çıkan",
+      "badge": "Özel Tasarım",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-27T21:00:00.000Z"
+      "createdAt": "2025-02-27T21:00:00.000Z",
+      "updatedAt": "2026-07-23T15:05:12.465Z"
     },
     {
       "id": "prd-soz-nisan-dugun-5",
