@@ -1320,14 +1320,13 @@
     },
     {
       "id": "prd-yeni-bebek-4",
-      "title": "Yeni Bebek Lüks Mix",
+      "title": "Yeni Bebek Lüks Aranjman",
       "slug": "yeni-bebek-4",
-      "description": "Gül, lilyum, orkide veya mevsim çiçekleriyle hazırlanabilen daha hacimli ve etkili SÜMBÜL seçimi.",
-      "price": 2220,
+      "description": "Gül, lilyum, ve ayıcık mavi balon ile cam vazoda hazırlanabilen aranjmanımız aynı gün teslimat yapılmaktadır.",
+      "price": 2750,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-06.jpg",
-        "/catalog/flowers/flower-clean-13.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784816457/sumbul-garden/bcp8t5enkzv2mqtpo9d2.jpg"
       ],
       "categoryId": "cat-new-baby",
       "category": {
@@ -1339,9 +1338,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Öne çıkan",
+      "badge": "Aynı Gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-22T21:00:00.000Z"
+      "createdAt": "2025-02-22T21:00:00.000Z",
+      "updatedAt": "2026-07-23T14:21:03.663Z"
     },
     {
       "id": "prd-yeni-bebek-5",
