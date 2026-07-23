@@ -1421,14 +1421,13 @@
     },
     {
       "id": "prd-soz-nisan-dugun-3",
-      "title": "Söz Nişan Düğün Vazolu Tasarım",
+      "title": "Söz Nişan 41 gül",
       "slug": "soz-nisan-dugun-3",
-      "description": "Cam vazo veya dekoratif saksı hissiyle sunulan, ev ve ofis teslimatlarında şık duran hazır çiçek düzenlemesi.",
-      "price": 1955,
+      "description": "41 Kırmızı gülle hazırlanan buketimiz kişiye özel isim yazılı olarak aynı gün teslimat yapılmaktadır.",
+      "price": 3500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-10.jpg",
-        "/catalog/flowers/flower-clean-17.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784818845/sumbul-garden/xvur9xzgmif90k2m7uaa.jpg"
       ],
       "categoryId": "cat-engagement",
       "category": {
@@ -1440,9 +1439,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Vazolu",
+      "badge": "Aynı Gün",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-26T21:00:00.000Z"
+      "createdAt": "2025-02-26T21:00:00.000Z",
+      "updatedAt": "2026-07-23T15:01:57.278Z"
     },
     {
       "id": "prd-soz-nisan-dugun-4",
