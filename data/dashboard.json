@@ -1345,14 +1345,13 @@
     },
     {
       "id": "prd-yeni-bebek-5",
-      "title": "Yeni Bebek Organizasyon Seçimi",
+      "title": "Yeni Bebek",
       "slug": "yeni-bebek-5",
-      "description": "Açılış, düğün, söz, nişan ve kurumsal gönderimler için WhatsApp üzerinden detaylandırılabilen özel tasarım.",
-      "price": 2740,
+      "description": "Mavi orkidelerle seramik saksı içerisinde hazırlanan hoş geldin bebek aranjmanı kişiye özel yapılmaktadır.",
+      "price": 3000,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-07.jpg",
-        "/catalog/flowers/flower-clean-14.webp"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784816509/sumbul-garden/lkdxrvn9jhqvdcjghq5j.jpg"
       ],
       "categoryId": "cat-new-baby",
       "category": {
@@ -1366,7 +1365,8 @@
       "stockStatus": "PRE_ORDER",
       "badge": "Özel hazırlık",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-23T21:00:00.000Z"
+      "createdAt": "2025-02-23T21:00:00.000Z",
+      "updatedAt": "2026-07-23T14:23:26.970Z"
     },
     {
       "id": "prd-soz-nisan-dugun-1",
