@@ -1270,14 +1270,13 @@
     },
     {
       "id": "prd-yeni-bebek-2",
-      "title": "Yeni Bebek Kutulu Aranjman",
+      "title": "Yeni Bebek Özel Yazılı Balon",
       "slug": "yeni-bebek-2",
-      "description": "Kutu formunda hazırlanan, hediye notu eklenebilen ve özel gün siparişlerinde güçlü görünen modern aranjman.",
-      "price": 1600,
+      "description": "Mavi balonlarla kişiye özel yazılar hazırlanarak yapılmaktadır.",
+      "price": 2500,
       "discountPrice": null,
       "images": [
-        "/catalog/flowers/flower-clean-04.jpg",
-        "/catalog/flowers/flower-clean-11.jpg"
+        "https://res.cloudinary.com/dfurm1n9n/image/upload/v1784815894/sumbul-garden/zkmtqtqi3rucnr0kdhhp.jpg"
       ],
       "categoryId": "cat-new-baby",
       "category": {
@@ -1289,9 +1288,10 @@
       },
       "featured": false,
       "stockStatus": "IN_STOCK",
-      "badge": "Kutu tasarım",
+      "badge": "Özel Tasarım",
       "deliveryInfo": "Türkiye'nin 81 iline ve tüm ilçelerine aynı gün çiçek teslimatı için WhatsApp hattından teyit alınır.",
-      "createdAt": "2025-02-20T21:00:00.000Z"
+      "createdAt": "2025-02-20T21:00:00.000Z",
+      "updatedAt": "2026-07-23T14:13:05.873Z"
     },
     {
       "id": "prd-yeni-bebek-3",
